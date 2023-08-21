@@ -31,16 +31,16 @@ body {font-family:"rucksack", sans-serif; color:var(--body-text); font-size:1rem
 #mainContent {clear:both; position:relative; float:left; width:100%;}
 .container-lg {max-width:1700px; padding:0 41px 0 34px; margin:0 auto;}
 .container {max-width:1366px; margin:0 auto; width:100%;}
-.container-md {max-width:1125px; margin:0 auto; width:100%;}
+.container-md {max-width:1152px; margin:0 auto; width:100%;}
 .container-sm {max-width:890px; margin:0 auto; width:100%;}
 .btn {display:block;}
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {color:var(--heading);}
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {color:var(--anchor);}
+
+.h1 {font-size: 4.5rem; line-height: 1.11; font-weight: 900; margin-bottom: 30px;}
 .h3 {font-size:1.813rem; line-height:normal; letter-spacing:-0.48px; margin-bottom:10px; display:block; font-weight:700;}
 
-.srch_btn {right:15px; top:0; width:22px; height:100%; font-size:16px; position:absolute; color:var(--anchor);}
-.srch_btn input {padding:0; width:100%; height:100%; opacity:0; background:0 0; font-size:0; line-height:0; position:absolute; z-index:1}
 
 /* Banner Bg */
 .banner-bg {top:0; left:0; right:0; bottom:0; width:100%; height:100%; position:absolute; z-index:-1; opacity: 0.05;}
@@ -135,15 +135,6 @@ transform: rotate(35deg);  position: absolute; top: -5px; left: -31px;}
 .slick-arrow.next-arrow {right: 0; left: auto;}
 .slick-arrow.slick-disabled {pointer-events:none; display:none !important;}
 
-.accordion-item{position: relative; border-bottom: solid 1px rgba(0, 58, 85, 0.13);}
-.heading{letter-spacing: -0.3px; font-size: 1.125rem; font-weight: 600; padding: 22px 50px 22px 0; display: block; color: var(--heading);}
-.accordion-item .heading:after{content: "\f063"; font-family: 'Font Awesome 6 Pro'; font-weight: 600; font-size: 16px; display: inline-block; right: 5px; top: 36px; line-height: 0; transform: none; margin: auto; position: absolute; transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; color: var(--anchor);}
-.accordion-item.active .heading::after{transform: rotate(180deg);}
-.content{display: none; font-size: 0.875rem; line-height: 1.71; letter-spacing: -0.41px; margin: 0 0 25px 0;}
-.content .accordion-sub-title{font-size: 0.938rem; font-weight: 600; line-height: 1.6; letter-spacing: -0.44px; margin-bottom: 3px; display: block;}
-.accordion-phone{font-size: 0.938rem; font-weight: 600; line-height: 1.6; letter-spacing: -0.44px;}
-.accordion-phone a span{margin-right: 8px; font-size: 13px;}
-
 
 ul.slick-dots {margin:0; padding-top:27px; display:flex; justify-content:center; flex-wrap:wrap;}
 ul.slick-dots li {margin:0 12.5px!important; display:inline-block; font-size:0; line-height:0;}
@@ -166,6 +157,8 @@ body ul.selectBox-dropdown-menu li:first-child {display:none;}
 body ul.selectBox-dropdown-menu li::before {display:none;}
 body ul.selectBox-dropdown-menu li a {font-size:15px; line-height:24px; letter-spacing:normal; display:block; padding:0; white-space:nowrap; text-transform:capitalize; color:var(--body-text); overflow:hidden; text-overflow:ellipsis;}
 body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropdown-menu li a:hover {color:var(--anchor-hover); background-color:transparent; cursor:pointer; font-weight:500;}
+
+
 
 /*-- common form css starts here --*/
 .frm_forms.frm_style_formidable-style.with_frm_style .frm_form_fields .frm_fields_container {display:block;}
@@ -214,38 +207,11 @@ body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropd
 .section-head p {max-width:655px;}
 
 
-/* pagination */
-.pagination-wrap {padding:32px 0 49px; border-bottom:solid 3px rgba(136, 157, 180, 0.2); clear:both; width:100%;}
-.pagination {flex:1;}
-.pagination-links .wp-pagenavi {width:100%; display:flex; align-items:center; flex-wrap:wrap; justify-content:center;}
-.pagination-links .wp-pagenavi > span.pages {display:none;}
-.pagination-links a:not(.nextpostslink), .pagination-links .wp-pagenavi > span {width:42px; height:42px; margin:0 4px; padding:0; border:none; font-size:1rem; line-height:normal; font-weight:500; display:flex; align-items:center; justify-content:center; letter-spacing:-0.6px; font-family:"rucksack", sans-serif; background-color:var(--light-bluebg); border-radius:50%; color:var(--body-text);}
-.pagination-links a:not(.nextpostslink).current, .pagination-links .wp-pagenavi > span.current {background-color:var(--anchor); color:var(--white);}
-.pagination-links a:hover, .pagination-links .wp-pagenavi > span:hover {background-color:var(--anchor) !important; color:var(--white) !important;}
-.pagination-links a.nextpostslink, .pagination-links a.previouspostslink {width:42px; height:42px; border-radius:50%; margin:0; padding:0; border:none; display:flex; align-items:center; justify-content:center; font-size:24px; line-height:normal; color:var(--anchor); background:transparent;}
-.pagination-links a.nextpostslink {margin-left:6px;}
-.pagination-links a.previouspostslink {margin-right:6px;}
-.pagination-links a.nextpostslink span, .pagination-links a.previouspostslink span {border:none; margin:0; padding:0; font-family:"Font Awesome 6 Pro"; font-weight:700; font-size:18px; line-height:normal;}
-.pagination-links a.nextpostslink span::before {content:"\f061";}
-.pagination-links a.previouspostslink span::before {content:"\f060";}
 
-.optional-text {font-size:1.375rem; letter-spacing:-0.37px; color:var(--small); font-weight:700; margin:0 0 12px 0; display:block;}
+.optional-text {font-size:1.063rem;  color:var(--optional-text); font-weight:700; margin:0 0 12px 0; display:block;}
 .btn {width:100%; clear:both;}
 
 
-/* Circle Images */
-.circle {border:solid 3px var(--lighter-blue); display:block; border-radius:50%; box-shadow:0 2px 150px 0 rgba(0, 0, 0, .15); position:relative;}
-.circle img {border-radius:50%; padding:10px}
-.circle:after {content:""; height:100%; display:block; position:absolute; border-top:3px solid var(--lighter-blue);}
-.circle-1 {width:141px; height:141px}
-.circle-2, .circle-3 {width:115px; height:115px}
-.circle-1:after {width:calc(.37 * 506px); left:99%; transform:rotate(15deg); transform-origin:top left; top:90px;}
-.circle-2 {margin-left:auto; top:-36px; right:81px;}
-.circle-2:after {width:calc(.4 * 506px); right:99%; transform:rotate(-12.2deg); transform-origin:top right; top:74px;}
-.circle-2 img, .circle-3 img {padding:7px;}
-.circle-3 {top:-64px; left:9px;}
-.circle-3:after {width:calc(.515 * 506px); left:90%; transform:rotate(14deg); transform-origin:top left; top:87px;}
-.circle-4 {width:146px; height:146px; margin-left:auto; top:-92px;}
 
 
 .heading-main {clear: both; padding: 0 0 48px; align-items: center; width: 100%; border-bottom: 3px solid var(--hr);}
