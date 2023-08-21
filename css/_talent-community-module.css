@@ -1,0 +1,44 @@
+.talent-community-module {clear: both; width: 100%; padding: 90px 0;}
+.talent-community-module .container {max-width: 1700px; padding: 0;}
+.tc-wrap {justify-content: space-between; align-items: center;}
+.tc-wrap .tc-thumb {width: 38.883%;}
+.tc-wrap .tc-thumb img {clip-path: polygon(0 0, 100% 0%, 72% 100%, 0% 100%); min-height: 344px;}
+.tc-wrap .tc-content {width: calc(100% - 48.819%); flex-grow: 1; max-width: 735px; margin:14px auto 0 3.3%; padding: 0 40px; color: var(--white);}
+.tc-wrap .tc-content h2 {color: var(--white); font-weight: 800; letter-spacing:-0.75px; margin-bottom: 15px; font-size: 2.813rem;}
+.tc-wrap .tc-content p {font-size: 1.375rem; line-height: 1.41; letter-spacing: -0.82px; font-weight: 300; margin-bottom: 24px;}
+
+.tc-wrap .tc-content .signup-form {max-width: 494px; width: 100%;}
+.tc-wrap .tc-content .signup-form form {display: flex; flex-wrap: wrap; width: 100%;}
+.tc-wrap .tc-content .signup-form .form-field {margin: 0 9px 0 0; max-width: 316px; width: 100%;}
+.tc-wrap .tc-content .signup-form .form-field input {border-color: var(--white);}
+.tc-wrap .tc-content .signup-form .frm_forms .frm_submit {margin: 0;}
+
+
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+	.tc-wrap .tc-content {margin: 14px auto 0 20px; padding: 0 40px 0 0;}
+	.tc-wrap .tc-content h2 {font-size: 2.125rem; letter-spacing: -0.57px;}
+	.tc-wrap .tc-content p {font-size: 1.2em;}
+}
+
+@media only screen and (max-width:1023px) and (min-width:200px) {
+	.tc-wrap .tc-thumb {width: 100%;}
+	.tc-wrap .tc-thumb img {clip-path: polygon(0 0, 100% 0, 100% 81.2%, 0% 100%);}
+	.tc-wrap .tc-content {width: 100%; margin: 0; padding: 0 20px;}
+	.tc-wrap .tc-content h2 {font-size: 2.125rem; letter-spacing: -0.57px;}
+}
+
+@media only screen and (max-width:1023px) and (min-width:768px) { 
+	.talent-community-module {margin: 80px 0 0 0; padding: 120px 0 120px;}
+	.tc-wrap .tc-thumb {margin: -200px 0 50px 0;}
+	.tc-wrap .tc-thumb img {max-height: 295px; object-position: 0 0; min-height: inherit}
+}
+
+
+@media only screen and (max-width:767px) and (min-width:200px) { 
+	.talent-community-module {padding: 88px 0 107px; margin: 88px 0 0 0;}
+	.tc-wrap .tc-thumb {margin: -176px 0 49px 0;}
+	.tc-wrap .tc-thumb img {max-height: 217px; min-height: inherit;}
+	.tc-wrap .tc-content h2 {margin-bottom: 20px; margin-bottom: 18px; font-weight: 700;}
+	.tc-wrap .tc-content p {font-size: 1rem; line-height: 1.56; letter-spacing: -0.6px;}
+	.tc-wrap .tc-content .signup-form .form-field {width: 100%; margin: 0 0 9px 0; max-width: 100%;}
+}

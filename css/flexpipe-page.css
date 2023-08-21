@@ -1,0 +1,47 @@
+@import url("_banner-section.css");
+@import url("_common-intro-section.css");
+@import url("_features-module.css");
+@import url("_cta-panel-section.css");
+
+
+
+/* Features module */
+.features-module{background: none;}
+
+/* Product spec section */
+    .product-specs-section{background: var(--light-bluebg); position: relative; z-index: 1;}
+    .product-specs-section::after{width: 100%; height: calc(100% + 100px); background:var(--light-bluebg); content: "" ; display: block; position: absolute; top: 0; left: 0; z-index: -1;}
+    .product-specs-main{padding: 90px 0;}
+    .product-specs-desc{margin-bottom: 40px;}
+    .product-specs-desc h2{font-weight: bold; margin-bottom: 20px;}
+    .product-specs-desc p{ font-size: 1rem; font-weight: 300;}
+    .product-specs-number{display: inline-block; position: relative; font-size: 4.25rem; letter-spacing: -1.13px; font-weight: 600; color: var(--anchor); margin-bottom: 13px;}
+    .product-specs-number::after{display: block;content: ""; width: 100%; height: 3px; background-color: var(--anchor); position: absolute; bottom: 6px; left: 0;}
+    .product-specs-list p{font-size: 1.188rem; line-height: 1.875rem; letter-spacing: -0.71px; font-weight: 300;}
+
+
+
+/*-- media starts here --*/
+@media only screen and (min-width: 1024px){
+    .product-specs-row{gap: 50px;}
+    .product-specs-list{flex: 0 0 calc(33.333% - 34px);}
+    .product-specs-desc p{max-width: 655px;}
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    .product-specs-row{gap: 30px;}
+    .product-specs-list{flex: 0 0 calc(33.333% - 20px);}
+    .product-specs-desc h2{margin-bottom: 15px;}
+    .product-specs-number{font-size: 3.25rem; letter-spacing: -0.87px;}
+    .product-specs-list p{font-size: 1rem; line-height: 1.563rem; letter-spacing: -0.6px;}
+
+} 
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .container{padding: 0 20px;}
+    .product-specs-row{display: block;}
+    .product-specs-list{margin-bottom: 28px;}
+    .product-specs-desc h2{margin-bottom: 15px;}
+    .product-specs-number{font-size: 3.25rem; letter-spacing: -0.87px;}
+    .product-specs-list p{font-size: 1rem; line-height: 1.563rem; letter-spacing: -0.6px;}
+
+} 

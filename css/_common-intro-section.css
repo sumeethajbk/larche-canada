@@ -1,0 +1,58 @@
+.common-intro-section{overflow: hidden; clear: both; width: 100%;}
+.common-intro-section .container-lg {padding: 0;}
+.common-intro-text{text-align: right; padding: 86px 170px 0 0;}
+.common-intro-text span{margin-bottom: 22px;}
+.common-intro-text p{ margin-top: 38px; margin-left: auto;}
+.common-intro-text h2 {margin: 0}
+.common-intro-image img{clip-path: polygon(0 0, 100% 0, 54.2% 100%, 0% 100%);}
+.common-intro-image{overflow: hidden; max-height: 423px;}
+.common-intro-thumb{position: relative;}
+.common-intro-thumb::after{content: ""; display: block; position: absolute; background-color: var(--anchor); opacity: 0.4;
+z-index: 1; width: 43px; height: calc(100% + 50%); bottom: -71px; transform: rotate(32.2deg); right: 115px;}
+
+
+@media only screen and (min-width: 1024px){    
+    .common-intro-main{gap: 64px;}
+    .common-intro-image{flex: 0 0 582px;}
+    .common-intro-text{flex: 0 0 calc(100% - 646px); max-width: 945px; margin-left: auto;}
+  }
+
+@media only screen and (max-width: 1699px) {
+	 .common-intro-text h2 br{display: none;}
+	    .common-intro-text h2 {font-size: 2rem;}
+
+}
+
+@media only screen and (max-width: 1699px) and (min-width: 1300px){
+   .common-intro-main{gap: 32px;}
+    .common-intro-image{flex: 0 0 582px;}
+    .common-intro-text{flex: 0 0 calc(100% - 614px); padding-right: 80px;}
+}
+
+  @media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .common-intro-main{gap: 32px;}
+    .common-intro-image{flex: 0 0 405px;}
+    .common-intro-text{flex: 0 0 calc(100% - 437px); padding-right: 40px;}
+    .common-intro-thumb::after {right: 80px; transform: rotate(24deg); width: 50px;}
+  }
+
+  @media only screen and (max-width: 1023px) and (min-width: 200px){
+	 .common-intro-main{display: block;} 
+}
+  @media only screen and (max-width: 1023px) and (min-width: 768px){
+     .common-intro-image{max-width: 580px;}
+    .common-intro-text{padding:75px 30px 0 0;}    
+    .common-intro-thumb::after{width: 30px; right: 114px; transform: rotate(32deg);}
+   
+  }
+  @media only screen and (max-width: 767px) and (min-width: 200px){
+    .common-intro-image img{clip-path: polygon(0 0, 100% 0, 70% 100%, 0% 100%);}
+    .common-intro-image{max-width: 353px;}
+    .common-intro-text{padding:67px 20px 0 20px;}
+    
+    .common-intro-thumb::after {width: 27px; bottom: -67px; right: 63px; transform: rotate(28deg);}
+    .common-intro-text h2{font-size: 2rem; margin-bottom: 26px;}
+    .common-intro-text p{margin-bottom: 28px;}
+
+
+  }

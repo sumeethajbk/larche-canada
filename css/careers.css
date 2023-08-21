@@ -1,0 +1,501 @@
+@import url(../css/_talent-community-module.css);
+@import url(../css/_features-module.css);
+@import url(../css/_join-form-module.css);
+.default-banner-section .hero-banner-main .hero-banner-txt h1 {
+  margin-bottom: 14px
+}
+.map-bg {
+  top: -171px;
+  left: -177px
+}
+.map-bg figure {
+  width: 1963px
+}
+.want-to-join {
+  clear: both;
+  width: 100%;
+  padding: 86px 0 29px
+}
+.want-to-join-wrap {
+  max-width: 1125px;
+  margin: 0 auto;
+  padding: 0 0 39px
+}
+.want-to-join .optional-text {
+  margin: 0 0 12px
+}
+.join-form form .form-field {
+  width: 27.912%;
+  margin: 0 18px 0 0
+}
+.focus-on-talent {
+  clear: both;
+  width: 100%;
+  padding: 20px 0 89px
+}
+.focus-on-talent .section-head {
+  max-width: 1125px;
+  margin: 0 auto 80px
+}
+.focus-on-talent .section-head h2, .milestone-process .section-head h2 {
+  margin-bottom: 19px; font-weight: 700;
+}
+.talent-list {
+  width: 30.89%;
+  margin: 5.8% 0 0 3.6%;
+  position: relative
+}
+.talent-list:first-child, .talent-list:nth-child(2), .talent-list:nth-child(3) {
+  margin-top: 0
+}
+.career-slider-main .career-slider ul.slick-dots li:first-child, .milestone-grid:nth-child(4n+1), .talent-list:nth-child(3n+1) {
+  margin-left: 0
+}
+.talent-list .thumb-main {
+  display: flex;
+  min-height: 380px;
+  align-items: stretch;
+  position: relative
+}
+.talent-list .thumb-main img {
+  width: 100%;
+  height: 100%;
+  font-family: "object-fit: cover";
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: 50% 50%;
+  object-position: 50% 50%;
+  transition: opacity .5s ease-in-out;
+  -moz-transition: opacity .5s ease-in-out;
+  -webkit-transition: opacity .5s ease-in-out;
+  -o-transition: opacity .5s ease-in-out
+}
+.talent-list:hover .text .h3, .talent-list:hover .thumb-main img {
+  opacity: .8
+}
+.talent-list .text {
+  position: absolute;
+  bottom: 0;
+  padding: 45px 95px 43px 40px;
+  text-align: left;
+  z-index: 1;
+  left: 0;
+  display: block;
+  width: 100%
+}
+.talent-list .text:before {
+  content: "";
+  background: rgba(0, 85, 184, .8);
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  clip-path: polygon(0 0, 100% 18.9%, 100% 100%, 0% 100%)
+}
+.talent-list .text .h3 {
+  margin: 0;
+  color: var(--white);
+  transition: .5s ease-in-out
+}
+.innovative-infrastructure {
+  clear: both;
+  width: 100%;
+  padding: 88px 0 92px;
+  background: var(--light-bluebg);
+  z-index: 1
+}
+.innovative-infrastructure .banner-bg {
+  opacity: .7;
+  max-width: 1134px;
+  margin: 0 auto;
+  top: 58px
+}
+.innovative-infrastructure .banner-bg img {
+  object-position: -45px 0
+}
+.download-report .download-inner, .innovative-infrastructure .innovative-inner {
+  max-width: 1125px;
+  margin: 0 auto
+}
+.innovative-infrastructure .innovative-cnt h2 {
+  font-weight: 300;
+  margin-bottom: 30px;
+  max-width: 480px;
+  position: relative;
+  left: 70px
+}
+.innovative-infrastructure .innovative-cnt .innovative-thumb {
+  position: relative;
+  width: 506px
+}
+.innovative-infrastructure .innovative-cnt .innovative-thumb .circle-image {
+  left: -118px;
+  position: absolute;
+  width: 100%;
+  display: block;
+  bottom: 84px;
+  height: 100%
+}
+.innovative-infrastructure .innovative-cnt {
+  width: 45%;
+  flex-grow: 1;
+  margin: 0 10.5% 0 0
+}
+.download-report .download-single .download-txt, .innovative-infrastructure .innovative-txt {
+  width: calc(100% - 55.5%);
+  flex-grow: 1
+}
+.innovative-infrastructure .innovative-txt .button {
+  margin: 14px 0 0
+}
+.download-report {
+  clear: both;
+  width: 100%;
+  padding: 90px 0
+}
+.download-report .download-single h2 {
+  font-weight: 300;
+  margin-bottom: 30px
+}
+.download-report .download-single .download-cnt {
+  width: 45%;
+  flex-grow: 1;
+  margin: auto 10.5% 0 0
+}
+.career-slider-main {
+  clear: both;
+  width: 100%;
+  padding: 49px 0 91px
+}
+.career-slider-main .career-wrap {
+  padding: 0 11px
+}
+.career-slider-main .career-slider {
+  justify-content: space-between;
+  align-items: center
+}
+.career-slider-main .career-slider .slider-nav {
+  padding: 0 5.8% 0 7.3%;
+  width: calc(100% - 45.7%);
+  margin: -4px 4% 0 0
+}
+.career-slider-main .career-slider .slider-nav .career-txt .optional-text {
+  margin: 0 0 17px
+}
+.career-slider-main .career-slider .slider-nav .career-txt h2 {
+  font-weight: 300;
+  margin-bottom: 24px
+}
+.career-slider-main .career-slider .slider-for {
+  width: 40.47%
+}
+.career-slider-main .career-slider .slick-arrow {
+  width: auto
+}
+.career-slider-main .career-slider .slick-arrow:before {
+  border-top: 2px solid var(--lighter-blue);
+  border-left: 2px solid var(--lighter-blue);
+  display: block;
+  width: 38px;
+  height: 38px;
+  transform: rotate(135deg);
+  content: "";
+  transition: .3s ease-in-out
+}
+.career-slider-main .career-slider .slick-arrow:hover:before {
+  border-color: var(--anchor)
+}
+.career-slider-main .career-slider .slick-arrow.prev-arrow:before {
+  transform: rotate(-45deg)
+}
+.career-slider-main .career-slider .slick-arrow.prev-arrow {
+  left: 8px
+}
+.career-slider-main .career-slider .slick-arrow.next-arrow {
+  right: 8px
+}
+.career-slider-main .career-slider ul.slick-dots {
+  padding-top: 29px;
+  justify-content: flex-start
+}
+.career-slider-main .career-slider ul.slick-dots li {
+  margin: 0 12.5px
+}
+.milestone-process {
+  clear: both;
+  width: 100%;
+  padding: 90px 0 40px
+}
+.milestone-process hr {
+  margin-bottom: 0
+}
+.milestone-main {
+  padding: 0 0 58px
+}
+.milestone-grid {
+  display: inline-block;
+  width: 22.31%;
+  margin: 0 0 0 3.58%
+}
+.milestone-grid .milestone-icon {
+  clear: both;
+  width: 100%;
+  margin: 0 0 25px;
+  position: relative
+}
+.milestone-grid .milestone-icon span:before {
+  content: "";
+  width: 10000%;
+  height: 2px;
+  background: var(--small);
+  position: absolute;
+  left: -100%;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  display: flex;
+  z-index: -1
+}
+.milestone-grid .milestone-icon span {
+  display: block;
+  border-radius: 50%;
+  border: 2px solid #61b0bc;
+  font-size: 2.188rem;
+  letter-spacing: -1.02px;
+  color: var(--heading);
+  width: 78px;
+  height: 78px;
+  line-height: 72px;
+  background: var(--white);
+  text-align: center
+}
+.milestone-grid h4 {
+  margin-bottom: 15px
+}
+.milestone-grid p {
+  line-height: 1.71;
+  letter-spacing: -.41px;
+  font-size: .875rem
+}
+@media only screen and (max-width:1399px) and (min-width:1024px) {
+  .innovative-infrastructure .innovative-cnt h2 {
+    left: 0;
+    font-size: 2.4rem
+  }
+  .innovative-infrastructure .innovative-cnt .innovative-thumb .circle-image {
+    left: 0;
+    bottom: 10px
+  }
+}
+@media only screen and (max-width:1200px) {
+  .talent-list .text {
+    padding: 45px 40px 43px
+  }
+  .talent-list .text .h3 {
+    font-size: 1.563rem;
+    letter-spacing: -.42px
+  }
+}
+@media only screen and (max-width:1023px) and (min-width:200px) {
+  .map-bg {
+    top: 88px
+  }
+  .map-bg figure {
+    width: 834px
+  }
+  .innovative-infrastructure .innovative-cnt {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse
+  }
+  .innovative-infrastructure .innovative-cnt h2 {
+    max-width: 100%;
+    left: 0
+  }
+  .innovative-infrastructure .innovative-cnt .innovative-thumb .circle-image {
+    position: static
+  }
+  .career-slider-main .career-slider .slider-for, .innovative-infrastructure .innovative-txt {
+    width: 100%
+  }
+  .download-report .download-single .download-cnt {
+    width: 100%;
+    margin: 0
+  }
+  .career-slider-main .career-slider {
+    flex-direction: column-reverse
+  }
+  .career-slider-main .career-slider .slider-nav {
+    padding: 0;
+    width: 100%;
+    margin: 0
+  }
+  .career-slider-main .career-slider ul.slick-dots {
+    position: absolute;
+    top: 0;
+    right: -12px;
+    padding-top: 11px
+  }
+}
+@media only screen and (max-width:1023px) and (min-width:768px) {
+  .map-bg {
+    left: 0
+  }
+  .join-form form .form-field {
+    width: 36%
+  }
+  .focus-on-talent .section-head {
+    margin: 0 auto 20px
+  }
+  .talent-list, .talent-list:first-child, .talent-list:nth-child(2), .talent-list:nth-child(3), .talent-list:nth-child(3n+1) {
+    width: 48.2%;
+    margin: 40px 0 0 3.6%
+  }
+  .talent-list:nth-child(odd) {
+    margin-left: 0
+  }
+  .innovative-infrastructure .innovative-cnt .innovative-thumb {
+    margin: -114px auto -40px
+  }
+  .download-report .download-single .download-cnt {
+    margin: 0 0 50px
+  }
+  .milestone-process .section-head h2 {
+    margin-bottom: 30px
+  }
+  .career-slider-main .career-slider .slider-for {
+    max-height: 400px;
+    overflow: hidden;
+    margin: 0 0 40px
+  }
+  .career-slider-main .career-slider ul.slick-dots {
+    padding-top: 12px
+  }
+}
+@media only screen and (max-width:767px) and (min-width:200px) {
+  .default-banner-section .hero-banner-main .hero-banner-txt h1, .download-report .download-single h2, .focus-on-talent .section-head h2, .innovative-infrastructure .innovative-cnt h2, .milestone-process .section-head h2 {
+    margin-bottom: 20px
+  }
+  .map-bg {
+    left: -116px
+  }
+  .want-to-join-wrap {
+    padding: 0 0 10px
+  }
+  .want-to-join {
+    padding: 69px 0 0
+  }
+  .want-to-join .optional-text {
+    margin: 0 0 13px
+  }
+  .join-form form .form-field {
+    width: 100%;
+    margin: 0 0 8px
+  }
+  .focus-on-talent {
+    padding: 20px 0 49px
+  }
+  .focus-on-talent .section-head {
+    margin: 0 auto 40px
+  }
+  .talent-list {
+    width: 100%;
+    margin: 0 0 20px
+  }
+  .talent-list .text {
+    padding: 49px 40px 39px 30px
+  }
+  .innovative-infrastructure {
+    padding: 70px 0
+  }
+  .innovative-infrastructure .banner-bg {
+    max-width: 517px;
+    height: 317px
+  }
+  .innovative-infrastructure .innovative-cnt .innovative-thumb {
+    width: 340px;
+    margin: -96px auto -77px
+  }
+  .innovative-infrastructure .innovative-txt .button {
+    margin: 4px 0 0
+  }
+  .download-report {
+    padding: 68px 0 63px
+  }
+  .download-report .download-single .optional-text {
+    margin: 0 0 7px
+  }
+  .download-report .download-single .download-cnt, .milestone-grid, .milestone-main .section-head {
+    margin: 0 0 40px
+  }
+  .milestone-main {
+    overflow: hidden;
+    padding: 0 0 36px
+  }
+  .milestone-process {
+    padding: 70px 0 40px
+  }
+  .milestone-grid {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap
+  }
+  .milestone-grid:last-child {
+    margin: 0
+  }
+  .milestone-grid .milestone-icon {
+    width: 68px;
+    margin: 0 22px 0 0
+  }
+  .milestone-grid .milestone-icon span:before {
+    width: 2px;
+    height: 1000%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: inherit;
+    bottom: 0
+  }
+  .milestone-grid .milestone-icon span {
+    width: 68px;
+    height: 68px;
+    line-height: 64px;
+    letter-spacing: -.88px;
+    font-size: 1.875rem;
+    position: relative
+  }
+  .milestone-grid .milestone-txt {
+    width: calc(100% - 90px);
+    padding: 23px 0 0
+  }
+  .career-slider-main {
+    padding: 28px 0 70px
+  }
+  .career-slider-main .career-slider .slider-for {
+    max-height: 300px;
+    overflow: hidden;
+    margin: 0 0 45px
+  }
+  .career-slider-main .career-slider .slider-nav .btn {
+    margin: 25px 0 0
+  }
+  .career-slider-main .career-slider .slider-nav .career-txt h2 {
+    padding: 0 5px 0 0
+  }
+  .career-slider-main .career-wrap {
+    padding: 0
+  }
+  footer#main_footer {
+    padding: 52px 0 59px
+  }
+}
+@media only screen and (max-width:767px) and (min-width:440px) {
+  .innovative-infrastructure .innovative-cnt .innovative-thumb {
+    margin: -96px auto -30px
+  }
+}

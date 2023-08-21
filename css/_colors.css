@@ -1,0 +1,24 @@
+:root {
+    --black: #000000;
+    --white: #ffffff;
+	--white-15: rgb(255 255 255 / 15%);
+    --white-20: rgb(255 255 255 / 20%);
+    --white-50: rgb(255 255 255 / 50%);
+    --white-75: rgb(255 255 255 / 75%);
+    --body-text: #2B2C2D;
+	--headings: #2B2C2D;
+	--orange: #ff7800;
+	--small:;
+	--anchor: ;
+	--anchor-hover: ;
+	--text-blue: #224b73;
+	--text-violetblue: #334db5;
+	--violet:#1a1564;
+	--input-border:#d9e0e7;
+	--light-bluebg:#f3f8fe;
+	--lighter-blue:#c0cfe1;
+	--sub-blue: #73a3cf;
+	--light-txt: #8fd5df;
+	--hr: rgba(136, 157, 180, 0.2)
+    
+}

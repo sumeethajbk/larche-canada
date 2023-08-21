@@ -1,0 +1,61 @@
+.micro-cta {clear:both; width: 100%; padding: 50px 0 46px; margin-top: 87px; margin-bottom: 90px; position: relative;}
+.micro-cta .cta-bg {width: 100%;  max-width: 1219px; left: 8.3%; right: inherit; height: 100%; position: absolute; z-index: -1; margin: 0 auto; background-color: #003a70; clip-path: polygon(17.7% 0%, 100% 0%, 82.1% 100%, 0% 100%); top: 0; }
+.micro-cta .cta-bg:after {background-image: radial-gradient(circle at 50% 70%, #0953A8, rgba(0, 58, 112, 0) 94%);
+content: ""; width: 100%; height: 100%; display: block; position: absolute; left: 0; right: 0; margin: auto; z-index: -1;
+top: 0;}
+.micro-cta .cta-bg figure {opacity: 0.05; width: 2315px; position: relative; top: -245px; left:-465px;}
+.micro-cta .cta-bg figure img {width: 100%;}
+.micro-cta h2 {color: var(--white); margin-bottom: 23px;}
+.micro-cta .micro-cta-main { position: relative;}
+
+.micro-cta .micro-cta-wrap {justify-content: space-between; position: relative; padding: 0 0 0 17.2%;}
+.micro-cta .micro-cta-wrap .micro-cta-lt {flex-grow: 1; width: 50%; margin-top: -8px;}
+.micro-cta .micro-cta-wrap .micro-cta-lt .micro-cta-txt {display: flex; flex-direction: column; align-items: flex-start; justify-content: center; height: 100%;}
+.micro-cta .micro-cta-wrap .micro-cta-lt .micro-cta-txt .optional-text {font-size: 1.125rem; color: var(--light-txt); font-weight: 600; margin: 0 0 18px 0;}
+.micro-cta .micro-cta-wrap .micro-cta-lt .micro-cta-txt h4 {margin-bottom: 25px;}
+.micro-cta .micro-cta-wrap .micro-cta-lt .micro-cta-txt p {font-size: 1.25rem; line-height: 1.4; margin-bottom: 26px;}
+.micro-cta .micro-cta-wrap .micro-cta-rt {width:calc(100% - 55.1%); position: relative;}
+
+.micro-cta .micro-cta-wrap .micro-cta-rt .micro-cta-thumb {height: 100%; clip-path: polygon(32.7% 0%, 100% 0%, 66.5% 100%, 0% 100%);}
+.micro-cta .micro-cta-wrap .micro-cta-rt .micro-cta-thumb img {width: 100%; height: 100%; font-family: "object-fit: cover"; object-fit: cover; -o-object-fit: cover; object-position: 50% 50%; -o-object-position: 50% 50%;}
+
+
+/*-- media css starts here --*/
+@media only screen and (max-width: 1460px) and (min-width:1300px){
+	.micro-cta .micro-cta-wrap {padding: 0 0 0 14.5%;}
+	.micro-cta .cta-bg {left: -3.7%;}
+}
+
+
+@media only screen and (max-width: 1299px) and (min-width:1024px){
+	.micro-cta .cta-bg {left: -99px; clip-path: polygon(12.7% 0%, 100% 0%, 81.1% 100%, 0% 100%);}
+	.micro-cta .micro-cta-wrap {padding: 0 0 0 4.8%;}
+	.micro-cta h2 {font-size: 2.3rem;}
+
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 200px){
+	.micro-cta {padding:91px 0 0 0; margin-top: 47px; margin-bottom: 51px;}
+	.micro-cta h2 {margin-bottom: 22px;}
+	.micro-cta .cta-bg {left: -20px; width: calc(100% + 40px); clip-path: polygon(0% 0%, 100% 6.8%, 100% 100%, 0% 85%);}
+	.micro-cta .cta-bg figure {width: 910px; top: -42px; left: -228px;}
+	.micro-cta .micro-cta-wrap {width: calc(100% + 40px); left: -20px; padding: 0;}
+	.micro-cta .micro-cta-wrap  .micro-cta-lt {width: 100%; padding: 0 20px;}
+	.micro-cta .micro-cta-wrap .micro-cta-lt .micro-cta-txt .optional-text {margin: 0 0 14px 0;}
+	.micro-cta .micro-cta-wrap  .micro-cta-rt {width: 100%; margin: 56px 0 0 0;}
+	.micro-cta .micro-cta-wrap .micro-cta-rt .micro-cta-thumb {clip-path: polygon(0% 0%, 100% 14.5%, 100% 100%, 0% 85%);}
+	
+	.features-module {margin-top: 70px;}
+	
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 200px){
+	
+	
+	
+}
+
+@media only screen and (max-width: 767px) and (min-width: 200px){
+	
+	
+}
