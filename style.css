@@ -333,7 +333,7 @@ display: block; width: 32px; line-height: 26px; transition: all .5s ease-in-out;
 
 @media only screen and (max-width:767px) and (min-width:200px) {
 
-    .container {padding:0 20px;}
+
     .hide-in-mobile {display:none;}
 
     .play-btn {width: 72px; height: 72px;}
