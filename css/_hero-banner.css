@@ -1,13 +1,12 @@
-.hero-banner-section{z-index: 1; clear: both; position: relative; width: 100%; padding: 131px 0 0 0; background:var(--violet); margin: 0 0 76px 0;}
-
-.hero-banner-section .container-lg {padding:0; position:relative;}
-.hero-banner-section .hero-banner-main {justify-content:space-between; min-height:473px; padding: 100px 0 0 0;}
-.hero-banner-section .hero-banner-main .hero-banner-txt {width:37.5%; margin:-4px 8.7% 30px 0; color: var(--white); text-align: right;}
-.hero-banner-section .hero-banner-main .hero-banner-txt .optional-text {color: #8fd5df; margin: 0 0 15px 0;}
+.hero-banner-section{z-index: 1; clear: both; position: relative; width: 100%; padding: 120px 0 0 0; background:var(--violet); margin: 0 0 76px 0;}
+.hero-banner-section .hero-banner-main {justify-content:space-between; position: relative; min-height: 578px; align-items: center;}
+.hero-banner-section .hero-banner-main .hero-banner-txt {width:42%; margin:0 3% 0 0; color: var(--white);}
+.hero-banner-section .hero-banner-main .hero-banner-txt .optional-text {color:var(--white-50); margin: 0 0 15px 0;}
 .hero-banner-section .hero-banner-main .hero-banner-txt h1 {color: var(--white); margin-bottom: 18px;}
-.hero-banner-section .hero-banner-main .hero-banner-image {width:53.5%;}
-.hero-banner-section .hero-banner-main .hero-banner-image .banner-img {position:absolute; display:flex; align-items:stretch; height:100%; max-width:825px; left: 0; bottom: -76px; max-height: 449px; width: 100%;}
-.hero-banner-section .hero-banner-main .hero-banner-image .banner-img img {clip-path:polygon(0 0, 100% 0, 70.8% 100%, 0 100%)}
+.hero-banner-section .hero-banner-main .hero-banner-txt p {font-size: 1.125rem; line-height: 1.39; font-weight: 600;}
+.hero-banner-section .hero-banner-main .hero-banner-image {width:53%;}
+.hero-banner-section .hero-banner-main .hero-banner-image .banner-img {position:absolute; display:flex; align-items:stretch; height:606px; width:606px; right: 0; bottom: -37px;}
+.hero-banner-section .hero-banner-main .hero-banner-image .banner-img img {border-radius: 50%;}
 
 
 /* Dual Banner */

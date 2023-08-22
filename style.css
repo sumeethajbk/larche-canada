@@ -273,7 +273,7 @@ display: block; width: 32px; line-height: 26px; transition: all .5s ease-in-out;
 
 /*-- media css starts here --*/
 @media only screen and (max-width:1400px) {
-	.container, .container-lg {padding:0 20px; max-width:100%;}
+	.container, .container-lg {padding:0 22px; max-width:100%;}
 }
 
 @media only screen and (min-width:1024px) {
@@ -312,7 +312,7 @@ display: block; width: 32px; line-height: 26px; transition: all .5s ease-in-out;
 }
 
 @media only screen and (max-width:1023px) and (min-width:200px) {
-
+	
     .background-bg {left:0; width:100%; clip-path:polygon(0 0, 100% 0%, 100% 91.9%, 0% 100%);}
 
     .default-banner-section .hero-banner-main .hero-banner-txt {width:100%; margin:0; padding:79px 0 80px;}
