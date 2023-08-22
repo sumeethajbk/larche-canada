@@ -61,12 +61,14 @@
   ul.main_menu > li > a {padding:20px 0; font-size: 1.125rem; font-weight: 600; line-height: normal; display: inline-block; position: relative;
   color: var(--white); letter-spacing: 0.15px;}
 	
-	
-  .white_header .main_header.fixed-header .lang-nav ul li a.current_language, .white_header .main_header.fixed-header .lang-nav ul li a:hover, .white_header .main_header.fixed-header .top-nav ul li a:hover, .white_header .main_header.fixed-header ul.main_menu > li > a, ul.main_menu > li.current-menu-item > a, ul.main_menu > li.current-menu-parent > a, ul.main_menu > li.current-page-ancestor > a, ul.main_menu > li.menu-item-has-children > a:hover, ul.main_menu > li > a:hover, .white_header .main_header ul.main_menu > li > a:hover {color: var(--orange);}
+
+	ul.main_menu > li.current-menu-item > a, 
+	ul.main_menu > li.current-menu-parent > a, 
+	ul.main_menu > li.current-page-ancestor > a, 
+	ul.main_menu > li.menu-item-has-children > a:hover, 
+	ul.main_menu > li > a:hover {color: var(--orange)!important;}
   
-  .white_header .main_header.fixed-header ul.main_menu > li.current-menu-item > a::after, .white_header .main_header.fixed-header ul.main_menu > li.current-menu-parent > a::after, .white_header .main_header.fixed-header ul.main_menu > li.current-page-ancestor > a::after, .white_header .main_header.fixed-header ul.main_menu > li.menu-item-has-children > a:hover:after, .white_header .main_header.fixed-header ul.main_menu > li > a:hover:after, ul.main_menu > li.current-menu-item > a::after, ul.main_menu > li.current-menu-parent > a::after, ul.main_menu > li.current-page-ancestor > a::after, ul.main_menu > li.menu-item-has-children > a:hover:after {background-color: var(--anchor-hover);}
-	
-  .white_header .main_header ul.main_menu > li.current-menu-item > a::after, .white_header .main_header ul.main_menu > li.current-menu-parent > a::after, .white_header .main_header ul.main_menu > li.current-page-ancestor > a::after, .white_header .main_header ul.main_menu > li.menu-item-has-children > a:hover:after, .white_header .main_header ul.main_menu > li > a:hover:after, ul.main_menu > li > ul {background-color: var(--white);}
+
 	
 	
   ul.main_menu > li > ul {margin: 0; padding:23px 36px 18px 32px; min-width: 267px; width: 100%; top: calc(100% + 5px); left: 50%; transform: translate(-50%,0); position: absolute; background-color: var(--white); border-radius: 15px; box-shadow: 0 4px 44px 0 rgba(1,32,237,.15);

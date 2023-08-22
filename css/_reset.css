@@ -3,10 +3,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {display: block;}
 audio, canvas, video {display: inline-block; max-width: 100%;}
 html {overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; box-sizing: border-box; scroll-behavior: smooth;}
-a {color: var(--anchor); text-decoration: none; transition: all .5s ease-in-out; -webkit-transition: all .5s ease-in-out; -moz-transition: all .5s ease-in-out;}
+a {color: var(--violet); text-decoration: none; transition-duration: .75s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1);}
 a:focus {outline: none;}
 a:hover, a:active {outline: 0;}
-a:hover {color: var(--heading);}
+a:hover {color: var(--orange);}
 h1, h2, h3, h4, h5, h6 {clear: both; margin: 0 0 8px; color: var(--heading); font-weight: 700; font-family:"rucksack", sans-serif;}
 h1 {font-size: 4.5rem; line-height: 1.11; font-weight: 900; margin-bottom: 30px;}
 h2 {font-size: 3.25rem; line-height: 1.08; margin-bottom: 30px;}
@@ -96,20 +96,20 @@ button:hover, button:focus, .button:hover, .button:focus {background-color: var(
 button::after, .button::after {right: 26px; content:"\f105"; font-size:1rem; font-family: "Font Awesome 6 Sharp"; font-weight: 400; transition: all .3s ease-in-out; position: absolute; display: flex; align-items: center; flex-wrap: wrap; top: 0; bottom: 0; }
 button:hover:after, .button:hover:after {animation-name: bounceAlpha; animation-duration:1.4s; animation-iteration-count:infinite; animation-timing-function:linear;}
 
+/* Small Buttons */
 .button.sm {padding:13px 42px 16px 23px; font-size:0.938rem; font-weight: 700;}
 .button.sm:after {font-size:0.878rem; right: 25px;}
-.button.outline.sm {padding:10px 35px 13px 20px; background: transparent; border: 3px solid var(--text-blue); color: var(--text-blue);}
-.button.outline:hover {}
-.button.outline.sm:after {right:17px;}
 
-.outline {background: transparent; border: 3px solid var(--text-blue); color: var(--text-blue); padding: 14px 62px 14px 34px;}
-.outline:hover {background: var(--violet); color: var(--white); border-color: var(--violet);}
+.outline-btn.sm {padding:10px 35px 13px 20px; border-width: 3px;}
+.outline-btn.sm:after {right:17px;}
 
-/* Outline Button*/
+
+/* Default Outline Button*/
 .outline-btn {background: transparent; border: 4px solid var(--text-blue); color: var(--text-blue);}
-.outline-btn:hover {background: var(--text-blue); border-color: var(--text-blue); color: var(--white);}
+.outline-btn:hover {background: var(--violet); border-color: var(--violet); color: var(--white);}
 
-/* White */
+
+/* White Outline Button*/
 .outline-btn.white {border-color: var(--white); color: var(--white);}
 .outline-btn.white:hover {background: var(--white); border-color: var(--white); color: var(--violet);}
 
