@@ -1,3 +1,14 @@
-
+.common-cta-section{background-color: var(--violet);}
 .common-cta-main{color: var(--white);}
+.cta-icon{position: absolute; z-index: 1;}
+.cta-thumb img {border-radius: 1000px;}
 
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px) {
+    .common-cta-main{gap: 156px;}
+    .common-cta-text{flex: 0 0 calc(100% - 993px); padding-left: 167px;}
+    .common-cta-image{flex: 0 0 837px;}
+
+
+
+}
