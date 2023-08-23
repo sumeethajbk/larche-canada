@@ -1,23 +1,20 @@
-.accordion-module {clear: both; width: 100%;}
-.accordion-module-wrap {border-top: 3px solid var(--hr); padding: 89px 0 91px; justify-content: flex-end;}
-.accordion-lt {width: 39.56%; margin:17px 10.1% 0 0;}
-.accordion-lt .optional-text {margin: 0 0 16px 0;}
-.accordion-lt h2 {margin-bottom: 19px;}
-.accordion-lt .content {font-size: 1rem; line-height: 1.56; letter-spacing: -0.6px; margin: -5px 0 26px 0;}
-.accordion-rt {width: calc(100% - 60.36%);}
+.accordion-module {clear: both; width: 100%; padding: 49px 0;}
+.accordion {margin: 10px 0;}
+.accordion-item{position: relative; background: var(--light-blue);}
+
+.accordion-item .heading{font-size: 1.125rem; font-weight: 600; padding:21px 70px 24px 70px; display: block; color:#25282a;}
+.accordion-item .heading:after{content: ""; display:inline-block; width:35px; height:35px; background:linear-gradient(#fff 0 0),
+    linear-gradient(#fff 0 0), var(--text-violetblue); background-position:center; background-size: 14px 2px,2px 14px; /*thickness = 2px, length = 50% (25px)*/  background-repeat:no-repeat; border-radius:50%; position: absolute; left:19px; top: 19px;}
+
+.content{display: none; padding:1px 70px 32px 70px;}
 
 
 /*-- media starts here --*/
 @media only screen and (max-width: 1299px) and (min-width:1024px){
-	.accordion-lt {width: 52%; margin: 17px 8.1% 0 0;}
+	
 }
 @media only screen and (max-width: 1023px) and (min-width: 200px){
 	.accordion-module-wrap {padding: 69px 0 70px; flex-direction: column-reverse;}
-	.accordion-lt {width: 100%; margin: 0;}
-	.accordion-lt .content {margin: -5px 0 31px 0;}
-	.accordion-lt .optional-text {margin: 0 0 20px 0;}
-	.accordion-lt h2 {margin-bottom: 19px; padding: 0 5px 0 0;}
-	.accordion-rt {width: 100%; margin:0 0 46px 0;}
 	
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){

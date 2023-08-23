@@ -6,11 +6,17 @@
     --white-50: rgb(255 255 255 / 50%);
     --white-75: rgb(255 255 255 / 75%);
     --body-text: #2B2C2D;
-	--headings: #2B2C2D;
+	--heading: #2B2C2D;
 	--orange: #ff7800;
-	--optional-text:#334db5;
+	--green: #008029;
+	--pink: #ff7080;
+	--purple:#334db5;
+	--h4:#1b1b1b;
 	--text-blue: #224b73;
 	--text-violetblue: #334db5;
 	--violet:#1a1564;
+	--light-blue: #eef1fb;
+	--light-orange: rgba(255, 120, 0, 0.1);
+	--light-green: #eef1fb;
     
 }
