@@ -1,14 +1,25 @@
 .common-cta-section{background-color: var(--violet);}
-.common-cta-main{color: var(--white);}
-.cta-icon{position: absolute; z-index: 1;}
-.cta-thumb img {border-radius: 1000px;}
-
+.common-cta-section .container-lg{padding: 0;}
+.common-cta-main{color: var(--white); padding-left: 167px;}
+.common-cta-image{position: relative;}
+ .cta-icon{position: absolute; z-index: 1;
+   
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    left: -125px;} 
+.cta-thumb img {border-radius: 11% / 50% 0 0 50%;}
+.common-cta-thumb{height: 546px;}
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px) {
-    .common-cta-main{gap: 156px;}
-    .common-cta-text{flex: 0 0 calc(100% - 993px); padding-left: 167px;}
-    .common-cta-image{flex: 0 0 837px;}
+    .common-cta-main{gap: 156px; }
+    .common-cta-text{flex: 0 0 540px;}
+    .common-cta-image{flex: 0 0 calc(100% - 696px);}
 
 
 
+
+ 
 }
