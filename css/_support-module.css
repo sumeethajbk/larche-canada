@@ -1,0 +1,19 @@
+.support-module {clear: both; width: 100%; padding: 46px 59px 49px 59px; background: var(--light-orange); margin: 60px 0;}
+.support-lt {width: 80px; margin: 0 7.2% 0 0;}
+.support-lt img {width: 79px;}
+
+.support-rt {width: calc(100% - 30%); flex-grow: 1;}
+.support-rt p {margin-bottom: 16px;}
+
+
+
+/*-- media starts here --*/
+@media only screen and (max-width: 1299px) and (min-width:1024px){
+	
+}
+@media only screen and (max-width: 1023px) and (min-width: 200px){
+	
+}
+@media only screen and (max-width: 767px) and (min-width: 200px){
+
+}
