@@ -35,13 +35,13 @@ sup {bottom: 1ex;}
 sub {top: 0;}
 dl {margin-bottom: 24px;}
 dd {margin-bottom: 24px;}
-ul {list-style: none; margin: 34px 0 28px 20px;}
+ul {list-style: none; margin: 34px 0 28px 25px;}
 ul > li {counter-increment: li; position: relative; margin-bottom: 11px;}
-ul > li:before {content: ""; position: absolute; top: 10px; left: -23px; width: 6px; height: 6px; border-radius: 300px; background-color: var(--orange);}
+ul > li:before {content:"\f058"; font-size:1rem; font-family: "Font Awesome 6 Pro"; font-weight: 900; transition: all .3s ease-in-out; position: absolute; color: var(--text-violetblue); left: -25px}
 li > ul {margin: 25px 0 26px 40px;}
 ol {counter-reset: section; list-style: none; margin:34px 0 28px 20px;}
 ol > li {counter-increment: li; position: relative; margin-bottom: 11px;}
-ol > li:before {counter-increment: section; content: counter(section, decimal) "."; left: -20px; top: 3px; color: var(--orange); position: absolute; line-height: normal; font-weight: 700; font-family:"rucksack", sans-serif;}
+ol > li:before {counter-increment: section; content: counter(section, decimal) "."; left: -20px; top: 3px; color: var(--text-violetblue); position: absolute; line-height: normal; font-weight: 700; font-family:"rucksack", sans-serif;}
 li > ol {margin: 25px 0 26px 25px;}
 img {-ms-interpolation-mode: bicubic; border: 0; vertical-align: middle; max-width: 100%; height: auto;}
 figure {margin: 0;}
