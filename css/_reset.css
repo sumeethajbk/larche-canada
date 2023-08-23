@@ -3,14 +3,14 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {display: block;}
 audio, canvas, video {display: inline-block; max-width: 100%;}
 html {overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; box-sizing: border-box; scroll-behavior: smooth;}
-a {color: var(--violet); text-decoration: none; transition-duration: .75s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1);}
+a {color: var(--orange); text-decoration: none; transition-duration: .75s; transition-property: all; transition-timing-function: cubic-bezier(.075,.82,.165,1);}
 a:focus {outline: none;}
 a:hover, a:active {outline: 0;}
-a:hover {color: var(--orange);}
+a:hover {color: var(--body-text);}
 h1, h2, h3, h4, h5, h6 {clear: both; margin: 0 0 8px; color: var(--heading); font-weight: 700; font-family:"rucksack", sans-serif;}
 h1 {font-size: 4.5rem; line-height: 1.11; font-weight: 900; margin-bottom: 30px;}
-h2 {font-size: 3.25rem; line-height: 1.08; margin-bottom: 30px;}
-h3 {font-size: 2.25rem; line-height: 1.17; margin-bottom: 20px;}
+h2 {font-size: 3.25rem; line-height: 1.08; margin-bottom: 31px;}
+h3 {font-size: 2.25rem; line-height: 1.17; margin-bottom: 25px;}
 h4 {font-size: 1.625rem; line-height: 1.23; margin-bottom: 19px; font-weight: 600;}
 h5 {font-size: 1.313rem; line-height: 1.19; margin-bottom: 14px; font-weight: 600;}
 h6 {font-size: 1.063rem; line-height: 1;}
@@ -36,13 +36,13 @@ sup {bottom: 1ex;}
 sub {top: 0;}
 dl {margin-bottom: 24px;}
 dd {margin-bottom: 24px;}
-ul {list-style: none; margin: 29px 0 47px 28px;}
+ul {list-style: none; margin: 29px 0 0 20px;}
 ul > li {counter-increment: li; position: relative; margin-bottom: 11px;}
-ul > li:before {content: ""; position: absolute; top: 10px; left: -23px; width: 6px; height: 6px; border-radius: 300px; background-color: var(--anchor);}
+ul > li:before {content: ""; position: absolute; top: 10px; left: -23px; width: 6px; height: 6px; border-radius: 300px; background-color: var(--orange);}
 li > ul {margin: 25px 0 26px 40px;}
-ol {counter-reset: section; list-style: none; margin: 28px 0 47px 41px;}
+ol {counter-reset: section; list-style: none; margin: 28px 0 0 20px;}
 ol > li {counter-increment: li; position: relative; margin-bottom: 11px;}
-ol > li:before {counter-increment: section; content: counter(section, decimal) ""; top: 3px; left: -41px; background-color: var(--anchor); color: var(--white); position: absolute; font-size: 0.688rem; line-height: normal; font-weight: 500; font-family:"rucksack", sans-serif; width: 20px; height: 20px; border-radius: 50%; align-items: center; display: flex; justify-content: center;}
+ol > li:before {counter-increment: section; content: counter(section, decimal) "."; left: -20px; top: 3px; color: var(--orange); position: absolute; line-height: normal; font-weight: 700; font-family:"rucksack", sans-serif;}
 li > ol {margin: 25px 0 26px 25px;}
 img {-ms-interpolation-mode: bicubic; border: 0; vertical-align: middle; max-width: 100%; height: auto;}
 figure {margin: 0;}
@@ -155,4 +155,6 @@ img.alignnone {margin:36px 0 34px; display: block; clear: both;}
 @media only screen and (max-width: 767px) and (min-width: 200px) {
 	h1 {font-size: 3.375rem; line-height: 1.04; margin-bottom: 30px;}
 	h2 {font-size: 2.625rem; line-height: 1.1; margin-bottom: 30px;}
+	h3 {font-size: 1.875rem; line-height: 1.13;}
+	h4 {font-size: 1.313rem; line-height: 1.33; font-weight: 600;}
 }

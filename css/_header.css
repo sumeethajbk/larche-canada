@@ -19,10 +19,10 @@
 .main_header .header_right {width: calc(100% - 243px); margin: 4px 0 0 0;}
 
 .main_header .nav-btn {margin: 0 0 0 40px;}
-.main_header .nav-btn .button{padding:13px 30px 17px 29px; letter-spacing: 0.15px;}
+.main_header .nav-btn .button{padding:13px 31px 17px 28px; letter-spacing: 0.15px;}
 .main_header .nav-btn .button:after {display: none;}
 
-.main_header .lang-nav {display: inline-block; font-size: 0; margin: 0 0 0 10px;}
+.main_header .lang-nav {display: inline-block; font-size: 0; margin: 0 0 0 9px;}
 .main_header .lang-nav ul {margin: 0;}
 .main_header .lang-nav ul li a {color: var(--white-50); font-size: 0.813rem; font-weight: 500;}
 .main_header .lang-nav ul li a.current_language, .main_header .lang-nav ul li a:hover {color: var(--white);}
