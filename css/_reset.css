@@ -24,10 +24,9 @@ p:last-child {margin-bottom: 0;}
 code, kbd, tt, var, samp, pre {font-size: 15px; -webkit-hyphens: none; -moz-hyphens: none; -ms-hyphens: none; hyphens: none; line-height: 1.6;}
 pre {border: 1px solid rgba(0, 0, 0, 0.1); -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; margin-bottom: 24px; max-width: 100%; overflow: auto; padding: 12px; white-space: pre; white-space: pre-wrap; word-wrap: break-word;}
 blockquote, q {-webkit-hyphens: none; -moz-hyphens: none; -ms-hyphens: none; hyphens: none; quotes: none;}
-blockquote {padding: 48px 48px 0 0; position: relative; margin:100px 0 60px 0;}
-blockquote p {color: var(--anchor); font-size:1.625rem; position: relative;}
-blockquote:before {content: ""; background: url("../images/quote-icon.svg") 0 0 no-repeat; display: block; width: 63px; 
-height: 45px; position: absolute; top: -30px; left: 0;}
+blockquote {padding:106px 65px 62px 65px; position: relative; margin:60px 0 50px; background: var(--violet);}
+blockquote p {font-size: 1.375rem; font-weight:300; line-height: 1.36; color: var(--white); letter-spacing: 0.4px;}
+blockquote:before {content: "" ; width: 28px; background:url("../images/quote.svg") 0 0 no-repeat; height: 26px; display: block; position: absolute; top: 53px;}
 
 small {font-size: small;}
 big {font-size: 125%;}
