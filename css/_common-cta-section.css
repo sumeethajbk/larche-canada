@@ -1,22 +1,19 @@
-.common-cta-section{background-color: var(--violet);}
+.common-cta-section{background-color: var(--violet); overflow: hidden;}
 .common-cta-section .container-lg{padding: 0;}
-.common-cta-main{color: var(--white); padding-left: 167px;}
+.common-cta-main{color: var(--white); padding-left: 167px; position: relative; min-height: 546px;}
+.common-cta-text .h1{margin-bottom: 10px;}
+.h1 span{color: var(--orange); font-family: CCSignLanguage; font-size: 86px;}
 .common-cta-image{position: relative;}
- .cta-icon{position: absolute; z-index: 1;
-   
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    left: -125px;} 
-.cta-thumb img {border-radius: 11% / 50% 0 0 50%;}
-.common-cta-thumb{height: 546px;}
+.common-cta-thumb{position: absolute; right: 0; width: 837px;}
+.cta-thumb img {height: 100%; object-fit: contain; width: 837px;}
+.ellipse{width: 1000px; height: 1000px; border-radius: 50%; mask: linear-gradient(to right, #fff, #fff);}
+.cta-icon{position: absolute; z-index: 1; top: 0; bottom: 0; margin: auto; display: flex; align-items: center; left: -125px;} 
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px) {
     .common-cta-main{gap: 156px; }
     .common-cta-text{flex: 0 0 540px;}
-    .common-cta-image{flex: 0 0 calc(100% - 696px);}
+    .common-cta-image{position: absolute; right: 0; top: -227px; width: 837px;}
 
 
 
