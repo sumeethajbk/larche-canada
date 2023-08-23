@@ -1,0 +1,21 @@
+.feature-panel-section{overflow: hidden;}
+.feature-panel-section .container-lg{padding: 0;}
+.feature-panel-section.text-blue{background-color: var(--text-blue);}
+.feature-panel-main{color: var(--white); padding-right: 283px; position: relative; min-height: 546px;}
+.feature-panel-main h2{color: var(--white);}
+.feature-panel-text{}
+
+
+.ellipse-feature{width: 1000px; height: 1000px; border-radius: 50%; mask: linear-gradient(to right, #fff, #fff);}
+.feature-thumb img {height: 100%; object-fit: contain; width: 832px;}
+.feature-icon{position: absolute; z-index: 1; top: 0; bottom: 0; margin: auto; display: flex; align-items: center; right: -90px;} 
+
+
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px) {
+    .feature-panel-main{justify-content: space-between; align-items: center;}
+    
+    .feature-panel-image{width: 832px; position: absolute; left: 0; top:-227px;}
+    .feature-panel-text{width: 422px; margin-left: auto;}
+}
