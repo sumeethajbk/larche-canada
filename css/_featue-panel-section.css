@@ -10,8 +10,9 @@
 .feature-thumb img {height: 100%; object-fit: contain; width: 836px;}
 .feature-icon{position: absolute; z-index: 1; top: 0; bottom: 0; margin: auto; display: flex; align-items: center; right: -256px;} 
 
+.feature-panel-text h2{margin-bottom: 38px;}
 .feature-panel-text h2 span{  position: relative; z-index: 0}
-.feature-panel-text h2 span svg{position: absolute; top: 52px; right: 74px;}
+.feature-panel-text h2 span svg{position: absolute; top: 52px; right: 78px;}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px) {
