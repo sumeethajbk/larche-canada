@@ -4,12 +4,14 @@
 @import url("../css/_featured-news-events-module.css");
 
 .general-default-article-section {float: left; width: 100%; padding:70px 0 100px;}
-
+.def-intro {clear: both; width: 100%; margin: 0 0 55px 0;}
+.def-intro p {font-size: 1.125rem; line-height: 1.39; font-weight: 600;}
 
 /* Default Thumb */
-.default-thumb {margin: 50px 0 35px; }
+.default-thumb {margin: 50px 0 35px;}
 .default-thumb figure {overflow: hidden; height: 463px;}
-
+.lc-shape-1 {top: 23px; left: -50px; width: 157px; height: 209px;}
+.lc-shape-2 {bottom: -84px; right: -119px; width:362px; height:401px;}
 
 /* Single Testimmonial */
 .single-testimonial {clear: both; width: 100%; padding:62px 65px; margin:51px 0 29px; background: var(--green);}

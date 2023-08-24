@@ -209,6 +209,12 @@ body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropd
 
 .container .container {padding: 0;}
 
+/* Shapes SVG */
+.shapes svg {width: 100%; height: 100%; object-fit: contain;}
+
+
+
+
 
 /*-- media css starts here --*/
 @media only screen and (max-width:1400px) {
