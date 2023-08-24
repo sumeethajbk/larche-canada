@@ -23,5 +23,18 @@ jQuery(document).ready(function () {
     }, ]
   });
   
+  if(jQuery(window).width() < 1024){
+
+    jQuery('.directors-slider').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      infinite: false,
+      speed: 1000,
+      dots: true,
+      arrows: false,
+      variableWidth:true,
+    });
+  }
+
 
 });
