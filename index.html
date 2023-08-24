@@ -23,9 +23,9 @@
     <div class="container-lg">
       <div class="header flex">
         <div class="logo"> <span class="logo-pos normal-logo"> <a href="index.html"><img src="images/logo.svg" alt="L'Arche Canada Development Logo"></a> </span> <span class="logo-pos fixed-logo"> <a href="index.html"><img src="images/logo-blue.svg" alt="L'Arche Canada Development Logo"></a> </span> </div>
-        <div class="menu-icon flex flex-center"> <a class="menu_icon" href="javascript:void();"> <span class="line line1"></span> <span class="line line2"></span> <span class="line line3"></span> </a> </div>
+        <div class="hide-in-desktop nav-btn"> <a href="#" class="button outline-btn white">Donate</a></div>
+        <div class="toggle_button flex flex-center"><span class="line line1"></span> <span class="line line2"></span> <span class="line line3"></span></div>
         <div class="header_right mobile_menu flex">
-        
           <div class="header-btm">
             <nav class="navigation mobile_menu">
               <ul class="main_menu">
@@ -37,17 +37,14 @@
                     <li><a href="#">Submenu</a></li>
                   </ul>
                 </li>
-                <li><a href="#">L’Arche Communities</a>
-                  
-                </li>
+                <li><a href="#">L’Arche Communities</a> </li>
                 <li><a href="#">L’Arche in Action</a></li>
                 <li><a href="#">News &amp; Updates</a></li>
                 <li><a href="#">Work With Us</a></li>
               </ul>
             </nav>
-			  
-			  <div class="nav-btn"><a href="#" class="button outline-btn white">Donate Now</a></div>
-			   <div class="lang-nav">
+            <div class="nav-btn"><a href="#" class="button outline-btn white">Donate Now</a></div>
+            <div class="lang-nav">
               <ul>
                 <li><a href="#" class="current_language">EN</a></li>
                 <li><a href="#">FR</a></li>
@@ -453,7 +450,7 @@
           <div class="footer-logo"> <a href="index.html"> <img src="images/logo-blue.svg" alt="L'Arche Canada Development Logo" title="L'Arche Canada Development Logo"/></a> </div>
           <div class="footer-lt-cnt">
             <p>Amet vitae egestas tellus eu enim, nibh condimentum in ut mauris arcu, tempus euismod aliquet dictum sollicitudin congue fringilla diam nisi volutpat.</p>
-            <div class="ftr-btns"> <a href="#" class="button sm">Contact</a> <a href="#" class="button sm outline">Login</a> </div>
+            <div class="ftr-btns"> <a href="#" class="button sm">Contact</a> <a href="#" class="button sm outline-btn">Login</a> </div>
           </div>
         </div>
         <!-- end of footer_lt -->
@@ -461,7 +458,7 @@
         <div class="footer_rt flex">
           <div class="footer-menu footer1-of-3">
             <ul class="menu-list">
-              <li class="menu-item-has-children" id=""><a href="#">About L’Arche</a>
+              <li class="menu-item-has-children" id="menu-item-101"><a href="#">About L’Arche</a>
                 <ul class="sub-menu">
                   <li><a href="#">About Us</a></li>
                   <li><a href="#">Careers</a></li>
@@ -469,14 +466,14 @@
                   <li><a href="#">Governance</a></li>
                   <li><a href="#">Programs</a></li>
                   <li><a href="#">Calendar</a></li>
-                  <li><a href="#"></a>Products</li>
+                  <li><a href="#">Products</a></li>
                 </ul>
               </li>
             </ul>
           </div>
           <div class="footer-menu footer1-of-3">
             <ul class="menu-list">
-              <li class="menu-item-has-children" id=""><a href="#">L’Arche Communities</a>
+              <li class="menu-item-has-children" id="menu-item-102"><a href="#">L’Arche Communities</a>
                 <ul class="sub-menu">
                   <li><a href="#">Atlantic</a></li>
                   <li><a href="#">Ontario</a></li>
@@ -485,8 +482,10 @@
                 </ul>
               </li>
             </ul>
+          </div>
+          <div class="footer-menu footer1-of-3">
             <ul class="menu-list">
-              <li class="menu-item-has-children" id=""><a href="#">L’Arche in Action</a>
+              <li class="menu-item-has-children" id="menu-item-103"><a href="#">L’Arche in Action</a>
                 <ul class="sub-menu">
                   <li><a href="#">Relational Model</a></li>
                   <li><a href="#">Advocacy</a></li>
@@ -501,42 +500,36 @@
         </div>
         <!-- end of footer rt --> 
         
-        <div class="footer_rt flex">
-          <div class="footer-rt-cnt">
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.</p>
-            <div class="ftr-sm">
-              <ul>
-                <li><a href="#" class="flex flex-center"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                <li><a href="#" class="flex flex-center"><i class="fa-brands fa-youtube"></i></a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="footer-logo"> <a href="index.html"> <img src="images/logo.svg" alt="Mattr Logo" title="Mattr Logo"/></a> </div>
-        </div>
-        <!-- end of footer_rt --> 
       </div>
       <!-- end of footer_top -->
-   
+      
       <div class="footer_btm flex">
         <p>Copyright &copy; 2023 L’Arche Canada. All Rights Reserved.</p>
         <div class="privacy-links">
           <ul>
             <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Acessibility</a></li>
+            <li><a href="#">Accessibility</a></li>
             <li><a href="#">International</a></li>
           </ul>
         </div>
         <!-- end of privacy links -->
         <div class="ftr-sm">
           <ul>
-            <li><a href="#" class="flex flex-center"><i class="fa-brands fa-linkedin-in"></i></a></li>
+            <li><a href="#" class="flex flex-center"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="#" class="flex flex-center"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="#" class="flex flex-center"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li><a href="#" class="flex flex-center"><i class="fa-brands fa-twitter"></i></a></li>
             <li><a href="#" class="flex flex-center"><i class="fa-brands fa-youtube"></i></a></li>
           </ul>
         </div>
       </div>
-      <!-- end of footer_btm --> 
+      <!-- end of footer_btm -->
+      <div class="footer-dots">
+        <figure> <img src="images/footer-bg.svg" alt="Footer Dots"> </figure>
+      </div>
     </div>
     <!-- end of footer --> 
+    
   </div>
 </footer>
 <script src="js/jquery-3.6.0.min.js"></script>

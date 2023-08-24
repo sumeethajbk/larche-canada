@@ -1,9 +1,9 @@
 .feature-panel-section{overflow: hidden;}
 .feature-panel-section .container-lg{padding: 0;}
 .feature-panel-section.text-blue{background-color: var(--text-blue);}
-.feature-panel-main{color: var(--white); padding-right: 283px; position: relative; min-height: 546px;}
+.feature-panel-main{color: var(--white); padding-right: 16.5%; position: relative; min-height: 546px;}
 .feature-panel-main h2{color: var(--white);}
-.feature-panel-text{}
+
 
 
 .ellipse-feature{width: 1000px; height: 1000px; border-radius: 50%; mask: linear-gradient(to right, #fff, #fff);}
