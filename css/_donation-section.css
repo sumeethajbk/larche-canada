@@ -1,0 +1,26 @@
+.donation-section.text-violetblue{background-color: var(--text-violetblue); overflow: hidden;}
+.donation-main{color: var(--white); min-height: 526px;}
+.donation-text h2{color: var(--white);}
+.donation-text p{font-size: 1.125rem;}
+.donation-thumb{position: relative; z-index: 10;}
+ 
+
+
+
+
+
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px) {
+    .donation-main{justify-content: space-between; align-items: center;}
+    .donation-text{width: 422px; margin-left: 200px;}
+    .donation-image{width: 914px; display: flex; align-items: center; justify-content: center;}
+    .circle {top: 50%; left: 50%; transform: translate(-50%, -50%); display: flex; align-items: center; position: absolute;}
+   
+    .circle{border-radius: 50%;}
+    .circle.text-violetblue{ background-color: var(--text-violetblue); width: 242px; height: 242px; z-index: 5;}
+    .red{background-color: #ff0000; width: 405px; height: 405px; z-index: 4;}
+    .orange{background-color: var(--orange); width: 576px; height: 576px; z-index: 3;}
+    .green{ background-color: var(--green); width: 746px; height: 746px; z-index: 2;}
+    .pink{background-color: var(--pink); width: 914px; height: 914px; z-index: 1}
+}
