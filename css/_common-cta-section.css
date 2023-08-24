@@ -14,7 +14,7 @@
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px) {
     
-    .common-cta-text{width: 540px;}
+    .common-cta-text{width: 540px; padding: 30px 0;}
     .common-cta-image{position: absolute; right: 0; top: -227px; width: 837px;}
 
 
