@@ -22,7 +22,7 @@
 .catagory-list > li::before{display: none;}
 .catagory-list > li a{color: var(--white);}
 
-.directors-details.green-bg{background-color: var(--green);}
+.directors-details.green-bg{background-color: var(--pink);}
 .directors-mobile-btn{justify-content: center; margin-top: 28px;}
 
 @media screen and (min-width: 1024px) {
