@@ -3,6 +3,8 @@
 .common-cta-main{color: var(--white); padding-left: 9.7%; position: relative; min-height: 546px;}
 .common-cta-text .h1{margin-bottom: 25px; font-weight: 600;}
 .common-cta-text p{max-width: 424px;}
+.common-cta-text .optional-text {color: var(--white-50);}
+
 .h1 span{color: var(--orange); font-family: CCSignLanguage; font-size: 5.375rem; line-height: 5.125rem; transform: rotate(-3.56deg); display: block; margin-top: -27px; font-weight: 500;}
 
 .ellipse{width: 1000px; height: 1000px; border-radius: 50%; mask: linear-gradient(to right, #fff, #fff);}

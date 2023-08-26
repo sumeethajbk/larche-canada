@@ -2,8 +2,12 @@
 @import url("../css/_support-module.css");
 @import url("../css/_hero-banner.css");
 @import url("../css/_featured-news-events-module.css");
+@import url("../css/_featue-panel-section.css");
+@import url("../css/_common-cta-section.css");
 
 .general-default-article-section {float: left; width: 100%; padding:70px 0 100px;}
+.general-default-inner {}
+.general-default-inner hr {margin: 64px 0 90px 0; padding: 0 24.1%; width: 100vw; margin-left: -50vw; left: 50%; position: relative;}
 .def-intro {clear: both; width: 100%; margin: 0 0 55px 0;}
 .def-intro p {font-size: 1.125rem; line-height: 1.39; font-weight: 600;}
 
