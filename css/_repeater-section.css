@@ -5,6 +5,12 @@
 .repeater-list:last-child {margin-bottom: 0;}
 
 .repeater-list:nth-child(even){flex-direction: row-reverse;} 
+.green-line-one{width: 250px; height: 297px; top: -32px; left: -21px;}
+.green-line-two{width: 72px; height: 104px; right: 179px; top: -38px;}
+.orange-line-one{width: 147px; height: 173px; top: -31px; right: 24px;}
+.orange-line-two{width: 170px; height: 226px; bottom: 22px; left: -46px;}
+.pink-line-one{width: 229px; height: 333px; top: -56px; left: -72px;}
+.pink-line-two{width: 259px; height: 338px; top: -29px; right: -46px;}
 
  /*-- media starts here --*/
  @media only screen and (min-width: 1024px){
