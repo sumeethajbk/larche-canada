@@ -4,7 +4,7 @@
 .repeater-content h2{font-size: 2.755rem;}
 .repeater-list:last-child {margin-bottom: 0;}
 
-.repeater-list:nth-child(even){flex-direction: row-reverse;} 
+/* .repeater-list:nth-child(even){flex-direction: row-reverse;}  */
 .green-line-one{width: 250px; height: 297px; top: -32px; left: -21px;}
 .green-line-two{width: 72px; height: 104px; right: 179px; top: -38px;}
 .orange-line-one{width: 147px; height: 173px; top: -31px; right: 24px;}
@@ -22,16 +22,16 @@
     .repeater-list:nth-child(odd) .repeater-image{padding-right: 30px;}
    .repeater-list:nth-child(even) .repeater-image{padding-left: 30px;} 
  }
- /*  
+ 
  @media only screen and (max-width: 1299px) and (min-width: 1024px){
    .repeater-list{gap: 80px; margin-bottom: 90px;}
-   .repeater-content{flex: 0 0 calc(100% - 498px);}
-   .repeater-content span{margin-bottom: 6px;}
-   .repeater-content h2{font-size: 2rem; margin-bottom: 14px;}
-   .repeater-image{flex: 0 0 418px;}
-   .repeater-list:nth-child(odd) .repeater-content{padding-left: 80px;}
-   .repeater-list:nth-child(even) .repeater-content{padding-right: 80px;}
- }
+   .repeater-content{flex: 0 0 calc(100% - 520px);}
+   /* .repeater-content span{margin-bottom: 6px;}
+   .repeater-content h2{font-size: 2rem; margin-bottom: 14px;} */
+   .repeater-image{flex: 0 0 440px;}
+   .repeater-list:nth-child(odd) .repeater-image{padding-right: 40px;}
+   .repeater-list:nth-child(even) .repeater-image{padding-left: 40px;}
+ }/*
  @media only screen and (max-width: 1023px) and (min-width: 768px){
   .container{padding: 0 20px;}
   .repeater-main{padding:89px 0 70px; }
