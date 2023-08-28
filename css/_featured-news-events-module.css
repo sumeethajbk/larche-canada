@@ -16,7 +16,7 @@
 
 /* Responsive */
 @media only screen and (max-width: 767px) and (min-width: 200px){
-	.featured-news-events-module {padding: 59px 0 60px;}
+	.featured-news-events-module {padding: 59px 0 30px;}
 	.featured-news-events-module h3 {padding: 0; margin-bottom: 32px;}
 	.fnews-grid {width: 285px; margin: 0 20px 0 0;}	
 	.fnews-grid .fnews-content {padding:35px 35px 36px;}

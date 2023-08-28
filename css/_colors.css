@@ -15,8 +15,9 @@
 	--text-blue: #224b73;
 	--text-violetblue: #334db5;
 	--violet:#1a1564;
-	--light-blue: #eef1fb;
+	--light-blue: rgba(51, 77, 181, 0.1);
 	--light-orange: rgba(255, 120, 0, 0.1);
-	--light-green: #eef1fb;
+	--light-green: rgba(0, 128, 41, 0.1);
+	--dark-grey:#25282a;
     
 }

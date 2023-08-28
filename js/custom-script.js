@@ -120,5 +120,14 @@ jQuery(document).ready(function () {
     jQuery('.overlay_main_sec').removeClass('active');
   });
 
+ 
+  jQuery(".directors-name").on('click', function (e) {
+    e.preventDefault();
+    jQuery(this).parents().siblings('.directors-item').find(".directors-name").removeClass("active");
+    jQuery(this).toggleClass("active");
+    jQuery(this).parents().siblings('.directors-item').find(".directors-details").removeClass("expand");
+    jQuery(this).parent('.directors-details').toggleClass("expand");   
+
+  });
 
 });
