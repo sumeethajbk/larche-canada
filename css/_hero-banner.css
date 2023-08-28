@@ -7,114 +7,41 @@
 .hero-banner-section .hero-banner-main .hero-banner-image {width:53%;}
 .hero-banner-section .hero-banner-main .hero-banner-image .banner-img {position:absolute; display:flex; align-items:stretch; height:606px; width:606px; right: 0; bottom: -37px;}
 .hero-banner-section .hero-banner-main .hero-banner-image .banner-img img {border-radius: 50%;}
+.hero-banner-section .hero-banner-main .hero-banner-image .img-shape-1 {} 
+.hero-banner-section .hero-banner-main .hero-banner-image .img-shape-2 {}
+.hero-banner-section .hero-banner-main .hero-banner-image .img-shape-3 {}
 
-
-/* Dual Banner */
-.hero-banner-section.dual-banner .hero-banner-main .hero-banner-image {width: 62.5%;}
-.hero-banner-section.dual-banner .hero-banner-main .hero-banner-txt {width: 28.5%; margin: 26px 8.7% 30px 0;}
-.hero-banner-section.dual-banner .hero-banner-main .hero-banner-image .banner-img {max-width: 1026px;}
-.hero-banner-section.dual-banner .hero-banner-main .hero-banner-image .hero-thumb-one {width: 52.6%; height: 100%}
-.hero-banner-section.dual-banner .hero-banner-main .hero-banner-image .hero-thumb-one img {clip-path: polygon(0% 0%, 100% 0%, 55% 100%, 0% 100%);}
-.hero-banner-section.dual-banner .hero-banner-main .hero-banner-image .hero-thumb-two {position: absolute; left: 29.9%; width: 70.2%; height: 100%}
-.hero-banner-section.dual-banner .hero-banner-main .hero-banner-image .hero-thumb-two img { clip-path: polygon(34% 0%, 100% 0%, 66% 100%, 0% 100%);}
 
 
 /*-- media starts here --*/
 @media only screen and (max-width: 1640px){ 
-	.hero-banner-section.dual-banner .hero-banner-main .hero-banner-image .hero-thumb-one {width:47.6%;}	
 	
-	/* Dual */
-	.hero-banner-section.dual-banner .hero-banner-main .hero-banner-image .hero-thumb-two { width:54.2%; left: 27%;}
-	.hero-banner-section.dual-banner .hero-banner-main .hero-banner-image .hero-thumb-two img {clip-path: polygon(40% 0%, 100% 0%, 66% 100%, 0% 100%);}
 }
 
 
 @media only screen and (max-width: 1499px){ 
-	.hero-banner-section .hero-banner-main .hero-banner-txt {margin: -4px 0 30px 0;}
 	
-	/* Dual */
-	.hero-banner-section.dual-banner .hero-banner-main .hero-banner-txt { margin:26px 0 30px 0; width: 35.5%;}
 
 }
 
 @media only screen and (max-width: 1399px) and (min-width:1200px){ 
-	.hero-banner-section .hero-banner-main .hero-banner-txt {width: 42.5%;}
-	.hero-banner-section .hero-banner-main .hero-banner-image {width: 57.5%;}
-	.hero-banner-section .hero-banner-main .hero-banner-image .banner-img {max-width: 720px;}
+	
 }
 
 @media only screen and (max-width: 1199px) and (min-width:1024px){
-	.hero-banner-section .hero-banner-main .hero-banner-image {width: 55.5%;}
-	.hero-banner-section .hero-banner-main .hero-banner-image .banner-img {max-width: 565px;}
-	.hero-banner-section .hero-banner-main .hero-banner-txt {width: 42.5%;}
 	
-	/* Dual */
-	.hero-banner-section.dual-banner .hero-banner-main .hero-banner-image .banner-img {max-width: 565px;}
-	.hero-banner-section.dual-banner .hero-banner-main .hero-banner-image {width: 58.5%;}
-	.hero-banner-section.dual-banner .hero-banner-main .hero-banner-image .hero-thumb-one {width:51%;}	
-	.hero-banner-section.dual-banner .hero-banner-main .hero-banner-image .hero-thumb-two {width:70.2%; left:29.7%;}
-	.hero-banner-section.dual-banner .hero-banner-main .hero-banner-image .hero-thumb-two img {clip-path: polygon(33% 0%, 100% 0%, 66% 100%, 0% 100%);}
-	.hero-banner-section.dual-banner .hero-banner-main .hero-banner-txt {width:41.5%;}
 }
 
 @media only screen and (max-width: 1023px) and (min-width: 200px){
-	.hero-banner-section {padding: 90px 0 0 0;}	
-	.hero-banner-section .hero-banner-main {flex-direction: column-reverse; padding:79px 0 0 0;}
-	.hero-banner-section .hero-banner-main .hero-banner-image {width: 100%;}
-	.hero-banner-section .hero-banner-main .hero-banner-image .banner-img {max-height: inherit; position: relative; left: -20px;}
-	.hero-banner-section .hero-banner-main .hero-banner-txt {width: 100%; text-align: left;}
 	
-	/* Dual */
-	.hero-banner-section.dual-banner {padding: 90px 0 0 0;}	
-	.hero-banner-section.dual-banner .hero-banner-main {flex-direction: column-reverse; padding:79px 0 0 0;}
-	.hero-banner-section.dual-banner .hero-banner-main .hero-banner-image {width: 100%;}
-	.hero-banner-section.dual-banner .hero-banner-main .hero-banner-image .banner-img {max-height: inherit; position: relative; left: -20px;}
-	.hero-banner-section.dual-banner .hero-banner-main .hero-banner-txt {width: 100%; text-align: left;}
 	
 }
 
 @media only screen and (max-width: 1023px) and (min-width:768px){
-	.hero-banner-section::before {background-image: radial-gradient(circle at 75% 70%, #0953A8, rgba(0, 58, 112, 0) 94%);}
-	.banner-bg { top:-30px; left:-261px;}
-    .banner-bg figure {width: 1350px;}
-	.hero-banner-section .hero-banner-main {margin-bottom: 168px;}
-	.hero-banner-section .hero-banner-main .hero-banner-image .banner-img {max-width: 686px; bottom: -168px;}
-	.hero-banner-section .hero-banner-main .hero-banner-txt {margin: 0 0 -168px 0; padding: 0 0 80px 0; }
-	.hero-banner-section .hero-banner-main .hero-banner-txt .optional-text {color: var(--small);}
 	
-	
-	/* Dual */
-	.hero-banner-section.dual-banner  {margin-bottom: 168px;}
-	.hero-banner-section.dual-banner .hero-banner-main .hero-banner-image .banner-img {max-width: 686px; bottom: -168px; height: 373px;}
-	.hero-banner-section.dual-banner .hero-banner-main .hero-banner-image .hero-thumb-one {width: 50%; height: 373px;}
-	.hero-banner-section.dual-banner .hero-banner-main .hero-banner-image .hero-thumb-two {width: 71%; left: 28.5%;}
-	.hero-banner-section.dual-banner .hero-banner-main .hero-banner-image .hero-thumb-two img {clip-path: polygon(32% 0%, 100% 0%, 66% 100%, 0% 100%);}
-	.hero-banner-section.dual-banner .hero-banner-main .hero-banner-txt {margin: 0 0 -168px 0; padding: 0 0 80px 0; }
 	
 }
 
 @media only screen and (max-width: 767px) and (min-width: 200px){
-	.hero-banner-section::before {background-image: radial-gradient(circle at 85% 100%, #0953A8, rgba(0, 58, 112, 0) 59%);}
-	.banner-bg { top:-73px; left:-173px; }
-    .banner-bg figure {width: 1005px;}
-	.hero-banner-section {margin: 0 0 90px 0;}
-	.hero-banner-section .hero-banner-main {padding: 73px 0 0 0; min-height: inherit;}
-	.hero-banner-section .hero-banner-main .hero-banner-txt {margin-bottom: -61px; padding: 0 0 40px;}
-	.hero-banner-section .hero-banner-main .hero-banner-txt .optional-text {margin: 0 0 17px 0;}
-	.hero-banner-section .hero-banner-main .hero-banner-txt h1 {margin-bottom: 25px;}
-	.hero-banner-section .hero-banner-main .hero-banner-image .banner-img {bottom: -90px;}
 	
-	/* Dual */
-	.hero-banner-section.dual-banner {margin: 0 0 90px 0;}
-	.hero-banner-section.dual-banner .hero-banner-main {padding: 69px 0 0 0;}
-	.hero-banner-section.dual-banner .hero-banner-main .hero-banner-txt {margin:0 0 -90px 0; padding: 0 0 70px;}
-	.hero-banner-section.dual-banner .hero-banner-main .hero-banner-txt .optional-text {margin: 0 0 17px 0;}
-	.hero-banner-section.dual-banner .hero-banner-main .hero-banner-txt h1 {margin-bottom: 20px;}
-	.hero-banner-section.dual-banner .hero-banner-main .hero-banner-image {width: calc(100% + 40px);}
-	.hero-banner-section.dual-banner .hero-banner-main .hero-banner-image .banner-img {bottom: -89px;}
-	
-	.hero-banner-section.dual-banner .hero-banner-main .hero-banner-image .hero-thumb-one {width: 58.46%;}
-	.hero-banner-section.dual-banner .hero-banner-main .hero-banner-image .hero-thumb-one img {clip-path: polygon(0 0, 100% 0, 54.7% 100%, 0% 100%);}
-	.hero-banner-section.dual-banner .hero-banner-main .hero-banner-image .hero-thumb-two {width: 65.95%; left: auto; right: 0;}
-	.hero-banner-section.dual-banner .hero-banner-main .hero-banner-image .hero-thumb-two img {clip-path: polygon(40.6% 0, 100% 0, 100% 100%, 0% 100%);}
 }

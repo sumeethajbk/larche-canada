@@ -8,11 +8,13 @@
 @import url("../css/_two-paths-module.css");
 @import url("../css/_intro-module.css");
 @import url("../css/_features-module.css");
+@import url("../css/_repeater-section.css");
+
 
 .hero-banner-section {margin-bottom: 37px;}
+.hero-banner-main {max-width: 1152px; margin: 0 auto;}
 
 .general-default-article-section {float: left; width: 100%; padding:82px 0 100px;}
-.general-default-inner {}
 .intro-module {padding-top: 0;}
 .hr {margin: 35px 0; padding: 0 22px;  width: 100vw; margin-left: -50vw; left: 50%; position: relative;}
 .hr hr {margin: 0;}
