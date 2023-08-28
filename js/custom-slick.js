@@ -15,16 +15,32 @@ jQuery(document).ready(function () {
     prevArrow: '<span class="slick-arrow prev-arrow flex flex-center"></span>',
     nextArrow: '<span class="slick-arrow next-arrow flex flex-center"></span>',
     responsive: [{
-      breakpoint: 767,
+      breakpoint: 768,
       settings: {        
         arrows: false,
         dots: true,
       }
     }, ]
   });
+	
+	/* Tiled Module */
+	if(jQuery(window).width() <= 1023){
+    jQuery('.tiled-slider').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      infinite: false,
+      speed: 1000,
+      dots: true,
+      arrows: false,
+      variableWidth:true,
+	  draggable: true,
+    touchThreshold: 200,
+    swipeToSlide: true,
+    });
+  }
+	
   
   if(jQuery(window).width() < 1024){
-
     jQuery('.directors-slider').slick({
       slidesToShow: 1,
       slidesToScroll: 1,

@@ -1,0 +1,11 @@
+.intro-module {clear: both; width: 100%; padding:52px 0 93px;}
+.intro-main {align-items: center;}
+.intro-lt {width: 41%; flex-grow: 1; margin: 0 10% 0 0;}
+.intro-lt span {position: relative;}
+.intro-lt span svg {position: absolute; bottom: -40px; left: -14px; width: 139px; height: 63px;}
+.intro-rt {flex-grow: 1; width: calc(100% - 51%); padding: 8px 0 0 0;}
+
+/* Responsive */
+@media only screen and (max-width: 1023px) and (min-width:200px){
+	.intro-lt {width: 100%; margin: 0 0 10px 0;}
+}

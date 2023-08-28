@@ -120,7 +120,7 @@ transform: rotate(35deg);  position: absolute; top: -5px; left: -31px;}
 .slick-arrow.slick-disabled {pointer-events:none; opacity: 0.2;}
 
 
-ul.slick-dots {margin:0; padding-top:31px; display:flex; justify-content:center; flex-wrap:wrap;}
+ul.slick-dots {margin:0; padding-top:31px; padding-bottom: 30px; display:flex; justify-content:center; flex-wrap:wrap;}
 ul.slick-dots li {margin:0 7.5px!important; display:inline-block; font-size:0; line-height:0;}
 ul.slick-dots li::before, ul.slick-dots li button:before, ul.slick-dots li button:after {display:none;}
 ul.slick-dots li button {width:5px; height:5px; min-width:0; padding:0; font-size:0; line-height:0; border:0 none; background:var(--text-violetblue); opacity:0.3;}
@@ -175,16 +175,19 @@ body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropd
 
 
 /* Color Specific */
-.violet-blue .readmore {color: var(--text-violetblue);}
+.violet-blue .readmore, .readmore.violet-blue {color: var(--text-violetblue);}
 .violet-blue .cat-wrap .tag-links li a {background: var(--text-violetblue);}
+.green ul li:before {color: var(--text-violetblue);}
 
-.pink .readmore {color: var(--pink);}
+.pink .readmore, .readmore.pink {color: var(--pink);}
 .pink .cat-wrap .tag-links li a {background: var(--pink);}
+.pink ul li:before {color: var(--pink);}
 
-.green .readmore {color: var(--green);}
+.green .readmore, .readmore.green {color: var(--green);}
 .green .cat-wrap .tag-links li a {background: var(--green);}
+.green ul li:before {color: var(--green);}
 
-.orange .readmore {color: var(--orange);}
+.orange .readmore, .readmore.orange {color: var(--orange);}
 .orange .cat-wrap .tag-links li a {background: var(--orange);}
 
 
@@ -192,12 +195,10 @@ body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropd
 .btn {width:100%; clear:both;}
 
 
-
-
-.heading-main {clear: both; padding: 0 0 48px; align-items: center; width: 100%; border-bottom: 3px solid var(--hr);}
-.heading-lt {width: 30%}
-.heading-lt .h4 {display: block; font-weight: 700; color: var(--heading); line-height: normal; font-size: 1.375rem; letter-spacing: -0.37px;}
-.heading-rt {width: calc(100% - 30%)}
+.heading {clear: both; padding: 0 0 41px; width: 100%; justify-content: space-between; align-items: center;}
+.heading-lt {width: 70%;}
+.heading-lt h3 {margin: 0;}
+.heading-rt {width: calc(100% - 70%)}
 .heading-rt form {justify-content: flex-end}
 .heading-rt .form-field {margin:0 0 0 8px; width:32.143%; min-width: 306px;}
 .heading-rt .form-field:first-child {margin-left: 0}
@@ -207,12 +208,14 @@ body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropd
 .fluid-width {width: 100vw!important; left: 50%; position: relative; margin-left: -50vw;}
 .full_width{width: 100% !important; max-width: 100% !important; margin-left: 0 !important; margin-right: 0 !important; float: none !important; display: block !important; padding-left: 0 !important; padding-right: 0 !important; left: 0 !important;}
 
-.container .container {padding: 0;}
+
 
 /* Shapes SVG */
 .shapes svg {width: 100%; height: 100%; object-fit: contain;}
 
-
+.light-orange:before {content: ""; background: var(--light-orange); width: 72px; height: 72px; border-radius: 50%; position: absolute; left: 0; top: 0;}
+.light-green:before {content: ""; background: var(--light-green); width: 72px; height: 72px; border-radius: 50%; position: absolute; left: 0; top: 0;}
+.light-blue:before {content: ""; background: var(--light-blue); width: 72px; height: 72px; border-radius: 50%; position: absolute; left: 0; top: 0;}
 
 
 
@@ -239,7 +242,6 @@ body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropd
 
 @media only screen and (max-width:1023px) and (min-width:768px) {
     .hide-in-tab {display:none;}
-
     
 }
 

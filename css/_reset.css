@@ -36,11 +36,11 @@ sub {top: 0;}
 dl {margin-bottom: 24px;}
 dd {margin-bottom: 24px;}
 ul {list-style: none; margin: 34px 0 28px 25px;}
-ul > li {counter-increment: li; position: relative; margin-bottom: 11px;}
+ul > li {counter-increment: li; position: relative; margin-bottom: 8px;}
 ul > li:before {content:"\f058"; font-size:1rem; font-family: "Font Awesome 6 Pro"; font-weight: 900; transition: all .3s ease-in-out; position: absolute; color: var(--orange); left: -25px; top:2px;}
 li > ul {margin: 25px 0 26px 40px;}
 ol {counter-reset: section; list-style: none; margin:34px 0 28px 20px;}
-ol > li {counter-increment: li; position: relative; margin-bottom: 11px;}
+ol > li {counter-increment: li; position: relative; margin-bottom: 8px;}
 ol > li:before {counter-increment: section; content: counter(section, decimal) "."; left: -20px; top: 3px; color: var(--orange); position: absolute; line-height: normal; font-weight: 700; font-family:"rucksack", sans-serif;}
 li > ol {margin: 25px 0 26px 25px;}
 img {-ms-interpolation-mode: bicubic; border: 0; vertical-align: middle; max-width: 100%; height: auto;}
@@ -90,13 +90,17 @@ input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:ac
 .search-submit {display: none;} 
 
 
-button, .button {display: inline-block; font-size:1.063rem; font-weight: 600; line-height: normal; padding:13px 53px 17px 27px; vertical-align: middle; cursor: pointer; border: none; border-radius: 80px; background-color: var(--text-blue); position: relative; transition: all .3s ease-in-out; -webkit-transition: all .3s ease-in-out; -moz-transition: all .5s ease-in-out; text-align: center; color: var(--white); font-family:"rucksack", sans-serif;}
+button, .button {display: inline-block; font-size:1.063rem; font-weight: 700; line-height: normal; padding:13px 53px 17px 27px; vertical-align: middle; cursor: pointer; border: 4px solid var(--text-blue); border-radius: 80px; background-color: var(--text-blue); position: relative; transition: all .3s ease-in-out; -webkit-transition: all .3s ease-in-out; -moz-transition: all .5s ease-in-out; text-align: center; color: var(--white); font-family:"rucksack", sans-serif;}
 button:hover, button:focus, .button:hover, .button:focus {background-color: var(--violet); color: var(--white);}
 button::after, .button::after {right: 26px; content:"\f105"; font-size:1rem; font-family: "Font Awesome 6 Sharp"; font-weight: 400; transition: all .3s ease-in-out; position: absolute; display: flex; align-items: center; flex-wrap: wrap; top: 0; bottom: 0; }
 button:hover:after, .button:hover:after {animation-name: bounceAlpha; animation-duration:1.4s; animation-iteration-count:infinite; animation-timing-function:linear;}
 
+/* Blue Button */
+.button.blue {background-color: var(--text-violetblue); border-color:var(--text-violetblue) }
+.button.blue:hover {background-color: var(--violet); border-color:var(--violet);}
+
 /* Small Buttons */
-.button.sm {padding:13px 42px 16px 23px; font-size:0.938rem; font-weight: 700;}
+.button.sm {padding:10px 42px 13px 23px; font-size:0.938rem; font-weight: 700; border-width: 3px;}
 .button.sm:after {font-size:0.878rem; right: 25px;}
 
 .outline-btn.sm {padding:10px 35px 13px 20px; border-width: 3px;}
@@ -112,7 +116,13 @@ button:hover:after, .button:hover:after {animation-name: bounceAlpha; animation-
 .outline-btn.white {border-color: var(--white); color: var(--white);}
 .outline-btn.white:hover {background: var(--white); border-color: var(--white); color: var(--violet);}
 
+/* Violet Outline Button*/
+.outline-btn.violet {border-color: var(--violet); color: var(--violet);}
+.outline-btn.violet:hover {background: var(--violet); border-color: var(--violet); color: var(--white);}
 
+/* Pink Outline Button*/
+.outline-btn.pink {border-color: var(--pink); color: var(--pink);}
+.outline-btn.pink:hover {background: var(--pink); border-color: var(--pink); color: var(--white);}
 
 
 ::-webkit-input-placeholder {color: var(--light-blue); font-family:"rucksack", sans-serif; opacity: 1; font-size: 1rem; font-weight: 400; letter-spacing: -.47px;}
@@ -146,6 +156,7 @@ img.alignnone {margin:50px 0 44px; display: block; clear: both;}
 .flex-center {-webkit-box-align: center; -moz-box-align: center; -ms-flex-align: center; -webkit-align-items: center; align-items: center; -ms-justify-content: center; -moz-justify-content: center; -webkit-justify-content: center; justify-content: center;}
 .flex-nowrap {flex-wrap: nowrap;}
 .reverse {flex-direction: row-reverse;}
+.flexend {display: flex; flex-wrap: nowrap; justify-content: flex-end;}
 .table {display: table; width: 100%; height: 100%;}
 .table-cell {display: table-cell; vertical-align: middle;}
 .grid {display: grid; display: -moz-grid; display: -ms-grid;}
@@ -153,6 +164,8 @@ img.alignnone {margin:50px 0 44px; display: block; clear: both;}
 
 @media only screen and (max-width: 1023px) and (min-width: 768px) {}
 @media only screen and (max-width: 767px) and (min-width: 200px) {
+	blockquote {padding: 106px 45px 52px 45px;}
+	
 	h1 {font-size: 3.375rem; line-height: 1.04; margin-bottom: 30px;}
 	h2 {font-size: 2.625rem; line-height: 1.1; margin-bottom: 30px;}
 	h3 {font-size: 1.875rem; line-height: 1.13;}
