@@ -14,7 +14,8 @@
 .general-default-article-section {float: left; width: 100%; padding:82px 0 100px;}
 .general-default-inner {}
 .intro-module {padding-top: 0;}
-.general-default-inner hr {margin: 64px 0 90px 0; padding: 0 24.1%; width: 100vw; margin-left: -50vw; left: 50%; position: relative;}
+.hr {margin: 90px 0; padding: 0 22px;  width: 100vw; margin-left: -50vw; left: 50%; position: relative;}
+.hr hr {margin: 0;}
 .def-intro {clear: both; width: 100%; margin: 0 0 55px 0;}
 .def-intro p {font-size: 1.125rem; line-height: 1.39; font-weight: 600;}
 
