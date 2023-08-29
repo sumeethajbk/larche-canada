@@ -7,10 +7,7 @@
 .hero-banner-section .hero-banner-main .hero-banner-image {width:53%;}
 .hero-banner-section .hero-banner-main .hero-banner-image .banner-img {position:absolute; display:flex; align-items:stretch; height:606px; width:606px; right: 0; bottom: -37px;}
 .hero-banner-section .hero-banner-main .hero-banner-image .banner-img img {border-radius: 50%;}
-.hero-banner-section .hero-banner-main .hero-banner-image .img-shape-1 {} 
-.hero-banner-section .hero-banner-main .hero-banner-image .img-shape-2 {}
-.hero-banner-section .hero-banner-main .hero-banner-image .img-shape-3 {}
-
+.hero-banner-wrap {max-width: 1700px; margin: 0 auto;}
 
 
 /*-- media starts here --*/

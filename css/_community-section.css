@@ -40,6 +40,9 @@
     .community-list{flex: 0 0 calc( 50% - 1.7%);}
     .community-content{min-height: 373px; padding: 31px 30px 29px;}
 
+    .community-slider .community-list{width: 285px; margin-right: 20px;}
+    .community-slider .community-content{min-height: 404px; padding: 31px 30px 35px;}
+
 }
 
 @media screen and (max-width: 767px) and (min-width: 200px) {
