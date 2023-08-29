@@ -1,0 +1,14 @@
+@import url("../css/_community-section.css");
+
+/* community section start*/
+.community-grid{background-color: #eef1fb;}
+
+/* community section  end*/
+
+@media screen and (min-width: 1024px) {
+    .community-wrap{padding: 90px 0 100px;}
+}
+
+@media screen and (max-width: 767px) and (min-width: 200px) {
+    .community-wrap{padding: 60px 0 30px;}
+}

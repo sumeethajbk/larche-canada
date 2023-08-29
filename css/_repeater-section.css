@@ -1,15 +1,15 @@
 
-/* .repeater-content span{margin-bottom: 28px;}
-/* .repeater-content p{line-height: 1.563rem; letter-spacing: -0.63px;} */
+
 .repeater-content h2{font-size: 2.755rem;}
 .repeater-list:last-child {margin-bottom: 0;}
+.repeater-content p {margin-bottom: 20px;}
+.repeater-content ul, .repeater-content ol {margin: 23px 0 28px 25px;}
 
-/* .repeater-list:nth-child(even){flex-direction: row-reverse;}  */
-.green-line-one{width: 250px; height: 297px; top: -32px; left: -21px;}
-.green-line-two{width: 72px; height: 104px; right: 179px; top: -38px;}
-.orange-line-one{width: 147px; height: 173px; top: -31px; right: 24px;}
-.orange-line-two{width: 170px; height: 226px; bottom: 22px; left: -46px;}
-.pink-line-one{width: 229px; height: 333px; top: -56px; left: -72px;}
+.green-line-one{width: 251px; height: 299px; top: -32px; left: -21px;}
+.green-line-two{width: 73px; height: 105px; right: 179px; top: -38px;}
+.orange-line-one{width: 152px; height: 179px; top: -31px; right: 24px;}
+.orange-line-two{width: 282px; height: 262px; bottom: -9px; left: -46px;}
+.pink-line-one{width: 308px; height: 382px; top: -56px; left: -72px;}
 .pink-line-two{width: 259px; height: 338px; top: -29px; right: -46px;}
 
  /*-- media starts here --*/
@@ -26,14 +26,12 @@
  @media only screen and (max-width: 1299px) and (min-width: 1024px){
    .repeater-list{gap: 80px; margin-bottom: 90px;}
    .repeater-content{flex: 0 0 calc(100% - 520px);}
-   /* .repeater-content span{margin-bottom: 6px;}
-   .repeater-content h2{font-size: 2rem; margin-bottom: 14px;} */
    .repeater-image{flex: 0 0 440px;}
    .repeater-list:nth-child(odd) .repeater-image{padding-right: 40px;}
    .repeater-list:nth-child(even) .repeater-image{padding-left: 40px;}
- }/*
+ }
  @media only screen and (max-width: 1023px) and (min-width: 768px){
-  .container{padding: 0 20px;}
+  
   .repeater-main{padding:89px 0 70px; }
   .repeater-image .video-thumbnail {height: 100%; max-height: 400px;}
 	 .repeater-list {align-items:stretch; margin-bottom: 80px}
@@ -50,8 +48,7 @@
  @media only screen and (max-width: 767px) and (min-width: 200px){
   
   .repeater-main{padding: 65px 0 70px;}
-  .repeater-list{display: block; margin-bottom: 67px;}
-  .repeater-list:nth-child(even){flex-direction: row-reverse;}
+  .repeater-list{display: flex; margin-bottom: 67px; flex-direction: column-reverse;}
   .repeater-content{padding-bottom: 65px;}
   .repeater-content span{margin-bottom: 16px;}
 	 .repeater-content h2 {padding-right: 5px; margin-bottom: 20px;}
@@ -60,5 +57,10 @@
   .repeater-list:nth-child(even) .repeater-content{padding-right: 0;}
   .repeater-list:last-child{margin-bottom: 0;}
 	 
-	 .repeater-list .button {margin: 9px 0 0 0;}
- } */
+  .green-line-one{width: 161px; height: 193px; top: -32px; left: -10px;}
+  .green-line-two{width: 47px; height: 68px; right: 94px; top: -20px;}
+  .orange-line-one{width: 94px; height: 115px; top: -23px; right: 7px;}
+  .orange-line-two{width: 170px; height: 226px; bottom: -33px; left: -29px;}
+  .pink-line-one{width: 194px; height: 258px; top: -45px; left: -65px;}
+  .pink-line-two{width: 168px; height: 219px; top: -19px; right: -27px;}
+ } 
