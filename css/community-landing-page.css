@@ -1,0 +1,5 @@
+@import url("../css/_community-section.css");
+@import url("../css/_featue-panel-section.css");
+
+/* feature section  */
+.feature-panel-section.text-blue{background-color: var(--violet);}
