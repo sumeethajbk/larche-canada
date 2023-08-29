@@ -1,0 +1,6 @@
+.short-intro-main{
+
+}
+.short-intro-list h2{max-width: 870px;}
+.short-intro-list h2 span{position: relative;}
+.short-intro-list h2 span svg{position: absolute;}
