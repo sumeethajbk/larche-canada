@@ -5,7 +5,7 @@
 .repeater-content p {margin-bottom: 20px;}
 .repeater-content ul, .repeater-content ol {margin: 23px 0 28px 25px;}
 .repeater-thumb img{border-radius: 50%;}
-.repeater-thumb{ width: 528px; height: 528px;}
+.repeater-thumb-wrap{ width: 528px; height: 528px;}
 
 /* .orange-li{width: 152px; height: 179px; top: -31px; right: 24px;} */
 /* .orange-line-two{width: 282px; height: 262px; bottom: -9px; left: -46px;} */
@@ -46,7 +46,7 @@
   .repeater-content span{margin-bottom: 16px;}
 	 .repeater-content h2 {padding-right: 5px; margin-bottom: 20px;}
   .repeater-content p{margin-bottom: 16px;}
-  .repeater-thumb{width: 342px; height: 348px;}
+  .repeater-thumb-wrap{width: 342px; height: 348px;}
   .repeater-list:nth-child(odd) .repeater-content{padding-left: 0;}
   .repeater-list:nth-child(even) .repeater-content{padding-right: 0;}
   .repeater-list:last-child{margin-bottom: 0;}
