@@ -52,5 +52,26 @@ jQuery(document).ready(function () {
     });
   }
 
+  jQuery('.community-slider').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    infinite: false,
+    speed: 1000,
+    dots: false,
+    arrows: true,
+	  variableWidth:true,
+    prevArrow: '<span class="slick-arrow prev-arrow flex flex-center"></span>',
+    nextArrow: '<span class="slick-arrow next-arrow flex flex-center"></span>',
+    responsive: [{
+      breakpoint: 768,
+      settings: {       
+        slidesToShow: 1,
+        slidesToScroll: 1, 
+        arrows: false,
+        dots: true,
+      }
+    }, ]
+  });
+
 
 });
