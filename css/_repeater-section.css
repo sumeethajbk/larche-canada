@@ -9,8 +9,8 @@
 .green-line-two{width: 73px; height: 105px; right: 179px; top: -38px;}
 .orange-line-one{width: 152px; height: 179px; top: -31px; right: 24px;}
 .orange-line-two{width: 282px; height: 262px; bottom: -9px; left: -46px;}
-.pink-line-one{width: 308px; height: 382px; top: -56px; left: -72px;}
-.pink-line-two{width: 259px; height: 338px; top: -29px; right: -46px;}
+.tp-shape-8{width: 308px; height: 382px; top: -56px; left: -72px;}
+.tp-shape-9{width: 259px; height: 338px; top: -29px; right: -46px;}
 
  /*-- media starts here --*/
  @media only screen and (min-width: 1024px){
