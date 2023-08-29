@@ -223,10 +223,10 @@ body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropd
 .tp-shape-3 {width: 239px; height: 200px; bottom: 21px; right: -82px;}
 .tp-shape-4 {width: 147px; height: 173px; top: -31px; right:-6px;}
 .tp-shape-5 {width: 272px; height: 253px; bottom: -13px; left: -42px;}
-.tp-shape-6 {}
-.tp-shape-7 {}
-.tp-shape-8 {}
-.tp-shape-9 {}
+.tp-shape-6 {width: 251px; height: 299px; top: -32px; left: -21px;}
+.tp-shape-7 {width: 73px; height: 105px; right: 179px; top: -38px;}
+.tp-shape-8 {width: 308px; height: 382px; top: -56px; left: -72px;}
+.tp-shape-9 {width: 259px; height: 338px; top: -29px; right: -46px;}
 
 .light-orange:before {content: ""; background: var(--light-orange); width: 72px; height: 72px; border-radius: 50%; position: absolute; left: 0; top: 0;}
 .light-green:before {content: ""; background: var(--light-green); width: 72px; height: 72px; border-radius: 50%; position: absolute; left: 0; top: 0;}
@@ -261,7 +261,15 @@ body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropd
 }
 
 @media only screen and (max-width:1023px) and (min-width:200px) {
-	
+	.tp-shape-1 {width: 194px; height: 107px; top: -28px; right: 5px;}
+	.tp-shape-2 {width: 288px; height: 272px; bottom: -28px; left: -53px;}
+	.tp-shape-3 {width: 163px; height: 180px; bottom: -8px; right: -56px;}
+	.tp-shape-4 {width: 89px; height: 105px; top: -19px; right: -4px;}
+	.tp-shape-5 {width: 164px; height: 164px; bottom: -13px; left: -18px;}
+  .tp-shape-6{width: 161px; height: 193px; top: -32px; left: -10px;}
+  .tp-shape-7{width: 47px; height: 68px; right: 94px; top: -20px;}
+  .tp-shape-8{width: 194px; height: 258px; top: -45px; left: -65px;}
+  .tp-shape-9{width: 168px; height: 219px; top: -19px; right: -27px;}
 }
 
 @media only screen and (max-width:767px) and (min-width:200px) {
@@ -270,6 +278,9 @@ body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropd
 	.cat-wrap {margin: 0 0 18px 0;}
 	.cat-wrap .tag-links {width: 60%;}
 	.cat-wrap .cat-date {width: calc(100% - 60%);}
+
+  
+  
 }
 
 @media only screen and (max-width:480px) {
