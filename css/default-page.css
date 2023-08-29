@@ -13,6 +13,8 @@
 
 .hero-banner-section {margin-bottom: 37px;}
 .hero-banner-main {max-width: 1152px; margin: 0 auto;}
+.img-shape-1 {width: 352px; height: 437px; top: -62px; left: -115px;}
+.img-shape-2 {right:-54px; top: -33px; width: 297px; height: 388px;}
 
 .general-default-article-section {float: left; width: 100%; padding:82px 0 100px;}
 .intro-module {padding-top: 0;}
@@ -23,6 +25,9 @@
 
 .features-module {padding: 33px 0 21px;}
 .two-paths-module {padding: 46px 0 93px;}
+
+.repeater-section {padding: 70px 0 112px;}
+.repeater-section h2 {font-size: 2.875rem; color: var(--h4); line-height: 1.17; margin-bottom: 25px;}
 
 /* Default Thumb */
 .default-thumb {margin:60px 0 59px;}
