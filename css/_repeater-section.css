@@ -4,13 +4,13 @@
 .repeater-list:last-child {margin-bottom: 0;}
 .repeater-content p {margin-bottom: 20px;}
 .repeater-content ul, .repeater-content ol {margin: 23px 0 28px 25px;}
-
+.repeater-thumb img{border-radius: 50%;}
 .green-line-one{width: 251px; height: 299px; top: -32px; left: -21px;}
 .green-line-two{width: 73px; height: 105px; right: 179px; top: -38px;}
 .orange-line-one{width: 152px; height: 179px; top: -31px; right: 24px;}
 .orange-line-two{width: 282px; height: 262px; bottom: -9px; left: -46px;}
-.pink-line-one{width: 308px; height: 382px; top: -56px; left: -72px;}
-.pink-line-two{width: 259px; height: 338px; top: -29px; right: -46px;}
+.tp-shape-8{width: 308px; height: 382px; top: -56px; left: -72px;}
+.tp-shape-9{width: 259px; height: 338px; top: -29px; right: -46px;}
 
  /*-- media starts here --*/
  @media only screen and (min-width: 1024px){
@@ -33,15 +33,15 @@
  @media only screen and (max-width: 1023px) and (min-width: 768px){
   
   .repeater-main{padding:89px 0 70px;}
-	 .repeater-list {align-items:stretch; margin-bottom: 80px}
-	 .repeater-list:nth-child(even) .repeater-image {left: -42px; right: inherit;}
-	 .repeater-list .button {margin: 4px 0 0;}
-	 .repeater-content{width: calc(100% - 45.5%);}
-	 .repeater-content h2 {font-size: 2.125rem; letter-spacing: -0.57px; margin-bottom: 15px;}
-	 .repeater-content p {letter-spacing: -0.6px;}
-	 .repeater-content span {margin-bottom: 12px;}
-	 
-	 .repeater-image{width: 43%; right: -42px; position: relative;} 
+	 .repeater-list { margin-bottom: 80px; gap: 50px}
+	 .repeater-content{width: calc(100% - 390px);}
+	 .repeater-image{flex: 0 0 340px; position: relative;} 
+   .green-line-one{width: 161px; height: 193px; top: -32px; left: -10px;}
+  .green-line-two{width: 47px; height: 68px; right: 94px; top: -20px;}
+  .orange-line-one{width: 94px; height: 115px; top: -23px; right: 7px;}
+  .orange-line-two{width: 170px; height: 226px; bottom: -33px; left: -29px;}
+  .pink-line-one{width: 194px; height: 258px; top: -45px; left: -65px;}
+  .pink-line-two{width: 168px; height: 219px; top: -19px; right: -27px;}
 
  }
  @media only screen and (max-width: 767px) and (min-width: 200px){

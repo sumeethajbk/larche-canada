@@ -17,7 +17,7 @@
    
     .circle{border-radius: 50%;}
     .circle.text-violetblue{ background-color: var(--text-violetblue); width: 242px; height: 242px; z-index: 5;}
-    .circle.red{background-color: #bfff00; width: 405px; height: 405px; z-index: 4;}
+    .circle.red{background-color: #ff0000; width: 405px; height: 405px; z-index: 4;}
     .circle.orange{background-color: var(--orange); width: 576px; height: 576px; z-index: 3;}
     .circle.green{ background-color: var(--green); width: 746px; height: 746px; z-index: 2;}
     .circle.pink{background-color: var(--pink); width: 914px; height: 914px; z-index: 1}
