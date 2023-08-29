@@ -10,11 +10,7 @@
 .two-path-grid p {margin-bottom: 23px;}
 .two-path-grid ul, .two-path-grid ol {margin: 23px 0 28px 25px;}
 
-.tp-shape-1 {width: 284px; height: 157px; top: -41px; right:8px;}
-.tp-shape-2 {width: 416px; height: 400px; bottom: -42px; left: -74px;}
-.tp-shape-3 {width: 239px; height: 200px; bottom: 21px; right: -82px;}
-.tp-shape-4 {width: 147px; height: 173px; top: -31px; right:-6px;}
-.tp-shape-5 {width: 272px; height: 253px; bottom: -13px; left: -42px;}
+
 
 /* Responsive */
 @media only screen and (max-width: 1299px) and (min-width: 1160px){
