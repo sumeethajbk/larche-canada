@@ -5,7 +5,10 @@
 
 .hero-banner-section {margin: 0 0 47px 0;}
 .hero-banner-main {max-width: 1152px; margin: 0 auto;}
-.hero-banner-section .hero-banner-main .hero-banner-image .banner-img {bottom: -47px;}
+.hero-banner-section .hero-banner-main .hero-banner-image .banner-img {bottom: -47px; width:599px; height: 599px;}
+.hero-banner-section .community-landing-shape-1 {width: 336px; height: 185px; top: -48px; right:8px;}
+.hero-banner-section .community-landing-shape-2 {width: 480px; height: 474px; bottom: -50px; left: -80px;}
+.hero-banner-section .community-landing-shape-3 {width: 284px; height: 245px; bottom: 18px; right: -103px;}
 
 .map {margin: -57px 0 0 0; clear: both; width: 100%;}
 
