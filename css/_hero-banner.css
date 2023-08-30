@@ -14,7 +14,7 @@
 
 /*-- media starts here --*/
 @media only screen and (max-width: 1160px) and (min-width:1024px){
-	.hero-banner-section .hero-banner-main .hero-banner-image .banner-img {height: 500px; width: 500px;}
+	.hero-banner-section .hero-banner-main .hero-banner-image .banner-img {height: 500px!important; width: 500px!important;}
 }
 
 @media only screen and (max-width: 1023px) and (min-width: 200px){
