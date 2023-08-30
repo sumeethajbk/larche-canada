@@ -1,8 +1,8 @@
 .intro-module {clear: both; width: 100%; padding:52px 0;}
 .intro-main {align-items: center;}
 .intro-lt {width: 41%; flex-grow: 1; margin: 0 10% 0 0;}
-.intro-lt span {position: relative;}
-.intro-lt span svg {position: absolute; bottom: -40px; left: -14px; width: 139px; height: 63px;}
+.intro-lt span {position: relative; display: inline-block;}
+.intro-lt span svg {position: absolute; bottom: -50px; right: -11px; width: 139px; height: 63px;}
 .intro-rt {flex-grow: 1; width: calc(100% - 51%); padding: 8px 0 0 0;}
 
 /* Responsive */
