@@ -231,8 +231,8 @@ body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropd
 .light-orange:before {content: ""; background: var(--light-orange); width: 72px; height: 72px; border-radius: 50%; position: absolute; left: 0; top: 0;}
 .light-green:before {content: ""; background: var(--light-green); width: 72px; height: 72px; border-radius: 50%; position: absolute; left: 0; top: 0;}
 .light-blue:before {content: ""; background: var(--light-blue); width: 72px; height: 72px; border-radius: 50%; position: absolute; left: 0; top: 0;}
-
-
+.light-pink:before{content: ""; background: var(--light-pink); width: 72px; height: 72px; border-radius: 50%; position: absolute; left: 0; top: 0;}
+.light-red:before{content: ""; background: var(--light-red); width: 72px; height: 72px; border-radius: 50%; position: absolute; left: 0; top: 0;}
 
 /*-- media css starts here --*/
 @media only screen and (max-width:1400px) {
