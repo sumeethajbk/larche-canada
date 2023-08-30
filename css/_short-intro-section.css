@@ -1,5 +1,5 @@
 .short-intro-section{padding: 103px 0 84px;}
-.short-intro-list{align-items: flex-end; margin-bottom: 73px;}
+.short-intro-list{align-items: flex-end;}
 .short-intro-list h2{font-size: 3.625rem; margin-bottom: 0;}
 .short-intro-list span{position: relative;}
 .short-intro-list span svg{position: absolute; left: -23px; bottom: -48px; width: 260px; height: 60px;}
@@ -9,10 +9,33 @@
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px) {
-.short-intro-list{gap: 40px}
+.short-intro-list{gap: 40px; margin-bottom: 73px;}
 .short-intro-heading{flex: 0 0 850px;}
 .short-intro-btn{flex: 0 0 calc(100% - 890px);}
 .short-intro-desc{gap: 51px;}
 .short-intro-left{flex: 0 0 541px;}
 .short-intro-right{flex: 0 0 calc(100% - 592px);}
+}
+
+
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .short-intro-list{gap: 30px; margin-bottom: 50px;}
+    .short-intro-heading{flex: 0 0 700px;}
+    .short-intro-btn{flex: 0 0 calc(100% - 730px);}
+    .short-intro-list span svg{bottom: -40px;}
+
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    .short-intro-heading{margin-bottom: 30px;}
+    .short-intro-list{margin-bottom: 50px;}
+    .short-intro-left{margin-bottom: 30px;}
+    .short-intro-list span svg{bottom: -37px; height: 55px;}
+    .short-intro-right{margin-bottom: 25px;}
+}
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .short-intro-list h2{font-size: 2.625rem; margin-bottom: 24px;}
+    .short-intro-list span svg{width: 178px; height: 41px; bottom: -25px; left: -8px;}
+    .short-intro-left{margin-bottom: 25px;}
+    .short-intro-right{margin-bottom: 25px;}
+
 }

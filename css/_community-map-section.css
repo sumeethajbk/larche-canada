@@ -1,7 +1,8 @@
+.community-map-main{padding: 93px 0 90px;}
 .community-map-section .container-md{max-width: 1182px}
-.community-map-image{}
+.community-map-text h3{font-size: 2.875rem;}
 .community-map-text h3 span{font-size: 5.375rem; line-height: 5.375rem; color: var(--orange);   font-family: CCSignLanguage; display: block; margin-top: -27px;}
-
+.community-map-line svg{position: absolute; right: 10px; top: 10px;}
 
 
 /*-- media starts here --*/
@@ -10,5 +11,20 @@
     .community-map-image{flex: 0 0 704px;}
     .community-map-text{flex: 0 0 calc(100% - 760px);}
 
+}
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .community-map-main{gap: 30px;}
+    .community-map-image{flex: 0 0 500px;}
+    .community-map-text{flex: 0 0 calc(100% - 530px);}
 
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    .community-map-main{display: block;}
+    
+
+}  
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .community-map-line svg{width: 223px; height: 141px; right: -6px; top: 0}
+    .community-map-text h3{margin-bottom: 0;}
+    .community-map-text h3 span{font-size: 4.125rem;}
 }
