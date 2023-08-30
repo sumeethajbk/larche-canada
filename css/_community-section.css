@@ -7,7 +7,7 @@
 .community-catagory ul > li{margin: 0; padding: 3px 15px 3px 16px; font-size: 0.688rem; font-weight: bold; line-height: 2; letter-spacing: 1.65px; text-transform: uppercase; background-color: var(--white); border-radius: 90px;} 
 .community-catagory ul > li::before{display: none;}
 .community-catagory ul > li a{color: var(--text-violetblue);}
-.community-text{margin-top: auto;}
+.community-text{margin-top: auto; padding: 101px 0 0 0;}
 .community-text h3{color: var(--white); padding-right: 6px; margin-bottom: 18px;}
 .community-text p{margin-bottom: 18px; color: var(--white);}
 .community-text .button{transition: all 1s ease;}
@@ -17,7 +17,7 @@
 .community-slider .slick-arrow.next-arrow{right: 8px; top: -80px; margin: 0;}
 
 @media screen and (min-width: 1024px) {
-    .community-wrap{padding: 100px 0;}
+    .community-wrap{padding: 32px 0 100px;}
     .community-main{gap: 50px;}
     .community-list{flex: 0 0 calc(34.55% - 50px);}
     .community-content{min-height: 500px; padding: 65px 68px 64px;}

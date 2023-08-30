@@ -1,5 +1,13 @@
 @import url("../css/_community-section.css");
 @import url("../css/_featue-panel-section.css");
+@import url("../css/_hero-banner.css");
+@import url("../css/_intro-col-module.css");
+
+.hero-banner-section {margin: 0 0 47px 0;}
+.hero-banner-main {max-width: 1152px; margin: 0 auto;}
+.hero-banner-section .hero-banner-main .hero-banner-image .banner-img {bottom: -47px;}
+
+.map {margin: -57px 0 0 0; clear: both; width: 100%;}
 
 /* feature section  */
 .feature-panel-section.text-blue{background-color: var(--violet);}

@@ -1,0 +1,14 @@
+.intro-col-module {clear: both; width: 100%; padding:60px 0 52px 0;}
+.intro-col-lt {width:24%; flex-grow: 1; margin:0 7.3% auto 0; position: relative;}
+.intro-col-lt .optional-text {margin:0 0 18px 0;}
+.intro-col-lt h2 {margin-bottom: 49px;}
+.intro-col-lt span {position: relative; display: inline-block}
+.intro-col-lt span svg {position: absolute; bottom: -50px; right: -11px; width: 153px; height: 72px;}
+.intro-col-lt .intro-dots {width: 302px; height: 216px; right: -20px; bottom: -191px; z-index: -1;}
+.intro-col-lt .intro-dots img {width: 100%; object-fit: cover;}
+.intro-col-rt {flex-grow: 1; width: calc(100% - 51%); padding: 4px 9px 0 0;}
+
+/* Responsive */
+@media only screen and (max-width: 1023px) and (min-width:200px){
+	.intro-col-lt {width: 100%; margin: 0 0 10px 0;}
+}

@@ -38,8 +38,8 @@ body {font-family:"rucksack", sans-serif; color:var(--body-text); font-size:1rem
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {color:var(--heading);}
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {color:var(--text-violetblue);}
 
-.h1 {font-size: 4.5rem; line-height: 1.11; font-weight: 900; margin-bottom: 30px;}
-
+.h1 {font-size: 4.5rem; line-height: 1.11; font-weight: 900; margin-bottom: 30px; display: block;}
+.h5 {font-size: 1.313rem; line-height: 1.19; margin-bottom: 14px; font-weight: 600; display: block;}
 
 /* Banner Bg */
 .banner-bg {top:0; left:0; right:0; bottom:0; width:100%; height:100%; position:absolute; z-index:-1; opacity: 0.05;}
