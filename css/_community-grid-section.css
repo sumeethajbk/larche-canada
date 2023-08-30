@@ -1,0 +1,19 @@
+.community-main{}
+.community-list{text-align: center;}
+.community-list span.h5{font-size: 1.313rem; font-weight: 600; line-height: 1.19; margin-bottom: 15px; display: block;}
+.community-circle.orange{background-color: var(--orange);}
+.community-icon{width: 142px; height: 142px; display: flex; justify-content: center; align-items: center;  border-radius: 50%; position: relative; margin: 0 auto 30px;}
+  .community-icon::before {
+    
+    width: 142px;
+    height: 142px;
+    }
+.community-thumb img{width: 63px; height: 63px;}
+
+
+/*-- media starts here --*/
+@media only screen and (min-width: 1024px){
+    .community-row{gap: 104px;}
+    .community-list{flex: 0 0 calc(25% - 104px);}
+
+}

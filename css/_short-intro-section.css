@@ -1,6 +1,18 @@
-.short-intro-main{
+.short-intro-section{padding: 103px 0 84px;}
+.short-intro-list{align-items: flex-end; margin-bottom: 73px;}
+.short-intro-list h2{font-size: 3.625rem; margin-bottom: 0;}
+.short-intro-list span{position: relative;}
+.short-intro-list span svg{position: absolute; left: -23px; bottom: -48px; width: 260px; height: 60px;}
+.short-intro-left{font-size: 1.125rem; font-weight: 600;}
+.outline-btn.orange{border-color: var(--orange); color: var(--orange);}
 
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px) {
+.short-intro-list{gap: 40px}
+.short-intro-heading{flex: 0 0 850px;}
+.short-intro-btn{flex: 0 0 calc(100% - 890px);}
+.short-intro-desc{gap: 51px;}
+.short-intro-left{flex: 0 0 541px;}
+.short-intro-right{flex: 0 0 calc(100% - 592px);}
 }
-.short-intro-list h2{max-width: 870px;}
-.short-intro-list h2 span{position: relative;}
-.short-intro-list h2 span svg{position: absolute;}
