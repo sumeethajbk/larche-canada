@@ -1,0 +1,14 @@
+.community-map-section .container-md{max-width: 1182px}
+.community-map-image{}
+.community-map-text h3 span{font-size: 5.375rem; line-height: 5.375rem; color: var(--orange);   font-family: CCSignLanguage; display: block; margin-top: -27px;}
+
+
+
+/*-- media starts here --*/
+@media only screen and (min-width: 1024px){
+    .community-map-main{gap: 56px;}
+    .community-map-image{flex: 0 0 704px;}
+    .community-map-text{flex: 0 0 calc(100% - 760px);}
+
+
+}
