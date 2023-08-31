@@ -124,6 +124,17 @@ button:hover:after, .button:hover:after {animation-name: bounceAlpha; animation-
 .outline-btn.pink {border-color: var(--pink); color: var(--pink);}
 .outline-btn.pink:hover {background: var(--pink); border-color: var(--pink); color: var(--white);}
 
+/* Green Outline Button*/
+.outline-btn.green {border-color: var(--green); color: var(--green);}
+.outline-btn.green:hover {background: var(--green); border-color: var(--green); color: var(--white);}
+
+/* Pink Outline Button*/
+.outline-btn.text-violetblue {border-color: var(--text-violetblue); color: var(--text-violetblue);}
+.outline-btn.text-violetblue:hover {background: var(--text-violetblu); border-color: var(--text-violetblue); color: var(--white);}
+
+/* Red Outline Button*/
+.outline-btn.red {border-color: var(--red); color: var(--red);}
+.outline-btn.red:hover {background: var(--red); border-color: var(--red); color: var(--white);}
 
 ::-webkit-input-placeholder {color: var(--light-blue); font-family:"rucksack", sans-serif; opacity: 1; font-size: 1rem; font-weight: 400; letter-spacing: -.47px;}
 :-moz-placeholder {color: var(--light-blue); font-family:"rucksack", sans-serif; opacity: 1; font-size: 1rem; font-weight: 400; letter-spacing: -.47px;}
