@@ -1,7 +1,8 @@
 .common-cta-section{background-color: var(--violet); overflow: hidden;}
+
 .common-cta-section .container-lg{padding: 0;}
 .common-cta-main{color: var(--white); padding-left: 9.7%; position: relative; min-height: 546px;}
-.common-cta-text .h1{margin-bottom: 25px; font-weight: 600;}
+.common-cta-text .h1{margin-bottom: 25px; font-weight: 700;}
 .common-cta-text p{max-width: 424px;}
 .common-cta-text .optional-text {color: var(--white-50);}
 
@@ -12,7 +13,7 @@
 .cta-icon{position: absolute; z-index: 1; top: 0; bottom: 0; margin: auto; display: flex; align-items: center; left: -125px;} 
 
 
-.common-cta-section.green{background-color: var(--green);}
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px) {
     

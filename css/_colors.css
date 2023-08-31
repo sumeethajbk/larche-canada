@@ -10,7 +10,6 @@
 	--orange: #ff7800;
 	--green: #008029;
 	--pink: #ff7080;
-	--purple:#334db5;
 	--h4:#1b1b1b;
 	--text-blue: #224b73;
 	--text-violetblue: #334db5;
@@ -18,8 +17,8 @@
 	--light-blue: rgba(51, 77, 181, 0.1);
 	--light-orange: rgba(255, 120, 0, 0.1);
 	--light-green: rgba(0, 128, 41, 0.1);
-	--light-pink: ;
-	--light-red: ;
+	--light-pink: rgba(255, 112, 128, 0.1);
+	--light-red: rgba(255, 0, 0, 0.1);
 	--dark-grey:#25282a;
     
 }

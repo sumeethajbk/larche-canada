@@ -180,21 +180,27 @@ body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropd
 .violet-blue .readmore, .readmore.violet-blue {color: var(--text-violetblue);}
 .violet-blue .cat-wrap .tag-links li a {background: var(--text-violetblue);}
 .violet-blue ul li:before {color: var(--text-violetblue);}
-.violet-blue .shapes svg path {fill: var(--text-violetblue);}
+.violet-blue .shapes svg path, .violet-shape svg path   {fill: var(--text-violetblue);}
+.violet-shape .common-cta-text .h1 span {color: var(--text-violetblue);}
 
 .pink .readmore, .readmore.pink {color: var(--pink);}
 .pink .cat-wrap .tag-links li a {background: var(--pink);}
 .pink ul li:before {color: var(--pink);}
-.pink .shapes svg path {fill: var(--pink);}
+.pink .shapes svg path, .pink-shape svg path {fill: var(--pink);}
+.pink-shape .common-cta-text .h1 span {color: var(--pink);}
 
 .green .readmore, .readmore.green {color: var(--green);}
 .green .cat-wrap .tag-links li a {background: var(--green);}
 .green ul li:before {color: var(--green);}
-.green .shapes svg path {fill: var(--green);}
+.green .shapes svg path, .green-shape svg path  {fill: var(--green);}
+.green-shape .common-cta-text .h1 span {color: var(--green);}
 
 .orange .readmore, .readmore.orange {color: var(--orange);}
 .orange .cat-wrap .tag-links li a {background: var(--orange);}
-.orange .shapes svg path {fill: var(--orange);}
+.orange .shapes svg path, .orange-shape svg path  {fill: var(--orange);}
+.orange-shape .common-cta-text .h1 span {color: var(--orange);}
+
+
 
 
 .optional-text {font-size:1.063rem;  color:var(--text-violetblue); font-weight:700; margin:0 0 12px 0; display:block;}

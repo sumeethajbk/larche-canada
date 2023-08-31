@@ -1,4 +1,10 @@
 @import url("../css/_short-intro-section.css");
 @import url("../css/_community-grid-section.css");
 @import url("../css/_community-map-section.css");
+@import url("../css/_donation-section.css");
+@import url("../css/_repeater-section.css");
+@import url("../css/_featue-panel-section.css");
+@import url("../css/_common-cta-section.css");
 
+
+.common-cta-section.green{background-color: var(--green);}

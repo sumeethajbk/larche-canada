@@ -1,5 +1,26 @@
 @import url("../css/_community-section.css");
 @import url("../css/_common-cta-section.css");
+@import url("../css/_hero-banner.css");
+@import url("../css/_intro-col-module.css");
+
+.intro-col-module {padding: 83px 0 101px 0}
+.intro-col-module .container-md {max-width: 1130px;}
+.intro-col-lt {margin: 0 8.3% auto 0;}
+.intro-col-rt {padding: 0;}
+.intro-col-thumb {margin: 0 0 60px 0; clear: both; width: 100%;}
+.intro-lt-details {font-weight: 500;}
+.intro-lt-details .address strong {font-weight: 700;}
+.intro-lt-details .address p {}
+.intro-lt-details .address p a {text-decoration: underline;}
+.intro-lt-details .address p span {display: block; padding: 0 0 0 28px;}
+.intro-lt-details .address p span i {position: absolute; left: 0; font-size: 14px; color: var(--text-violetblue);}
+
+ul.social-icons {margin: 0;}
+ul.social-icons li {display: inline-block; margin: 0 16px 0 0;}
+ul.social-icons li a {width: 40px; height: 40px; font-size: 1rem; line-height: 1.5; color: var(--white); position: relative; z-index: 1;}
+ul.social-icons li a::before {width: 100%; height: 100%; opacity: .1; border-radius: 20px; background-color: var(--white); content: ""; position: absolute; z-index: -1; transition: all .3s ease-in-out;}
+ul.social-icons li a:hover::before {transform: scale(1); opacity: 1; background-image: linear-gradient(to right,#ffb405 0,#ff666b 108%);}
+
 
 /* community section start*/
 .community-grid{background-color: #eef1fb;}
