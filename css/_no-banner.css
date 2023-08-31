@@ -1,0 +1,38 @@
+.no-banner-section{z-index: 1; clear: both; position: relative; width: 100%; padding: 120px 0 0 0; background:var(--white);}
+.no-banner-section .no-banner-main {padding: 92px 0; width:100%; text-align: center; margin: 0 auto; max-width: 683px; position: relative}
+.no-banner-section .no-banner-main .no-banner-dot-left {display: block; left: -935px; width: 1097px; height: 216px; top: 50%; transform: translateY(-29.9%);}
+.no-banner-section .no-banner-main .no-banner-dot-right {display: block; right: -942px; width: 1097px; height: 216px; top: 50%;
+transform: translateY(-42.7%);}
+.no-banner-section .no-banner-main .no-banner-txt .optional-text {color: rgba(26, 21, 100, 0.6); margin: 0 0 6px 0;}
+.no-banner-section .no-banner-main .no-banner-txt h1 {color: var(--violet); margin-bottom: 17px;}
+.no-banner-section .no-banner-main .no-banner-txt p {max-width: 370px; margin: 0 auto 26px auto;}
+.no-banner-wrap {max-width: 1700px; margin: 0 auto;}
+
+
+
+
+/*-- media starts here --*/
+@media only screen and (max-width: 1160px) and (min-width:1024px){
+	.no-banner-section .no-banner-main .no-banner-image .banner-img {height: 500px!important; width: 500px!important;}
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 200px){
+	.no-banner-section {padding: 80px 0 0 0;}
+	
+}
+
+@media only screen and (max-width: 1023px) and (min-width:768px){
+	
+	
+}
+
+@media only screen and (max-width: 767px) and (min-width: 200px){
+	.no-banner-section .no-banner-main {padding: 55px 0 83px 0;}
+	.no-banner-section .no-banner-main .no-banner-txt .optional-text {margin: 0 0 9px 0;}
+	.no-banner-section .no-banner-main .no-banner-txt p {margin: 0 auto 15px auto;}
+	
+	.no-banner-section .no-banner-main .no-banner-dot-right {right: -600px; width: 761px; height: 149px; top: inherit; transform: none; bottom: -26px;}
+	.no-banner-section .no-banner-main .no-banner-dot-left figure, 
+	.no-banner-section .no-banner-main .no-banner-dot-right figure {width:761px;}
+	.no-banner-section .no-banner-main .no-banner-dot-left {left: -534px; width: 710px; top: inherit; bottom: -41px; transform: scale(1, -1); overflow: hidden;}
+}

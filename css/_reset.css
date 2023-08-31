@@ -75,7 +75,7 @@ tr:last-child td{border-bottom: 0;}
 caption, th, td {text-align: center;}
 del {color: #231f20;}
 hr {display: block; background-image: radial-gradient(circle at 1px, #C8CCCD 1.25px, rgba(255,255,255,0) 1px); background-position: 0 0;
-background-size: 11px 2px; background-repeat: repeat-x; height: 2px; width: 100%; vertical-align: middle; margin: 30px 0; border: 0 none;}
+background-size: 11px 2px; background-repeat: repeat-x; height: 2px; width: 100%; vertical-align: middle; margin: 81px 0; border: 0 none;}
 ::selection {background-color: #231f20; color: #fff;}
 ::-moz-selection {background-color: #231f20; color: #fff;}
 
