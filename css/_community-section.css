@@ -6,7 +6,7 @@
 .community-catagory ul{margin: 0; gap: 10px;}
 .community-catagory ul > li{margin: 0; padding: 3px 15px 3px 16px; font-size: 0.688rem; font-weight: bold; line-height: 2; letter-spacing: 1.65px; text-transform: uppercase; background-color: var(--white); border-radius: 90px;} 
 .community-catagory ul > li::before{display: none;}
-.community-catagory ul > li a{color: var(--text-violetblue);}
+.community-catagory ul > li a{color: var(--text-violetblue); text-decoration: none;}
 .community-text{margin-top: auto; padding: 101px 0 0 0;}
 .community-text h3{color: var(--white); padding-right: 6px; margin-bottom: 18px;}
 .community-text p{margin-bottom: 18px; color: var(--white);}

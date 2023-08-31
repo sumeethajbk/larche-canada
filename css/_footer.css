@@ -1,4 +1,5 @@
 footer#main_footer {clear: both; padding: 90px 0 101px; width: 100%; position: relative; background: var(--white); z-index: 1; font-size: 0.875rem; line-height: normal; line-height: 1.43; color: var(--text-blue); overflow: hidden;}
+footer#main_footer a {text-decoration: none;}
 footer#main_footer .footer {position: relative;}
 footer#main_footer li:before {display: none;}
 footer#main_footer .footer_top {justify-content: space-between; clear: both; padding:0 0 16px 0;}
