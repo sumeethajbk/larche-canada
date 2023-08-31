@@ -1,0 +1,22 @@
+@import url("../css/default-page.css");
+
+
+
+.donate-grid-main{}
+.donate-grid-row{}
+.donate-grid-list{ padding: 44px 50px;}
+.donate-grid-list.light-blue{background-color: var(--light-blue);}
+.donate-grid-list.light-green{background-color: var(--light-green);}
+.donate-grid-list.light-pink{background-color: var(--light-pink);}
+.donate-grid-list.light-red{background-color: var(--light-red);}
+.donate-grid-list.light-orange{background-color: var(--light-orange);}
+
+/*-- media css starts here --*/
+
+@media only screen and (min-width: 1024px) {
+    .donate-grid-row{gap: 50px}
+    .donate-grid-list{flex: 0 0 calc(33.33% - 34px)}
+    .donate-btns{gap: 20px;}
+
+
+}
