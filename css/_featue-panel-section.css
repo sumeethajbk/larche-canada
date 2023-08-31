@@ -6,7 +6,7 @@
 .feature-panel-section .optional-text {color: var(--white-50);}
 
 .ellipse-feature{width: 1000px; height: 1000px; border-radius: 50%; mask: linear-gradient(to right, #fff, #fff);}
-.feature-thumb img {height: 100%; object-fit: contain; width: 836px;}
+.feature-thumb img {height: 100%; object-fit: contain; width: 100%;}
 .feature-icon{position: absolute; z-index: 1; top: 0; bottom: 0; margin: auto; display: flex; align-items: center; right: -256px;} 
 
 .feature-panel-text h2{margin-bottom: 38px;}
@@ -16,10 +16,20 @@
 /* Green */
 .feature-panel-section.green {background: var(--green);}
 
+/* text-violetblue */
+.feature-panel-section.text-violetblue{background-color: var(--text-violetblue);}
+
 /*-- media css starts here --*/
+
 @media only screen and (min-width: 1024px) {
     .feature-panel-main{justify-content: space-between; align-items: center;}
     .feature-panel-image{width: 832px; position: absolute; left: -168px; top:-227px; text-align: right;}
    
     .feature-panel-text{width: 422px; margin-left: auto; padding: 30px 0;}
+}
+
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .feature-panel-main{padding-right: 0;}
+
+
 }
