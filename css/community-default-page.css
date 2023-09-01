@@ -32,13 +32,16 @@ ul.social-icons li a:hover {color: var(--white);}
 
 
 /* community section start*/
-.community-grid{background-color: #eef1fb;}
-
+.community-grid{background-color: #eef1fb; clear: both; width: 100%;}
+.community-wrap{padding: 90px 0 100px;}
 /* community section  end*/
 
-@media screen and (min-width: 1024px) {
-    .community-wrap{padding: 90px 0 100px;}
+
+
+@media screen and (max-width:1023px) and (min-width: 200px) {
+	.intro-col-lt {margin: 0 0 50px 0;}
 }
+
 
 @media screen and (max-width: 767px) and (min-width: 200px) {
     .community-wrap{padding: 60px 0 30px;}
