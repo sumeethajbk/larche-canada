@@ -10,7 +10,7 @@
 .fnews-grid:hover .fnews-thumb {height:235px;}
 .fnews-grid .fnews-content {padding:39px 45px;}
 .fnews-grid .fnews-content h4 {margin-bottom: 18px;}
-.fnews-grid .fnews-content h4, .fnews-grid .fnews-content h4 a {color: var(--h4);}
+.fnews-grid .fnews-content h4, .fnews-grid .fnews-content h4 a {color: var(--h4); font-weight: 600; text-decoration: none;}
 .fnews-grid .fnews-content h4 a:hover {color: var(--text-violetblue);}
 
 

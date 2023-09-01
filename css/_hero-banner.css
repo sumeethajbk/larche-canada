@@ -30,8 +30,8 @@
 	.hero-banner-section .hero-banner-main .hero-banner-txt {width: 100%; margin: 0 0 67px 0;}
 	.hero-banner-section .hero-banner-main .hero-banner-txt .optional-text {margin: 0 0 10px 0;}
 	.hero-banner-section .hero-banner-main .hero-banner-txt p {margin-bottom: 18px;}
-	.hero-banner-section .hero-banner-main .hero-banner-image .banner-img {position: relative; width: 337px; height: 337px; left: 0; right: 0; margin: auto;}
-	.hero-banner-section .hero-banner-main .hero-banner-image {width: 100%;}
+	.hero-banner-section .hero-banner-main .hero-banner-image .banner-img {position: relative; width: 337px; height: 337px; left: 0; right: 0; margin: auto; bottom: -33px;}
+	.hero-banner-section .hero-banner-main .hero-banner-image {width: 100%; margin: -50px 0 0 0;}
 	
 }
 

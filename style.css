@@ -109,7 +109,7 @@ transform: rotate(35deg);  position: absolute; top: -5px; left: -31px;}
 .cat-wrap .tag-links {margin: 0; width: 75%;}
 .cat-wrap .tag-links li {margin: 0;}
 .cat-wrap .tag-links li:before {display: none;}
-.cat-wrap .tag-links li a {background: var(--text-violetblue); display: inline-block; text-transform: uppercase; font-size: 0.688rem; letter-spacing: 1.65px; color: var(--white); font-weight: 700; padding:7px 15px 7px 16px; border-radius: 90px; margin: 0 4px 4px 0; line-height: 1.36;}
+.cat-wrap .tag-links li a {background: var(--text-violetblue); display: inline-block; text-transform: uppercase; font-size: 0.688rem; letter-spacing: 1.65px; color: var(--white); font-weight: 700; padding:7px 15px 7px 16px; border-radius: 90px; margin: 0 4px 4px 0; line-height: 1.36; text-decoration: none;}
 .cat-wrap .cat-date {font-size: 0.813rem; font-weight: 500; color: rgba(26, 21, 100, 0.6); letter-spacing: 0.15px; width: calc(100% - 75%); text-align: right; margin: 5px 0 0 0;}
 
 
@@ -171,7 +171,7 @@ body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropd
 /*-- common form css ends here --*/
 
 
-.readmore {position:relative; display:inline-block; font-size: 0.938rem; padding-right: 17px; font-weight: 700;}
+.readmore {position:relative; display:inline-block; font-size: 0.938rem; padding-right: 17px; font-weight: 700; text-decoration: none;}
 .readmore:after {right: 0; content:"\f105"; font-size:0.878rem; font-family: "Font Awesome 6 Sharp"; font-weight: 400; transition: all .3s ease-in-out; position: absolute; display: flex; align-items: center; flex-wrap: wrap; top: 2px;}
 .readmore:hover:after {animation-name: bounceAlpha; animation-duration:1.4s; animation-iteration-count:infinite; animation-timing-function:linear;}
 
@@ -302,7 +302,7 @@ body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropd
 	.cat-wrap .tag-links {width: 60%;}
 	.cat-wrap .cat-date {width: calc(100% - 60%);}
 
-  
+  .h1{font-size: 3.5rem;}
   
 }
 

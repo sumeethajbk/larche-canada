@@ -55,8 +55,8 @@
 }
 
 @media only screen and (max-width: 1023px) and (min-width: 200px) {
-	.img-shape-1 {width: 144px; height: 236px;}
-	.img-shape-2 {width: 163px; height: 216px;}
+	.img-shape-1 {width: 196px; height: 268px; top: -47px; left: -67px;}
+	.img-shape-2 {width: 165px; height: 218px; right: -29px; top: -20px;}
 }
 
 @media only screen and (max-width: 1023px) and (min-width: 768px) {
