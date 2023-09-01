@@ -11,10 +11,23 @@
 .donate-grid-list.light-red{background-color: var(--light-red);}
 .donate-grid-list.light-orange{background-color: var(--light-orange);}
 .donate-grid-list.light-violet{background-color: var(--light-violet);}
-
-.donate-grid-list.light-blue:hover {
-    color: var(--white);
-    background-color: var(--text-violetblue);}
+.donate-grid-list:hover {color: var(--white);}
+.donate-grid-list:hover .readmore{color: var(--white);}
+.donate-grid-list:hover h5{color: var(--white);}
+.donate-grid-list.light-blue:hover {background-color: var(--text-violetblue);}
+.donate-grid-list.light-green:hover {background-color: var(--green);}
+.donate-grid-list.light-pink:hover {background-color: var(--pink);}
+.donate-grid-list.light-orange:hover {background-color: var(--orange);}
+.donate-grid-list.light-red:hover {background-color: var(--red);}
+.donate-grid-list.light-violet:hover {background-color: var(--violet);}
+.donate-grid-list:hover  .outline-btn{background: var(--white); border-color: var(--white);}
+.donate-grid-list:hover  .outline-btn.text-violetblue{ color: var(--text-violetblue);}
+.donate-grid-list:hover  .outline-btn.green{color: var(--green);}
+.donate-grid-list:hover  .outline-btn.pink{color: var(--pink);}
+.donate-grid-list:hover  .outline-btn.red{color: var(--red);} 
+.donate-grid-list:hover  .outline-btn.orange{color: var(--orange);}
+.donate-grid-list:hover  .outline-btn.violet{color: var(--violet);} 
+ 
 
 /*-- media css starts here --*/
 
