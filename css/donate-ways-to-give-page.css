@@ -4,7 +4,7 @@
 
 .donate-grid-main{}
 .donate-grid-row{}
-.donate-grid-list{ padding: 44px 50px; position: relative;}
+.donate-grid-list{ padding: 44px 50px; position: relative; -webkit-transition: background-color 500ms linear; -ms-transition: background-color 500ms linear; transition: background-color 500ms linear;}
 .donate-grid-svg{position: absolute; opacity: 0;}
 .donate-grid-list:hover .donate-grid-svg{opacity: 1;}
 .donate-grid-svg-1{top: 0; left: 0;}
@@ -16,7 +16,7 @@
 .donate-grid-list.light-red{background-color: var(--light-red);}
 .donate-grid-list.light-orange{background-color: var(--light-orange);}
 .donate-grid-list.light-violet{background-color: var(--light-violet);}
-.donate-grid-list:hover {color: var(--white);}
+.donate-grid-list:hover {color: var(--white);  }
 .donate-grid-list:hover .readmore{color: var(--white);}
 .donate-grid-list:hover h5{color: var(--white);}
 .donate-grid-list.light-blue:hover {background-color: var(--text-violetblue);}
