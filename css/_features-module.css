@@ -4,6 +4,11 @@
 .features-module-grid:nth-child(3n+1) {margin-left: 0;}
 .features-module-grid .features-icon {width: 72px; height: 72px; display: flex; align-items: center; justify-content: center;
 border-radius: 50%; position: relative; margin: 0 24px 0 0;}
+.features-module-grid .features-icon.light-orange:before {content: ""; width: 72px; height: 72px; border-radius: 50%; position: absolute; left: 0; top: 0;}
+.features-module-grid .features-icon.light-green:before {content: ""; width: 72px; height: 72px; border-radius: 50%; position: absolute; left: 0; top: 0;}
+.features-module-grid .features-icon.light-blue:before {content: ""; width: 72px; height: 72px; border-radius: 50%; position: absolute; left: 0; top: 0;}
+.features-module-grid .features-icon.light-pink:before{content: ""; width: 72px; height: 72px; border-radius: 50%; position: absolute; left: 0; top: 0;}
+.features-module-grid .features-icon.light-red:before{content: ""; width: 72px; height: 72px; border-radius: 50%; position: absolute; left: 0; top: 0;}
 .features-module-grid .features-icon img {width: 44px; height: 44px;}
 .features-module-grid .features-txt {width: calc(100% - 110px); padding: 21px 0 0 0;}
 .features-module-grid .features-txt .h5 {color: var(--h4); margin-bottom: 11px;}

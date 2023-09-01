@@ -4,7 +4,12 @@
 
 .donate-grid-main{}
 .donate-grid-row{}
-.donate-grid-list{ padding: 44px 50px;}
+.donate-grid-list{ padding: 44px 50px; position: relative;}
+.donate-grid-svg{position: absolute; opacity: 0;}
+.donate-grid-list:hover .donate-grid-svg{opacity: 1;}
+.donate-grid-svg-1{top: 0; left: 0;}
+.donate-grid-svg-2{top: 0; right: 0;}
+.donate-grid-list::before{display: none;}
 .donate-grid-list.light-blue{background-color: var(--light-blue);}
 .donate-grid-list.light-green{background-color: var(--light-green);}
 .donate-grid-list.light-pink{background-color: var(--light-pink);}

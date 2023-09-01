@@ -9,9 +9,9 @@
 .community-list span.h5{font-size: 1.313rem; font-weight: 600; line-height: 1.19; margin-bottom: 15px; display: block;}
 .community-circle.orange{background-color: var(--orange);}
 .community-icon{width: 142px; height: 142px; display: flex; justify-content: center; align-items: center;  border-radius: 50%; position: relative; margin: 0 auto 30px;}
-.community-icon::before {width: 142px; height: 142px;}
-.community-thumb img{width: 63px; height: 63px;}
 
+.community-thumb img{width: 63px; height: 63px;}
+.community-icon::before{content: ""; width: 142px; height: 142px; border-radius: 50%; position: absolute; left: 0; top: 0;}
 /*-- media starts here --*/
 @media only screen and (min-width: 1024px){
     .community-list{flex: 0 0 25%;}
