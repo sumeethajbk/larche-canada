@@ -6,7 +6,7 @@
 .donation-text h2 span svg{position: absolute; bottom: -21px; left: -19px; width: 260px;}
 .donation-thumb{position: relative; z-index: 10;}
  .donation-thumb img{max-width: 105px; margin: 0 auto; display: block;}
- .donation-image{justify-content: center; align-items: center; width: 560px; height: 560px;}
+ .donation-image{justify-content: center; align-items: center;}
  .circle {top: 50%; left: 50%; transform: translate(-50%, -50%); display: flex; align-items: center; position: absolute; border-radius: 50%;}
  .circle.text-violetblue{ background-color: var(--text-violetblue);  z-index: 5;}
  .circle.red{background-color: #ff0000;  z-index: 4;}
@@ -17,10 +17,8 @@
 @media only screen and (min-width: 1024px) {
     .donation-main{justify-content: space-between; align-items: center;}
     .donation-text{width: 422px; margin-left: auto; margin-right: 78.2px;}
-    .donation-image{width: 914px; display: flex; align-items: center; justify-content: center; height: 100%;}
-   
-   
-    
+    .donation-image{width: 914px; height: 914px; display: flex; align-items: center; justify-content: center; height: 100%;}
+     
     .circle.text-violetblue{  width: 242px; height: 242px;}
     .circle.red{ width: 405px; height: 405px;}
     .circle.orange{ width: 576px; height: 576px; }
@@ -28,8 +26,9 @@
     .circle.pink{ width: 914px; height: 914px; }
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .donation-main{margin: -30px 0;}
     .donation-text{margin-left: 0; margin-right: 20px; width: calc(100% - 580px)}
-    .donation-image{width: 560px;}
+    .donation-image{width: 560px; height: 560px; right: -23px;}
     .circle.text-violetblue{width: 200px; height: 200px;}
     .circle.red{width: 290px; height: 290px;}
     .circle.orange{width: 380px; height: 380px;}
@@ -38,7 +37,7 @@
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .donation-main{flex-direction: column-reverse; margin-bottom: 60px;}
-    .donation-image{width: 560px; top: -30px; margin-bottom: 50px;}
+    .donation-image{width: 560px; height: 560px; top: -30px;}
     .circle.text-violetblue{width: 200px; height: 200px;}
     .circle.red{width: 290px; height: 290px;}
     .circle.orange{width: 380px; height: 380px;}
