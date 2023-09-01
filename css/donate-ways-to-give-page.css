@@ -10,6 +10,11 @@
 .donate-grid-list.light-pink{background-color: var(--light-pink);}
 .donate-grid-list.light-red{background-color: var(--light-red);}
 .donate-grid-list.light-orange{background-color: var(--light-orange);}
+.donate-grid-list.light-violet{background-color: var(--light-violet);}
+
+.donate-grid-list.light-blue:hover {
+    color: var(--white);
+    background-color: var(--text-violetblue);}
 
 /*-- media css starts here --*/
 

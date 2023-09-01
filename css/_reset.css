@@ -136,6 +136,10 @@ button:hover:after, .button:hover:after {animation-name: bounceAlpha; animation-
 .outline-btn.red {border-color: var(--red); color: var(--red);}
 .outline-btn.red:hover {background: var(--red); border-color: var(--red); color: var(--white);}
 
+/* orange Outline Button*/
+.outline-btn.orange {border-color: var(--orange); color: var(--orange);}
+.outline-btn.orange:hover {background: var(--orange); border-color: var(--orange); color: var(--white);}
+
 ::-webkit-input-placeholder {color: var(--light-blue); font-family:"rucksack", sans-serif; opacity: 1; font-size: 1rem; font-weight: 400; letter-spacing: -.47px;}
 :-moz-placeholder {color: var(--light-blue); font-family:"rucksack", sans-serif; opacity: 1; font-size: 1rem; font-weight: 400; letter-spacing: -.47px;}
 ::-moz-placeholder {color: var(--light-blue); font-family:"rucksack", sans-serif; opacity: 1; font-size: 1rem; font-weight: 400; letter-spacing: -.47px;}
