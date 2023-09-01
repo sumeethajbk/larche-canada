@@ -10,7 +10,7 @@
 
 .feature-panel-text h2{margin-bottom: 38px;}
 .feature-panel-text h2 span{  position: relative; z-index: 0; display: inline-block;}
-.feature-panel-text h2 span svg{position: absolute; top: 52px; right: 78px;}
+.feature-panel-text h2 span svg{position: absolute; top: auto; left: -16px; bottom: -74px;}
 
 /* Green */
 .feature-panel-section.green {background: var(--green);}
@@ -40,7 +40,6 @@
     .feature-panel-main{flex-direction: column-reverse;}
     .feature-panel-text{width: 100%; padding: 40px 20px 50px; width: 100%;}
     .feature-panel-image{width: 100%;}
-    .feature-panel-text h2 span svg { top: auto; left: -8px; bottom: -65px; }
 
     .feature-panel-image { width: 100%; height: 100%; min-height: 550px; }
     .ellipse-feature { width: 800px; height: 800px; border-radius: 50% 50% 40% 40%; mask: linear-gradient(to right, #fff, #fff); position: absolute; bottom: -250px; left: 50%; transform: translateX(-50%); }
