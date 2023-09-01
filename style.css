@@ -200,7 +200,21 @@ body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropd
 .orange .shapes svg path, .orange-shape svg path  {fill: var(--orange);}
 .orange-shape .common-cta-text .h1 span {color: var(--orange);}
 
+.text-violetblue .readmore, .readmore.text-violetblue {color: var(--text-violetblue);}
+.text-violetblue .cat-wrap .tag-links li a {background: var(--text-violetblue);}
+.text-violetblue .shapes svg path, .text-violetblue-shape svg path  {fill: var(--text-violetblue);}
+.text-violetblue-shape .common-cta-text .h1 span {color: var(--text-violetblue);}
 
+.red .readmore, .readmore.text-red {color: var(--red);}
+.red .cat-wrap .tag-links li a {background: var(--red);}
+.red .shapes svg path, .red-shape svg path  {fill: var(--red);}
+.red-shape .common-cta-text .h1 span {color: var(--red);}
+
+
+.violet .readmore, .readmore.text-violet {color: var(--violet);}
+.violet .cat-wrap .tag-links li a {background: var(--violet);}
+.violet .shapes svg path, .violet-shape svg path  {fill: var(--violet);}
+.violet-shape .common-cta-text .h1 span {color: var(--violet);}
 
 
 .optional-text {font-size:1.063rem;  color:var(--text-violetblue); font-weight:700; margin:0 0 12px 0; display:block;}
@@ -256,7 +270,9 @@ body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropd
 }
 
 @media only screen and (max-width:1299px) and (min-width:1024px) {
-    
+  .tp-shape-6 { width: 226px; height: 273px; top: -32px; left: -26px;}
+  .tp-shape-8 {width: 275px; height: 340px; top: -56px; left: -72px;}
+  .tp-shape-9 {width: 236px; height: 324px; top: -36px; right: -38px;}
 }
 
 
