@@ -39,6 +39,22 @@ jQuery(document).ready(function () {
     });
   }
 	
+	/* Larche communities */
+	if(jQuery(window).width() <= 1023){
+    jQuery('.larche-community-lists').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      infinite: false,
+      speed: 1000,
+      dots: true,
+      arrows: false,
+      variableWidth:true,
+	  draggable: true,
+    touchThreshold: 200,
+    swipeToSlide: true,
+    });
+  }
+	
   
   if(jQuery(window).width() < 1024){
     jQuery('.directors-slider').slick({

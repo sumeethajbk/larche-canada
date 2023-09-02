@@ -95,11 +95,6 @@ jQuery(document).ready(function () {
   });
 
 
-  jQuery('.brand-title h4').on('click', function (e) {
-    e.preventDefault();
-    jQuery(this).toggleClass('open');
-    jQuery('ul.brand-category').slideToggle(900);
-  });
 
 
   jQuery('select').selectBox({

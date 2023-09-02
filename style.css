@@ -216,6 +216,11 @@ body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropd
 .violet .shapes svg path, .violet-shape svg path  {fill: var(--violet);}
 .violet-shape .common-cta-text .h1 span {color: var(--violet);}
 
+.teal .readmore, .teal.text-violet {color: var(--teal);}
+.teal .cat-wrap .tag-links li a, .teal .sub-text {background: var(--teal);}
+.teal .shapes svg path, .violet-shape svg path  {fill: var(--teal);}
+.teal-shape .common-cta-text .h1 span {color: var(--teal);}
+.teal ul li:before {color: var(--teal);}
 
 .optional-text {font-size:1.063rem;  color:var(--text-violetblue); font-weight:700; margin:0 0 12px 0; display:block;}
 .btn {width:100%; clear:both;}
@@ -224,7 +229,7 @@ body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropd
 .heading {clear: both; padding: 0 0 41px; width: 100%; justify-content: space-between; align-items: center;}
 .heading-lt {width: 70%;}
 .heading-lt h3 {margin: 0;}
-.heading-rt {width: calc(100% - 70%)}
+.heading-rt {width: calc(100% - 70%); margin-left: auto;}
 .heading-rt form {justify-content: flex-end}
 .heading-rt .form-field {margin:0 0 0 8px; width:32.143%; min-width: 306px;}
 .heading-rt .form-field:first-child {margin-left: 0}

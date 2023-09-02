@@ -13,6 +13,7 @@
 
 /* Green */
 .feature-panel-section.green {background: var(--green);}
+.feature-panel-section.violetbg {background: var(--violet);}
 
 /* text-violetblue */
 .feature-panel-section.text-violetblue{background-color: var(--text-violetblue);}
