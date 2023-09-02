@@ -27,10 +27,11 @@
 @media only screen and (max-width: 1023px) and (min-width: 200px){
 	.hero-banner-section {padding: 80px 0 0 0;}
 	.hero-banner-section .hero-banner-main {align-items: flex-start; min-height: inherit; padding:57px 0 0;}
-	.hero-banner-section .hero-banner-main .hero-banner-txt {width: 100%; margin: 0 0 67px 0;}
+	.hero-banner-section .hero-banner-main .hero-banner-txt, .hero-banner-section.reverse .hero-banner-main .hero-banner-txt {width: 100%; margin: 0 0 67px 0;}
+	.hero-banner-section.reverse .hero-banner-main .hero-banner-txt {margin: 0 0 61px 0;}
 	.hero-banner-section .hero-banner-main .hero-banner-txt .optional-text {margin: 0 0 10px 0;}
 	.hero-banner-section .hero-banner-main .hero-banner-txt p {margin-bottom: 18px;}
-	.hero-banner-section .hero-banner-main .hero-banner-image .banner-img {position: relative; width: 337px; height: 337px; left: 0; right: 0; margin: auto; bottom: -33px;}
+	.hero-banner-section .hero-banner-main .hero-banner-image .banner-img {position: relative; width: 337px!important; height: 337px!important; left: 0; right: 0; margin: auto; bottom: -33px;}
 	.hero-banner-section .hero-banner-main .hero-banner-image {width: 100%; margin: -50px 0 0 0;}
 	
 }

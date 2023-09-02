@@ -12,3 +12,11 @@
 @media only screen and (max-width: 1023px) and (min-width:200px){
 	.intro-col-lt {width: 100%; margin: 0 0 10px 0;}
 }
+
+@media only screen and (max-width: 767px) and (min-width:200px){
+	.intro-col-lt h2 {margin-bottom: 23px;}
+	.intro-col-module {padding: 57px 0 61px 0;}
+	.intro-col-lt .optional-text {margin: 0 0 17px 0;}
+	.intro-col-lt {margin: 0 0 40px 0;}
+	.intro-col-lt span svg {bottom: -30px; right: -14px; width: 116px; height: 45px;}
+}

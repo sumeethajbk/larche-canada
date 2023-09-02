@@ -38,11 +38,22 @@ ul.social-icons li a:hover {color: var(--white);}
 
 
 
+
 @media screen and (max-width:1023px) and (min-width: 200px) {
 	.intro-col-lt {margin: 0 0 50px 0;}
 }
 
+@media screen and (max-width:1023px) and (min-width: 768px) {
+	.community-wrap {padding: 90px 0 70px;}
+}
 
 @media screen and (max-width: 767px) and (min-width: 200px) {
     .community-wrap{padding: 60px 0 30px;}
+	.community-default-shape-4 {width: 115px; height: 115px; top: -21px; right: -12px;}
+	.community-default-shape-5 {width: 180px; height: 180px; bottom: -15px; left: -29px;}
+	
+	.intro-col-module {padding: 57px 0 61px 0;}
+	.intro-lt-details .address {margin: 0 0 30px 0;}
+	.intro-col-lt {margin: 0 0 40px 0;}
+	.intro-col-thumb {margin: 0 0 39px 0;}
 }
