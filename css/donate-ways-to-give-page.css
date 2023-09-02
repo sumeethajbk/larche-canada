@@ -4,11 +4,11 @@
 
 .donate-grid-main{}
 .donate-grid-row{}
-.donate-grid-list{ padding: 44px 50px; position: relative; -webkit-transition: background-color 500ms linear; -ms-transition: background-color 500ms linear; transition: background-color 500ms linear;}
+.donate-grid-list{  position: relative; -webkit-transition: background-color 500ms linear; -ms-transition: background-color 500ms linear; transition: background-color 500ms linear;}
 .donate-grid-svg{position: absolute; opacity: 0;}
 .donate-grid-list:hover .donate-grid-svg{opacity: 1;}
-.donate-grid-svg-1{top: -47px; left: -34px;}
-.donate-grid-svg-2{top: -30px; right: -20px;}
+.donate-grid-svg-1{top: -47px; left: -34px; width: 93px; height: 140px;}
+.donate-grid-svg-2{top: -30px; right: -20px; width: 88px; height: 104px;}
 .donate-grid-list::before{display: none;}
 .donate-grid-list.light-blue{background-color: var(--light-blue);}
 .donate-grid-list.light-green{background-color: var(--light-green);}
@@ -38,8 +38,33 @@
 
 @media only screen and (min-width: 1024px) {
     .donate-grid-row{gap: 50px}
-    .donate-grid-list{flex: 0 0 calc(33.33% - 34px)}
+    .donate-grid-list{flex: 0 0 calc(33.33% - 34px); padding: 44px 50px;}
     .donate-btns{gap: 20px;}
 
 
+}
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .donate-grid-row {gap: 25px;}
+    .donate-grid-list {flex: 0 0 calc(33.33% - 17px); padding: 30px 25px;}
+    .donate-grid-svg-1{top: -47px; left: -34px; width: 60px; height: 85px;}
+    .donate-grid-svg-2{top: -30px; right: -20px; width: 68px; height: 84px;}
+    .donate-btns {gap: 8px;}
+    .donate-btns .button{padding: 7px 27px 12px 14px;}
+    .donate-btns .button::after{top: -1px; right: 13px;}
+
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    .donate-grid-row{gap: 30px;}
+    .donate-grid-list{flex: 0 0 calc(50% - 30px); padding: 30px 25px;}
+    .donate-btns {gap: 32px;}
+    .donate-btns .button{padding: 7px 27px 12px 14px;}
+    .donate-btns .button::after{top: -1px; right: 13px;}
+}
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .donate-grid-row{display: block;}
+    .donate-grid-list{margin-bottom: 22px; padding: 30px 30px 32px;}
+    .donate-grid-list p{font-size: 0.875rem; line-height: 1.375rem;}
+    .donate-btns {gap: 24px;}
+    .donate-btns .button{padding: 10px 34px 12px 23px; font-size: 0.938rem;}
+    .donate-btns .button::after{top: -1px; right: 15px;}
 }

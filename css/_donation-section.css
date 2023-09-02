@@ -37,7 +37,7 @@
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .donation-main{flex-direction: column-reverse; margin-bottom: 60px;}
-    .donation-image{width: 560px; height: 560px; top: -30px;}
+    .donation-image{width: 560px; height: 560px; top: -30px; left: 50%; transform: translateX(-50%);}
     .circle.text-violetblue{width: 200px; height: 200px;}
     .circle.red{width: 290px; height: 290px;}
     .circle.orange{width: 380px; height: 380px;}
@@ -45,9 +45,10 @@
     .circle.pink{width: 560px; height: 560px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    .donation-main{flex-direction: column-reverse; margin-bottom: 60px;}
-    .donation-image{width: 346px; top: -30px; height: 346px;}
+    .donation-main{flex-direction: column-reverse; align-items: flex-start; margin-bottom: 60px;}
+    .donation-image{width: 346px; top: -30px; height: 346px; left: 50%; transform: translateX(-50%);}
     .donation-thumb img { max-width: 40px;}
+    .donation-text{width: 100%;}
     .circle.text-violetblue{width: 91.5px; height: 91.5px;}
     .circle.red{width: 158px; height: 158px;}
     .circle.orange{width: 225px; height: 225px;}
