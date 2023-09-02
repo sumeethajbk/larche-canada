@@ -82,6 +82,17 @@ jQuery(document).ready(function () {
       }
     }, ]
   });
+  if(jQuery(window).width() <= 767){
+    jQuery(".community-row").slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: false,
+      dots: true,
+      variableWidth: true,
+    })
 
+  }
 
 });
+
+
