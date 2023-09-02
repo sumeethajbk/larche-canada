@@ -33,6 +33,7 @@
     .short-intro-right{margin-bottom: 25px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
+    .short-intro-section{padding: 103px 0 64px;}
     .short-intro-list h2{font-size: 2.625rem; margin-bottom: 24px;}
     .short-intro-list span svg{width: 178px; height: 41px; bottom: -25px; left: -8px;}
     .short-intro-left{margin-bottom: 25px;}

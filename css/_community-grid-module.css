@@ -26,8 +26,9 @@
 }
 
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    .community-row{display: block;}
-    .community-row.slick-slider .slick-list{overflow: inherit;}
-    .community-list{padding: 49px 0 65px; width: 285px; margin: 0 20px; }
-
+    .community-grid-module .container{padding-right: 0;}
+    .community-row{display: block; color: var(--h4); padding-left: 42px;}
+    .community-list{padding: 0 0 10px; width: 285px; margin-right: 20px;}
+    .community-icon{width: 104px; height: 104px; margin: 0 auto 14px;}
+    .community-row ul.slick-dots{margin-left: -60px;}
 }
