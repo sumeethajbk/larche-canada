@@ -8,9 +8,9 @@
 .h1 span{color: var(--orange); font-family: CCSignLanguage; font-size: 5.375rem; line-height: 5.125rem; transform: rotate(-3.56deg); display: block; margin-top: -27px; font-weight: 500;}
 .annual-report-icon{position: absolute; z-index: 1; top: 0; bottom: 0; margin: auto; display: flex; align-items: center; left: -125px;} 
 
-.annual-report-text{flex-grow: 1;  width: 30%; padding: 20px 0 0 22px;}
+.annual-report-text{flex-grow: 1;  width: 29%; margin-right: 1%; padding: 20px 0 0 22px;}
 .annual-report-image{width: calc(100% - 40.3%); position: relative; text-align: right;}
-.annual-report-thumb {clip-path: ellipse(100% 110% at 110% 50%); height: 100%;}
+.annual-report-thumb {clip-path: ellipse(100% 110% at 110% 50%); max-width: 645px; height: 100%;}
 .annual-txt {display: flex; flex-direction: column; align-items: flex-start; justify-content: center; height: 100%;}
 .annual-txt h3{color: var(--white);}
 .annual-btns{align-items: center;}
