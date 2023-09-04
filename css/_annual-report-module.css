@@ -1,5 +1,5 @@
-.annual-report-section{background-color: var(--violet); overflow: hidden;}
-.annual-report-section .container-lg{padding: 0;}
+.annual-report-module{background-color: var(--violet); overflow: hidden;}
+.annual-report-module .container-lg{padding: 0;}
 .annual-report-main{color: var(--white); position: relative;}
 .annual-report-text .h1{margin-bottom: 25px; font-weight: 700;}
 .annual-report-text p{max-width: 424px;}

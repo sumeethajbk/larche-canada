@@ -2,6 +2,15 @@
 @import url("../css/_hero-banner.css");
 @import url("../css/_intro-col-module.css");
 @import url("../css/_directors-section.css");
+@import url("../css/_community-grid-module.css");
+
+
+
+.hero-banner-section {margin:0 0 77px 0;}
+.hero-banner-section .hero-banner-main .hero-banner-image .banner-img {width: 599px; height: 599px; bottom: -47px;}
+.governance-shape-1 {width: 336px; height: 185px; top: -48px; right: 8px;}
+.governance-shape-2 {width: 488px; height: 472px; bottom: -49px; left: -84px;}
+.governance-shape-3 {width: 283px; height: 244px; bottom: 18px; right: -98px;}
 
 @media screen and (min-width: 1024px) {
 }
