@@ -1,6 +1,7 @@
 @import url("../css/_intro-module.css");
 
-.product-main{}
+.product-section{ }
+.product-main{ padding: 95px 0 0; border-top: 2px dotted rgba(0,0,0,0.2);}
 .product-row{overflow: hidden;}
 .product-list{padding: 50px 60px 50px; position: relative; text-align: center;}
 .product-thumb{margin-bottom: 26px;}
@@ -13,6 +14,11 @@
 .category-title{font-size: 2.25rem; font-weight: bold;}
 body .category-form .selectBox-dropdown{border: 1px solid rgba(0,0,0,0.1)}
 body .category-form .selectBox-dropdown .selectBox-label{font-size: 1.063rem;}
+.selectBox-dropdown-menu li a{text-decoration: none;}
+body .selectBox-dropdown .selectBox-arrow{color: var(--text-violetblue);}
+
+.product-row .button{margin: 50px auto 0;}
+.product-row .button::after{content: "\f107";}
 
 /* media starts here */
 
@@ -44,6 +50,10 @@ body .category-form .selectBox-dropdown .selectBox-label{font-size: 1.063rem;}
     .product-list:nth-child(-n+2)::before{display: none;}
     .product-list:nth-child(even)::after{display: none;}
     .product-list:nth-last-child(-n+2){padding-bottom: 0;}
+    .product-sort{gap: 20px; align-items: center;}
+    .category-title{flex: 0 0 250px;}
+    .category-form{flex: 1; align-items: flex-end; justify-content: flex-end; gap: 22px;}
+    .frm_field {flex: 1; max-width: 284px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .product-row{gap: 30px;} 
