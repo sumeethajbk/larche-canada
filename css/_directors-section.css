@@ -27,18 +27,23 @@
 
 .director-hover {opacity: 0; -webkit-transition: opacity 500ms linear; -ms-transition: opacity 500ms linear; transition: opacity 500ms linear;}
 .directors-item:hover .director-hover {opacity: 1;}
+.director-hover svg {width: 100%; height: 100%; object-fit: contain;}
 .directors-svg-1 {top: 27px; left: -49px; width: 265px; height: 328px;}
 .directors-svg-2 {top: 28px; right: 40px; width: 136px; height: 213px;}
 
-
+@media screen and (max-width: 1399px) and (min-width: 1024px) {
+.directors-svg-1 {top: 10px; left: -19px; width: 145px; height: 208px;}
+.directors-svg-2 {top: 28px; right: 40px; width: 136px; height: 213px;}
+}
 
 @media screen and (min-width: 1024px) {
     .directors-main{padding: 72px 0;}
-    .directors-heading{margin-bottom: 44px;}
+    .directors-heading{margin-bottom: 51px;}
     .directors-lists{gap: 50px;}
     .directors-item{flex: 0 0 calc(33.33% - 33.3px);}
     .directors-image-hover{position: absolute; top: 27px; padding: 0 40px 0 7px; display: none;}
     .directors-item:hover .directors-image-hover{display: block;}
+	.national-leaders .directors-main {padding:29px 0 72px;}
 }
 
 

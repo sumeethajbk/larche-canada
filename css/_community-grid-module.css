@@ -1,8 +1,9 @@
 .community-row{overflow: hidden;}
-.community-list{padding:49px 39px 65px; text-align: center; position: relative;}
+.community-list{padding:49px 45px 65px; text-align: center; position: relative;}
+.community-list:nth-child(4n+1) {padding-left: 22px;}
+.community-list:nth-child(4n+4) {padding-right: 22px;}
 
 .community-list span.h5{font-size: 1.313rem; font-weight: 600; line-height: 1.19; margin-bottom: 15px; display: block;}
-.community-circle.orange{background-color: var(--orange);}
 .community-icon{width: 142px; height: 142px; display: flex; justify-content: center; align-items: center;  border-radius: 50%; position: relative; margin:0 auto 14px;}
 .community-icon::before{content: ""; width: 142px; height: 142px; border-radius: 50%; position: absolute; left: 0; top: 0;}
 .community-thumb img{width: 63px; height: 63px;}
@@ -13,7 +14,8 @@
     .community-list::after{display: block; position: absolute; right: 0; top: 0; background-image: radial-gradient(circle at 1px, #C8CCCD 1.25px, rgba(255,255,255,0) 1px); background-position: 0 0; background-size: 2px 10px; background-repeat: repeat-y; width: 2px; height: 100%; vertical-align: middle; border: 0 none; content:"";}
 }
 @media only screen and (min-width: 1300px){
-    .community-list{flex: 0 0 25%;}
+    .community-list{flex: 0 0 25.8%;}
+	.community-list:nth-child(4n+1), .community-list:nth-child(4n+4) {flex: 0 0 24.2%;}
     .community-list:nth-child(-n+4){padding-top: 0;}
     .community-list:nth-child(-n+4):before{display: none;}
     .community-list:nth-child(4n+4)::after{display: none;}
