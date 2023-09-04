@@ -9,6 +9,11 @@
 .product-list .number{color: var(--text-violetblue); font-size: 1.313rem; font-weight: bold; margin-bottom: 10px;}
 .product-list .blue{color: var(--text-violetblue);}
 
+.product-sort{margin-bottom: 64px;}
+.category-title{font-size: 2.25rem; font-weight: bold;}
+body .category-form .selectBox-dropdown{border: 1px solid rgba(0,0,0,0.1)}
+body .category-form .selectBox-dropdown .selectBox-label{font-size: 1.063rem;}
+
 /* media starts here */
 
 @media only screen and (min-width: 768px){
@@ -22,6 +27,11 @@
     .product-list:nth-child(-n+4){padding-top: 0;}
     .product-list:nth-child(-n+4)::before{display: none;}
     .product-list:nth-child(4n+4)::after{display: none;}
+
+    .product-sort{gap: 20px; align-items: center;}
+    .category-title{flex: 0 0 250px;}
+    .category-form{flex: 1; align-items: flex-end; justify-content: flex-end; gap: 22px;}
+    .frm_field {flex: 1; max-width: 284px;}
     
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
