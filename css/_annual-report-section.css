@@ -8,7 +8,7 @@
 .h1 span{color: var(--orange); font-family: CCSignLanguage; font-size: 5.375rem; line-height: 5.125rem; transform: rotate(-3.56deg); display: block; margin-top: -27px; font-weight: 500;}
 .annual-report-ellipse{mask: linear-gradient(to right, #fff, #fff);}
 .annual-report-thumb img {height: 100%; object-fit: contain;}
-..annual-report-icon{position: absolute; z-index: 1; top: 0; bottom: 0; margin: auto; display: flex; align-items: center; left: -125px;} 
+.annual-report-icon{position: absolute; z-index: 1; top: 0; bottom: 0; margin: auto; display: flex; align-items: center; left: -125px;} 
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1300px) {
