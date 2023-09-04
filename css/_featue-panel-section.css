@@ -1,5 +1,5 @@
 .feature-panel-section{overflow: hidden; clear: both; width: 100%;}
-.feature-panel-section .container-lg{padding: 0;}
+.feature-panel-section .container-lg{padding: 0; overflow: hidden;}
 .feature-panel-section.text-blue{background-color: var(--text-blue);}
 .feature-panel-main{ justify-content: space-between; align-items: center; color: var(--white); position: relative;}
 .feature-panel-main h2{color: var(--white);}

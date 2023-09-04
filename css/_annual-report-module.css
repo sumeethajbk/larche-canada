@@ -1,12 +1,12 @@
 .annual-report-module{background-color: var(--green); overflow: hidden;}
-.annual-report-module .container-lg{padding: 0;}
+.annual-report-module .container-lg{padding: 0; overflow: hidden;}
 .annual-report-main{color: var(--white); position: relative;}
 .annual-report-text .h1{margin-bottom: 25px; font-weight: 700;}
 .annual-report-text p{max-width: 424px;}
 .annual-report-text .optional-text {color: var(--white-50);}
 
 .h1 span{color: var(--orange); font-family: CCSignLanguage; font-size: 5.375rem; line-height: 5.125rem; transform: rotate(-3.56deg); display: block; margin-top: -27px; font-weight: 500;}
-.annual-report-ellipse{mask: linear-gradient(to right, #fff, #fff);}
+.annual-report-ellipse{ clip-path: ellipse(67% 100% at 8% 50%);}
 .annual-report-thumb img {height: 100%; object-fit: contain;}
 .annual-report-icon{position: absolute; z-index: 1; top: 0; bottom: 0; margin: auto; display: flex; align-items: center; left: -125px;} 
 
@@ -20,7 +20,7 @@
 }
 @media only screen and (min-width: 1024px) {
     .annual-report-image{position: absolute;}
-    .annual-report-ellipse{width: 1000px; height: 1000px; border-radius: 50%;}
+    .annual-report-ellipse{}
     .annual-report-thumb img {height: 100%; object-fit: contain; width: 837px;}
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){

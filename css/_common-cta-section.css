@@ -1,5 +1,5 @@
 .common-cta-section{background-color: var(--violet); overflow: hidden;}
-.common-cta-section .container-lg{padding: 0;}
+.common-cta-section .container-lg{padding: 0; overflow: hidden;}
 .common-cta-main{color: var(--white); position: relative;}
 .common-cta-text .h1{margin-bottom: 25px; font-weight: 700;}
 .common-cta-text p{max-width: 424px;}
