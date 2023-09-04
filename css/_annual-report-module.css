@@ -1,7 +1,7 @@
 .annual-report-module{background-color: var(--green); overflow: hidden;}
 .annual-report-module .container-lg{padding: 0; overflow: hidden;}
 .annual-report-main{color: var(--white); position: relative;}
-.annual-report-text .h1{margin-bottom: 25px; font-weight: 700;}
+
 .annual-report-text p{max-width: 424px;}
 .annual-report-text .optional-text {color: var(--white-50);}
 
