@@ -36,7 +36,8 @@
     .annual-report-icon svg{display: block; margin: 0 auto; transform: rotate(-90deg);}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    .annual-report-icon{left: 0; right: 0; bottom: -86px; top: auto; width: 100%;}
-    .annual-report-icon svg{display: block; margin: 0 auto; transform: rotate(-90deg); width: 195px; height: auto;}
+    .annual-report-module .container{padding: 0;}
+    .annual-report-icon{left: 0; right: 0; bottom: -158px; top: auto; width: 100%;}
+    .annual-report-icon svg{display: block; margin: 0 auto; transform: rotate(-90deg); height: auto;}
     .h1 span{font-size: 4.125rem;}
 }
