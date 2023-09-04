@@ -182,7 +182,10 @@ img.alignnone {margin:50px 0 44px; display: block; clear: both;}
 	h1 {font-size: 4rem;}
 }
 
-@media only screen and (max-width: 1023px) and (min-width: 768px) {}
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+
+
+}
 @media only screen and (max-width: 767px) and (min-width: 200px) {
 	blockquote {padding: 106px 45px 52px 45px;}
 	
@@ -190,4 +193,8 @@ img.alignnone {margin:50px 0 44px; display: block; clear: both;}
 	h2 {font-size: 2.625rem; line-height: 1.1; margin-bottom: 30px;}
 	h3 {font-size: 1.875rem; line-height: 1.13;}
 	h4 {font-size: 1.313rem; line-height: 1.33; font-weight: 600;}
+
+	button, .button{font-size: 0.938rem; padding: 10px 36px 13px 20px;}
+	button::after, .button::after { right: 16px; font-size: 0.938rem; }
+	.outline-btn{border-width: 3px;}
 }
