@@ -33,8 +33,8 @@
 
 
 @media screen and (min-width: 1024px) {
-    .directors-main{padding: 50px 0;}
-    .directors-heading{margin-bottom: 51px;}
+    .directors-main{padding: 72px 0;}
+    .directors-heading{margin-bottom: 44px;}
     .directors-lists{gap: 50px;}
     .directors-item{flex: 0 0 calc(33.33% - 33.3px);}
     .directors-image-hover{position: absolute; top: 27px; padding: 0 40px 0 7px; display: none;}
