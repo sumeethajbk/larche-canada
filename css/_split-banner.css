@@ -1,6 +1,6 @@
-.split-banner-section{z-index: 1; clear: both; position: relative; width: 100%; padding: 222px 0 0;}
+.split-banner-section{background-color: var(violet); z-index: 1; clear: both; position: relative; width: 100%; padding: 222px 0 0;}
 .split-banner-section .container-lg{padding: 0;}
-.split-banner-main{justify-content: space-between;}
+.split-banner-main{  justify-content:  space-between;}
 .split-banner-text h1 {margin-bottom: 24px;}
 .optional-text{margin-bottom: 15px;}
 

@@ -1,4 +1,5 @@
 @import url("../css/_intro-module.css");
+@import url("../css/_split-banner.css");
 
 .product-section hr{margin: 0;}
 .product-main{ padding: 95px 0 0;}
