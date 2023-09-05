@@ -11,6 +11,10 @@
 .split-banner-section .split-banner-txt p {font-size: 1.125rem; line-height: 1.39; font-weight: 600;}
 .split-banner-section .split-banner-image {width:53%; height: 428px;}
 .split-banner-section .split-banner-image .split-banner-bg img{width: 783px; height: 429px;}
+.split-banner-wrap .split-banner-one{width: 184px; height: 184px;}
+.split-banner-wrap .split-banner-one{width: 164px; height: 164px;}
+.split-banner-wrap .split-banner-one{width: 164px; height: 164px;}
+.split-banner-wrap .split-banner-one{width: 197px; height: 197px;}
 .split-banner-wrap img{border-radius: 50%;}
 
 .split-banner-wrap {max-width: 1700px; margin: 0 auto;}
