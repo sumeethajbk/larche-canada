@@ -130,19 +130,19 @@ ul.slick-dots li.slick-active button {opacity:1;}
 
 
 select.selectBox {display:none;}
-body .selectBox-dropdown {outline:0; width:100% !important; font-size:1rem; line-height:1.56; letter-spacing:-0.47px; background:var(--white); color:var(--body-text); box-shadow:none; border-radius:26px !important; padding:13px 40px 13px 23px; vertical-align:middle; font-family:"rucksack", sans-serif; font-weight:normal; height:auto; border:solid 2px var(--input-border); text-transform:capitalize; transition:all 0.5s ease-in-out; -webkit-transition:all 0.5s ease-in-out; -moz-transition:all 0.5s ease-in-out; cursor:pointer;}
+body .selectBox-dropdown {outline:0; width:100% !important; font-size:1.063rem; line-height:1.56; background:var(--white); color:var(--body-text); box-shadow:none; border-radius:90px !important; padding:14px 47px 16px 27px; vertical-align:middle; font-family:"rucksack", sans-serif; font-weight:normal; height:auto; border: 1px solid rgba(0,0,0,0.1); text-transform:capitalize; transition:all 0.5s ease-in-out; -webkit-transition:all 0.5s ease-in-out; -moz-transition:all 0.5s ease-in-out; cursor:pointer;}
 body .selectBox-dropdown:focus, body .selectBox-dropdown:focus .selectBox-arrow {border-color:rgba(207, 216, 223, 0.5);}
 body .selectBox-dropdown .selectBox-label {padding:0; display:block;}
 body .selectBox-dropdown .selectBox-label a {color:inherit;}
-body .selectBox-dropdown .selectBox-arrow {width:auto; right:25px; top:50%; transform:translateY(-50%); font-size:14px; color:var(--anchor); border:none; font-family:"Font Awesome 6 Pro"; font-weight:900; position:absolute; display:flex; align-items:center; transition:all 0.5s ease-in-out; -webkit-transition:all 0.5s ease-in-out; -moz-transition:all 0.5s ease-in-out; background:none;}
+body .selectBox-dropdown .selectBox-arrow {width:auto; right:25px; top:50%; transform:translateY(-50%); font-size:14px; color: var(--text-violetblue); border:none; font-family:"Font Awesome 6 Pro"; font-weight:900; position:absolute; display:flex; align-items:center; transition:all 0.5s ease-in-out; -webkit-transition:all 0.5s ease-in-out; -moz-transition:all 0.5s ease-in-out; background:none;}
 body .selectBox-dropdown .selectBox-arrow::after {content:"\f107";}
 body .selectBox-dropdown.selectBox-menuShowing .selectBox-arrow {transform:translateY(-50%) rotate(-180deg);}
-body ul.selectBox-dropdown-menu {border-color:transparent; padding:17px 0 9px; margin:5px 0 0 0; border:solid 2px var(--input-border) !important; box-shadow:0 1px 4px rgba(0, 0, 0, .2); -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, .2); -moz-box-shadow:0 1px 4px rgba(0, 0, 0, .2); border-radius:26px !important;}
-body ul.selectBox-dropdown-menu li {margin-bottom:10px; padding:0 23px;}
+body ul.selectBox-dropdown-menu {border-color:transparent; padding:17px 0 9px; margin:5px 0 0 0; border: solid 1px rgba(0, 0, 0, 0.1) !important; box-shadow:0 1px 4px rgba(0, 0, 0, .2); -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, .2); -moz-box-shadow:0 1px 4px rgba(0, 0, 0, .2); border-radius:26px !important;}
+body ul.selectBox-dropdown-menu li {margin-bottom:10px; padding:0 27px;}
 body ul.selectBox-dropdown-menu li:first-child {display:none;}
 body ul.selectBox-dropdown-menu li::before {display:none;}
 body ul.selectBox-dropdown-menu li a {font-size:15px; line-height:24px; letter-spacing:normal; display:block; padding:0; white-space:nowrap; text-transform:capitalize; color:var(--body-text); overflow:hidden; text-overflow:ellipsis;}
-body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropdown-menu li a:hover {color:var(--anchor-hover); background-color:transparent; cursor:pointer; font-weight:500;}
+body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropdown-menu li a:hover {color:var(--text-violetblue); background-color:transparent; cursor:pointer; font-weight:500;}
 
 
 
