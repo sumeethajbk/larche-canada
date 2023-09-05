@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+.split-banner-section{background-color: var(violet); z-index: 1; clear: both; position: relative; width: 100%; padding: 222px 0 0;}
+.split-banner-section .container-lg{padding: 0;}
+.split-banner-main{  justify-content:  space-between;}
+.split-banner-text h1 {margin-bottom: 24px;}
+.optional-text{margin-bottom: 15px;}
+=======
 .split-banner-section{z-index: 1; clear: both; position: relative; width: 100%; padding: 120px 0 0 0; background:var(--violet); margin: 0 0 37px 0;}
 .split-banner-section .split-banner-main {justify-content:space-between; position: relative; min-height: 578px; align-items: center; padding: 40px 0; max-width: 1150px; margin: 0 auto;}
 .split-banner-section .split-banner-main .split-banner-txt {width:42%; margin:0 3% 3px 0; color: var(--white);}
@@ -8,6 +15,7 @@
 .split-banner-section .split-banner-main .split-banner-image .banner-img {position:absolute; display:flex; align-items:stretch; height:606px; width:606px; right: 0; bottom: -37px;}
 .split-banner-section .split-banner-main .split-banner-image .banner-img img {border-radius: 50%;}
 .split-banner-wrap {max-width: 1700px; margin: 0 auto;}
+>>>>>>> 16be7e3c24fc7d4f428785ab99aa92b7816c5fa9
 
 
 /*-- media starts here --*/
