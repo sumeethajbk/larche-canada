@@ -1,24 +1,30 @@
-.annual-report-module{background-color: var(--green); overflow: hidden;}
+.annual-report-module{overflow: hidden;}
 .annual-report-module .container-lg{padding: 0; overflow: hidden;}
-.annual-report-main{color: var(--white); position: relative;}
+.annual-report-main{background-color: var(--green); color: var(--white); position: relative;}
 
 .annual-report-text p{max-width: 424px;}
 .annual-report-text .optional-text {color: var(--white-50);}
 
 .h1 span{color: var(--orange); font-family: CCSignLanguage; font-size: 5.375rem; line-height: 5.125rem; transform: rotate(-3.56deg); display: block; margin-top: -27px; font-weight: 500;}
-.annual-report-icon{position: absolute; z-index: 1; top: 0; bottom: 0; margin: auto; display: flex; align-items: center; left: -125px;} 
+.annual-report-icon{width: 414px; height: 333px; position: absolute; z-index: 1; top: 0; bottom: 0; margin: auto; display: flex; align-items: center; left: -198px;} 
+.annual-report-icon svg{width: 100%; height: auto;}
 
-.annual-report-text{flex-grow: 1;  width: 30%; padding: 20px 0 0 22px;}
-.annual-report-image{width: calc(100% - 40.3%); position: relative; text-align: right;}
-.annual-report-thumb {clip-path: ellipse(100% 110% at 110% 50%); height: 100%;}
+.annual-report-image{position: relative; text-align: right;}
+.annual-report-thumb {clip-path: ellipse(100% 110% at 100% 50%); width: 100%; height: 100%;}
 .annual-txt {display: flex; flex-direction: column; align-items: flex-start; justify-content: center; height: 100%;}
+.annual-txt h3{color: var(--white);}
+.annual-btns{align-items: center; gap: 15px 30px;}
+.annual-btns .readmore{color: var(--white);}
 
 /*-- media css starts here --*/
-@media only screen and (min-width: 1300px) {
-    .annual-report-main{padding-left: 9.7%;} 
-
+@media only screen and (min-width: 1024px){
+    .annual-report-text{width: calc(100% - 581px); padding: 20px 105px 22px 91px;}
+    .annual-report-image{width: 581px; margin-left: auto;}
 }
-
+@media only screen and (max-width:1249px) and (min-width: 1024px){
+    .annual-report-text { width: calc(100% - 481px); max-width: 500px; padding: 50px 50px 60px 30px; }
+    .annual-report-image { width: 481px; }
+}
 @media only screen and (max-width:1023px) and (min-width:200px){
 	.annual-report-main{flex-direction: column-reverse;}
 	.annual-report-image{width: 100%; margin-bottom: 80px; position: relative;}
@@ -26,13 +32,12 @@
 	.annual-report-thumb {clip-path: ellipse(80% 99% at 50% 1%);}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
-    
-    
     .annual-report-icon{left: 0; right: 0; bottom: -130px; top: auto; width: 100%;}
     .annual-report-icon svg{display: block; margin: 0 auto; transform: rotate(-90deg);}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    .annual-report-icon{left: 0; right: 0; bottom: -86px; top: auto; width: 100%;}
-    .annual-report-icon svg{display: block; margin: 0 auto; transform: rotate(-90deg); width: 195px; height: auto;}
+    .annual-report-module .container{padding: 0;}
+    .annual-report-icon{left: 0; right: 0; bottom: -158px; top: auto; width: 100%;}
+    .annual-report-icon svg{display: block; margin: 0 auto; transform: rotate(-90deg); height: auto;}
     .h1 span{font-size: 4.125rem;}
 }
