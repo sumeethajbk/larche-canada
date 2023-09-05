@@ -21,5 +21,9 @@
 @media screen and (min-width: 1024px) {
 }
 
-@media screen and (max-width: 767px) and (min-width: 200px) {
+@media screen and (max-width: 1023px) and (min-width: 200px) {
+	.hero-banner-section .hero-banner-main .hero-banner-image .banner-img {bottom: -39px;}
+	.governance-shape-1 {width: 187px; height: 103px; top: -27px; right: 8px;}
+	.governance-shape-2 {width: 270px; height: 264px; bottom: -27px; left: -46px;}
+	.governance-shape-3 {width: 171px; height: 132px; bottom: 12px; right: -57px;}
 }
