@@ -28,4 +28,8 @@
 	.governance-shape-2 {width: 270px; height: 264px; bottom: -27px; left: -46px;}
 	.governance-shape-3 {width: 171px; height: 132px; bottom: 12px; right: -57px;}
 	
+	.intro-col-module {padding: 57px 0 12px 0;}
+	.community-grid-module {padding: 19px 0 24px;}
+	.directors-main {padding: 30px 0 0 0;}
+	.directors-mobile-btn {margin: 0 0 60px 0;}
 }
