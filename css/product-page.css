@@ -1,7 +1,7 @@
 @import url("../css/_intro-module.css");
 
-.product-section{ }
-.product-main{ padding: 95px 0 0; border-top: 2px dotted rgba(0,0,0,0.2);}
+.product-section hr{margin: 0;}
+.product-main{ padding: 95px 0 0;}
 .product-row{overflow: hidden;}
 .product-list{padding: 50px 60px 50px; position: relative; text-align: center;}
 .product-thumb{margin-bottom: 26px;}
@@ -56,10 +56,20 @@ body .selectBox-dropdown .selectBox-arrow{color: var(--text-violetblue);}
     .frm_field {flex: 1; max-width: 284px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
+    .product-main{padding: 50px 0 60px;}
     .product-row{gap: 30px;} 
     .product-list{flex: 0 0  calc(50% - 16px); padding: 0 0 30px;}
     .product-list h5{font-size: 1.063rem;}
     .product-list .number{margin-bottom: 0;}
     .product-thumb img{width: 120px; height: 120px;}
 
+    .product-sort{display: block; margin-bottom: 50px;}
+    .category-title{margin-bottom: 18px;}
+    .category-form{display: none; padding: 20px 0 0;}
+    .frm_field{margin-bottom: 20px;}
+    .frm-field:last-child{margin-bottom: 0;}
+    .filter-dropdown{position: relative; color: var(--text-violetblue); font-weight: bold; padding-bottom: 10px; border-bottom: 2px solid var(--text-violetblue); cursor: pointer;}
+    .filter-dropdown::after{content: "\f107"; font-size: 0.938rem; font-family: "Font Awesome 6 Sharp"; font-weight: 400; transition: all .3s ease-in-out; position: absolute; display: flex; align-items: center; flex-wrap: wrap; top: 0; bottom: 0; right: 0 }
+    .product-row .button{margin: -5px auto 0;}
+    .filter-dropdown.active::after{content: "\f107"; transform: translate(-50); transform: rotate(-180deg); position: absolute; top: 0; bottom: 0; font-family: "Font Awesome 6 Sharp";}
 }
