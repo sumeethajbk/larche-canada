@@ -194,7 +194,5 @@ img.alignnone {margin:50px 0 44px; display: block; clear: both;}
 	h3 {font-size: 1.875rem; line-height: 1.13;}
 	h4 {font-size: 1.313rem; line-height: 1.33; font-weight: 600;}
 
-	/*button, .button{font-size: 0.938rem; padding: 10px 36px 13px 20px;}
-	button::after, .button::after { right: 16px; font-size: 0.938rem; }
-	.outline-btn{border-width: 3px;}*/
+	
 }

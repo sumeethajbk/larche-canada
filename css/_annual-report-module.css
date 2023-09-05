@@ -28,7 +28,7 @@
 @media only screen and (max-width:1023px) and (min-width:200px){
 	.annual-report-main{flex-direction: column-reverse;}
 	.annual-report-image{width: 100%; margin-bottom: 80px; position: relative;}
-    .annual-report-text{width: 100%; padding: 0 20px 80px; display: block; margin: 0;}
+    .annual-report-text{width: 100%; padding: 0 20px 55px; display: block; margin: 0;}
 	.annual-report-thumb {clip-path: ellipse(80% 99% at 50% 1%);}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
@@ -40,4 +40,9 @@
     .annual-report-icon{left: 0; right: 0; bottom: -158px; top: auto; width: 100%;}
     .annual-report-icon svg{display: block; margin: 0 auto; transform: rotate(-90deg); height: auto;}
     .h1 span{font-size: 4.125rem;}
+    .annual-txt h3{max-width: 304px;}
+    .annual-report-image{margin-bottom: 50px;}
+    .annual-btns .button{font-size: 0.938rem; padding: 10px 36px 13px 20px;}
+	.annual-btns .button::after { right: 16px; font-size: 0.938rem; }
+	.annual-btns .outline-btn{border-width: 3px;}
 }
