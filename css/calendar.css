@@ -29,6 +29,7 @@ object-fit: cover; -o-object-position: 50% 50%; object-position: 50% 50%; transi
 
 .calendar-sidebar {width: calc(100% - 69.1%);}
 .side-bucket {padding: 58px 78px 62px 64px;}
+.side-bucket .optional-text{color: var(--white-20:);}
 .side-bucket a {text-decoration: none;}
 .side-bucket.violetblue {background: var(--violetblue); color: var(--white);}
 .side-bucket.violetblue h4 {color: var(--white);}
