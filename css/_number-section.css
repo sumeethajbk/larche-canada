@@ -4,20 +4,23 @@
 .number{font-family: CCSignLanguage; font-size: 6.375rem; line-height: 0.88; display: block; margin-bottom: 19px;}
 .number-title{font-size: 1.5rem; font-weight: bold; line-height: 1.33; display: block; margin-bottom: 5px;}
 .number-list p{margin-bottom: 21px;}
-.number-btn{font-size: 1.063rem; font-weight: bold; line-height: 1;}
+.number-btn{font-size: 1.063rem; font-weight: bold; line-height: 1; text-decoration: none;}
 
 
-.number-list.number-pink{background-color: rgba(255, 112, 128, 0.2); mix-blend-mode: multiply;}
-.number-list.number-pink .number{color: var(--pink);}
-.number-list.number-pink .number-btn{color: var(--pink);}
+.number-list.light-pink{background-color: rgba(255, 112, 128, 0.2); mix-blend-mode: multiply;}
+.number-list.light-pink .number{color: var(--pink);}
+.number-list.light-pink .number-btn{color: var(--pink);}
+.number-list.light-pink span svg path{fill: var(--pink);}
 
-.number-list.number-orange{background-color: rgba(255, 120, 0, 0.2); mix-blend-mode: multiply;}
-.number-list.number-orange .number{color: var(--orange);}
-.number-list.number-orange .number-btn{color: var(--orange);}
+.number-list.light-orange{background-color: rgba(255, 120, 0, 0.2); mix-blend-mode: multiply;}
+.number-list.light-orange .number{color: var(--orange);}
+.number-list.light-orange .number-btn{color: var(--orange);}
+.number-list.light-orange span svg path{fill: var(--orange);}
 
-.number-list.number--violet{background-color: rgba(51, 77, 181, 0.2); mix-blend-mode: multiply;}
-.number-list.number--violet .number{color: var(--text-violetblue);}
-.number-list.number--violet .number-btn{color: var(--text-violetblue);}
+.number-list.light-violet{background-color: rgba(51, 77, 181, 0.2); mix-blend-mode: multiply;}
+.number-list.light-violet .number{color: var(--text-violetblue);}
+.number-list.light-violet .number-btn{color: var(--text-violetblue);}
+.number-list.light-violet span svg path{fill: var(--text-violetblue);}
 
 @media screen and (min-width: 1024px) {
     .number-main{justify-content: center;}

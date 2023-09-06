@@ -132,4 +132,29 @@ jQuery(document).ready(function () {
 
   })
 
+  jQuery(".resource-filter-mobile").on("click", function(e){
+    e.preventDefault();
+    jQuery(this).toggleClass("active");
+    jQuery(this).next("ul.filter-list").slideToggle(900);
+
+  })
+
+  if(jQuery(window).width() <= 1023){
+    jQuery("ul.filter-list > li > a").on("click", function(e){
+      e.preventDefault();
+      jQuery(".resource-filter-mobile").removeClass("active");
+      jQuery("ul.filter-list").slideUp();
+      let content = jQuery(this).text();
+      jQuery(".resource-filter-mobile span.text").text(content);
+    })
+  }
+  
+
+  jQuery("ul.filter-list > li").on("click", function(e){
+    e.preventDefault();
+    jQuery("ul.filter-list > li.active").removeClass("active");
+    jQuery(this).addClass("active");
+  })
+  
+
 });
