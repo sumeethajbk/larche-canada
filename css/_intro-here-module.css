@@ -1,0 +1,17 @@
+.intro-here-module {clear: both; width: 100%; padding:102px 0 90px 0;}
+.intro-here-main {align-items: center;}
+.intro-here-lt {width: 41%; flex-grow: 1; margin: 0 7% 0 0;}
+.intro-here-lt span {position: relative; display: inline-block; color: rgba(26, 21, 100, 0.6); margin-bottom: 8px;}
+.intro-herte-lt span svg {position: absolute; bottom: -50px; right: -11px; width: 139px; height: 63px;}
+.intro-here-rt {flex-grow: 1; width: calc(100% - 51%); padding: 10px 0 0 0;}
+.intro-here-lt h2 span {position: relative; display: inline-block; font-size: 3.625rem; color: var(--orange); font-family: CCSignLanguage; transform: rotate(-3.56deg); }
+
+
+/* Responsive */
+@media only screen and (max-width: 1023px) and (min-width:200px){
+    .intro-here-module{padding: 68px 0 60px 0;}
+    .intro-here-lt h2{margin-bottom: 0;}
+    .intro-here-lt h2 span{font-size: 3rem;}
+	.intro-here-lt {width: 100%; margin: 0 0 6px 0;}
+	.intro-col-here-lt .button {margin: 19px 0 0 0;}
+}
