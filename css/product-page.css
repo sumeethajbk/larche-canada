@@ -33,9 +33,11 @@ body .selectBox-dropdown .selectBox-arrow{color: var(--text-violetblue);} */
 @media only screen and (min-width: 1024px){
     
     .product-list{flex: 0 0 25%;}
+    .product-list:nth-child(4n+1), .product-list:nth-child(4n+4) {flex: 0 0 24.2%;}
     .product-list:nth-child(-n+4){padding-top: 0;}
     .product-list:nth-child(-n+4)::before{display: none;}
     .product-list:nth-child(4n+4)::after{display: none;}
+    .product-list:nth-last-child(-n+4){padding-bottom: 0;}
 
     .product-sort{gap: 20px; align-items: center;}
     .category-title{flex: 0 0 250px;}
