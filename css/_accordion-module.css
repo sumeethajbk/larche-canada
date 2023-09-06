@@ -2,7 +2,7 @@
 .accordion {margin: 10px 0;}
 .accordion-item{position: relative; background: var(--light-blue);}
 
-.accordion-item .heading{font-size: 1.125rem; font-weight: 600; padding:21px 70px 24px 70px; display: block; color:#25282a;}
+.accordion-item .heading{font-size: 1.125rem; font-weight: 600; padding:21px 70px 24px 70px; display: block; color:#25282a; text-decoration: none;}
 .accordion-item .heading:after{content: ""; display:inline-block; width:35px; height:35px; background:linear-gradient(#fff 0 0),
     linear-gradient(#fff 0 0), var(--text-violetblue); background-position:center; background-size: 14px 2px,2px 14px; /*thickness = 2px, length = 50% (25px)*/  background-repeat:no-repeat; border-radius:50%; position: absolute; left:19px; top: 19px;}
 

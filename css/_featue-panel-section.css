@@ -17,6 +17,11 @@
 
 /* text-violetblue */
 .feature-panel-section.text-violetblue{background-color: var(--text-violetblue);}
+.feature-panel-section.text-violetblue.pink-shape svg path {fill: var(--pink);}
+
+
+/* Orange */
+.feature-panel-section.text-violetblue.orange-shape svg path {fill: var(--orange);}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1300px) {
