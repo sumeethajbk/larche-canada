@@ -1,0 +1,20 @@
+.split-main {justify-content: space-between;}
+.split-lt {width:65.45%;}
+
+.sidebar {width: calc(100% - 69.1%);}
+.side-bucket {padding: 52px 78px 62px 64px; position: relative;}
+.side-bucket .optional-text{color: var(--white-50); margin: 0 0 15px 0;}
+.side-bucket a {text-decoration: none;}
+.side-bucket.violetblue {background: var(--violetblue); color: var(--white);}
+.side-bucket.violetblue h4 {color: var(--white);}
+.side-bucket.violetblue h4 a {color: var(--white);}
+.side-bucket.violetblue h4 a:hover {color: var(--white-50);}
+.side-bucket .button.sm {padding: 10px 44px 13px 20px;}
+.side-bucket .button.sm:after {right: 26px!important;}
+.side-shape {top: -39px; right: -46px; width: 117px; height: 129px;}
+.side-shape svg {width: 100%; height: 100%; object-fit: contain}
+
+/*-- media css starts here --*/
+@media only screen and (max-width: 1299px) and (min-width: 1024px) {
+	.side-bucket {padding: 52px 25px 62px 25px;}
+}
