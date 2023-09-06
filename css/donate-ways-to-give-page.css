@@ -1,8 +1,9 @@
 @import url("../css/default-page.css");
+@import url("../css/_split-banner.css");
 
 
 
-.donate-grid-main{}
+
 .donate-grid-row{}
 .donate-grid-list{  position: relative; -webkit-transition: background-color 500ms linear; -ms-transition: background-color 500ms linear; transition: background-color 500ms linear;}
 .donate-grid-svg{position: absolute; opacity: 0;}
@@ -37,6 +38,7 @@
 /*-- media css starts here --*/
 
 @media only screen and (min-width: 1024px) {
+    .donate-grid-main{padding-top: 24px;}
     .donate-grid-row{gap: 50px}
     .donate-grid-list{flex: 0 0 calc(33.33% - 34px); padding: 44px 50px;}
     .donate-btns{gap: 20px;}
@@ -44,6 +46,7 @@
 
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .donate-grid-main{padding-top: 24px;}
     .donate-grid-row {gap: 25px;}
     .donate-grid-list {flex: 0 0 calc(33.33% - 17px); padding: 30px 25px;}
     .donate-grid-svg-1{top: -47px; left: -34px; width: 60px; height: 85px;}
