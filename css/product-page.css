@@ -1,10 +1,12 @@
 @import url("../css/_intro-module.css");
 @import url("../css/_split-banner.css");
 
+
+.intro-module {padding: 60px 0 70px;}
 .product-section hr{margin: 0;}
-.product-main{ padding: 95px 0 0;}
+.product-main{ padding: 92px 0 0;}
 .product-row{overflow: hidden;}
-.product-list{padding: 50px 60px 50px; position: relative; text-align: center;}
+.product-list{padding: 50px 70px 45px 60px; position: relative; text-align: center;}
 .product-thumb{margin-bottom: 26px;}
 .product-thumb img{width: 168px; height: 168px; border-radius: 50%;}
 .product-list h5{max-width: 219px; margin-bottom: 12px;}
