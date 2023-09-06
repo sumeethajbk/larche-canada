@@ -6,7 +6,7 @@
 .product-row{overflow: hidden;}
 .product-list{padding: 50px 60px 50px; position: relative; text-align: center;}
 .product-thumb{margin-bottom: 26px;}
-.product-thumb img{width: 168px; height: 168px;}
+.product-thumb img{width: 168px; height: 168px; border-radius: 50%;}
 .product-list h5{max-width: 219px; margin-bottom: 12px;}
 .product-list .number{color: var(--text-violetblue); font-size: 1.313rem; font-weight: bold; margin-bottom: 10px;}
 .product-list .blue{color: var(--text-violetblue);}
