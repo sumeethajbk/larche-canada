@@ -17,8 +17,6 @@
 .split-banner-wrap .split-banner-two{width: 164px; height: 164px; right: 53px; top: 29px;}
 .split-banner-wrap .split-banner-three{width: 164px; height: 164px; bottom: 38px; left: 262px;}
 .split-banner-wrap .split-banner-four{width: 197px; height: 197px; bottom: -36px; right: 44px;}
-
-
 .split-banner-wrap {max-width: 1700px; margin: 0 auto;}
 
 /*-- media starts here --*/
@@ -26,37 +24,33 @@
 	.split-banner-wrap .split-banner-one{left: 130px;}
 	.split-banner-wrap .split-banner-three{left: 187px;}
 }
-
 @media only screen and (max-width: 1023px) and (min-width: 200px){
 	.split-banner-section {padding: 80px 0 0 0;}
 	.split-banner-section .split-banner-main {align-items: flex-start; min-height: inherit; padding:57px 0 0;}
 	.split-banner-section .split-banner-txt{padding-left: 0; width: 100%;}
 	
 	.split-banner-section .split-banner-main .split-banner-txt .optional-text {margin: 0 0 10px 0;}
-	.split-banner-section .split-banner-main .split-banner-txt p {margin-bottom: 18px;}
-	
-	
-	
+	.split-banner-section .split-banner-main .split-banner-txt p {margin-bottom: 18px;}	
 }
-
 @media only screen and (max-width: 1023px) and (min-width:768px){
 	.split-banner-section .split-banner-txt{max-width: 450px;}
 	.split-banner-section .split-banner-main .split-banner-image {width: 100%; margin: 26px 0 0 -56px;}
 	.split-banner-wrap .split-banner-three{left: 240px; bottom: -31px;}
 	.split-banner-wrap .split-banner-four{bottom: -91px;}
 }
-
 @media only screen and (max-width: 767px) and (min-width: 200px){
 	.split-banner-section .container{padding: 0;} 
-	.split-banner-section .container .split-banner-txt{padding: 0 20px;}
-	.split-banner-section .split-banner-txt {margin:0 0 44px 0;}
+	.split-banner-section .split-banner-txt {margin:0 0 47px 0; padding: 0 20px;}
 	.split-banner-section .split-banner-txt h1 span {font-size: 4.25rem; line-height: 3rem;}
-	.split-banner-section .split-banner-main .split-banner-image { position: relative; min-height: 226px; width: 100%;}
-	.split-banner-section .split-banner-image .split-banner-bg{width: 390px; height: 252px; margin: 0 auto; left: 0; right: 0;}
+	.split-banner-section .split-banner-main .split-banner-image { position: relative; min-height: 215px; width: 100%; max-width: 390px; margin: 0 auto;}
+	.split-banner-section .split-banner-image .split-banner-bg{margin: 0 auto; left: -74px; right: 0; min-width: 470px;}
 	.split-banner-section .split-banner-image .split-banner-bg img {height: auto; max-width: 100%;}
-	.split-banner-image .split-image-wrap{max-width: 390px; min-height: 252px; position: relative; margin: 0 auto;}
+	.split-banner-image .split-image-wrap{max-width: 390px; min-height: 215px; position: relative; margin: 0 auto;}
 	.split-banner-wrap .split-banner-one{width: 109px; height: 109px; left: 20px; top: -3px;}
-    .split-banner-wrap .split-banner-two{width: 98.5px; height: 98.5px; right: 6px; top: 29px;}
-    .split-banner-wrap .split-banner-three{width: 98.5px; height: 98.5px; bottom: 38px; left: 0;}
-    .split-banner-wrap .split-banner-four{width: 118px; height: 118px; bottom: -36px; right: 44px;}
+    .split-banner-wrap .split-banner-two{width: 98.5px; height: 98.5px; right: 22px; top: 29px;}
+    .split-banner-wrap .split-banner-three{width: 98.5px; height: 98.5px; bottom: -21px; left: 84px;}
+    .split-banner-wrap .split-banner-four{width: 118px; height: 118px; bottom: -74px; right: 23px;}
+}
+@media only screen and (max-width: 370px) and (min-width: 200px){
+	.split-banner-wrap .split-banner-three{left: 42px;}
 }
