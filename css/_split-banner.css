@@ -15,31 +15,10 @@
 .split-banner-section .split-banner-image .split-banner-bg {left: -15px; z-index: -1;}
 .split-banner-section .split-banner-image .split-banner-bg img{width: 783px; height: 429px;}
 .split-image-wrap img{border-radius: 50%;}
-<<<<<<< HEAD
-.split-banner-wrap .split-banner-one{width: 182px;
-  height: 182px;
-  left: 141px;
-  top: -8px;}
-.split-banner-wrap .split-banner-two{width: 164px;
-  height: 164px;
-  right: 59px;
-  top: 31px;}
-.split-banner-wrap .split-banner-three{width: 164px;
-  height: 164px;
-  bottom: 39px;
-  left: 250px;}
-.split-banner-wrap .split-banner-four{width: 197px;
-  height: 197px;
-  bottom: -37px;
-  right: 50px;}
-
-
-=======
 .split-banner-wrap .split-banner-one{width: 184px; height: 184px; left: 151px; top: -11px;}
 .split-banner-wrap .split-banner-two{width: 164px; height: 164px; right: 53px; top: 29px;}
 .split-banner-wrap .split-banner-three{width: 164px; height: 164px; bottom: 38px; left: 262px;}
 .split-banner-wrap .split-banner-four{width: 197px; height: 197px; bottom: -36px; right: 44px;}
->>>>>>> 8f40d43d82f787f45700ba6a1ad4104ad131a348
 .split-banner-wrap {max-width: 1700px; margin: 0 auto;}
 
 /*-- media starts here --*/
@@ -74,9 +53,9 @@
 	.split-banner-section .split-banner-image .split-banner-bg img {height: auto; max-width: 100%;}
 	.split-banner-image .split-image-wrap{max-width: 390px; min-height: 215px; position: relative; margin: 0 auto;}
 	.split-banner-wrap .split-banner-one{width: 109px; height: 109px; left: 20px; top: -3px;}
-    .split-banner-wrap .split-banner-two{width: 98.5px; height: 98.5px; right: 22px; top: 29px;}
+    .split-banner-wrap .split-banner-two{width: 98.5px; height: 98.5px; right: 22px; top: 19px;}
     .split-banner-wrap .split-banner-three{width: 98.5px; height: 98.5px; bottom: -21px; left: 84px;}
-    .split-banner-wrap .split-banner-four{width: 118px; height: 118px; bottom: -74px; right: 23px;}
+    .split-banner-wrap .split-banner-four{width: 118px; height: 118px; bottom: -65px; right: 23px;}
 }
 @media only screen and (max-width: 370px) and (min-width: 200px){
 	.split-banner-wrap .split-banner-three{left: 42px;}
