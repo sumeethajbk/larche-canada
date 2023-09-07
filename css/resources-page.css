@@ -1,1 +1,4 @@
 @import url("../css/_intro-here-module.css");
+@import url("../css/_resources-module.css");
+
+.intro-here-module{padding: 92px 0 65px 0;}
