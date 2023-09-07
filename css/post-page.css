@@ -5,7 +5,7 @@
 .general-default-article-section {padding: 50px 0 100px}
 
 
-.breadcrumb {clear: both; width: 100%;}
+.breadcrumb {clear: both; width: 100%; margin:2px 0 -5px 0;}
 .breadcrumb ul {margin: 0; font-size: 0;}
 .breadcrumb ul li {display: inline-block; font-size: 0.875rem; font-weight: 600; color: rgba(26, 21, 100, 0.6); margin: 0;}
 .breadcrumb ul li:before {left: inherit; top: inherit; content: ""; width: 5px; height: 5px; border-radius: 50%; background:rgba(26, 21, 100, 0.6); position: relative; margin: 0 21px; display: inline-block; vertical-align: middle;}
