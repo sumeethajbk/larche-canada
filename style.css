@@ -121,7 +121,7 @@ transform: rotate(35deg);  position: absolute; top: -5px; left: -31px;}
 
 
 /* Featured Category */
-.banner-category {}
+.banner-category, .banner-category a {display: inline-block; text-transform: uppercase; font-size: 0.688rem; letter-spacing: 1.65px; color: var(--violet); font-weight: 700; padding: 6px 15px 7px 16px; border-radius: 90px; margin:0 0 20px 0; line-height: 1.36; text-decoration: none; background: var(--white);}
 
 /* Default Slick navigations */
 .slick-arrow{top:0; left: 0; right: 0; position: absolute; display: flex!important; align-items: center; justify-content: center; cursor: pointer; transition: all 0.3s ease-in-out; z-index: 2; line-height: normal; width: 20px; height: 20px;bottom: 0; margin: auto; border-top: 2px solid var(--black); border-left: 2px solid var(--black);}
