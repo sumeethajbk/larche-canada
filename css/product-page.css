@@ -1,5 +1,6 @@
 @import url("../css/_intro-module.css");
 @import url("../css/_split-banner.css");
+@import url("../css/_common-cta-section.css");
 
 
 .intro-module {padding: 60px 0 70px;}
@@ -20,7 +21,7 @@ body .category-form .selectBox-dropdown .selectBox-label{font-size: 1.063rem;} *
 /* .selectBox-dropdown-menu li a{text-decoration: none;}
 body .selectBox-dropdown .selectBox-arrow{color: var(--text-violetblue);} */
 
-.product-btn {margin: 50px auto 0;}
+.product-btn {text-align: center; margin: 50px 0 100px;} 
 .product-btn .button::after{content: "\f107";}
 
 /* media starts here */
