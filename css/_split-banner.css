@@ -25,7 +25,6 @@
 	.split-banner-bg{min-width: 755px; right: 0; bottom: 0;}
 }
 @media only screen and (max-width: 1299px) and (min-width:1024px){
-   
     .split-banner-bg { right: -70px; bottom: -30px; }
     .split-banner-wrap .split-banner-one{left: 130px;}
     .split-banner-wrap .split-banner-three{left: 187px;}
@@ -48,7 +47,6 @@
 	.split-banner-wrap .split-banner-four{bottom: -91px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
-    
     .split-banner-section .container{padding: 0;}
     .split-banner-section .split-banner-txt {margin:0 0 47px 0; padding: 0 20px;}
     .split-banner-section .split-banner-txt h1 span {font-size: 4.25rem; line-height: 3rem;}
