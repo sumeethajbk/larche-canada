@@ -1,10 +1,13 @@
 @import url("../css/_intro-module.css");
 @import url("../css/_split-banner.css");
+@import url("../css/_common-cta-section.css");
 
+
+.intro-module {padding: 60px 0 70px;}
 .product-section hr{margin: 0;}
-.product-main{ padding: 95px 0 0;}
+.product-main{ padding: 92px 0 0;}
 .product-row{overflow: hidden;}
-.product-list{padding: 50px 60px 50px; position: relative; text-align: center;}
+.product-list{padding: 50px 70px 45px 60px; position: relative; text-align: center;}
 .product-thumb{margin-bottom: 26px;}
 .product-thumb img{width: 168px; height: 168px; border-radius: 50%;}
 .product-list h5{max-width: 219px; margin-bottom: 12px;}
@@ -18,8 +21,8 @@ body .category-form .selectBox-dropdown .selectBox-label{font-size: 1.063rem;} *
 /* .selectBox-dropdown-menu li a{text-decoration: none;}
 body .selectBox-dropdown .selectBox-arrow{color: var(--text-violetblue);} */
 
-.product-row .button{margin: 50px auto 0;}
-.product-row .button::after{content: "\f107";}
+.product-btn {text-align: center; margin: 50px 0 100px;} 
+.product-btn .button::after{content: "\f107";}
 
 /* media starts here */
 
@@ -31,9 +34,11 @@ body .selectBox-dropdown .selectBox-arrow{color: var(--text-violetblue);} */
 @media only screen and (min-width: 1024px){
     
     .product-list{flex: 0 0 25%;}
+    .product-list:nth-child(4n+1), .product-list:nth-child(4n+4) {flex: 0 0 24.2%;}
     .product-list:nth-child(-n+4){padding-top: 0;}
     .product-list:nth-child(-n+4)::before{display: none;}
     .product-list:nth-child(4n+4)::after{display: none;}
+    .product-list:nth-last-child(-n+4){padding-bottom: 0;}
 
     .product-sort{gap: 20px; align-items: center;}
     .category-title{flex: 0 0 250px;}
