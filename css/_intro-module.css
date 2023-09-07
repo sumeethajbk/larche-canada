@@ -11,5 +11,8 @@
 	.intro-col-lt .button {margin: 19px 0 0 0;}
 }
 @media only screen and (max-width: 767px) and (min-width:200px){
-.intro-lt span svg  {bottom: -30px; right: -14px; width: 116px; height: 45px;}
+	.intro-lt h2{margin-bottom: 13px;}
+	.intro-lt .hide-in-mobile{display: block;}
+	.intro-lt .hide-in-desktop{display: none;}
+    .intro-lt span svg  {bottom: -30px; right: -14px; width: 129px; height: 46px;}
 }
