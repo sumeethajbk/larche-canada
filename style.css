@@ -268,7 +268,10 @@ body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropd
 
 
 .fixed-social-icons { padding:4px 0 4px;}
-.fixed-social-icons .at-share-btn-elements .at-share-btn {display: block; cursor: pointer; background-color: #e87722 !important; background-repeat: no-repeat; background-position: center; color: #ffffff; width: 64px; height: auto; padding: 0; margin:12px auto; -moz-transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; line-height: 1.5;}
+.fixed-social-icons .at-share-btn-elements .at-share-btn {width: 34px; height: 34px; font-size: 0.825rem; line-height: 1.5; color: var(--h4);
+  position: relative;
+  z-index: 1;
+  text-decoration: none;}
 
 .fixed-social-icons .at-share-btn-elements .at-svc-twitter:after {content: "\f099"; font-family: "Font Awesome 6 Brands"; font-weight: 400; font-size: 1.5rem; margin:0 auto; transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; vertical-align: middle; display: inline-block;}
 .fixed-social-icons .at-share-btn-elements .at-svc-facebook:after {content: "\f39e"; font-family: "Font Awesome 6 Brands"; font-weight: 400; font-size: 1.5rem; margin:0 auto; transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; vertical-align: middle; display: inline-block;}
