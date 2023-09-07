@@ -8,7 +8,7 @@
 .split-banner-section .split-banner-txt {width: 38.8%; margin:0 0 30px 0; color: var(--white); padding-left: 66px;}
 .split-banner-section .split-banner-txt .optional-text {color:var(--white-50); margin-bottom: 6px;}
 .split-banner-section .split-banner-txt h1 {color: var(--white); margin-bottom: 20px;}
-.split-banner-section .split-banner-txt h1 span{font-size: 7.25rem; line-height: 6rem; margin-left: -3px; color: var(--pink); font-family: CCSignLanguage; letter-spacing: normal; font-weight: normal; display: block; transform: rotate(-1.25deg); margin-top: -2px;}
+.split-banner-section .split-banner-txt h1 span{font-size: 7.25rem; line-height: 6rem; margin-left: -3px; color: var(--pink); font-family: CCSignLanguage; letter-spacing: normal; font-weight: normal; display: block; transform: rotate(-1.25deg); margin-top: 3px;}
 .split-banner-section .split-banner-txt p {font-size: 1.125rem; line-height: 1.39; font-weight: 600;}
 .split-banner-section .split-banner-image {width: 61.2%; min-height: 428px; margin: 8px 0 0 0;}
 .split-banner-section .split-banner-image .split-banner-bg {left: -15px; z-index: -1;}
