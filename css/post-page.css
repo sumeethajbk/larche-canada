@@ -2,6 +2,7 @@
 @import url("../css/_split-module.css");
 
 .hero-banner-section {margin: 0; background: var(--text-violetblue);}
+.hero-banner-section .hero-banner-main {max-width: 100%;}
 .general-default-article-section {padding: 50px 0 100px}
 
 
