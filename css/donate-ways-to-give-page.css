@@ -1,7 +1,6 @@
-@import url("../css/default-page.css");
+@import url("../css/_intro-module.css");
 @import url("../css/_split-banner.css");
 
-.split-banner-section .split-banner-image{margin: -50px -50px 0 0;}
 
 
 .donate-grid-row{}
@@ -34,7 +33,7 @@
 .donate-grid-list:hover  .outline-btn.orange{color: var(--orange);}
 .donate-grid-list:hover  .outline-btn.violet{color: var(--violet);} 
  
-
+footer#main_footer {border-top: 1px solid rgba(0, 0, 0, 0.1);}
 /*-- media css starts here --*/
 
 @media only screen and (min-width: 1024px) {
@@ -43,6 +42,7 @@
     .donate-grid-list{flex: 0 0 calc(33.33% - 34px); padding: 44px 50px;}
     .donate-btns{gap: 20px;}
 
+    .split-banner-section .split-banner-image{margin: -50px -50px 0 0;}
 
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
@@ -55,6 +55,9 @@
     .donate-btns .button{padding: 7px 27px 12px 14px;}
     .donate-btns .button::after{top: -1px; right: 13px;}
 
+    .split-banner-section .split-banner-txt {width: 35.8%;}
+    .split-banner-section .split-banner-image{margin: -50px 0 0; width: 64.2%;}
+    
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .donate-grid-row{gap: 30px;}
