@@ -4,6 +4,7 @@
 @import url("../css/_nav-filter-module.css");
 
 .calendar-container {clear: both; position: relative; z-index: 1; padding: 50px 0;}
+.heading {padding: 0 0 26px;}
 .heading-lt {width: 50%;}
 .heading-lt h3 {color: var(--black);}
 .heading-rt {width:calc(100% - 50%);}
@@ -29,6 +30,8 @@ object-fit: cover; -o-object-position: 50% 50%; object-position: 50% 50%; transi
 .split-lt .btn .button:after {content: "\f107";}
 .split-lt .btn .button:hover::after {animation-name: bounceAlphadown; animation-duration: 1.4s; animation-iteration-count: infinite;  animation-timing-function: linear;}
 
+.calendar-wrap {margin: -25px 0 0 0;}
+.sidebar {margin: 91px 0 0 0;}
 
 
 /*-- media css starts here --*/
@@ -44,7 +47,25 @@ object-fit: cover; -o-object-position: 50% 50%; object-position: 50% 50%; transi
 
 @media only screen and (max-width: 1023px) and (min-width: 768px) {
 	
+	.single-news .news-content {padding: 60px 40px 60px 40px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px) {
+	.calendar-container {padding:67px 0 60px;}
+	.calendar-wrap {margin: 0;}
+	.heading {padding: 0 0 28px;}
+	.heading-lt {width: 100%; margin: 0 0 16px 0;}
+	.heading-rt {width: 100%;}
+	.heading-rt .search-form {max-width: 100%;}
+	.single-news  {padding: 20px 20px 19px; background: var(--light-grey);}
+	.single-news .news-thumb {width: 75px; height: 72px;}
+	.single-news .news-content {padding: 0 0 0 20px; width: calc(100% - 75px);}
+	.single-news .news-content h4 {font-size: 0.938rem; line-height: 1.47; padding: 0;}
+	.single-news .news-content .cat-wrap {border: 0 none; padding: 0; margin: 0 0 11px 0;}
+	.cat-date {width: 100%; text-align: left; margin: 9px 0 0 0;}
+	
+	.sidebar {margin: 0;}
+	.split-lt .btn {margin: 30px 0 0 0;}
+	
 	
 }
+
