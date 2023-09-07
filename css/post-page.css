@@ -1,0 +1,28 @@
+@import url("../css/default-page.css");
+@import url("../css/_split-module.css");
+
+.hero-banner-section {margin: 0; background: var(--text-violetblue);}
+.general-default-article-section {padding: 50px 0 100px}
+
+
+.breadcrumb {clear: both; width: 100%;}
+.breadcrumb ul {margin: 0;}
+.breadcrumb ul li {display: inline-block; font-size: 0.875rem; font-weight: 600; color: rgba(26, 21, 100, 0.6);}
+.breadcrumb ul li:before {left: inherit; top: 13px; content: ""; width: 5px; height: 5px; border-radius: 50%; background:rgba(26, 21, 100, 0.6); position: relative;}
+.breadcrumb ul li:first-child:before {display: none;}
+.breadcrumb ul li a {text-decoration: none; font-size: 0.875rem; color:var(--text-violetblue);}
+
+/*-- media css starts here --*/
+@media only screen and (max-width: 1299px) and (min-width: 1024px) {
+	
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 200px) {
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+	
+}
+@media only screen and (max-width: 767px) and (min-width: 200px) {
+	
+}

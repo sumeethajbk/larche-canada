@@ -1,5 +1,6 @@
 @import url("../css/_intro-module.css");
 @import url("../css/_split-banner.css");
+@import url("../css/_common-cta-section.css");
 
 
 .intro-module {padding: 60px 0 70px;}
@@ -20,8 +21,8 @@ body .category-form .selectBox-dropdown .selectBox-label{font-size: 1.063rem;} *
 /* .selectBox-dropdown-menu li a{text-decoration: none;}
 body .selectBox-dropdown .selectBox-arrow{color: var(--text-violetblue);} */
 
-.product-row .button{margin: 50px auto 0;}
-.product-row .button::after{content: "\f107";}
+.product-btn {text-align: center; margin: 50px 0 100px;} 
+.product-btn .button::after{content: "\f107";}
 
 /* media starts here */
 
@@ -62,7 +63,7 @@ body .selectBox-dropdown .selectBox-arrow{color: var(--text-violetblue);} */
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .product-main{padding: 50px 0 60px;}
-    .product-row{gap: 30px;} 
+    .product-row{gap: 30px; padding-bottom: 27px;} 
     .product-list{flex: 0 0  calc(50% - 16px); padding: 0 0 30px;}
     .product-list h5{font-size: 1.063rem;}
     .product-list .number{margin-bottom: 0;}
@@ -75,6 +76,6 @@ body .selectBox-dropdown .selectBox-arrow{color: var(--text-violetblue);} */
     .frm-field:last-child{margin-bottom: 0;}
     .filter-dropdown{position: relative; color: var(--text-violetblue); font-weight: bold; padding-bottom: 10px; border-bottom: 2px solid var(--text-violetblue); cursor: pointer;}
     .filter-dropdown::after{content: "\f107"; font-size: 0.938rem; font-family: "Font Awesome 6 Sharp"; font-weight: 400; transition: all .3s ease-in-out; position: absolute; display: flex; align-items: center; flex-wrap: wrap; top: 0; bottom: 0; right: 0 }
-    .product-row .button{margin: -5px auto 0;}
+    .product-btn {margin: 0;}
     .filter-dropdown.active::after{content: "\f107"; transform: translate(-50); transform: rotate(-180deg); position: absolute; top: 0; bottom: 0; font-family: "Font Awesome 6 Sharp";}
 }

@@ -6,9 +6,10 @@
 .side-bucket .optional-text{color: var(--white-50); margin: 0 0 15px 0;}
 .side-bucket a {text-decoration: none;}
 .side-bucket.violetblue {background: var(--violetblue); color: var(--white);}
-.side-bucket.violetblue h4 {color: var(--white);}
-.side-bucket.violetblue h4 a {color: var(--white);}
-.side-bucket.violetblue h4 a:hover {color: var(--white-50);}
+.side-bucket.green {background: var(--green); color: var(--white);}
+.side-bucket h4 {color: var(--white);}
+.side-bucket h4 a {color: var(--white);}
+.side-bucket h4 a:hover {color: var(--white-50);}
 .side-bucket .button.sm {padding: 10px 44px 13px 20px;}
 .side-bucket .button.sm:after {right: 26px!important;}
 .side-shape {top: -39px; right: -46px; width: 117px; height: 129px;}
@@ -17,4 +18,21 @@
 /*-- media css starts here --*/
 @media only screen and (max-width: 1299px) and (min-width: 1024px) {
 	.side-bucket {padding: 52px 25px 62px 25px;}
+}
+
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+	.side-bucket {width: 422px; margin-left: -22px;}
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 200px) {
+	.split-lt {width: 100%;}
+	.sidebar {width: 100%;}
+	.side-bucket {width: 338px; margin-left: -22px; padding:53px 32.2px 62px 25.8px;}
+}
+
+@media only screen and (max-width: 767px) and (min-width: 200px) {
+	.split-lt {margin: 0 0 60px 0;}
+	.side-bucket h4 {font-size: 1.625rem; line-height: 1.23; margin-bottom: 20px;}
+	.side-bucket .optional-text {margin: 0 0 14px 0;}
 }

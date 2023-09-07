@@ -4,13 +4,15 @@
 .split-banner-text h1 {margin-bottom: 24px;}
 .optional-text{margin-bottom: 15px;}
 .split-banner-section{z-index: 1; clear: both; position: relative; width: 100%; padding: 120px 0 0 0; background:var(--violet); margin: 0 0 37px 0;}
-.split-banner-section .split-banner-main {justify-content:space-between; position: relative; min-height: 578px; align-items: center; padding: 40px 0; max-width: 1229px; margin: 0 auto;}
-.split-banner-section .split-banner-txt {width: 38.5%; margin:0 0 30px 0; color: var(--white); padding-left: 43px;}
+.split-banner-section .split-banner-main {justify-content:space-between; position: relative; min-height: 578px; align-items: center; padding: 40px 0; max-width: 1260px; margin: 0 auto;}
+.split-banner-section .split-banner-txt {width: 38.8%; margin:0 0 30px 0; color: var(--white); padding-left: 66px;}
 .split-banner-section .split-banner-txt .optional-text {color:var(--white-50); margin-bottom: 6px;}
-.split-banner-section .split-banner-txt h1 {color: var(--white); margin-bottom: 18px;}
+.split-banner-section .split-banner-txt h1 {color: var(--white); margin-bottom: 20px;}
 .split-banner-section .split-banner-txt h1 span{font-size: 7.25rem; line-height: 6rem; margin-left: -3px; color: var(--pink); font-family: CCSignLanguage; letter-spacing: normal; font-weight: normal; display: block; transform: rotate(-1.25deg); margin-top: -2px;}
 .split-banner-section .split-banner-txt p {font-size: 1.125rem; line-height: 1.39; font-weight: 600;}
-.split-banner-section .split-banner-image {width: 61.5%; min-height: 428px;}
+.split-banner-section .split-banner-image {width: 61.2%; min-height: 428px; margin: 8px 0 0 0;}
+
+.split-banner-section .split-banner-image .split-banner-bg {left: -15px; z-index: -1;}
 .split-banner-section .split-banner-image .split-banner-bg img{width: 783px; height: 429px;}
 .split-image-wrap img{border-radius: 50%;}
 .split-banner-wrap .split-banner-one{width: 184px; height: 184px; left: 151px; top: -11px;}
@@ -51,9 +53,9 @@
 	.split-banner-section .split-banner-image .split-banner-bg img {height: auto; max-width: 100%;}
 	.split-banner-image .split-image-wrap{max-width: 390px; min-height: 215px; position: relative; margin: 0 auto;}
 	.split-banner-wrap .split-banner-one{width: 109px; height: 109px; left: 20px; top: -3px;}
-    .split-banner-wrap .split-banner-two{width: 98.5px; height: 98.5px; right: 22px; top: 29px;}
+    .split-banner-wrap .split-banner-two{width: 98.5px; height: 98.5px; right: 22px; top: 19px;}
     .split-banner-wrap .split-banner-three{width: 98.5px; height: 98.5px; bottom: -21px; left: 84px;}
-    .split-banner-wrap .split-banner-four{width: 118px; height: 118px; bottom: -74px; right: 23px;}
+    .split-banner-wrap .split-banner-four{width: 118px; height: 118px; bottom: -65px; right: 23px;}
 }
 @media only screen and (max-width: 370px) and (min-width: 200px){
 	.split-banner-wrap .split-banner-three{left: 42px;}
