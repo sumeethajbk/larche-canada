@@ -120,6 +120,9 @@ transform: rotate(35deg);  position: absolute; top: -5px; left: -31px;}
 .cat-date {font-size: 0.813rem; font-weight: 500; color: rgba(26, 21, 100, 0.6); letter-spacing: 0.15px; width: calc(100% - 75%); text-align: right; margin: 5px 0 0 0;}
 
 
+/* Featured Category */
+.banner-category {}
+
 /* Default Slick navigations */
 .slick-arrow{top:0; left: 0; right: 0; position: absolute; display: flex!important; align-items: center; justify-content: center; cursor: pointer; transition: all 0.3s ease-in-out; z-index: 2; line-height: normal; width: 20px; height: 20px;bottom: 0; margin: auto; border-top: 2px solid var(--black); border-left: 2px solid var(--black);}
 .slick-arrow:hover {border-color: var(--text-violetblue);}
@@ -267,15 +270,18 @@ body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropd
 .light-red {background: var(--light-red);}
 
 
-.fixed-social-icons { padding:4px 0 4px;}
-.fixed-social-icons .at-share-btn-elements .at-share-btn {display: block; cursor: pointer; background-color: #e87722 !important; background-repeat: no-repeat; background-position: center; color: #ffffff; width: 64px; height: auto; padding: 0; margin:12px auto; -moz-transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; line-height: 1.5;}
+.fixed-social-icons { display: flex; align-items: center; flex-wrap: wrap;}
+.fixed-social-icons .share-text {font-size: 0.813rem; color: rgba(0, 7, 51, 0.5); line-height: 1.69; font-weight: 600;}
+.fixed-social-icons .at-share-btn-elements .at-share-btn {width: 34px; height: 34px; color: var(--h4);
+  position: relative; z-index: 1; text-decoration: none; border-radius: 50%!important; background-color: rgb(238, 241, 251)!important; display: inline-block; text-align: center; cursor: pointer; margin: 0 5px;}
+.fixed-social-icons .at-share-btn-elements {font-size: 0;}
+.fixed-social-icons .at-share-btn-elements .at-share-btn:after {font-family: "Font Awesome 6 Brands"; font-weight: 400; font-size: 1.5rem; margin:0 auto; transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; vertical-align: middle; display: inline-block; font-size: 0.825rem; line-height: 1.5;}
+.fixed-social-icons .at-share-btn-elements .at-svc-twitter:after {content: "\f099"; }
+.fixed-social-icons .at-share-btn-elements .at-svc-facebook:after {content: "\f39e";}
+.fixed-social-icons .at-share-btn-elements .at-svc-linkedin:after {content: "\f0e1";}
+.fixed-social-icons .at-share-btn-elements .at-svc-email:after {content: "\f0e0"; font-family: "Font Awesome 6 Sharp"; font-weight: 900;}
 
-.fixed-social-icons .at-share-btn-elements .at-svc-twitter:after {content: "\f099"; font-family: "Font Awesome 6 Brands"; font-weight: 400; font-size: 1.5rem; margin:0 auto; transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; vertical-align: middle; display: inline-block;}
-.fixed-social-icons .at-share-btn-elements .at-svc-facebook:after {content: "\f39e"; font-family: "Font Awesome 6 Brands"; font-weight: 400; font-size: 1.5rem; margin:0 auto; transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; vertical-align: middle; display: inline-block;}
-.fixed-social-icons .at-share-btn-elements .at-svc-linkedin:after {content: "\f0e1"; font-family: "Font Awesome 6 Brands"; font-weight: 400; font-size: 1.5rem; margin:0 auto; transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; vertical-align: middle; display: inline-block;}
-.fixed-social-icons .at-share-btn-elements .at-svc-email:after {content: "\f0e0"; font-family: "Font Awesome 6 Pro"; font-weight: 900; font-size: 1.5rem; margin:0 auto; transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; vertical-align: middle; display: inline-block;}
-
-.fixed-social-icons .at-share-btn-elements .at-share-btn:hover:after {opacity: 0.8}
+.fixed-social-icons .at-share-btn-elements .at-share-btn:hover {color: var(--white); background: var(--text-violetblue)!important;}
 .fixed-social-icons .at-share-btn-elements .at-share-btn span {display: none;}
 .fixed-social-icons .at4-visually-hidden {display: none;}
 
