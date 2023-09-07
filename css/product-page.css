@@ -10,14 +10,22 @@
 .product-list{padding: 50px 70px 45px 60px; position: relative; text-align: center;}
 .product-thumb{margin-bottom: 26px;}
 .product-thumb img{width: 168px; height: 168px; border-radius: 50%;}
-.product-list h5{max-width: 219px; margin-bottom: 12px;}
+.product-list h5{ margin-bottom: 12px;}
 .product-list .number{color: var(--text-violetblue); font-size: 1.313rem; font-weight: bold; margin-bottom: 10px;}
 .product-list .blue{color: var(--text-violetblue);}
 
 .product-sort{margin-bottom: 64px;}
 .category-title{font-size: 2.25rem; font-weight: bold;}
 .product-btn {text-align: center; margin: 50px 0 100px;} 
-.product-btn .button::after{content: "\f107";}
+
+
+.product-btn  .button::after {content: "\f107";}
+.product-btn  .button:hover::after {animation-name: bounceAlphadown; animation-duration: 1.4s; animation-iteration-count: infinite;  animation-timing-function: linear;}
+
+
+
+
+
 
 /* media starts here */
 @media only screen and (min-width: 768px){
