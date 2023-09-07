@@ -10,14 +10,17 @@
 .product-list{padding: 50px 70px 45px 60px; position: relative; text-align: center;}
 .product-thumb{margin-bottom: 26px;}
 .product-thumb img{width: 168px; height: 168px; border-radius: 50%;}
-.product-list h5{max-width: 219px; margin-bottom: 12px;}
+.product-list h5{ margin-bottom: 12px;}
 .product-list .number{color: var(--text-violetblue); font-size: 1.313rem; font-weight: bold; margin-bottom: 10px;}
 .product-list .blue{color: var(--text-violetblue);}
 
 .product-sort{margin-bottom: 64px;}
 .category-title{font-size: 2.25rem; font-weight: bold;}
 .product-btn {text-align: center; margin: 50px 0 100px;} 
-.product-btn .button::after{content: "\f107";}
+
+
+.product-btn  .button::after {content: "\f107";}
+.product-btn  .button:hover::after {animation-name: bounceAlphadown; animation-duration: 1.4s; animation-iteration-count: infinite;  animation-timing-function: linear;}
 
 /* media starts here */
 @media only screen and (min-width: 768px){
@@ -64,7 +67,7 @@
     .category-title{margin-bottom: 18px;}
     .category-form{display: none; padding: 20px 0 0;}
     .frm_field{margin-bottom: 20px;}
-    .frm-field:last-child{margin-bottom: 0;}
+    .frm_field:last-child{margin-bottom: 0;}
     .filter-dropdown{position: relative; color: var(--text-violetblue); font-weight: bold; padding-bottom: 10px; border-bottom: 2px solid var(--text-violetblue); cursor: pointer;}
     .filter-dropdown::after{content: "\f107"; font-size: 0.938rem; font-family: "Font Awesome 6 Sharp"; font-weight: 400; transition: all .3s ease-in-out; position: absolute; display: flex; align-items: center; flex-wrap: wrap; top: 0; bottom: 0; right: 0 }
     .product-btn {margin: 0;}
