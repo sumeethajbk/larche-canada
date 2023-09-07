@@ -116,8 +116,8 @@ transform: rotate(35deg);  position: absolute; top: -5px; left: -31px;}
 .cat-wrap .tag-links {margin: 0; width: 75%;}
 .cat-wrap .tag-links li {margin: 0;}
 .cat-wrap .tag-links li:before {display: none;}
-.cat-wrap .tag-links li a {background: var(--text-violetblue); display: inline-block; text-transform: uppercase; font-size: 0.688rem; letter-spacing: 1.65px; color: var(--white); font-weight: 700; padding:7px 15px 7px 16px; border-radius: 90px; margin: 0 4px 4px 0; line-height: 1.36; text-decoration: none;}
-.cat-wrap .cat-date {font-size: 0.813rem; font-weight: 500; color: rgba(26, 21, 100, 0.6); letter-spacing: 0.15px; width: calc(100% - 75%); text-align: right; margin: 5px 0 0 0;}
+.cat-wrap .tag-links li a {background: var(--text-violetblue); display: inline-block; text-transform: uppercase; font-size: 0.688rem; letter-spacing: 1.65px; color: var(--white); font-weight: 700; padding:6px 15px 7px 16px; border-radius: 90px; margin: 0 4px 4px 0; line-height: 1.36; text-decoration: none;}
+.cat-date {font-size: 0.813rem; font-weight: 500; color: rgba(26, 21, 100, 0.6); letter-spacing: 0.15px; width: calc(100% - 75%); text-align: right; margin: 5px 0 0 0;}
 
 
 /* Default Slick navigations */
@@ -266,6 +266,18 @@ body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropd
 .light-pink {background: var(--light-pink);}
 .light-red {background: var(--light-red);}
 
+
+.fixed-social-icons { padding:4px 0 4px;}
+.fixed-social-icons .at-share-btn-elements .at-share-btn {display: block; cursor: pointer; background-color: #e87722 !important; background-repeat: no-repeat; background-position: center; color: #ffffff; width: 64px; height: auto; padding: 0; margin:12px auto; -moz-transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; line-height: 1.5;}
+
+.fixed-social-icons .at-share-btn-elements .at-svc-twitter:after {content: "\f099"; font-family: "Font Awesome 6 Brands"; font-weight: 400; font-size: 1.5rem; margin:0 auto; transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; vertical-align: middle; display: inline-block;}
+.fixed-social-icons .at-share-btn-elements .at-svc-facebook:after {content: "\f39e"; font-family: "Font Awesome 6 Brands"; font-weight: 400; font-size: 1.5rem; margin:0 auto; transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; vertical-align: middle; display: inline-block;}
+.fixed-social-icons .at-share-btn-elements .at-svc-linkedin:after {content: "\f0e1"; font-family: "Font Awesome 6 Brands"; font-weight: 400; font-size: 1.5rem; margin:0 auto; transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; vertical-align: middle; display: inline-block;}
+.fixed-social-icons .at-share-btn-elements .at-svc-email:after {content: "\f0e0"; font-family: "Font Awesome 6 Pro"; font-weight: 900; font-size: 1.5rem; margin:0 auto; transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; vertical-align: middle; display: inline-block;}
+
+.fixed-social-icons .at-share-btn-elements .at-share-btn:hover:after {opacity: 0.8}
+.fixed-social-icons .at-share-btn-elements .at-share-btn span {display: none;}
+.fixed-social-icons .at4-visually-hidden {display: none;}
 
 /*-- media css starts here --*/
 @media only screen and (max-width:1400px) {

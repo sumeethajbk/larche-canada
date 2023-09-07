@@ -4,25 +4,52 @@
 .split-banner-text h1 {margin-bottom: 24px;}
 .optional-text{margin-bottom: 15px;}
 .split-banner-section{z-index: 1; clear: both; position: relative; width: 100%; padding: 120px 0 0 0; background:var(--violet); margin: 0 0 37px 0;}
-.split-banner-section .split-banner-main {justify-content:space-between; position: relative; min-height: 578px; align-items: center; padding: 40px 0; max-width: 1229px; margin: 0 auto;}
-.split-banner-section .split-banner-txt {width: 38.5%; margin:0 0 30px 0; color: var(--white); padding-left: 43px;}
+.split-banner-section .split-banner-main {justify-content:space-between; position: relative; min-height: 578px; align-items: center; padding: 40px 0; max-width: 1260px; margin: 0 auto;}
+.split-banner-section .split-banner-txt {width: 38.8%; margin:0 0 30px 0; color: var(--white); padding-left: 66px;}
 .split-banner-section .split-banner-txt .optional-text {color:var(--white-50); margin-bottom: 6px;}
-.split-banner-section .split-banner-txt h1 {color: var(--white); margin-bottom: 18px;}
+.split-banner-section .split-banner-txt h1 {color: var(--white); margin-bottom: 20px;}
 .split-banner-section .split-banner-txt h1 span{font-size: 7.25rem; line-height: 6rem; margin-left: -3px; color: var(--pink); font-family: CCSignLanguage; letter-spacing: normal; font-weight: normal; display: block; transform: rotate(-1.25deg); margin-top: -2px;}
 .split-banner-section .split-banner-txt p {font-size: 1.125rem; line-height: 1.39; font-weight: 600;}
-.split-banner-section .split-banner-image {width: 61.5%; min-height: 428px;}
+.split-banner-section .split-banner-image {width: 61.2%; min-height: 428px; margin: 8px 0 0 0;}
+
+.split-banner-section .split-banner-image .split-banner-bg {left: -15px; z-index: -1;}
 .split-banner-section .split-banner-image .split-banner-bg img{width: 783px; height: 429px;}
 .split-image-wrap img{border-radius: 50%;}
+<<<<<<< HEAD
+.split-banner-wrap .split-banner-one{width: 182px;
+  height: 182px;
+  left: 141px;
+  top: -8px;}
+.split-banner-wrap .split-banner-two{width: 164px;
+  height: 164px;
+  right: 59px;
+  top: 31px;}
+.split-banner-wrap .split-banner-three{width: 164px;
+  height: 164px;
+  bottom: 39px;
+  left: 250px;}
+.split-banner-wrap .split-banner-four{width: 197px;
+  height: 197px;
+  bottom: -37px;
+  right: 50px;}
+
+
+=======
 .split-banner-wrap .split-banner-one{width: 184px; height: 184px; left: 151px; top: -11px;}
 .split-banner-wrap .split-banner-two{width: 164px; height: 164px; right: 53px; top: 29px;}
 .split-banner-wrap .split-banner-three{width: 164px; height: 164px; bottom: 38px; left: 262px;}
 .split-banner-wrap .split-banner-four{width: 197px; height: 197px; bottom: -36px; right: 44px;}
+>>>>>>> 8f40d43d82f787f45700ba6a1ad4104ad131a348
 .split-banner-wrap {max-width: 1700px; margin: 0 auto;}
 
 /*-- media starts here --*/
-@media only screen and (max-width: 1299px) and (min-width:1024px){
-	.split-banner-wrap .split-banner-one{left: 130px;}
-	.split-banner-wrap .split-banner-three{left: 187px;}
+@media only screen and (max-width: 1299px) {
+	.split-banner-section .split-banner-txt {padding-left: 0;}
+}
+@media only screen and (max-width: 1199px) and (min-width: 1024px){
+ .split-banner-wrap .split-banner-three {
+    left: 187px;
+  }
 }
 @media only screen and (max-width: 1023px) and (min-width: 200px){
 	.split-banner-section {padding: 80px 0 0 0;}
