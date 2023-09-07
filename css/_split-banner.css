@@ -25,9 +25,19 @@
 	.split-banner-bg{min-width: 755px; right: 0; bottom: 0;}
 }
 @media only screen and (max-width: 1299px) and (min-width:1024px){
+<<<<<<< HEAD
 	.split-banner-bg { right: -70px; bottom: -30px; }
 	.split-banner-wrap .split-banner-one{left: 130px;}
 	.split-banner-wrap .split-banner-three{left: 187px;}
+=======
+    .split-banner-section .split-banner-txt h1 span {font-size: 6.25rem;}
+    .split-banner-bg { right: -70px; bottom: -30px; }
+    .split-banner-wrap .split-banner-one{left: 130px;}
+    .split-banner-wrap .split-banner-three{left: 187px;}
+>>>>>>> 7556e82aed601dc3d84e125e798647cd41d42398
+}
+@media only screen and (max-width: 1200px) and (min-width:768px){
+    .split-banner-section .split-banner-txt{padding-left: 0;}
 }
 @media only screen and (max-width: 1023px) and (min-width: 200px){
     .split-banner-section {padding: 80px 0 0 0;}
