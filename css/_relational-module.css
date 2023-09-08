@@ -1,0 +1,11 @@
+.relational-module{clear: both; background-color: rgb(238, 241, 251); padding: 90px 0 10px;}
+.relational-main{}
+.relational-head{padding-bottom: 45px;}
+.relational-head h3{color: var(--dark-grey);}
+
+
+/*-- media css starts here --*/
+@media only screen and (min-width: 1024px){
+    .relational-row{gap: 50px;}
+
+}
