@@ -2,7 +2,7 @@
 .split-lt {width:65.45%;}
 
 .sidebar {width: calc(100% - 69.1%);}
-.side-bucket {padding: 52px 78px 62px 64px; position: relative;}
+.side-bucket {padding: 52px 78px 62px 64px; position: relative; margin: 0 0 60px 0;}
 .side-bucket .optional-text{color: var(--white-50); margin: 0 0 15px 0;}
 .side-bucket a {text-decoration: none;}
 .side-bucket.violetblue {background: var(--violetblue); color: var(--white);}
@@ -15,6 +15,14 @@
 .side-shape {top: -39px; right: -46px; width: 117px; height: 129px;}
 .side-shape svg {width: 100%; height: 100%; object-fit: contain}
 
+.news-bucket h4 {margin-bottom: 16px; font-size: 1.625rem; line-height: 1.23;}
+.single-bucket { border-bottom:1px solid rgba(0, 0, 0, 0.1); padding: 15px 0;}
+.single-bucket:last-child {border: 0 none;}
+.single-thumb {width: 116px; height: 106px; margin: 0 34px 0 0;}
+.single-txt {width: calc(100% - 151px); padding: 8px 0 0 0;}
+.single-txt h6 {font-weight: 600;}
+.single-txt h6 a {text-decoration: none; font-weight: 600;}
+
 /*-- media css starts here --*/
 @media only screen and (max-width: 1299px) and (min-width: 1024px) {
 	.side-bucket {padding: 52px 25px 62px 25px;}
@@ -26,13 +34,15 @@
 }
 
 @media only screen and (max-width: 1023px) and (min-width: 200px) {
-	.split-lt {width: 100%;}
+	.split-lt {width: 100%; margin: 0 0 61px 0;}
 	.sidebar {width: 100%;}
 	.side-bucket {width: 338px; margin-left: -22px; padding:53px 32.2px 62px 25.8px;}
 }
 
 @media only screen and (max-width: 767px) and (min-width: 200px) {
-	.split-lt {margin: 0 0 60px 0;}
 	.side-bucket h4 {font-size: 1.625rem; line-height: 1.23; margin-bottom: 20px;}
 	.side-bucket .optional-text {margin: 0 0 14px 0;}
+	
+	.single-thumb {width: 86px; height: 76px; margin: 0 25px 0 0;}
+	.single-txt {width: calc(100% - 112px);}
 }

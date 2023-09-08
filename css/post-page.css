@@ -1,8 +1,7 @@
 @import url("../css/default-page.css");
 @import url("../css/_split-module.css");
+@import url("../css/_post-banner.css");
 
-.hero-banner-section {margin: 0; background: var(--text-violetblue);}
-.hero-banner-section .hero-banner-main {max-width: 100%;}
 .general-default-article-section {padding: 50px 0 100px}
 
 
@@ -14,16 +13,16 @@
 .breadcrumb ul li a {text-decoration: none; font-size: 0.875rem; color:var(--text-violetblue);}
 
 /*-- media css starts here --*/
-@media only screen and (max-width: 1299px) and (min-width: 1024px) {
-	
-}
+
 
 @media only screen and (max-width: 1023px) and (min-width: 200px) {
+.fixed-social-icons {display: none;}
 }
 
 @media only screen and (max-width: 1023px) and (min-width: 768px) {
 	
 }
+
 @media only screen and (max-width: 767px) and (min-width: 200px) {
-	
+	.general-default-article-section {padding: 50px 0 57px;}
 }

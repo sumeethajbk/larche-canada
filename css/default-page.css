@@ -48,6 +48,8 @@
 .author-pos {opacity: 0.5; font-size: 0.938rem;}
 
 .accordion-module {padding-top: 0;}
+.accordion-module .container {padding: 0;}
+.support-module .container {padding: 0;}
 
 /*-- media css starts here --*/
 @media only screen and (max-width: 1299px) and (min-width: 1024px) {
