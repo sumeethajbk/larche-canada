@@ -6,6 +6,7 @@
 @import url("../css/_directors-section.css");
 @import url("../css/_resource-section.css");
 @import url("../css/_hero-banner.css");
+@import url("../css/_intro-module.css");
 
 /* Banner section */
 .hero-banner-section.orange .hero-banner-main .hero-banner-txt h1 span{color: var(--orange); font-family: CCSignLanguage;}
@@ -20,20 +21,60 @@
     .hero-banner-section .hero-banner-main .hero-banner-txt h1{font-size: 5.75rem; line-height: 0.98;}
     .hero-banner-section .hero-banner-main .hero-banner-txt h1 span{font-family: CCSignLanguage; font-size: 8.5rem; line-height: 1; font-weight: normal; letter-spacing: normal;}
     .down-arrow{margin-top: 85px; line-height: normal;}
-
     .hero-banner-section .hero-banner-main .hero-banner-image .banner-img{height: 737px; width: 737px; bottom: -71px;}
     .home-shape-1{top: -36px; right: -21px;}
     .home-shape-2{top: -52px; left: 84px;}
     .home-shape-3{bottom: -35px; left: -95px;}
+
+    .intro-module{padding: 64px 0 52px;}
+
+    .number-main{padding: 17px 0 0;}
 }
 
 @media screen and (max-width: 1299px) and (min-width: 1024px) {
     .hero-banner-section .hero-banner-main .hero-banner-txt h1{font-size: 4.5rem;}
     .hero-banner-section .hero-banner-main .hero-banner-txt h1 span{font-size: 7rem;}
+    .home-shape-1{top: -91px; right: -75px;}
+    .home-shape-2{top: -85px; left: 24px;}
+    .home-shape-3{bottom: -50px; left: -120px;}
 }
 
-@media screen and (max-width: 767px) and (min-width: 200px) {
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    .hero-banner-section .hero-banner-main .hero-banner-txt .optional-text{margin: 0 0 12px 0;}
+    .hero-banner-section .hero-banner-main .hero-banner-txt h1{margin-bottom: 26px;}
     .hero-banner-section.orange .hero-banner-main .hero-banner-txt h1 span{font-size: 4.75rem; line-height: 1;}
 
     .hero-banner-section .hero-banner-main .hero-banner-image .banner-img{width: 342px !important; height: 342px !important; bottom: -36px;}
+    .home-shape-1{top: -15px; right: -9px;}
+    .home-shape-1 svg{width: 116px; height: 174px;}
+    .home-shape-2{top: -23px; left: 39px;}
+    .home-shape-2 svg{width: 85px; height: 91px;}
+    .home-shape-3{bottom: -20px; left: -30px;}
+    .home-shape-3 svg{width: 161px; height: 123px;}
+
+    .intro-module{padding: 52px 0 29px;}
+
+    .repeater-main{padding: 29px 0 74px;}
+
+    .repeater-main{padding: 58px 0 74px;}
+}
+
+@media screen and (max-width: 767px) and (min-width: 200px) {
+    .hero-banner-section .hero-banner-main .hero-banner-txt .optional-text{margin: 0 0 12px 0;}
+    .hero-banner-section .hero-banner-main .hero-banner-txt h1{margin-bottom: 26px;}
+    .hero-banner-section.orange .hero-banner-main .hero-banner-txt h1 span{font-size: 4.75rem; line-height: 1;}
+
+    .hero-banner-section .hero-banner-main .hero-banner-image .banner-img{width: 342px !important; height: 342px !important; bottom: -36px;}
+    .home-shape-1{top: -15px; right: -9px;}
+    .home-shape-1 svg{width: 116px; height: 174px;}
+    .home-shape-2{top: -23px; left: 39px;}
+    .home-shape-2 svg{width: 85px; height: 91px;}
+    .home-shape-3{bottom: -20px; left: -30px;}
+    .home-shape-3 svg{width: 161px; height: 123px;}
+
+    .intro-module{padding: 52px 0 29px;}
+
+    .repeater-main{padding: 29px 0 74px;}
+
+    .repeater-main{padding: 58px 0 74px;}
 }
