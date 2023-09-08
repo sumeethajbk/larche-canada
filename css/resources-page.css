@@ -1,1 +1,13 @@
 @import url("../css/_intro-here-module.css");
+@import url("../css/_resources-module.css");
+
+.intro-here-module{padding: 92px 0 65px 0;}
+
+
+
+
+
+
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .intro-here-module {padding: 62px 0 59px 0;}
+}

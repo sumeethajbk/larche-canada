@@ -1,0 +1,28 @@
+.resources-module {clear: both; width: 100%; background-color: rgb(238, 241, 251); padding: 50px 0 38px;}
+.resources-module  h3 {color: var(--dark-grey); margin-bottom: 0;}
+.resources-row {display: flex; flex-wrap: wrap;}
+.resources-grid {width: 30.89311859443631%; margin: 3.65% 0 0 3.65%; background: var(--white); height: inherit!important;}
+.resources-grid:nth-child(3n+1) {margin-left: 0;}
+.resources-grid .resources-thumb {height:255px; overflow: hidden; transition: height 0.5s;}
+.resources-grid:hover .resources-thumb {height:235px;}
+.resources-grid .resources-content {padding:48px 45px;}
+.resources-grid .resources-content h5 {margin-bottom: 17px;}
+.resources-grid .resources-content h5, .resources-grid .resources-content h5 a {color: var(--dark-grey); text-decoration: none;}
+.resources-grid .resources-content h5 a:hover {color: var(--text-violetblue);}
+.resources-grid .resources-content p {margin-bottom: 12px;}
+
+/* Responsive */
+@media only screen and (min-width: 1024px) {
+    .resources-grid:nth-child(-n+3){margin-top: 0;}
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    .resources-grid,  .resources-grid:nth-child(3n+1) {width: 48%; margin: 3.65% 0 0 3.65%;}
+    .resources-grid:nth-child(2n+1) {margin-left: 0;}
+    .resources-grid:nth-child(-n+2){margin-top: 0;}
+}
+
+@media only screen and (max-width: 767px) and (min-width: 200px){
+    .resources-module{padding: 3px 0 23px;}
+	.resources-grid{display: block; width: 100%; margin:6% 0 0 0;}
+}
