@@ -15,6 +15,7 @@
 .annual-txt h3{color: var(--white);}
 .annual-btns{align-items: center; gap: 15px 30px;}
 .annual-btns .readmore{color: var(--white);}
+.annual-btns .readmore::after{content: "\f107";}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){

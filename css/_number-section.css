@@ -5,6 +5,7 @@
 .number-title{font-size: 1.5rem; font-weight: bold; line-height: 1.33; display: block; margin-bottom: 5px;}
 .number-list p{margin-bottom: 21px;}
 .number-btn{font-size: 1.063rem; font-weight: bold; line-height: 1; text-decoration: none;}
+.number-btn span{display: block; margin-top: -4px;}
 
 
 .number-list.light-pink{background-color: rgba(255, 112, 128, 0.2); mix-blend-mode: multiply;}
@@ -23,7 +24,7 @@
 .number-list.light-violet span svg path{fill: var(--text-violetblue);}
 
 @media screen and (min-width: 1024px) {
-    .number-main{justify-content: center;}
+    .number-main{justify-content: center; padding: 20px 0;}
     .number-list{flex: 0 0 33.39%; min-height: 456px; margin-left: -43px;} /*flex: 0 0 35.57%;*/
     .number-list:first-child{margin-left: 0;}
     
