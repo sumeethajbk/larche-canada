@@ -1,0 +1,51 @@
+@import url("../css/_featue-panel-section.css");
+
+@import url("../css/_nav-filter-module.css");
+
+.news-updates-container {clear: both; background: var(--light-grey); width: 100%; padding:86px 0 50px;}
+.heading {padding: 0 0 26px;}
+.heading-lt {width: 50%;}
+.heading-lt h3 {color: var(--black);}
+.heading-rt {width:calc(100% - 50%);}
+.heading-rt .search-form {max-width: 422px;}
+.heading-rt .form-field {width: 100%;}
+
+.news-grid {width: 30.89311859443631%; margin:0 0 3.65% 3.65%; background: var(--white);}
+.news-grid:nth-child(3n+1) {margin-left: 0;}
+.news-grid .news-thumb {height:255px; overflow: hidden; transition: height 0.5s;}
+.news-grid:hover .news-thumb {height:235px;}
+.news-grid .news-content {padding:39px 45px 42px;}
+.news-grid .news-content h4 {margin-bottom: 18px;}
+.news-grid .news-content h4, .news-grid .news-content h4 a {color: var(--h4); font-weight: 600; text-decoration: none;}
+.news-grid .news-content h4 a:hover {color: var(--text-violetblue);}
+
+.btn {text-align: center; margin: 4px 0 0 0;}
+.btn .button {min-width: 177px;}
+.btn .button:after {content: "\f107";}
+.btn .button:hover::after {animation-name: bounceAlphadown; animation-duration: 1.4s; animation-iteration-count: infinite;  animation-timing-function: linear;}
+
+.cat-wrap .tag-links {width: 65%;}
+.cat-date {width: calc(100% - 65%);}
+
+/* Responsive */
+@media only screen and (max-width: 1160px) and (min-width:1024px){
+	.news-grid .news-content {padding: 39px 30px;}
+}
+
+@media only screen and (max-width: 1023px) and (min-width:768px){
+	.news-grid, .news-grid:nth-child(3n+1) {width: 48.15%; margin: 0 0 3.65% 3.65%;}
+	.news-grid:nth-child(2n+1) {margin-left: 0;}
+}
+
+@media only screen and (max-width: 767px) and (min-width: 200px){
+	.featured-news-events-module {padding: 59px 0 30px;}
+	.featured-news-events-module h3 {padding: 0; margin-bottom: 32px;}
+	.news-grid {width: 100%; margin: 0 20px 0 0;}	
+	.news-grid .news-content {padding:35px 35px 36px;}
+	.news-grid .news-content h4 {margin-bottom: 22px;}
+	
+	.heading {padding: 0 0 28px;}
+	.heading-lt {width: 100%; margin: 0 0 16px 0;}
+	.heading-rt {width: 100%;}
+	.heading-rt .search-form {max-width: 100%;}
+}

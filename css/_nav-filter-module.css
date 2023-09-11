@@ -1,4 +1,4 @@
-.filter-nav {margin: 0 0 63px 0; font-size: 0;}
+.filter-nav {margin: 0 0 63px 0; font-size: 0; width: 100%;}
 .filter-nav li:before {display: none;}
 .filter-nav li {display: inline-block; margin:0 0 0 3.8%;}
 .filter-nav li:last-child a {padding-right: 0;}
