@@ -1,9 +1,10 @@
-@import url("../css/_featue-panel-section.css");
-
+@import url("../css/_feature-panel-section.css");
+@import url("../css/_subscribe-module.css");
 @import url("../css/_nav-filter-module.css");
+@import url("../css/_no-banner.css");
 
 .news-updates-container {clear: both; background: var(--light-grey); width: 100%; padding:86px 0 50px;}
-.heading {padding: 0 0 26px;}
+.heading {padding: 0 0 31px;}
 .heading-lt {width: 50%;}
 .heading-lt h3 {color: var(--black);}
 .heading-rt {width:calc(100% - 50%);}
@@ -20,12 +21,14 @@
 .news-grid .news-content h4 a:hover {color: var(--text-violetblue);}
 
 .btn {text-align: center; margin: 4px 0 0 0;}
-.btn .button {min-width: 177px;}
-.btn .button:after {content: "\f107";}
-.btn .button:hover::after {animation-name: bounceAlphadown; animation-duration: 1.4s; animation-iteration-count: infinite;  animation-timing-function: linear;}
+
 
 .cat-wrap .tag-links {width: 65%;}
 .cat-date {width: calc(100% - 65%);}
+
+
+.filter-nav {margin: 0 0 50px 0;}
+.filter-nav li a:hover:after, .filter-nav li a.active:after  {content: ""; background: url("../images/orange-line.svg") 0 0 no-repeat;}
 
 /* Responsive */
 @media only screen and (max-width: 1160px) and (min-width:1024px){
