@@ -29,7 +29,7 @@
   .repeater-list { margin-bottom: 80px; gap: 50px}
   .repeater-content{width: calc(100% - 390px);}
   .repeater-image{flex: 0 0 340px; position: relative;} 
-  .repeater-thumb-wrap{ width: 342px; height: 342px;}
+  .repeater-thumb-wrap{ width: 340px; height: 340px; overflow: hidden;}
   .orange-line-one{width: 94px; height: 115px; top: -23px; right: 7px;}
   .orange-line-two{width: 170px; height: 226px; bottom: -33px; left: -29px;}
  }
