@@ -1,7 +1,7 @@
 .common-cta-section{ overflow: hidden; background-color: var(--violet); clear: both;}
 .common-cta-section .container-lg{padding: 0; overflow: hidden;}
-.common-cta-main{ color: var(--white); position: relative; min-height: 546px;padding-left: 9.7%;}
-.common-cta-text{display: flex; flex-direction: column; align-items: flex-start; justify-content: center; flex-wrap: wrap; padding-left: 22px;}
+.common-cta-main{ color: var(--white); position: relative; min-height: 546px;}
+.common-cta-text{display: flex; flex-direction: column; align-items: flex-start; justify-content: center; flex-wrap: wrap; padding:30px 22px;}
 .common-cta-text .h1{margin-bottom: 25px; font-weight: 700;}
 .common-cta-text p{max-width: 424px;}
 .common-cta-text .optional-text {color: var(--white-50);}
@@ -15,18 +15,17 @@
 
 
 /*-- media css starts here --*/
-@media only screen and (min-width: 1024px) {
-    .common-cta-text{width: calc(100% - 54.83%); margin-right: auto;}
-    .common-cta-image{width: 54.83%; margin-left: auto;}
-}
-@media only screen and (max-width: 1400px) and (min-width: 1024px){
-    .common-cta-main{padding-left: 0;}
 
+
+@media only screen and (min-width: 1024px) {
+    .common-cta-text{width: calc(100% - 49.24%); margin-left: auto; max-width: 574px;}
+    .common-cta-image{width:49.24%; margin-left: auto;}
 }
-/* @media only screen and (max-width: 1299px) and (min-width: 1024px){
-    .common-cta-text{width: calc(100% - 600px); max-width: 560px; padding: 30px 0 30px 22px;}
-    .common-cta-image{width: 600px;}
-} */
+
+@media only screen and (max-width: 1400px) {
+	.common-cta-text {margin-left: inherit; margin-right: auto;}
+}
+
 @media only screen and (max-width: 1023px) and (min-width: 200px){
     .common-cta-main{flex-direction: column-reverse; padding-left: 0;}
     .common-cta-image{width: 100%; margin-bottom: 80px; position: relative;}
