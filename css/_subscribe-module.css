@@ -1,14 +1,19 @@
-.subscribe-module {clear: both; width:100%; padding: 50px 0;}
+.subscribe-module {clear: both; width:100%; padding:79px 0 98px; position: relative;}
 .subscribe-main {max-width: 1186px; margin: 0 auto; justify-content: space-between;}
-.subscribe-main .optional-text {color: var(--orange);}
+.subscribe-main .optional-text {color: var(--orange); margin: 0 0 14px 0;}
+.subscribe-main .h3 {margin: 0;}
 .subscribe-main .sub-lt {width: 45%;}
-.subscribe-main .sub-rt {width: calc(100% - 55.84%);}
+.subscribe-main .sub-rt {width: calc(100% - 55.84%); padding: 45px 0 0 0;}
 .subscribe-main .sub-rt .disclaimer p {font-size: 0.813rem; line-height: 1.31; color: rgba(26, 21, 100, 0.6);}
 .subscribe-main .subscribe-form {position: relative;}
+.subscribe-main .frm_forms .form-field {margin-bottom: 17px;}
 .subscribe-main .frm_forms input {padding: 15px 120px 17px 27px;}
 .subscribe-main .frm_forms .frm_submit{right: 9px; top: 9px; position: absolute; margin: 0;}
 .subscribe-main .frm_forms .frm_submit button {background: var(--violet); border-color:var(--violet); font-size: 0.938rem; border-width: 3px; padding: 7px 31px 10px 17px; font-weight: 700; letter-spacing: 0.4px;}
 .subscribe-main .frm_forms .frm_submit button::after {font-size: 0.878rem; right: 13px;}
+
+.subscribe-module .sub-dots {position: absolute; bottom:0; margin: 0 auto; left: 55%; right: 0; max-width: 1097px; width:100%;
+transform: translateX(-50%); z-index: -1;}
 
 /*-- media css starts here --*/
 
@@ -22,7 +27,8 @@
 }
 
 @media only screen and (max-width: 1023px) and (min-width: 200px){
-   
+	.subscribe-main .sub-lt {width: 100%;}
+	.subscribe-main .sub-rt {width: 100%;}
 }
 
 @media only screen and (max-width: 1023px) and (min-width: 768px){
