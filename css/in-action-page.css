@@ -13,3 +13,11 @@
 .features-module{padding: 40px 0 60px;}
 .features-module-main{padding: 0 20px;}
 .feature-panel-section{background: var(--green);}
+
+
+@media only screen and (max-width: 768px) and (min-width: 200px) {
+    .intro-here-module { padding: 70px 0 0 0; }
+    .features-module{padding: 60px 0 28px}
+    .features-module-main{padding: 0;}
+    .features-module-grid .features-txt p { padding-right: 0}
+}
