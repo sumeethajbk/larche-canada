@@ -2,8 +2,11 @@
 @import url("../css/_intro-here-module.css");
 @import url("../css/_features-module.css");
 @import url("../css/_relational-module.css");
+@import url("../css/_feature-panel-section.css");
+@import url("../css/_repeater-section.css");
 
 
 .intro-here-module{padding: 102px 0 0 0;}
 .annual-report-main{background-color: var(--text-violetblue);}
 .features-module{padding: 40px 0;}
+.feature-panel-section{background: var(--green);}
