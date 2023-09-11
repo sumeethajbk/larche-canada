@@ -1,6 +1,7 @@
 .common-cta-section{ overflow: hidden; background-color: var(--violet); clear: both;}
 .common-cta-section .container-lg{padding: 0; overflow: hidden;}
-.common-cta-main{ color: var(--white); position: relative;}
+.common-cta-main{ color: var(--white); position: relative; min-height: 546px;padding-left: 9.7%;}
+.common-cta-text{display: flex; flex-direction: column; align-items: flex-start; justify-content: center; flex-wrap: wrap; padding-left: 22px;}
 .common-cta-text .h1{margin-bottom: 25px; font-weight: 700;}
 .common-cta-text p{max-width: 424px;}
 .common-cta-text .optional-text {color: var(--white-50);}
@@ -12,20 +13,24 @@
 .cta-icon{width: 289px; height: 318px; position: absolute; z-index: 1; top: 0; bottom: 0; margin: auto; display: flex; align-items: center; left: -125px;} 
 .cta-icon svg{width: 100%; height: auto;}
 
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px) {
-    .common-cta-main{padding-left: 9.7%; }
-    .common-cta-text{width: calc(100% - 837px); margin: auto;}
-    .common-cta-image{width: 837px; margin-left: auto;}
+    .common-cta-text{width: calc(100% - 54.83%); margin-right: auto;}
+    .common-cta-image{width: 54.83%; margin-left: auto;}
 }
-@media only screen and (max-width: 1299px) and (min-width: 1024px){
-    .common-cta-text{width: calc(100% - 480px); max-width: 500px; padding: 30px 0 30px 20px;}
-    .common-cta-image{width: 480px;}
+@media only screen and (max-width: 1400px) and (min-width: 1024px){
+    .common-cta-main{padding-left: 0;}
+
 }
+/* @media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .common-cta-text{width: calc(100% - 600px); max-width: 560px; padding: 30px 0 30px 22px;}
+    .common-cta-image{width: 600px;}
+} */
 @media only screen and (max-width: 1023px) and (min-width: 200px){
-    .common-cta-main{flex-direction: column-reverse;}
+    .common-cta-main{flex-direction: column-reverse; padding-left: 0;}
     .common-cta-image{width: 100%; margin-bottom: 80px; position: relative;}
-    .common-cta-text{width: 100%; padding: 0 20px 65px; display: block;}
+    .common-cta-text{width: 100%; padding: 0 22px 65px; display: block;}
     .common-cta-thumb {clip-path: ellipse(104% 99% at 50% 1%);}
 }
 
