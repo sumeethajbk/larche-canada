@@ -1,0 +1,5 @@
+.programs-slider{width: 100%; padding: 0; margin: 0;}
+.video-slider .slick-track { display: flex !important; }
+.video-slider .single-slide {height: inherit !important;}
+.single-slide .video-thumbnail { height: 100%;}
+.single-slide .play-btn img{position: relative; left: 4px;}

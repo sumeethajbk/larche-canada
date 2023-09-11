@@ -23,6 +23,27 @@ jQuery(document).ready(function () {
     }, ]
   });
 	
+  jQuery('.video-slider').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    infinite: false,
+    speed: 1000,
+    dots: false,
+    arrows: true,
+	  draggable: true,
+    touchThreshold: 200,
+    swipeToSlide: true,
+    prevArrow: '<span class="slick-arrow prev-arrow flex flex-center"></span>',
+    nextArrow: '<span class="slick-arrow next-arrow flex flex-center"></span>',
+    responsive: [{
+      breakpoint: 1024,
+      settings: {        
+        arrows: false,
+        dots: false,
+      }
+    }, ]
+  });
+
 	/* Tiled Module */
 	if(jQuery(window).width() <= 1023){
     jQuery('.tiled-slider').slick({
@@ -140,6 +161,8 @@ jQuery(document).ready(function () {
     }, ]
   });
 
+
+  
 });
 
 
