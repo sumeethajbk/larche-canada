@@ -1,11 +1,11 @@
 .filter-nav {margin: 0 0 63px 0; font-size: 0; width: 100%;}
 .filter-nav li:before {display: none;}
-.filter-nav li {display: inline-block; margin:0 0 0 3.8%;}
+.filter-nav li {display: inline-block; margin:0 0 0 3.8%; position: relative}
 .filter-nav li:last-child a {padding-right: 0;}
 .filter-nav li:first-child {margin-left:-6px;}
-.filter-nav li a {text-decoration: none; font-size: 1.125rem; font-weight: 700; padding:0 12px 23px 9px; color: var(--black); position: relative;}
+.filter-nav li a {text-decoration: none; font-size: 1.125rem; font-weight: 700; padding:0 12px 23px 9px; color: var(--black);}
 .filter-nav li a:hover {color: var(--black);}
-.filter-nav li a:hover:after, .filter-nav li a.active:after  {content: ""; background: url("../images/blue-line.svg") 0 0 no-repeat; width: 109px; height: 37px; display: block; position: absolute; left: 0; right: 0; margin: auto; background-position: center; bottom: -10px; background-size: contain;}
+.filter-nav li a:hover:after, .filter-nav li a.active:after  {content: ""; background: url("../images/blue-line.svg") 0 0 no-repeat; width: 109px; height: 37px; display: block; position: absolute; left: 50%; right: 0; margin: auto; background-position: center; bottom: -30px; background-size: contain; transform: translateX(-50%);}
 
 @media only screen and (max-width: 767px) and (min-width: 200px) {
 	.filter-nav {margin: 0 0 38px 0;}
