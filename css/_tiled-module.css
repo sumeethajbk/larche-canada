@@ -17,7 +17,7 @@
 
 
 @media only screen and (max-width: 1023px) and (min-width: 200px){
-	
+	.tiled-module .heading-lt {width: 100%;}
 	.tiled-slider .slick-list {overflow: visible;}
 	.tiled-slider .slick-track {display: flex!important;}
 	.tiled-module .btn {text-align: center;}
@@ -30,7 +30,8 @@
 
 @media only screen and (max-width: 767px) and (min-width: 200px){
 	.tiled-module {padding: 59px 0 60px;}
-	.heading {padding: 0 0 31px;}
+	
+	.tiled-module .heading {padding: 0 0 31px; }
 	.tiled-grid {width: 285px; margin: 0 20px 0 0;}	
 	.tiled-grid .tiled-thumb {height: 226px;}
 	.tiled-grid .tiled-content {padding:36px 31px 34px;}

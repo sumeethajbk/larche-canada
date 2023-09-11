@@ -97,7 +97,7 @@ input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:ac
 button, .button {display: inline-block; font-size:1.063rem; font-weight: 700; line-height: normal; padding:13px 53px 17px 27px; vertical-align: middle; cursor: pointer; border: 4px solid var(--text-blue); border-radius: 80px; background-color: var(--text-blue); position: relative; transition: all .3s ease-in-out; -webkit-transition: all .3s ease-in-out; -moz-transition: all .5s ease-in-out; text-align: center; color: var(--white); font-family:"rucksack", sans-serif; text-decoration: none;}
 button:hover, button:focus, .button:hover, .button:focus {background-color: var(--violet); color: var(--white);}
 button::after, .button::after {right: 26px; content:"\f105"; font-size:1rem; font-family: "Font Awesome 6 Sharp"; font-weight: 400; transition: all .3s ease-in-out; position: absolute; display: flex; align-items: center; flex-wrap: wrap; top: 0; bottom: 0; }
-button:hover:after, .button:hover:after {animation-name: bounceAlpha; animation-duration:1.4s; animation-iteration-count:infinite; animation-timing-function:linear;}
+button:hover:after, .button:hover:after {animation-name: bounceAlpha; animation-duration:1.4s; animation-iteration-count:infinite; animation-timing-function:linear; top: -1px}
 
 /* Blue Button */
 .button.blue {background-color: var(--text-violetblue); border-color:var(--text-violetblue) }
