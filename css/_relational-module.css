@@ -5,6 +5,7 @@
 .relational-left p{padding-right: 31px;}
 .relational-list{background-color: var(--white);}
 .relational-list:nth-child(3n+1){margin-left: 0;}
+.relational-thumb{height: 161px; overflow: hidden;}
 .relational-content{font-weight: 500;}
 
 /*-- media css starts here --*/
