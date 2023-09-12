@@ -1,6 +1,7 @@
 @import url("../css/_split-banner.css");
 @import url("../css/_intro-here-module.css");
 @import url("../css/_features-module.css");
+@import url("../css/_programs-default-slider.css");
 @import url("../css/_intro-module.css");
 @import url("../css/_number-section.css");
 @import url("../css/_repeater-section.css");
@@ -8,3 +9,17 @@
 
 .split-banner-section .split-banner-txt { width: 51.8%; margin: 0 0 30px 0; color: var(--white); padding-left: 54px; }
 .split-banner-section .split-banner-image { width: 48.2%; min-height: 428px; margin: 8px 0 0 0; }
+.features-module{padding: 50px 0 58px;}
+.intro-here-module{padding: 92px 0 25px;}
+
+
+
+@media screen and (max-width: 767px) and (min-width: 200px) {
+    .intro-module{padding: 52px 0 0;}
+    .features-module{padding: 50px 0 20px;}
+    .features-module-grid .features-txt p { padding-right: 0; }
+    .intro-here-module { padding: 60px 0 25px; }
+    .programs-default-slider{padding: 0;}
+    .repeater-main { padding: 28px 0 60px; } 
+    .repeater-content { padding-bottom: 27px;}
+}
