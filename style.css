@@ -217,7 +217,8 @@ body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropd
 
 .text-violetblue .readmore, .readmore.text-violetblue {color: var(--text-violetblue);}
 .text-violetblue .cat-wrap .tag-links li a {background: var(--text-violetblue);}
-.text-violetblue-shape .common-cta-text .h1 span {color: var(--text-violetblue);}
+/*.text-violetblue .shapes svg path, .text-violetblue-shape svg path  {fill: var(--text-violetblue);}
+*/.text-violetblue-shape .common-cta-text .h1 span {color: var(--text-violetblue);}
 
 .red .readmore, .readmore.text-red {color: var(--red);}
 .red .cat-wrap .tag-links li a {background: var(--red);}
