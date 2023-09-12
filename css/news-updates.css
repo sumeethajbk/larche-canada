@@ -44,8 +44,6 @@
 }
 
 @media only screen and (max-width: 767px) and (min-width: 200px){
-	.featured-news-events-module {padding: 59px 0 30px;}
-	.featured-news-events-module h3 {padding: 0; margin-bottom: 32px;}
 	.cat-wrap .tag-links {width: 60%;}
 	.news-grid {width: 100%; margin: 0 0 22px 0!important;}	
 	.news-grid .news-content {padding:34px 35px 35px;}
