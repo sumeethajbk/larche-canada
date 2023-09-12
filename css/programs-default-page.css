@@ -22,8 +22,10 @@
 @media only screen and (max-width: 767px) and (min-width: 200px) {
     .intro-module{padding: 52px 0 27px;}
     .features-module-grid .features-txt p { padding-right: 0; }
-    .repeater-main{padding: 0;}
     .repeater-section{padding: 20px 0 0 ;}
+    .repeater-main{padding: 0;}
+    .repeater-list{flex-direction: inherit;}
+    .repeater-list.reverse{flex-direction: column-reverse;}
     .repeater-image{padding-bottom: 57px;}
     .repeater-content { padding-bottom: 28px;}
 }

@@ -21,6 +21,6 @@
 
 @media only screen and (max-width: 767px) and (min-width: 200px) {
 .programs-default-slider{padding: 0 0 45px;} 
-.repeater-list{flex-direction: inherit;}
-.repeater-list.reverse{flex-direction: column-reverse;} 
+.video-slider .single-slide{min-height: 281px;}
+.programs-default-slider .container{padding: 0;}
 }
