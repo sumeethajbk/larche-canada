@@ -2,4 +2,11 @@
 .video-slider .slick-track { display: flex !important; }
 .video-slider .single-slide {height: inherit !important;}
 .single-slide .video-thumbnail { height: 100%;}
-.single-slide .play-btn img{position: relative; left: 4px;}
+.single-slide .video-thumbnail .play-btn img{position: relative; left: 4px;}
+.video-slider .slick-arrow.slick-disabled{opacity: 0;}
+.video-slider .slick-arrow{ background-color: var(--white); border-radius: 50%; width: 72px; height: 72px; border: 0 none; transform: none;}
+ .video-slider .slick-arrow.prev-arrow{left: 30px;}
+.video-slider .slick-arrow.next-arrow{right: 30px;} 
+.video-slider .slick-arrow::after{content: ""; background-image: url("../images/right-arrow.svg"); position: absolute; display: block; width: 38px; height: 26px;}
+.video-slider .slick-arrow:hover{opacity: 0.2;}
+.video-slider .slick-arrow.prev-arrow:after{transform: scale(-1);} 
