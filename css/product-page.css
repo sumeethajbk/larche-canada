@@ -66,11 +66,7 @@
     .product-thumb img{width: 120px; height: 120px;}
     .product-sort{display: block; margin-bottom: 50px;}
     .category-title{margin-bottom: 18px;}
-    .category-form{display: none; padding: 20px 0 0;}
-    .frm_field{margin-bottom: 20px;}
+    .frm_field{margin-bottom: 20px; width: 100%;}
     .frm_field:last-child{margin-bottom: 0;}
-    .filter-dropdown{position: relative; color: var(--text-violetblue); font-weight: bold; padding-bottom: 10px; border-bottom: 2px solid var(--text-violetblue); cursor: pointer;}
-    .filter-dropdown::after{content: "\f107"; font-size: 0.938rem; font-family: "Font Awesome 6 Sharp"; font-weight: 400; transition: all .3s ease-in-out; position: absolute; display: flex; align-items: center; flex-wrap: wrap; top: 0; bottom: 0; right: 0 }
     .product-btn {margin: 0;}
-    .filter-dropdown.active::after{content: "\f107"; transform: translate(-50); transform: rotate(-180deg); position: absolute; top: 0; bottom: 0; font-family: "Font Awesome 6 Sharp";}
 }

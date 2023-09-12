@@ -16,13 +16,19 @@
 
 
 /* Responsive */
+@media only screen and (max-width: 1023px) and (min-width: 200px){
+.heading-lt {width: 100%; margin: 0 0 20px 0;}
+	.heading-rt {width: 100%;}
+	
+}
 
-
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+	.heading-rt .form-field {width: 32.4%; margin: 0 0 0 10px;}
+	.heading {padding: 0 0 50px;}
+}
 @media only screen and (max-width: 767px) and (min-width: 200px){
 	
-	.heading {padding: 0 0 28px;}
-	.heading-lt {width: 100%; margin: 0 0 16px 0;}
-	.heading-rt {width: 100%;}
+	.heading {padding: 0 0 28px;}	
 	.heading-rt .search-form {max-width: 100%;}
 	
 	.programs-container {padding: 59px 0 60px;}
