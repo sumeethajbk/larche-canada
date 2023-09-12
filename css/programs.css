@@ -1,10 +1,11 @@
 @import url("../css/_feature-panel-section.css");
 @import url("../css/_subscribe-module.css");
 @import url("../css/_programs-grid.css");
-@import url("../css/_no-banner.css");
+@import url("../css/_grid-banner.css");
 
+#mainContent {padding: 120px 0 0 0;}
 .programs-container {clear: both; background: var(--light-grey); width: 100%; padding:86px 0 50px;}
-.heading {padding: 0 0 31px;}
+.heading {padding: 0 0 37px;}
 .heading-lt {width: 30%;}
 .heading-lt h3 {color: var(--black);}
 .heading-rt {width:calc(100% - 30%);}

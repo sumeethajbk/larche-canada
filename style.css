@@ -291,6 +291,9 @@ body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropd
 .fixed-social-icons .at-share-btn-elements .at-share-btn span {display: none;}
 .fixed-social-icons .at4-visually-hidden {display: none;}
 
+
+.toggle-form {width:100%;}
+
 /*-- media css starts here --*/
 @media only screen and (max-width:1400px) {
 	.container, .container-lg {padding:0 22px; max-width:100%;}
