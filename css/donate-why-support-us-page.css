@@ -11,7 +11,7 @@
 .split-banner-section .split-banner-image { width: 48.2%; min-height: 428px; margin: 8px 0 0 0; }
 .features-module{padding: 50px 0 58px;}
 .intro-here-module{padding: 92px 0 25px;}
-
+.programs-default-slider{padding: 0;}
 
 
 @media screen and (max-width: 767px) and (min-width: 200px) {
@@ -22,4 +22,5 @@
     .programs-default-slider{padding: 0;}
     .repeater-main { padding: 28px 0 60px; } 
     .repeater-content { padding-bottom: 27px;}
+    .programs-default-slider{padding: 0;}
 }
