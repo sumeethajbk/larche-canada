@@ -2,6 +2,7 @@
 @import url("../css/_post-banner.css");
 @import url("../css/_intro-here-module.css");
 @import url("../css/_resources-module.css");
+@import url("../css/_feature-panel-section.css");
 
 .hero-banner-section .hero-banner-main {min-height: 546px;}
 
