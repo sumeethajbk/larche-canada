@@ -16,8 +16,8 @@
 .feature-panel-section.violetbg {background: var(--violet);}
 
 /* text-violetblue */
-.feature-panel-section.text-blue{background-color: var(--text-violetblue);}
-
+.feature-panel-section.text-violetblue{background-color: var(--text-violetblue);}
+.feature-panel-section.text-blue{background-color: var(--text-blue);}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px) {
