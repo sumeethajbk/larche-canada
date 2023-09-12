@@ -1,4 +1,4 @@
-.grid-banner-section{ z-index: 1; float:left; width: 100%; padding:170px 0 60px 0;}
+.grid-banner-section{ z-index: 1; float:left; width: 100%; padding:50px 0 0 0;}
 .grid-banner-text{padding-top: 49px; color: var(--white);}
 .grid-banner-text h1 {font-size: 2.25rem; line-height: 1.17; margin-bottom: 25px;}
 .grid-banner-text h2 {font-size: 1.313rem; line-height: 1.19; margin-bottom: 14px; font-weight: 600;}
