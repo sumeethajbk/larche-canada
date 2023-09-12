@@ -11,13 +11,6 @@
 .feature-panel-image{position: relative; text-align: right;}
 .feature-panel-thumb {clip-path: ellipse(100% 120% at 0% 50%); width: 100%; height: 100%;}
 
-/* Green */
-.feature-panel-section.green {background: var(--green);}
-.feature-panel-section.violetbg {background: var(--violet);}
-
-/* text-violetblue */
-.feature-panel-section.text-violetblue{background-color: var(--text-violetblue);}
-.feature-panel-section.text-blue{background-color: var(--text-blue);}
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px) {
