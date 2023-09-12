@@ -21,9 +21,13 @@
 .annual-report-main{background-color: var(--text-violetblue); }
 .repeater-section{padding: 15px 0 75px;}
 
+@media only screen and (max-width: 1160px) and (min-width: 1024px) {
+    .hero-banner-section .hero-banner-main .hero-banner-image .banner-img{ bottom: -37px;}
+}
+
 @media only screen and (max-width: 1299px) and (min-width: 1024px) {
     .hero-banner-section{margin: 0 0 37px 0;}
-    .hero-banner-section .hero-banner-main .hero-banner-image .banner-img{ right: -52px; bottom: -37px;}
+    .hero-banner-section .hero-banner-main .hero-banner-image .banner-img{ right: 0;}
 }
 
 @media only screen and (max-width: 1023px) and (min-width: 200px) {
