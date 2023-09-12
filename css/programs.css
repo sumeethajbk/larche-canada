@@ -1,7 +1,7 @@
 @import url("../css/_feature-panel-section.css");
 @import url("../css/_subscribe-module.css");
 @import url("../css/_programs-grid.css");
-@import url("../css/_grid-banner.css");
+@import url("_program-banner.css");
 
 #mainContent {padding: 120px 0 0 0;}
 .programs-container {clear: both; background: var(--light-grey); width: 100%; padding:86px 0 50px;}
