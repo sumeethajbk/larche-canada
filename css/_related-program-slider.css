@@ -1,0 +1,8 @@
+.related-programs-slider { clear: both; width: 100%; background-color: rgb(238, 241, 251); padding: 89px 0 100px; margin-top: 30px;}
+.related-programs-slider h3{color: var(--black); margin-bottom: 51px; padding: 0 60px 0 0;}
+.related-programs-slider .slick-arrow {margin: inherit; top: -81px; bottom: inherit;}
+.related-programs-slider  .slick-arrow.prev-arrow {right: 30px; left: auto;}
+.rp-slider .slick-list {overflow: visible;}
+.rp-slider .slick-track {display: flex!important;}
+
+.programs-grid {width: 422px; margin: 0 50px 0 0; background: var(--white); height: inherit!important;}
