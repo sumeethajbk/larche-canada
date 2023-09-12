@@ -15,26 +15,13 @@
 .subscribe-module .sub-dots {position: absolute; bottom:0; margin: 0 auto; left: 55%; right: 0; max-width: 1097px; width:100%;
 transform: translateX(-50%); z-index: -1;}
 
+
 /*-- media css starts here --*/
-
-
-@media only screen and (min-width: 1024px) {
-    
-}
-
-@media only screen and (max-width: 1400px) {
-	
-}
-
 @media only screen and (max-width: 1023px) and (min-width: 200px){
 	.subscribe-main .sub-lt {width: 100%;}
-	.subscribe-main .sub-rt {width: 100%;}
-}
-
-@media only screen and (max-width: 1023px) and (min-width: 768px){
-    
-}
-
-@media only screen and (max-width: 767px) and (min-width: 200px){
-    
+	.subscribe-main .sub-rt {width: 100%; padding: 61px 0 0 0; position: relative;}
+	.subscribe-module {padding: 54px 0 62px;}
+	.subscribe-main .optional-text {margin: 0 0 13px 0;}
+	.subscribe-main .frm_forms .form-field {margin-bottom: 18px;}
+	.subscribe-module .sub-dots {width: 776px; height: 147px; max-width: 776px; bottom: inherit; top: -63px; left:116.4%;}
 }

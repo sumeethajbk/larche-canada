@@ -30,6 +30,9 @@
 .filter-nav {margin: 0 0 50px 0;}
 .filter-nav li a:hover:after, .filter-nav li a.active:after  {content: ""; background: url("../images/orange-line.svg") 0 0 no-repeat;}
 
+
+
+
 /* Responsive */
 @media only screen and (max-width: 1160px) and (min-width:1024px){
 	.news-grid .news-content {padding: 39px 30px;}
@@ -43,12 +46,18 @@
 @media only screen and (max-width: 767px) and (min-width: 200px){
 	.featured-news-events-module {padding: 59px 0 30px;}
 	.featured-news-events-module h3 {padding: 0; margin-bottom: 32px;}
-	.news-grid {width: 100%; margin: 0 20px 0 0;}	
-	.news-grid .news-content {padding:35px 35px 36px;}
-	.news-grid .news-content h4 {margin-bottom: 22px;}
+	.cat-wrap .tag-links {width: 60%;}
+	.news-grid {width: 100%; margin: 0 0 22px 0!important;}	
+	.news-grid .news-content {padding:34px 35px 35px;}
+	.news-grid .news-content h4 {margin-bottom: 23px;}
 	
 	.heading {padding: 0 0 28px;}
 	.heading-lt {width: 100%; margin: 0 0 16px 0;}
 	.heading-rt {width: 100%;}
 	.heading-rt .search-form {max-width: 100%;}
+	
+	.news-updates-container {padding: 59px 0 60px;}
+	.btn {margin: 8px 0 0 0;}
+	.filter-nav li {margin:0 55px 15px 0;}
+	.filter-nav li a:hover::after, .filter-nav li a.active::after {width: 79px; bottom: -20px;}
 }
