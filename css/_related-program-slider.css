@@ -6,3 +6,20 @@
 .rp-slider .slick-track {display: flex!important;}
 
 .programs-grid {width: 422px; margin: 0 50px 0 0; background: var(--white); height: inherit!important;}
+
+
+
+/* Responsive */
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    .programs-grid{width: 422px!important; margin: 0 50px 0 0!important;}
+
+}
+
+@media only screen and (max-width: 767px) and (min-width: 200px){
+	.related-programs-slider {padding: 59px 0 30px;}
+	.related-programs-slider h3 {padding: 0; margin-bottom: 32px;}
+	.programs-grid {width: 285px; margin: 0 20px 0 0!important;}	
+	.programs-grid .programs-content {padding:35px 35px 36px;}
+	.programs-grid .programs-content h4 {margin-bottom: 22px;}
+    .programs-grid .programs-thumb { height: 202px;}
+}
