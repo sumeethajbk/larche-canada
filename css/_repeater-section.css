@@ -6,6 +6,7 @@
 .repeater-content ul, .repeater-content ol {margin: 23px 0 28px 25px;}
 .repeater-thumb img{border-radius: 50%;}
 
+.video-thumbnail .play-btn{width: 100px; height: 100px;}
 
  /*-- media starts here --*/
  @media only screen and (min-width: 1024px){
