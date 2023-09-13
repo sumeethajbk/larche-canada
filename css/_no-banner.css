@@ -25,8 +25,8 @@ transform: translateY(-42.7%);}
 	.no-banner-section .no-banner-main .no-banner-txt .optional-text {margin: 0 0 9px 0;}
 	.no-banner-section .no-banner-main .no-banner-txt p {margin: 0 auto 15px auto;}
 	
-	.no-banner-section .no-banner-main .no-banner-dot-right {right: -600px; width: 761px; height: 149px; top: inherit; transform: none; bottom: -26px;}
-	.no-banner-section .no-banner-main .no-banner-dot-left figure, 
-	.no-banner-section .no-banner-main .no-banner-dot-right figure {width:761px;}
-	.no-banner-section .no-banner-main .no-banner-dot-left {left: -534px; width: 710px; top: inherit; bottom: -41px; transform: scale(1, -1); overflow: hidden;}
+	.no-banner-section .no-banner-main .no-banner-dot-right {right:-598px; width: 760px; height: 149px; top: inherit; transform: none; bottom: -18px;}
+	.no-banner-section .no-banner-main .no-banner-dot-right svg {width: 759px; height: 149px;}
+	.no-banner-section .no-banner-main .no-banner-dot-left svg {width:761px; height: 150px;}	
+	.no-banner-section .no-banner-main .no-banner-dot-left {left: -534px; width: 710px; top: inherit; bottom: -33px; transform: scale(1, -1); overflow: hidden; height: 149px;}
 }
