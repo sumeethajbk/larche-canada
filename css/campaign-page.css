@@ -1,0 +1,26 @@
+@import url("../css/_hero-banner.css");
+@import url("../css/_intro-here-module.css");
+@import url("../css/_features-module.css");
+@import url("../css/_programs-default-slider.css");
+@import url("../css/_repeater-section.css");
+@import url("../css/_annual-report-module.css");
+@import url("../css/_number-section.css");
+@import url("../css/_tiled-module.css");
+@import url("../css/default-page.css");
+
+
+@import url("../css/_feature-panel-section.css");
+
+
+
+.intro-here-module{padding: 86px 0 0 0;}
+.features-module{padding: 32px 0 10px;}
+.programs-default-slider{padding: 47px 0 0;}
+.repeater-section { padding: 73px 0 63px; }
+.annual-report-module { padding-bottom: 8px; }
+.annual-report-main{background-color: var(--text-violetblue);}
+.number-main { justify-content: center; padding: 45px 0 0;}
+.tiled-module{margin-top: 20px;}
+.general-default-article-section { padding: 44px 0 100px; }
+.img-shape-1{width: 352px; height: 437px; top: -62px; left: -115px;}
+.img-shape-2 {right:-54px; top: -33px; width: 297px; height: 388px;}

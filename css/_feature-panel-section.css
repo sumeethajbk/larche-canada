@@ -3,7 +3,7 @@
 .feature-panel-section.text-blue{background-color: var(--text-blue);}
 .feature-panel-main{ color: var(--white); position: relative;}
 .feature-panel-section .optional-text {color: var(--white-50);}
-.feature-icon{position: absolute; z-index: 1; display: flex; align-items: center; width: 319px; height: 347px; top: 98px; right: -92px;}
+.feature-icon{position: absolute; z-index: 1; display: flex; align-items: center; width: 319px; height: 412px; top: 64px; right: -92px;}
 .feature-panel-text h2{margin-bottom: 38px; color: var(--white);}
 .feature-panel-text h2 span{  position: relative; z-index: 0; display: inline-block;}
 .feature-panel-text h2 span svg{position: absolute; top: auto; left: -16px; bottom: -74px;}
