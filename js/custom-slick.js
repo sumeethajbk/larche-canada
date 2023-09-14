@@ -152,7 +152,7 @@ jQuery(document).ready(function () {
 
   }
 
-  sliderRes.on('init', function (event, slick, direction) {
+  jQuery('.resource-slider').on('init', function (event, slick, direction) {
     if (!(jQuery('.resource-slider .slick-slide').length > 4)) {
 
       jQuery('.slick-arrow').hide();
