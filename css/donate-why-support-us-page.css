@@ -1,4 +1,4 @@
-@import url("../css/_split-banner.css");
+@import url("../css/_hero-banner.css");
 @import url("../css/_intro-here-module.css");
 @import url("../css/_features-module.css");
 @import url("../css/_programs-default-slider.css");
@@ -7,8 +7,22 @@
 @import url("../css/_repeater-section.css");
 @import url("../css/_donation-section.css");
 
-.split-banner-section .split-banner-txt { width: 51.8%; margin: 0 0 30px 0; color: var(--white); padding-left: 54px; }
-.split-banner-section .split-banner-image { width: 48.2%; min-height: 428px; margin: 8px 0 0 0; }
+.hero-banner-section {background: var(--violetblue);}
+.hero-banner-section .hero-banner-main .hero-banner-txt {width: 51%;}
+.hero-banner-section .hero-banner-main .hero-banner-txt h1 {margin-bottom: 22px;}
+.hero-banner-section .hero-banner-main .hero-banner-txt h1 span{font-size: 7.25rem; line-height: 6rem; color: var(--pink); font-family: CCSignLanguage; font-weight: normal; display: block; transform: rotate(-1.25deg); margin: -4px 0 0 -3px;}
+.hero-banner-section .hero-banner-main .hero-banner-txt p {max-width: 450px;}
+.hero-banner-section .hero-banner-main .hero-banner-image {width: 46%;}
+.hero-banner-section .hero-banner-main .hero-banner-image .banner-img {position: absolute; width:auto; height: auto; bottom: -71px; right: -102px;}
+
+.ellipse {border-radius: 50%; border-style: solid; border-width: 54px;}
+.ellipse-red {border-color: var(--red);}
+.ellipse-orange {border-color: var(--orange); border-width: 56px;}
+.ellipse-green {border-color: var(--green);}
+.ellipse-pink {border-color: var(--pink); border-width: 56px;}
+.ellipse-icon {width: 152px; height: 152px; align-items: center; justify-content: center;}
+.ellipse-icon img {width:96px; height:88px; border-radius:0!important;}
+
 .features-module{padding: 50px 0 58px;}
 .intro-here-module{padding: 92px 0 25px;}
 .programs-default-slider{padding: 0;}

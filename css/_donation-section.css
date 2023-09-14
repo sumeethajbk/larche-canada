@@ -13,6 +13,9 @@
  .circle.orange{background-color: var(--orange);  z-index: 3;}
  .circle.green{ background-color: var(--green); z-index: 2;}
  .circle.pink{background-color: var(--pink);  z-index: 1}
+
+
+
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px) {
     .donation-main{justify-content: space-between; align-items: center;}
@@ -37,7 +40,7 @@
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .donation-main{flex-direction: column-reverse; margin-bottom: 60px;}
-    .donation-image{width: 560px; height: 560px; top: -30px; left: 50%; transform: translateX(-50%);}
+    .donation-image{width: 560px; height: 560px; top: -30px; }
     .circle.text-violetblue{width: 200px; height: 200px;}
     .circle.red{width: 290px; height: 290px;}
     .circle.orange{width: 380px; height: 380px;}
