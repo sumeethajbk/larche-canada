@@ -24,6 +24,8 @@ ul.filter-list > li.active a{color: var(--white); background-color: var(--text-v
 .resource-item.pink{background-color: rgba(255, 112, 128, 0.07);}
 
 .resource-slider .slick-list{overflow: visible;}
+.resource-slider .slick-track{display: flex;}
+.resource-slider .slick-slide{height: inherit !important;}
 
 @media screen and (min-width: 1024px) {
     .resource-main{padding: 86px 0 100px;}

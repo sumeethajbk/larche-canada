@@ -152,7 +152,15 @@ jQuery(document).ready(function () {
 
   }
 
-  jQuery('.resource-slider').slick({
+  jQuery('.resource-slider').on('init', function (event, slick, direction) {
+    if (!(jQuery('.resource-slider .slick-slide').length > 4)) {
+
+      jQuery('.slick-arrow').hide();
+
+  }
+  });
+  
+ var sliderRes =  jQuery('.resource-slider').slick({
     slidesToShow: 4,
     slidesToScroll: 1,
     infinite: false,
@@ -182,6 +190,8 @@ jQuery(document).ready(function () {
       }
     }, ]
   });
+
+
 
 
   jQuery('.testimonial-slider').slick({
@@ -214,7 +224,6 @@ jQuery(document).ready(function () {
       }
     }, ]
   });
-
 
   
 });
