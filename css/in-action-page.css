@@ -9,16 +9,30 @@
 @import url("../css/_common-cta-section.css");
 
 
-.action-banner-section{z-index: 1; clear: both; position: relative; width: 100%; padding: 120px 0 0 0; background:var(--white);}
-.action-banner-section .action-banner-main {padding: 92px 0; width:100%; text-align: center; margin: 0 auto; max-width: 683px; position: relative}
-.action-banner-section .action-banner-main .action-banner-dot-left {display: block; left: -935px; width: 1097px; height: 216px; top: 50%; transform: translateY(-29.9%);}
-.action-banner-section .action-banner-main .action-banner-dot-right {display: block; right: -942px; width: 1097px; height: 216px; top: 50%;
-transform: translateY(-42.7%);}
+.action-banner-section{z-index: 1; clear: both; position: relative; width: 100%; padding:120px 0 26px 0; background:var(--white);}
+.action-banner-section .action-banner-main {padding: 92px 0; width:100%; text-align: center; margin: 0 auto; position: relative}
+.action-banner-section .action-banner-main .action-banner-dot-left {display: block; left:-593px; width: 949px; height: 257px; top: 50%; transform: translateY(-44.3%); z-index: -1;}
+.action-banner-section .action-banner-main .action-banner-dot-right {display: block; right:-697px; width: 1097px; height: 254px; top: 50%; transform: translateY(-44.2%); z-index: -1;}
+.action-banner-section .action-banner-main .action-center {justify-content: space-between;}
+.action-banner-section .action-banner-main .action-banner-txt {width: 45.2%; position: relative; z-index: 1;}
 .action-banner-section .action-banner-main .action-banner-txt .optional-text {color: rgba(26, 21, 100, 0.6); margin: 0 0 6px 0;}
-.action-banner-section .action-banner-main .action-banner-txt h1 {color: var(--violet); margin-bottom: 17px;}
+.action-banner-section .action-banner-main .action-banner-txt h1 {color: var(--violet); margin-bottom: 17px; letter-spacing: 0.8px;}
 .action-banner-section .action-banner-main .action-banner-txt p {max-width: 370px; margin: 0 auto 26px auto;}
 .action-banner-wrap {max-width: 1700px; margin: 0 auto;}
 
+
+.action-thumb {position: relative;}
+.action-thumb img {border-radius: 50%;}
+
+.action-lt-imgs {width:27.4%;}
+.action-lt-imgs .face {width: 129px; height: 129px; top: -30px; left: -41px;}
+.action-lt-imgs .face:nth-child(2) {width: 131px; height: 131px; top: 175px; left: -29px;}
+.action-lt-imgs .face:nth-child(3)  {width: 140px; height: 140px; right: 67px; left: inherit; top: 88px;}
+
+.action-rt-imgs {width:27.4%;}
+.action-rt-imgs .face {width: 142px; height: 142px; top: -39px; left: 120px;}
+.action-rt-imgs .face:nth-child(2) {width: 128px; height: 128px; top: 201px; left: 83px;}
+.action-rt-imgs .face:nth-child(3)  {width: 126px; height: 126px; right: -72px; left: inherit; top: 178px;}
 
 .intro-here-module{padding: 93px 0 0 0;}
 .annual-report-main{background-color: var(--text-violetblue);}
@@ -28,23 +42,56 @@ transform: translateY(-42.7%);}
 
 
 /*-- media starts here --*/
+@media only screen and (max-width: 1520px) and (min-width:1401px){
+	.action-lt-imgs .face {left: -10px;}
+	.action-lt-imgs .face:nth-child(2) {left: 0;}
+	.action-rt-imgs .face:nth-child(3) {right: -10px;}
+}
+
+@media only screen and (max-width: 1400px) and (min-width:1024px){
+	.action-lt-imgs .face {left: -10px;}
+	.action-lt-imgs .face:nth-child(2) {left: -10px;}
+	.action-lt-imgs .face:nth-child(3) {right: 10px;}
+	
+	.action-rt-imgs .face {left: 70px;}
+	.action-rt-imgs .face:nth-child(2) {left: 10px;}
+	.action-rt-imgs .face:nth-child(3) {right: -10px;}
+}
+
 @media only screen and (max-width: 1160px) and (min-width:1024px){
 	.action-banner-section .action-banner-main .action-banner-image .banner-img {height: 500px!important; width: 500px!important;}
 }
 
+
+
 @media only screen and (max-width: 1023px) and (min-width: 200px){
 	.action-banner-section {padding: 80px 0 0 0;}	
+	.action-lt-imgs {display: flex; flex-wrap: wrap; width: 100%; justify-content: space-between; max-width: 390px; margin:0 auto 11px; min-height: 175px;}
+	.action-lt-imgs .face {position: relative; width: 95px; height: 95px; left: -12px; top: 80px;}
+	.action-lt-imgs .face:nth-child(2) {width: 96px; height: 96px; top: 0; left: -9px;}
+	.action-lt-imgs .face:nth-child(3) {width: 103px; height: 103px; right: -12px; top: 64px;}
+	
+	
+	.action-banner-section .action-banner-main {padding: 42px 0 59px 0;}	
+	.action-banner-section .action-banner-main .action-banner-txt {width: 100%;}
+	.action-banner-section .action-banner-main .action-banner-txt .optional-text {margin: 0 0 13px 0;}
+	.action-banner-section .action-banner-main .action-banner-txt p {margin: 0 auto 20px auto;}
+	.action-banner-section .action-banner-main .action-banner-txt h1 {margin-bottom: 21px;}
+	.action-rt-imgs, .action-banner-section .action-banner-main .action-banner-dot-right {display: none;}
+	
+	.action-banner-section .action-banner-main .action-banner-dot-left svg {width: 100%; height: 100%; object-fit: contain;}	
+	.action-banner-section .action-banner-main .action-banner-dot-left {left: inherit; width: 695px; top: 55px; bottom:inherit;  overflow: hidden; height: 154px; transform: none; right: -48px}
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+	.action-banner-section .action-banner-main .action-banner-dot-left {left: 0; right: 0; margin: auto;}
 }
 
 @media only screen and (max-width: 767px) and (min-width: 200px) {
-	.action-banner-section .action-banner-main {padding: 55px 0 83px 0;}
-	.action-banner-section .action-banner-main .action-banner-txt .optional-text {margin: 0 0 9px 0;}
-	.action-banner-section .action-banner-main .action-banner-txt p {margin: 0 auto 15px auto;}
 	
-	.action-banner-section .action-banner-main .action-banner-dot-right {right: -600px; width: 761px; height: 149px; top: inherit; transform: none; bottom: -26px;}
-	.action-banner-section .action-banner-main .action-banner-dot-left figure, 
-	.action-banner-section .action-banner-main .action-banner-dot-right figure {width:761px;}
-	.action-banner-section .action-banner-main .action-banner-dot-left {left: -534px; width: 710px; top: inherit; bottom: -41px; transform: scale(1, -1); overflow: hidden;}
+	
+	
+
 	
     .intro-here-module { padding: 70px 0 0 0; }
     .features-module{padding: 60px 0 28px}

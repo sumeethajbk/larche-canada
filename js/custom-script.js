@@ -77,9 +77,6 @@ jQuery(document).ready(function () {
   }
 
 
-  
-
-
   // New edit
   jQuery(".accordion-item .heading").on("click", function (e) {
     e.preventDefault();
@@ -93,8 +90,6 @@ jQuery(document).ready(function () {
     jQuerycontent.slideToggle(300);
     jQuery(".accordion-item .content").not(jQuerycontent).slideUp("slow");
   });
-
-
 
 
   jQuery('select').selectBox({
@@ -115,32 +110,32 @@ jQuery(document).ready(function () {
     jQuery('.overlay_main_sec').removeClass('active');
   });
 
- 
+
   jQuery(".directors-name").on('click', function (e) {
     e.preventDefault();
     jQuery(this).parents().siblings('.directors-item').find(".directors-name").removeClass("active");
     jQuery(this).toggleClass("active");
     jQuery(this).parents().siblings('.directors-item').find(".directors-details").removeClass("expand");
-    jQuery(this).parent('.directors-details').toggleClass("expand");   
+    jQuery(this).parent('.directors-details').toggleClass("expand");
 
   });
 
-  jQuery(".filter-dropdown").on("click", function(e){
+  jQuery(".filter-dropdown").on("click", function (e) {
     e.preventDefault();
     jQuery(this).toggleClass("active");
     jQuery(this).next(".toggle-form").slideToggle(900);
 
   })
 
-  jQuery(".resource-filter-mobile").on("click", function(e){
+  jQuery(".resource-filter-mobile").on("click", function (e) {
     e.preventDefault();
     jQuery(this).toggleClass("active");
     jQuery(this).next("ul.filter-list").slideToggle(900);
 
   })
 
-  if(jQuery(window).width() <= 1023){
-    jQuery("ul.filter-list > li > a").on("click", function(e){
+  if (jQuery(window).width() <= 1023) {
+    jQuery("ul.filter-list > li > a").on("click", function (e) {
       e.preventDefault();
       jQuery(".resource-filter-mobile").removeClass("active");
       jQuery("ul.filter-list").slideUp();
@@ -148,13 +143,20 @@ jQuery(document).ready(function () {
       jQuery(".resource-filter-mobile span.text").text(content);
     })
   }
-  
 
-  jQuery("ul.filter-list > li").on("click", function(e){
+
+  jQuery("ul.filter-list > li").on("click", function (e) {
     e.preventDefault();
     jQuery("ul.filter-list > li.active").removeClass("active");
     jQuery(this).addClass("active");
   })
-  
+
+  jQuery(".filter-list li").on("click", function () {
+    jQuery(".resource-item").show();
+    var target = jQuery(this).data('cat');
+    console.log(target);
+    console.log(".resource-item" + "." + target);
+    jQuery(".resource-item" + "." + target).hide();
+  })
 
 });
