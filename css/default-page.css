@@ -13,7 +13,7 @@
 
 .hero-banner-section {margin-bottom: 37px;}
 .hero-banner-main {max-width: 1152px; margin: 0 auto;}
-.img-shape-1 {width: 352px; height: 437px; top: -62px; left: -115px;}
+.img-shape-1{width: 352px; height: 437px; top: -62px; left: -115px;}
 .img-shape-2 {right:-54px; top: -33px; width: 297px; height: 388px;}
 
 .general-default-article-section {float: left; width: 100%; padding:82px 0 100px;}
@@ -36,7 +36,7 @@
 .lc-shape-2 {bottom: -84px; right: -119px; width:362px; height:401px;}
 
 /* Single Testimmonial */
-.single-testimonial {clear: both; width: 100%; padding:62px 65px; margin:51px 0 29px; background: var(--green);}
+.single-testimonial {clear: both; width: 100%; padding:62px 65px; margin:51px 0 29px;}
 .single-testimonial .container {padding: 0;}
 .single-testimonial .testimonial-cnt {width: 100%; clear: both;  position: relative; margin: 0 0 29px 0; font-size: 1.375rem; font-weight:300; line-height: 1.36; color: var(--white); letter-spacing: 0.4px; padding: 53px 0 0 0;}
 .single-testimonial .testimonial-cnt:before {content: "" ; width: 28px; background:url("../images/quote.svg") 0 0 no-repeat; height: 26px; display: block; position: absolute; top: 0;}

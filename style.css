@@ -289,6 +289,13 @@ body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropd
 .tealbg {background: var(--teal);}
 .bluebg {background: var(--violetblue);}
 
+
+.light-orange .readmore {color: var(--orange);}
+.light-orange .shapes svg path {fill: var(--orange);}
+
+.light-green .readmore {color: var(--green);}
+.light-green .shapes svg path {fill: var(--green);}
+
 .fixed-social-icons { display: flex; align-items: center; flex-wrap: wrap; margin: 0 0 51px 0; justify-content: flex-end;}
 .fixed-social-icons .share-text {font-size: 0.813rem; color: rgba(0, 7, 51, 0.5); line-height: 1.69; font-weight: 600; margin:0 15px 0 0;}
 .fixed-social-icons .at-share-btn-elements .at-share-btn {width: 34px; height: 34px; color: var(--h4); line-height: 34px;
