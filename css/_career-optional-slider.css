@@ -1,0 +1,25 @@
+.career-optional-slider { clear: both; width: 100%; background-color: rgb(238, 241, 251); padding: 89px 0 100px;}
+.career-optional-slider h3{color: var(--black); margin-bottom: 51px; padding: 0 60px 0 0;}
+.career-optional-slider .slick-arrow {margin: inherit; top: -81px; bottom: inherit;}
+.career-optional-slider  .slick-arrow.prev-arrow {right: 30px; left: auto;}
+.career-slider .slick-list {overflow: visible;}
+.career-slider .slick-track {display: flex!important;}
+
+.programs-grid {width: 422px; margin: 0 50px 0 0; background: var(--white); height: inherit!important;}
+.programs-grid .programs-content {padding: 44px 45px 40px;}
+
+
+/* Responsive */
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    .programs-grid{width: 422px!important; margin: 0 50px 0 0!important;}
+
+}
+
+@media only screen and (max-width: 767px) and (min-width: 200px){
+	.career-optional-slider {padding: 59px 0 30px;}
+	.career-optional-slider h3 {padding: 0; margin-bottom: 32px;}
+	.programs-grid {width: 285px; margin: 0 20px 0 0!important;}	
+	.programs-grid .programs-content {padding:35px 35px 36px;}
+	.programs-grid .programs-content h4 {margin-bottom: 22px;}
+    .programs-grid .programs-thumb { height: 202px;}
+}

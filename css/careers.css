@@ -1,3 +1,39 @@
 @import url("../css/_hero-banner.css");
+@import url("../css/_short-intro-section.css");
+@import url("../css/_career-optional-slider.css");
+@import url("../css/_repeater-section.css");
+@import url("../css/_tiled-module.css");
 @import url("../css/_testimonial-section.css");
 @import url("../css/_grid-section.css");
+@import url("../css/_intro-here-module.css");
+@import url("../css/_features-module.css");
+@import url("../css/_common-cta-section.css");
+
+
+
+
+/*-- media css starts here --*/
+
+@media only screen and (min-width: 1024px){
+    .career-shape-1 {width: 287px; height: 342px; top: -32px; left: -23px;}
+    .career-shape-2 {width: 83px; height: 119px; right: 160px; top: -45px;}
+    .short-intro-section { padding: 65px 0 103px; }
+    .tp-shape-8 {left: -106px}
+    .tp-shape-9 {top: -29px; right: -19px; }
+    .repeater-section { padding: 85px 0 85px; }
+    .intro-here-module{padding: 0;}
+    .features-module{padding: 33px 0 68px;}
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 200px) {
+    .career-shape-1 { width: 166px; height: 193px; top: -21px; left: -16px; } 
+    .career-shape-2 { width: 83px; height: 71px; right: 78px; top: -30px; }
+    .intro-here-module{padding: 0;}
+}
+
+@media only screen and (max-width: 767px) and (min-width: 200px) {
+    .short-intro-section { padding: 52px 0 64px; }
+    .repeater-content { padding-bottom: 39px;}
+    .grid-main{padding: 22px 0 0 ;}
+     
+}

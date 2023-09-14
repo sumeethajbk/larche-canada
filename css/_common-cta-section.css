@@ -1,4 +1,4 @@
-.common-cta-section{ overflow: hidden; background-color: var(--violet); clear: both;}
+.common-cta-section{ overflow: hidden;  clear: both;}
 .common-cta-section .container-lg{padding: 0; overflow: hidden;}
 .common-cta-main{ color: var(--white); position: relative; min-height: 546px;}
 .common-cta-text{display: flex; flex-direction: column; align-items: flex-start; justify-content: center; flex-wrap: wrap; padding:30px 22px;}
