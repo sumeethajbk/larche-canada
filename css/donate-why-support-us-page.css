@@ -8,7 +8,8 @@
 @import url("../css/_donation-section.css");
 
 .hero-banner-section {background: var(--violetblue);}
-.hero-banner-section .hero-banner-main .hero-banner-txt {width: 51%;}
+.hero-banner-section .hero-banner-main .hero-banner-txt {width: 51%; margin-bottom: 2.5%;}
+.hero-banner-section .hero-banner-main .hero-banner-txt .optional-text {margin: 0 0 7px 0;}
 .hero-banner-section .hero-banner-main .hero-banner-txt h1 {margin-bottom: 22px;}
 .hero-banner-section .hero-banner-main .hero-banner-txt h1 span{font-size: 7.25rem; line-height: 6rem; color: var(--pink); font-family: CCSignLanguage; font-weight: normal; display: block; transform: rotate(-1.25deg); margin: -4px 0 0 -3px;}
 .hero-banner-section .hero-banner-main .hero-banner-txt p {max-width: 450px;}

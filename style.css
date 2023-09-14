@@ -239,7 +239,7 @@ body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropd
 
 .teal .readmore, .teal.text-violet {color: var(--teal);}
 .teal .cat-wrap .tag-links li a, .teal .sub-text {background: var(--teal);}
-.teal .shapes svg path, .violet-shape svg path  {fill: var(--teal);}
+.teal .shapes svg path, .teal-shape svg path   {fill: var(--teal);}
 .teal-shape .common-cta-text .h1 span {color: var(--teal);}
 .teal ul li:before {color: var(--teal);}
 
