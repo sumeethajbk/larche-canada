@@ -182,6 +182,7 @@ jQuery(document).ready(function () {
       }
     }, ]
   });
+  
 
 
   jQuery('.testimonial-slider').slick({
@@ -214,7 +215,6 @@ jQuery(document).ready(function () {
       }
     }, ]
   });
-
 
   
 });
