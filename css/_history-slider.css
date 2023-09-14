@@ -1,0 +1,21 @@
+.history-section{clear: both; width: 100%;}
+.history-bg { position: absolute; margin: 0 auto; max-width: 1700px; width: 100%; z-index: -1; left: 3.4%; right: 0; }
+.history-wrap{padding: 0 0 90px;}
+.history-wrap h3{margin-bottom: 68px; font-size: 2.625rem;}
+.event-slider .slick-list {overflow: visible;}
+/* .event-slider .slick-arrow {width: 14px; height: 14px}; */
+.event-slider .slick-arrow.prev-arrow{right: 0; left: -20px;}
+.event-slider .slick-arrow.next-arrow{left: 0; right: -20px;}
+.event-grid {width: 304px; margin: 0 125px 0 0; background: var(--white);}
+.event-dot{margin-bottom: 27px;}
+.event { color: var(--pink); font-size: 4.25rem; line-height: 4.375rem; font-weight: 500; font-family: CCSignLanguage; margin-bottom: 6px; position: relative; left: 9px;}
+h5{font-size: 1.125rem;}
+p{font-size: 0.938rem;}
+
+.pink .event{color: var(--pink);}
+.teal .event{color: var(--teal);}
+.green .event{color: var(--green);}
+.blue .event{color: var(--violetblue);}
+.orange .event{color: var(--orange);}
+.violet .event{color: var(--violet);}
+.red .event{color: var(--red);}
