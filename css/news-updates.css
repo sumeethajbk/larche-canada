@@ -18,12 +18,12 @@
 
 .news-banner-right {display: flex; align-items: stretch;}
 .news-banner-right .grids-post {justify-content: space-between;}
-.post-big .news-banner-text {padding:30px 20px 80px 90px; display: flex; justify-content: flex-end; flex-direction: column; align-items: flex-start; height: 100%; width: 50%;}
+.post-big .news-banner-text {padding:30px 10px 80px 90px; display: flex; justify-content: flex-end; flex-direction: column; align-items: flex-start; height: 100%; width: 50%;}
 .post-big .news-banner-text .banner-category {margin: 0 0 17px 0;}
 .post-big .news-banner-image {height: 100%; width:48.34%; position: relative;}
 .post-big .news-banner-thumb {clip-path:ellipse(100% 85.7% at 100% 50%); width: 100%; height: 100%;}
 .post-big .grid-icon {width: 115px; height: 173px; top: 39px; left: -32px;}
-.post-big .grid-icon-1 {width: 203px; height: 125px; top: -24px; left:-245px;}
+.post-big .grid-icon-1 {width: 203px; height: 125px; bottom: 22px; left: -32px}
 
 
 .news-banner-left .news-banner-img {width: 96px; height: 86px; margin: 0 30px 0 0;}
@@ -64,11 +64,13 @@
 
 /* Responsive */
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
-	.post-big .news-banner-text {padding-left: 20px;}
+	.post-big .news-banner-text {padding-left: 29px;}
+	.news-banner-left .news-banner-img {width: 80px; height: 80px;}
 }
 
 @media only screen and (max-width: 1160px) and (min-width:1024px){
 	.news-grid .news-content {padding: 39px 30px;}
+	
 }
 
 @media only screen and (min-width: 1024px){
@@ -81,13 +83,14 @@
 
 @media only screen and (max-width: 1023px) and (min-width: 200px){
 	#mainContent {padding: 80px 0 0 0;}
-	
+	.news-banner-main {flex-direction: column-reverse;}
 	.news-banner-section {padding: 20px 0 0 0;}
 	.news-banner-right, .news-banner-left .grids-post {margin: 0 0 22px 0;}
 	.news-banner-right, .news-banner-left {width: 100%;}	
 }
 
 @media only screen and (max-width: 1023px) and (min-width:768px){
+	.news-banner-right {min-height: 511px;}
 	.news-grid, .news-grid:nth-child(3n+1) {width: 48.15%; margin: 0 0 3.65% 3.65%;}
 	.news-grid:nth-child(2n+1) {margin-left: 0;}
 	
@@ -96,7 +99,6 @@
 	.news-banner-left .grids-post {width: 48.48%; margin: 0 0 22px 22px;}
 	.news-banner-left .grids-post:first-child {margin-left: 0;}
 	.news-banner-left .news-banner-text {display: flex; flex-direction: column; height: 100%; align-items: flex-start;}
-	.post-big .grid-icon {width: 482px; height: 338px; top: 24px; left: -185px;}
 }
 
 @media only screen and (max-width: 767px) and (min-width: 200px){
