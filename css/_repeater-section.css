@@ -6,9 +6,9 @@
 .repeater-content ul, .repeater-content ol {margin: 23px 0 28px 25px;}
 .repeater-thumb img{border-radius: 50%;}
 
-.video-thumbnail .play-btn{width: 100px; height: 100px;}
-.video-thumbnail .play-btn img { width: 33px; height: 34px}
-.video-thumbnail .play-btn img{ position: relative; left: 4px;}
+.repeater-section .video-thumbnail .play-btn{width: 100px; height: 100px;}
+.repeater-section .video-thumbnail .play-btn img { width: 33px; height: 34px}
+.repeater-section .video-thumbnail .play-btn img{ position: relative; left: 4px;}
 
  /*-- media starts here --*/
  @media only screen and (min-width: 1024px){
@@ -46,7 +46,9 @@
     .repeater-image{width: 100%;}
     .repeater-thumb-wrap{width: 342px; height: 342px;}
     .repeater-list:last-child{margin-bottom: 0;}
-    
+    .repeater-section .video-thumbnail .play-btn{width: 65px!important; height: 65px!important;}
+    .repeater-section .video-thumbnail .play-btn img { width: 21px; height: 21.5px}
+
     .green-line-one{width: 161px; height: 193px; top: -32px; left: -10px;}
     .green-line-two{width: 47px; height: 68px; right: 94px; top: -20px;}
     .orange-line-one{width: 94px; height: 115px; top: -23px; right: 7px;}

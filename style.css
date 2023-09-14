@@ -369,7 +369,7 @@ body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropd
 	.h3 {font-size: 1.875rem; line-height: 1.13;}
   
   .play-btn {width: 85px; height: 85px;}
-	
+	.play-btn img {width: 27px; height: 28px;}
 	.filter-dropdown{position: relative; color: var(--text-violetblue); font-weight: bold; padding-bottom: 10px; border-bottom: 2px solid var(--text-violetblue); cursor: pointer; width: 100%;}
     .filter-dropdown::after{content: "\f107"; font-size: 0.938rem; font-family: "Font Awesome 6 Sharp"; font-weight: 400; transition: all .3s ease-in-out; position: absolute; display: flex; align-items: center; flex-wrap: wrap; top: 0; bottom: 0; right: 0 }
     .product-btn {margin: 0;}
