@@ -22,7 +22,8 @@
 .post-big .news-banner-text .banner-category {margin: 0 0 17px 0;}
 .post-big .news-banner-image {height: 100%; width:48.34%; position: relative;}
 .post-big .news-banner-thumb {clip-path:ellipse(100% 85.7% at 100% 50%); width: 100%; height: 100%;}
-.post-big .grid-icon {width: 682px; height: 538px; top: -24px; left:-245px;}
+.post-big .grid-icon {width: 115px; height: 173px; top: 39px; left: -32px;}
+.post-big .grid-icon-1 {width: 203px; height: 125px; top: -24px; left:-245px;}
 
 
 .news-banner-left .news-banner-img {width: 96px; height: 86px; margin: 0 30px 0 0;}
