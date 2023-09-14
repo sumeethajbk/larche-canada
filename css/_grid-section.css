@@ -5,9 +5,11 @@
 .grid-item.green{background-color: rgba(0, 128, 41, 0.1);}
 .grid-item.green .grid-icon svg path{fill: var(--green);}
 
-
+@media screen and (min-width: 1401px) {
+.grid-section .container-lg{padding: 0 50px;}
+}
 @media screen and (min-width: 1024px) {
-    .grid-section .container-lg{padding: 0 50px;}
+    
     .grid-main{gap: 50px; padding: 50px 0 0;}
     .grid-item{flex: 0 0 calc(50% - 25px); padding: 79px 82px 90px 61px;}
     .grid-icon{flex: 0 0 74px; margin-right: 49px;}

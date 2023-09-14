@@ -223,6 +223,9 @@ jQuery(document).ready(function () {
     dots: false,
     arrows: true,
 	  variableWidth:true,
+    draggable: true,
+    touchThreshold: 200,
+    swipeToSlide: true,
     prevArrow: '<span class="slick-arrow prev-arrow flex flex-center"></span>',
     nextArrow: '<span class="slick-arrow next-arrow flex flex-center"></span>',
     responsive: [

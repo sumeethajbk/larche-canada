@@ -29,6 +29,7 @@
     .career-shape-1 { width: 166px; height: 193px; top: -21px; left: -16px; } 
     .career-shape-2 { width: 83px; height: 71px; right: 78px; top: -30px; }
     .intro-here-module{padding: 0;}
+    
 }
 
 @media only screen and (max-width: 767px) and (min-width: 200px) {
