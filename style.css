@@ -186,9 +186,9 @@ body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropd
 .readmore:after {right: 0; content:"\f105"; font-size:0.878rem; font-family: "Font Awesome 6 Sharp"; font-weight: 400; transition: all .3s ease-in-out; position: absolute; display: flex; align-items: center; flex-wrap: wrap; top: 2px;}
 .readmore:hover:after {animation-name: bounceAlpha; animation-duration:1.4s; animation-iteration-count:infinite; animation-timing-function:linear;}
 
-.button.more{min-width: 177px;}
-.button.more:after {content: "\f107";}
-.button.more:hover::after {animation-name: bounceAlphadown; animation-duration: 1.4s; animation-iteration-count: infinite;  animation-timing-function: linear;}
+.button.more, .readmore.more{min-width: 177px;}
+.button.more:after, .readmore.more:after {content: "\f107";}
+.button.more:hover::after, .readmore.more:hover::after {animation-name: bounceAlphadown; animation-duration: 1.4s; animation-iteration-count: infinite;  animation-timing-function: linear;}
 
 
 /* Color Specific */
