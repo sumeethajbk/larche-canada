@@ -1,4 +1,4 @@
-.feature-panel-section{overflow: hidden;}
+.feature-panel-section{overflow: hidden; clear: both; width: 100%;}
 .feature-panel-section .container-lg{padding: 0; overflow: hidden;}
 .feature-panel-section.text-blue{background-color: var(--text-blue);}
 .feature-panel-main{ color: var(--white); position: relative;}
