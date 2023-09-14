@@ -43,7 +43,6 @@
     .repeater-section { padding: 0;}
     .repeater-main { padding: 65px 0 60px; }
     .tiled-module{margin-top: 0;}
-    .general-default-article-section { padding: 0 20px 100px;}
-    .def-intro {padding: 55px 0 40px;}
-    .default-thumb img{max-height: 179px;}
+     .general-default-article-section { padding: 0 20px 60px;} 
+    
 }

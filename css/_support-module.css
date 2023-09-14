@@ -15,5 +15,7 @@
 	
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
-
+    .support-module { clear: both; width: calc(100% + 44px); padding: 20px 20px 30px 20px; margin: 60px 0 40px; position: relative; left: -22px; }
+    .support-lt { width: 60px; margin: -158px 7.2% 0 0; }
+    .support-rt { width: calc(100% - 30%); flex-grow: 1; margin-top: 15px; }
 }

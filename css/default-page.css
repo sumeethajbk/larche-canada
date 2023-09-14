@@ -65,5 +65,12 @@
 	
 }
 @media only screen and (max-width: 767px) and (min-width: 200px) {
-	
+	.general-default-article-section { padding: 44px 20px 100px; }
+	.def-intro {padding: 55px 0 40px;}
+    .default-thumb{max-height: 179px; margin: 60px 0 50px;}
+    .default-thumb img{max-height: 179px;}
+    .lc-shape-1 { top: 8px; left: -32px; width: 92px; height: 84px; }
+    .lc-shape-2 { bottom: -40px; right: -73px; width: 198px; height: 164px; }
+	.single-testimonial {padding: 35px 30px 28px;}
+	.single-testimonial .testimonial-cnt{font-size: 1.125rem;}
 }
