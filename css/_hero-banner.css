@@ -3,6 +3,7 @@
 .hero-banner-section .hero-banner-main .hero-banner-txt {width:42%; margin:0 3% 3px 0; color: var(--white);}
 .hero-banner-section .hero-banner-main .hero-banner-txt .optional-text {color:var(--white-50);}
 .hero-banner-section .hero-banner-main .hero-banner-txt h1 {color: var(--white); margin-bottom: 18px;}
+.hero-banner-section .hero-banner-main .hero-banner-txt h1 span {font-size: 7.25rem; line-height: 6rem; margin-left: -3px; color: var(--pink); font-family: CCSignLanguage; letter-spacing: normal; font-weight: normal; display: block; transform: rotate(-1.25deg); margin-top: 3px;}
 .hero-banner-section .hero-banner-main .hero-banner-txt p {font-size: 1.125rem; line-height: 1.39; font-weight: 600;}
 .hero-banner-section .hero-banner-main .hero-banner-image {width:53%;}
 .hero-banner-section .hero-banner-main .hero-banner-image .banner-img {position:absolute; display:flex; align-items:stretch; height:606px; width:606px; right: 0; bottom: -37px;}
@@ -16,13 +17,21 @@
 .hero-banner-section.reverse .hero-banner-main .hero-banner-txt {width: 38.8%; margin: 0 0 3px 3%;}
 
 /* Color Specific */
-.hero-banner-section.green-bg {}
 .hero-banner-section.blue-bg {background: var(--text-violetblue);}
 
+
+
 /*-- media starts here --*/
+@media screen and (max-width: 1399px) and (min-width: 768px) {
+.hero-banner-section .hero-banner-main .hero-banner-txt h1 span {font-size: 5rem; line-height: 4.5rem;}
+}
+
+
 @media only screen and (max-width: 1199px) and (min-width:1024px){
 	.hero-banner-section {padding: 114px 0 0 0;}
 }
+
+
 @media only screen and (max-width: 1160px) and (min-width:1024px){
 	.hero-banner-section .hero-banner-main .hero-banner-image .banner-img {height: 500px!important; width: 500px!important;}
 }
@@ -39,11 +48,8 @@
 	
 }
 
-@media only screen and (max-width: 1023px) and (min-width:768px){
-	
-	
-}
 
 @media only screen and (max-width: 767px) and (min-width: 200px){
-	
+	.hero-banner-section .hero-banner-main .hero-banner-txt h1 span {font-size: 4.25rem; line-height: 3rem;}
+
 }
