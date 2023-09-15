@@ -45,27 +45,62 @@ jQuery(document).ready(function () {
     }, ]
   });
 	
-  jQuery('.event-slider').slick({
+  // jQuery('.event-slider').slick({
+  //   slidesToShow: 1,
+  //   slidesToScroll: 1,
+  //   infinite: false,
+  //   speed: 1000,
+  //   dots: false,
+  //   arrows: true,
+	// variableWidth:true,
+	//   draggable: true,
+  //   touchThreshold: 200,
+  //   swipeToSlide: true,
+  //   prevArrow: '<span class="slick-arrow prev-arrow flex flex-center"></span>',
+  //   nextArrow: '<span class="slick-arrow next-arrow flex flex-center"></span>',
+  //   responsive: [{
+  //     breakpoint: 768,
+  //     settings: {        
+  //       arrows: false,
+  //       dots: true,
+  //     }
+  //   }, ]
+  // });
+
+
+  var dslider = jQuery('.event-slider');
+    dslider.slick({
+    autoplay: false,
+    speed: 1000,
     slidesToShow: 1,
     slidesToScroll: 1,
-    infinite: false,
-    speed: 1000,
+    swipeToSlide: true,
     dots: false,
     arrows: true,
-	variableWidth:true,
-	  draggable: true,
+    draggable: true,
     touchThreshold: 200,
-    swipeToSlide: true,
-    prevArrow: '<span class="slick-arrow prev-arrow flex flex-center"></span>',
-    nextArrow: '<span class="slick-arrow next-arrow flex flex-center"></span>',
-    responsive: [{
-      breakpoint: 768,
-      settings: {        
-        arrows: false,
-        dots: true,
-      }
-    }, ]
+    variableWidth:true,
+    appendArrows: jQuery('.custom_arrows_default'),
+    prevArrow: '<div class="custom_arrow custom_arrow_dir_left"></div>',
+    nextArrow: '<div class="custom_arrow custom_arrow_dir_right"></div>',
+    appendDots: jQuery('.custom_dots_default'),
+    customPaging: function (dslider, i) {
+      var thumb = jQuery(dslider.$slides[i]).data();
+
+      return '0' + (i + 1);
+    },
+    dotsClass: 'custom_dots_list',
   });
+
+
+  function slideGos(dir) {
+    var dslider = jQuery('.event-slider');
+    if (dir === "+") {
+      dslider.slick('slickNext');
+    } else if (dir === "-") {
+      dslider.slick('slickPrev');
+    }
+  }
   jQuery('.career-slider').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
