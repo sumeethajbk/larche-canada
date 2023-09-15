@@ -11,7 +11,7 @@
 .hero-banner-section .hero-banner-main .hero-banner-txt {width: 51%; margin-bottom: 2.5%;}
 .hero-banner-section .hero-banner-main .hero-banner-txt .optional-text {margin: 0 0 7px 0;}
 .hero-banner-section .hero-banner-main .hero-banner-txt h1 {margin-bottom: 22px;}
-.hero-banner-section .hero-banner-main .hero-banner-txt h1 span{font-size: 7.25rem; line-height: 6rem; color: var(--pink); font-family: CCSignLanguage; font-weight: normal; display: block; transform: rotate(-1.25deg); margin: -4px 0 0 -3px;}
+.hero-banner-section .hero-banner-main .hero-banner-txt h1 span{color: var(--pink);}
 .hero-banner-section .hero-banner-main .hero-banner-txt p {max-width: 450px;}
 .hero-banner-section .hero-banner-main .hero-banner-image {width: 46%;}
 .hero-banner-section .hero-banner-main .hero-banner-image .banner-img {bottom: -71px; right: -102px; position: absolute; width: auto!important;
@@ -64,8 +64,8 @@
 
 
 @media only screen and (max-width: 1023px) and (min-width:200px){
-	.hero-banner-section .hero-banner-main .hero-banner-txt {width: 100%; margin-bottom: 20px;}
- 	.hero-banner-section .hero-banner-main .hero-banner-image .banner-img {position: relative;}
+	.hero-banner-section .hero-banner-main .hero-banner-txt {width: 100%; margin-bottom: 24px;}
+ 	.hero-banner-section .hero-banner-main .hero-banner-image .banner-img {position: relative; right: 0;}
 }
 
 
@@ -76,14 +76,35 @@
 }
 
 @media screen and (max-width: 767px) and (min-width: 200px) {
-	.hero-banner-section .hero-banner-main .hero-banner-image {width: 100%;}
+	.hero-banner-section {margin: 0 0 91px 0;}
+	.hero-banner-section .hero-banner-main .hero-banner-image {width: 349px; margin-left: auto; margin-right: auto;}
+	.hero-banner-section .hero-banner-main .hero-banner-txt .optional-text {margin: 0 0 2px 0;}
+	.hero-banner-section .hero-banner-main .hero-banner-txt h1 {margin-bottom: 29px;}
+	.hero-banner-section .hero-banner-main .hero-banner-txt p {max-width: inherit; margin-bottom: 25px;}
+	
+	.banner-faces-thumbs .face {width: 135px; height: 135px; left: -9px;}
+	.banner-faces-thumbs .face:nth-child(3) {width: 106px; height: 106px; right: 11px; top: 28px;}
+	.banner-faces-thumbs .face:nth-child(2) {width: 109px; height: 109px; left: 2px; bottom: 21px;}
+	.banner-faces-thumbs .face:nth-child(4) {width: 134px; height: 134px; bottom: -13px; right: -2px;}
+	
+	.ellipse {border-width: 33px;}
+	.ellipse-pink, .ellipse-orange {border-width: 32px;}
+	.ellipse-icon {width: 89px; height: 89px;}
+	.ellipse-icon img {height: 37px; width: 56px;}
+	.banner-ellipse {position: relative; left: -2px;}
 	
     .intro-module{padding: 52px 0 0;}
     .features-module{padding: 50px 0 20px;}
-    .features-module-grid .features-txt p { padding-right: 0; }
-    .intro-here-module { padding: 60px 0 25px; }
+    .features-module-grid .features-txt p { padding-right: 0;}
+    .intro-here-module { padding: 60px 0 25px;}
     .programs-default-slider{padding: 0;}
-    .repeater-main { padding: 28px 0 60px; } 
-    .repeater-content { padding-bottom: 27px;}
+    .repeater-main {padding: 28px 0 60px;} 
+    .repeater-content {padding-bottom: 27px;}
     .programs-default-slider{padding: 0;}
+}
+
+@media screen and (max-width: 385px) and (min-width: 200px) {
+
+	.ellipse-pink, .ellipse-orange {border-width: 30px;}
+	.ellipse {border-width: 31px;}
 }
