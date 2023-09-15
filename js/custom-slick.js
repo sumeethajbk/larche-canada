@@ -83,6 +83,7 @@ eventslider.slick({
   swipeToSlide: true,
   focusOnSelect: true,
   variableWidth: true,
+  infinite: false,
   appendArrows: jQuery('.custom_arrows_ac'),
   prevArrow: '<div class="custom_arrow custom_arrow_dir_left"></div>',
   nextArrow: '<div class="custom_arrow custom_arrow_dir_right"></div>',
