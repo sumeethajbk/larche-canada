@@ -14,19 +14,21 @@
 .hero-banner-section .hero-banner-main .hero-banner-txt h1 span{color: var(--pink);}
 .hero-banner-section .hero-banner-main .hero-banner-txt p {max-width: 450px;}
 .hero-banner-section .hero-banner-main .hero-banner-image {width: 46%;}
-.hero-banner-section .hero-banner-main .hero-banner-image .banner-img {bottom: -71px; right: -102px; position: absolute; width: auto!important;
+.hero-banner-section .hero-banner-main .hero-banner-image .banner-img {bottom:0; position: absolute; width: auto!important;
   height: auto!important;} 
 
 
-.banner-ellipse {transform: rotate(-45deg);}
-.ellipse {border-radius: 50%; border-style: solid; border-width: 80px; border-bottom-color: transparent!important; border-left-color: transparent!important;}
+.banner-ellipse-wrap {height: 1020px; overflow: hidden; position: absolute; width: 1020px; bottom: 0; left: -364px;}
+.banner-ellipse {position: absolute; top: auto; bottom: -555px; height: 1021px; width: 1021px;}
+
+.ellipse {border-radius: 50%; border-style: solid; border-width: 80px;}
 
 .ellipse-blue {border-color: var(--violetblue);}
 .ellipse-red {border-color: var(--red);}
 .ellipse-orange {border-color: var(--orange); border-width: 79px;}
 .ellipse-green {border-color: var(--green);}
 .ellipse-pink {border-color: var(--pink); border-width: 79px;}
-.ellipse-icon {width: 202px; height: 202px; align-items: center; justify-content: center;}
+.ellipse-icon {height: 218px; align-items: center; justify-content: center; background: var(--violetblue); border-radius: 50%;}
 .ellipse-icon img {width:96px; height:88px; border-radius:0!important;}
 
 .banner-faces-thumbs {width: 100%; height: 100%; position: absolute; left: 0;}
