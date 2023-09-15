@@ -130,7 +130,7 @@ transform: rotate(35deg);  position: absolute; top: -5px; left: -31px;}
 .slick-arrow:before {display: block; height: 200%; width: 200%; margin-left: -50%; margin-top: -50%; content: ""; transform: rotate(46.5deg);}
 .slick-arrow.prev-arrow {right: auto; left: 0; transform: rotate(-46deg);}
 .slick-arrow.next-arrow {right: 0; left: auto;  transform: rotate(135deg);}
-.slick-arrow.slick-disabled {pointer-events:none; opacity: 0.2;}
+.slick-arrow.slick-disabled {pointer-events:none; border-color: rgba(0, 0, 0, 0.2);}
 
 
 ul.slick-dots {margin:0; padding-top:31px; padding-bottom: 30px; display:flex; justify-content:center; flex-wrap:wrap;}

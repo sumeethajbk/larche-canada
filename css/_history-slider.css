@@ -1,15 +1,17 @@
-.history-section{clear: both; width: 100%;}
+.history-section{clear: both; width: 100%; position: relative;}
+.history-section:after{width: 230px; height: 100%; position: absolute; display: block; content: ""; right: 0; top: 0; z-index: 1; background: linear-gradient(to right,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); }
 .history-bg { position: absolute; margin: 0 auto; max-width: 1700px; width: 100%; z-index: -1; left: 3.4%; right: 0; }
 .history-wrap{padding: 0 0 90px;}
 .history-wrap h3{margin-bottom: 68px; font-size: 2.625rem;}
 .event-slider .slick-list {overflow: visible;}
 
 .event-slider .slick-arrow {width: 14px; height: 14px;}
-.event-slider .slick-arrow::after{position: absolute; display: block; content: ""; width: 80px; height: 80px; border-radius: 50%; border-color: black;}
-.event-slider .slick-arrow.prev-arrow {right: 0!important; left: -20px!important;}
-.event-slider .slick-arrow.next-arrow {left: 0!important; right: -20px!important;}
+.event-slider  .slick-arrow.slick-disabled { border-color: rgba(0, 0, 0, 0.2); }
+.event-slider .slick-arrow.prev-arrow::after{position: absolute; display: block; content: ""; width: 80px; height: 80px; border-radius: 50%; border: black 2px solid!important; left: -29px; top: -29px;}
+.event-slider .slick-arrow.prev-arrow {right: 0!important; left: 60px!important; top: -86px;}
+.event-slider .slick-arrow.next-arrow {left: 0!important; right: -101px!important; top: -86px}
 
-.event-grid {width: 304px; margin: 0 125px 0 0; background: var(--white);}
+.event-grid {width: 304px; margin: 0 120px 0 0; background: var(--white);}
 .event-dot{margin-bottom: 27px;}
 .event { color: var(--pink); font-size: 4.25rem; line-height: 4.375rem; font-weight: 500; font-family: CCSignLanguage; margin-bottom: 6px; position: relative; left: 9px;}
 h5{font-size: 1.125rem;}
@@ -22,3 +24,19 @@ p{font-size: 0.938rem;}
 .orange .event{color: var(--orange);}
 .violet .event{color: var(--violet);}
 .red .event{color: var(--red);}
+
+/*-- media starts here --*/
+
+@media only screen and (max-width: 1299px) and (min-width: 1024px) {
+    .event-grid {width: 230px; margin: 0 60px 0 0; background: var(--white);}
+    .event-slider .slick-arrow.prev-arrow { left: 5px !important; top: -112px!important;}
+    .event-slider .slick-arrow.next-arrow { right: -44px !important; top: -112px!important;}
+    .event-slider .slick-arrow.prev-arrow::after{width: 75px; height: 75px;} 
+    
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+    .event-grid {width: 230px; margin: 0 50px 0 0; background: var(--white);}
+    .event-slider .slick-arrow.prev-arrow { left: -12px !important; top: -205px; }
+    .event-slider .slick-arrow.next-arrow { right: -36px !important; top: -205px; }
+
+}
