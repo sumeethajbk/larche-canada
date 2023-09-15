@@ -8,8 +8,8 @@
 .custom_arrows_ac .slick-arrow {width: 14px; height: 14px; position: inherit;}
 .event-slider  .slick-arrow.slick-disabled { border-color: rgba(0, 0, 0, 0.2); }
  .custom_arrows_ac{display: flex; justify-content: center; align-items: center; position: absolute; left: 0; right: 0; margin: auto; background-color: white; width: 80px; height: 80px; border-radius: 50%; border: black 2px solid !important;} 
- .custom_arrow_dir_left  {right: 0!important; left: 56px!important; top: -72px; transform: rotate(-45deg);}
- .custom_arrow_dir_right  {left: 0!important; right: -115px!important; top: -72px; transform: rotate(135deg);}
+ .custom_arrow_dir_left  {transform: rotate(-45deg); right: 25px;}
+ .custom_arrow_dir_right  {transform: rotate(135deg); left: 25px;}
 
 .event-grid {width: 304px; margin: 0 120px 0 0; background: var(--white);}
 .event-dot{margin-bottom: 27px;}
