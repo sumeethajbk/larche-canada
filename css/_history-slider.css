@@ -3,9 +3,12 @@
 .history-wrap{padding: 0 0 90px;}
 .history-wrap h3{margin-bottom: 68px; font-size: 2.625rem;}
 .event-slider .slick-list {overflow: visible;}
-/* .event-slider .slick-arrow {width: 14px; height: 14px}; */
-.event-slider .slick-arrow.prev-arrow{right: 0; left: -20px;}
-.event-slider .slick-arrow.next-arrow{left: 0; right: -20px;}
+
+.event-slider .slick-arrow {width: 14px; height: 14px;}
+.event-slider .slick-arrow::after{position: absolute; display: block; content: ""; width: 80px; height: 80px; border-radius: 50%; border-color: black;}
+.event-slider .slick-arrow.prev-arrow {right: 0!important; left: -20px!important;}
+.event-slider .slick-arrow.next-arrow {left: 0!important; right: -20px!important;}
+
 .event-grid {width: 304px; margin: 0 125px 0 0; background: var(--white);}
 .event-dot{margin-bottom: 27px;}
 .event { color: var(--pink); font-size: 4.25rem; line-height: 4.375rem; font-weight: 500; font-family: CCSignLanguage; margin-bottom: 6px; position: relative; left: 9px;}
