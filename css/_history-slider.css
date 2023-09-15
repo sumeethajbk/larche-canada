@@ -5,11 +5,11 @@
 .history-wrap h3{margin-bottom: 68px; font-size: 2.625rem;}
 .event-slider .slick-list {overflow: visible;}
 
-.event-slider .slick-arrow {width: 14px; height: 14px;}
+.custom_arrows_ac .slick-arrow {width: 14px; height: 14px; position: inherit;}
 .event-slider  .slick-arrow.slick-disabled { border-color: rgba(0, 0, 0, 0.2); }
-.event-slider .slick-arrow.prev-arrow::after{position: absolute; display: block; content: ""; width: 80px; height: 80px; border-radius: 50%; border: black 2px solid!important; left: -29px; top: -29px;}
-.event-slider .slick-arrow.prev-arrow {right: 0!important; left: 60px!important; top: -86px;}
-.event-slider .slick-arrow.next-arrow {left: 0!important; right: -101px!important; top: -86px}
+ .custom_arrows_ac{display: flex; justify-content: center; align-items: center; position: absolute; left: 0; right: 0; margin: auto; background-color: white; width: 80px; height: 80px; border-radius: 50%; border: black 2px solid !important;} 
+ .custom_arrow_dir_left  {right: 0!important; left: 56px!important; top: -72px; transform: rotate(-45deg);}
+ .custom_arrow_dir_right  {left: 0!important; right: -115px!important; top: -72px; transform: rotate(135deg);}
 
 .event-grid {width: 304px; margin: 0 120px 0 0; background: var(--white);}
 .event-dot{margin-bottom: 27px;}
@@ -27,8 +27,8 @@ p{font-size: 0.938rem;}
 
 
 /* Custom slick arrow */
-.custom_arrows, .custom_arrows_default, .custom_arrows_wc, .custom_arrows_ac, .custom_arrows_logo, .custom_arrows_author {display: flex; justify-content: center;	align-items: center;}
-.custom_arrow {cursor: pointer; margin: 0 16px;}
+
+.custom_arrow {cursor: pointer;}
 
 /*-- media starts here --*/
 
