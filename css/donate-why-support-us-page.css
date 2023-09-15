@@ -14,7 +14,8 @@
 .hero-banner-section .hero-banner-main .hero-banner-txt h1 span{font-size: 7.25rem; line-height: 6rem; color: var(--pink); font-family: CCSignLanguage; font-weight: normal; display: block; transform: rotate(-1.25deg); margin: -4px 0 0 -3px;}
 .hero-banner-section .hero-banner-main .hero-banner-txt p {max-width: 450px;}
 .hero-banner-section .hero-banner-main .hero-banner-image {width: 46%;}
-.hero-banner-section .hero-banner-main .hero-banner-image .banner-img {position: absolute; width:auto; height: auto; bottom: -71px; right: -102px;}
+.hero-banner-section .hero-banner-main .hero-banner-image .banner-img {bottom: -71px; right: -102px; position: absolute; width: auto!important;
+  height: auto!important;} 
 
 .ellipse {border-radius: 50%; border-style: solid; border-width: 54px;}
 .ellipse-red {border-color: var(--red);}
@@ -24,9 +25,39 @@
 .ellipse-icon {width: 152px; height: 152px; align-items: center; justify-content: center;}
 .ellipse-icon img {width:96px; height:88px; border-radius:0!important;}
 
+.banner-faces-thumbs {width: 100%; height: 100%; position: absolute; left: 0;}
+.banner-faces-thumbs .face {width: 230px; height:228px; top: 0; left: -12px;}
+.banner-faces-thumbs .face:nth-child(2) {width: 184px; height: 184px; bottom: 40px; left: 12px; top: inherit;}
+.banner-faces-thumbs .face:nth-child(3) {width: 180px; height: 180px; right: 20px; top: 48px; left: inherit; margin-left: auto;}
+.banner-faces-thumbs .face:nth-child(4) {width: 227px; height: 227px; bottom: -19px; right:-57px; top: inherit; margin-left: auto;}
+
 .features-module{padding: 50px 0 58px;}
 .intro-here-module{padding: 92px 0 25px;}
 .programs-default-slider{padding: 0;}
+
+@media only screen and (max-width: 1480px) and (min-width:768px){
+	.banner-faces-thumbs .face:nth-child(4) {right: 0;}
+}
+
+@media only screen and (max-width: 1399px) and (min-width:1024px){
+	
+	.hero-banner-section .hero-banner-main .hero-banner-txt {width: 45%;}
+	.hero-banner-section .hero-banner-main .hero-banner-txt p {max-width: 400px;}
+	.hero-banner-section .hero-banner-main .hero-banner-image {width: 50%;}
+	.hero-banner-section .hero-banner-main .hero-banner-image .banner-img {right: 0;}
+	.ellipse {border-width: 42px;}
+	.ellipse-pink, .ellipse-orange {border-width: 44px;}
+	
+	.banner-faces-thumbs .face {width: 200px; height: 198px; top: -30px; left: -12px;}
+	.banner-faces-thumbs .face:nth-child(2) {width: 164px; height: 164px;}
+	.banner-faces-thumbs .face:nth-child(3) {width: 160px; height: 160px; right: 0;}
+	.banner-faces-thumbs .face:nth-child(4) {width: 197px; height: 197px;}
+	
+}
+
+@media only screen and (max-width: 1399px) and (min-width:768px){
+.hero-banner-section .hero-banner-main .hero-banner-txt h1 span {font-size: 5rem; line-height:4.5rem;}
+}
 
 
 @media screen and (max-width: 767px) and (min-width: 200px) {

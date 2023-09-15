@@ -24,6 +24,11 @@
 @media screen and (min-width: 1024px){
 	.split-banner-bg{min-width: 755px; right: 0; bottom: 0;}
 }
+
+@media only screen and (max-width: 1399px) and (min-width:768px){
+	    .split-banner-section .split-banner-txt h1 span {font-size: 5rem; line-height: 4.5rem;}
+}
+
 @media only screen and (max-width: 1299px) and (min-width:1024px){
     .split-banner-bg { right: -70px; bottom: -30px; }
     .split-banner-wrap .split-banner-one{left: 130px;}
@@ -40,7 +45,7 @@
     .split-banner-section .split-banner-main .split-banner-txt p {margin-bottom: 18px;}
 }
 @media only screen and (max-width: 1023px) and (min-width:768px){
-    .split-banner-section .split-banner-txt h1 span {font-size: 6.25rem;}
+
 	.split-banner-section .split-banner-txt{max-width: 450px;}
 	.split-banner-section .split-banner-main .split-banner-image {width: 100%; margin: 26px 0 0 -56px; max-width: 724px;}
 	.split-banner-wrap .split-banner-three{left: 240px; bottom: -31px;}
