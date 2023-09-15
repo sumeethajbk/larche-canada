@@ -35,16 +35,24 @@
 .intro-here-module{padding: 92px 0 25px;}
 .programs-default-slider{padding: 0;}
 
+
+
 @media only screen and (max-width: 1480px) and (min-width:768px){
 	.banner-faces-thumbs .face:nth-child(4) {right: 0;}
 }
 
-@media only screen and (max-width: 1399px) and (min-width:1024px){
-	
+@media only screen and (max-width: 1399px) and (min-width:1024px){	
 	.hero-banner-section .hero-banner-main .hero-banner-txt {width: 45%;}
 	.hero-banner-section .hero-banner-main .hero-banner-txt p {max-width: 400px;}
 	.hero-banner-section .hero-banner-main .hero-banner-image {width: 50%;}
 	.hero-banner-section .hero-banner-main .hero-banner-image .banner-img {right: 0;}
+	
+	
+}
+
+
+@media only screen and (max-width: 1399px) and (min-width:768px){
+.hero-banner-section .hero-banner-main .hero-banner-txt h1 span {font-size: 5rem; line-height:4.5rem;}
 	.ellipse {border-width: 42px;}
 	.ellipse-pink, .ellipse-orange {border-width: 44px;}
 	
@@ -52,15 +60,24 @@
 	.banner-faces-thumbs .face:nth-child(2) {width: 164px; height: 164px;}
 	.banner-faces-thumbs .face:nth-child(3) {width: 160px; height: 160px; right: 0;}
 	.banner-faces-thumbs .face:nth-child(4) {width: 197px; height: 197px;}
-	
 }
 
-@media only screen and (max-width: 1399px) and (min-width:768px){
-.hero-banner-section .hero-banner-main .hero-banner-txt h1 span {font-size: 5rem; line-height:4.5rem;}
+
+@media only screen and (max-width: 1023px) and (min-width:200px){
+	.hero-banner-section .hero-banner-main .hero-banner-txt {width: 100%; margin-bottom: 20px;}
+ 	.hero-banner-section .hero-banner-main .hero-banner-image .banner-img {position: relative;}
 }
 
+
+@media only screen and (max-width: 1023px) and (min-width:768px){
+	.hero-banner-section {margin: 0 0 90px 0;}
+	.hero-banner-section .hero-banner-main .hero-banner-txt {margin-bottom: 20px;}
+	.hero-banner-section .hero-banner-main .hero-banner-image {width: 496px; margin: 0 auto;}
+}
 
 @media screen and (max-width: 767px) and (min-width: 200px) {
+	.hero-banner-section .hero-banner-main .hero-banner-image {width: 100%;}
+	
     .intro-module{padding: 52px 0 0;}
     .features-module{padding: 50px 0 20px;}
     .features-module-grid .features-txt p { padding-right: 0; }
