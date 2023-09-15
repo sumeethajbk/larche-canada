@@ -29,9 +29,7 @@ p{font-size: 0.938rem;}
 /* Custom slick arrow */
 .custom_arrows, .custom_arrows_default, .custom_arrows_wc, .custom_arrows_ac, .custom_arrows_logo, .custom_arrows_author {display: flex; justify-content: center;	align-items: center;}
 .custom_arrow {cursor: pointer; margin: 0 16px;}
-.custom_arrow_dir_left:after {content: "\f104"; font-family: 'Font Awesome 6 Pro'; font-weight: 300; font-size:2.5rem; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; left: 0; color: #e87722;;}
-.custom_arrow_dir_right:after {	content: "\f105"; font-family: 'Font Awesome 6 Pro'; font-weight: 300; font-size:2.5rem; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; left: 0; color: #e87722;}
-.custom_arrow_dir_left:hover:after, .custom_arrow_dir_right:hover:after {color: #fff;}
+
 /*-- media starts here --*/
 
 @media only screen and (max-width: 1299px) and (min-width: 1024px) {

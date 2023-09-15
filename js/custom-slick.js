@@ -68,39 +68,40 @@ jQuery(document).ready(function () {
   // });
 
 
-  var dslider = jQuery('.event-slider');
-    dslider.slick({
-    autoplay: false,
-    speed: 1000,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    swipeToSlide: true,
-    dots: false,
-    arrows: true,
-    draggable: true,
-    touchThreshold: 200,
-    variableWidth:true,
-    appendArrows: jQuery('.custom_arrows_default'),
-    prevArrow: '<div class="custom_arrow custom_arrow_dir_left"></div>',
-    nextArrow: '<div class="custom_arrow custom_arrow_dir_right"></div>',
-    appendDots: jQuery('.custom_dots_default'),
-    customPaging: function (dslider, i) {
-      var thumb = jQuery(dslider.$slides[i]).data();
-
-      return '0' + (i + 1);
-    },
-    dotsClass: 'custom_dots_list',
-  });
+  //Apn Slider //
+var eventslider = jQuery('.event-slider');
+eventslider.slick({
+  touchMove: true,
+  speed: 1000,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplaySpeed: 5000,
+  arrows: true,
+  draggable: true,
+  centerPadding:'0',
+  touchThreshold: 200,
+  swipeToSlide: true,
+  focusOnSelect: true,
+  variableWidth: true,
+  appendArrows: jQuery('.custom_arrows_ac'),
+  prevArrow: '<div class="custom_arrow custom_arrow_dir_left"></div>',
+  nextArrow: '<div class="custom_arrow custom_arrow_dir_right"></div>',
+  
+ 
+});
 
 
-  function slideGos(dir) {
-    var dslider = jQuery('.event-slider');
-    if (dir === "+") {
-      dslider.slick('slickNext');
-    } else if (dir === "-") {
-      dslider.slick('slickPrev');
-    }
+function slideGo(dir) {
+  var eventslider = jQuery('.activities-slider');
+  if (dir === "+") {
+    eventslider.slick('slickNext');
+  } else if (dir === "-") {
+    eventslider.slick('slickPrev');
   }
+}
+	
+	
+	
   jQuery('.career-slider').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
