@@ -233,13 +233,13 @@ function slideGo(dir) {
 
   }
 
-  jQuery('.resource-slider').on('init', function (event, slick, direction) {
-    if (!(jQuery('.resource-slider .slick-slide').length > 4)) {
+  // jQuery('.resource-slider').on('init', function (event, slick, direction) {
+  //   if (!(jQuery('.resource-slider .slick-slide').length > 4)) {
 
-      jQuery('.slick-arrow').hide();
+  //     jQuery('.slick-arrow').hide();
 
-  }
-  });
+  // }
+  // });
   
  var sliderRes =  jQuery('.resource-slider').slick({
     slidesToShow: 4,
@@ -249,8 +249,8 @@ function slideGo(dir) {
     dots: false,
     arrows: true,
 	  variableWidth:true,
-    prevArrow: '<span class="slick-arrow prev-arrow flex flex-center"></span>',
-    nextArrow: '<span class="slick-arrow next-arrow flex flex-center"></span>',
+    // prevArrow: '<span class="slick-arrow prev-arrow flex flex-center"></span>',
+    // nextArrow: '<span class="slick-arrow next-arrow flex flex-center"></span>',
     responsive: [
       {
         breakpoint: 1024,

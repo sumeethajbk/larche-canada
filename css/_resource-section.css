@@ -36,13 +36,20 @@ ul.filter-list > li.active a{color: var(--white); background-color: var(--text-v
     .resource-heading-rt p{max-width: 422px;}
     .resource-item{width: 304px; margin-right: 50px; padding: 49px 50px;}
 
-    .resource-slider .slick-arrow.next-arrow{right: -33px;}
-    .resource-slider .slick-arrow.prev-arrow{left: -33px;}
+    /* .resource-slider .slick-arrow.next-arrow{right: -33px;}
+    .resource-slider .slick-arrow.prev-arrow{left: -33px;} */
+
+    .resource-slider .slick-arrow{font-size: 0; padding: 0; background-color: transparent; border-color: transparent; color: #000;}
+    .resource-slider button::after, .resource-slider .button::after{right: 0; content: "\f054"; font-size: 2.5rem; font-family: "Font Awesome 6 Sharp"; font-weight: 100; position: relative;}
+    .resource-slider button.slick-prev::after, .resource-slider .button.slick-prev::after{content: "\f053";}
+    .resource-slider button:hover::after, .resource-slider .button:hover::after{top: 0; animation: none;}
+    .resource-slider .slick-next.slick-arrow{left: auto; right: -33px;}
+    .resource-slider .slick-prev.slick-arrow{right: auto; left: -33px;}
 }
 
 @media screen and (max-width: 1460px) and (min-width: 1024px) {
-    .resource-slider .slick-arrow.next-arrow{right: 0px;}
-    .resource-slider .slick-arrow.prev-arrow{left: 0px;}
+    .resource-slider .slick-next.slick-arrow{right: 0px;}
+    .resource-slider .slick-prev.slick-arrow{left: 0px;}
 }
 
 @media screen and (max-width: 1023px) and (min-width: 200px) {
