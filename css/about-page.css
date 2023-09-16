@@ -8,17 +8,18 @@
 @import url("../css/_common-cta-section.css");
 @import url("../css/_history-slider.css");
 
+
+.hero-banner-section {margin: 0 0 83px 0;}
 .hero-banner-section .hero-banner-main .hero-banner-txt {width: 51%; margin-bottom: 2.5%;}
 .hero-banner-section .hero-banner-main .hero-banner-txt .optional-text {margin: 0 0 7px 0;}
 .hero-banner-section .hero-banner-main .hero-banner-txt h1 {margin-bottom: 22px;}
 .hero-banner-section .hero-banner-main .hero-banner-txt h1 span{color: var(--pink);}
 .hero-banner-section .hero-banner-main .hero-banner-txt p {max-width: 450px;}
 .hero-banner-section .hero-banner-main .hero-banner-image {width: 46%;}
-.hero-banner-section .hero-banner-main .hero-banner-image .banner-img {bottom:0; position: absolute; width: auto!important;
-  height: auto!important;} 
+.hero-banner-section .hero-banner-main .hero-banner-image .banner-img {bottom:0; position: absolute; width: auto!important; height: auto!important;} 
 
 
-.banner-ellipse-wrap {height: 1020px; overflow: hidden; position: absolute; width: 1020px; bottom: 0; left: -364px;}
+.banner-ellipse-wrap {height: 470px; overflow: hidden; position: absolute; width: 1020px; bottom: 0; left: -364px;}
 .banner-ellipse {position: absolute; top: auto; bottom: -555px; height: 1021px; width: 1021px;}
 
 .ellipse {border-radius: 50%; border-style: solid; border-width: 80px;}
@@ -31,12 +32,80 @@
 .ellipse-icon {height: 218px; align-items: center; justify-content: center; background: var(--violetblue); border-radius: 50%;}
 .ellipse-icon img {width:96px; height:88px; border-radius:0!important;}
 
-.banner-faces-thumbs {width: 100%; height: 100%; position: absolute; left: 0;}
-.banner-faces-thumbs .face {width: 230px; height:228px; top: 0; left: -12px;}
-.banner-faces-thumbs .face:nth-child(2) {width: 184px; height: 184px; bottom: 40px; left: 12px; top: inherit;}
-.banner-faces-thumbs .face:nth-child(3) {width: 180px; height: 180px; right: 20px; top: 48px; left: inherit; margin-left: auto;}
-.banner-faces-thumbs .face:nth-child(4) {width: 227px; height: 227px; bottom: -19px; right:-57px; top: inherit; margin-left: auto;}
-
+.banner-faces-thumbs {width: 755px; height: 500px; position: absolute; left: -177px; bottom: 0;}
+.banner-faces-thumbs .face {width: 197px; height:195px; top: 84px; left: 88px;}
+.banner-faces-thumbs .face:nth-child(2) {width: 216px; height: 216px; bottom: -83px; left: 0; top: inherit;}
+.banner-faces-thumbs .face:nth-child(3) {width: 260px; height: 260px; right: 93px; top: 15px; left: inherit; margin-left: auto;}
+.banner-faces-thumbs .face:nth-child(4) {width: 198px; height: 198px; bottom: -39px; right: -53px; top: inherit; margin-left: auto;}
 
 .page-template-about .tp-shape-9{right: -13px;}
 .page-template-about .tp-shape-8{left: -100px;}
+
+
+@media only screen and (max-width: 1620px) and (min-width:1401px){
+	.banner-faces-thumbs .face {left: 128px;}
+	.banner-faces-thumbs .face:nth-child(2) {left: 120px;}
+}
+
+@media only screen and (max-width: 1400px) and (min-width:1300px){
+	.banner-ellipse-wrap {left: -300px;}
+	.banner-faces-thumbs .face {width: 167px; height:165px; top: 84px; left: 210px;}
+	.banner-faces-thumbs .face:nth-child(2) {width: 200px; height: 200px; bottom: -83px; left: 170px; top: inherit;}
+	.banner-faces-thumbs .face:nth-child(3) {width: 220px; height: 220px; right: 93px; top: 15px; left: inherit; margin-left: auto;}
+	.banner-faces-thumbs .face:nth-child(4) {width: 198px; height: 198px; bottom: -39px; right: -115px; top: inherit; margin-left: auto;}
+}
+
+
+@media only screen and (max-width: 1299px) and (min-width:1024px){
+	.ellipse, .ellipse-orange, .ellipse-pink {border-width:60px;}
+	.ellipse-icon {height: 254px;}
+	.banner-ellipse-wrap {left: -288px;}
+	.banner-ellipse {bottom: -465px; height: 850px; width: 850px;}
+	.banner-ellipse-wrap {width: 850px;}
+
+	.banner-faces-thumbs .face {width: 150px; height:150px; top: 84px; left: 185px;}
+	.banner-faces-thumbs .face:nth-child(2) {width: 160px; height: 160px; bottom: -83px; left: 170px; top: inherit;}
+	.banner-faces-thumbs .face:nth-child(3) {width: 180px; height: 180px; right: 200px; top: 49px; left: inherit; margin-left: auto;}
+	.banner-faces-thumbs .face:nth-child(4) {width: 180px; height: 180px; bottom: -39px; right: 48px; top: inherit; margin-left: auto;}
+
+}
+
+
+@media only screen and (min-width: 1024px) {
+	.short-intro-section {padding: 22px 0 84px;}		
+}
+
+@media only screen and (max-width: 1023px) and (min-width:200px){
+	.hero-banner-section .hero-banner-main .hero-banner-image {width: 100%; min-height: 470px;}
+	.hero-banner-section .hero-banner-main .hero-banner-image .banner-img {width: 100%!important;}
+	.banner-ellipse-wrap {left: 50%; right: 0; margin: auto; transform: translateX(-50%);}
+}
+
+@media only screen and (max-width: 1023px) and (min-width:768px){
+	.banner-ellipse-wrap {width: 900px;}
+	.banner-ellipse {bottom: -500px; height: 900px; width: 900px;}
+	.ellipse, .ellipse-orange, .ellipse-pink {border-width:60px;}
+	.ellipse-icon {height: 290px;}
+	.banner-faces-thumbs {width: 724px; height: 470px; left: 0; bottom: 0; right: 0; margin: auto;}
+	.banner-faces-thumbs .face:nth-child(3) {width: 230px; height: 230px;}
+	.banner-faces-thumbs .face:nth-child(4) {right: 0;}
+	
+	.short-intro-section {padding: 50px 0 84px;}
+
+}
+
+@media only screen and (max-width: 767px) and (min-width:200px){
+	.ellipse, .ellipse-orange, .ellipse-pink {border-width:48px;}
+	
+	.banner-ellipse-wrap {width: 615px;}
+	.banner-ellipse {width: 615px; height: 615px;}
+	
+	.ellipse-icon {height: 132px;}
+	
+	.banner-faces-thumbs {width: 100%; left: 0; right: 0; margin: auto;}
+	.banner-faces-thumbs .face {width: 142px; height: 141px;}
+	.banner-faces-thumbs .face:nth-child(2) {width: 132px; height: 132px;}
+	.banner-faces-thumbs .face:nth-child(3) {display: none;}
+	.banner-faces-thumbs .face:nth-child(4) {width: 175px; height: 176px;}
+	
+}
