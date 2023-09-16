@@ -233,13 +233,13 @@ function slideGo(dir) {
 
   }
 
-  jQuery('.resource-slider').on('init', function (event, slick, direction) {
-    if (!(jQuery('.resource-slider .slick-slide').length > 4)) {
+  // jQuery('.resource-slider').on('init', function (event, slick, direction) {
+  //   if (!(jQuery('.resource-slider .slick-slide').length > 4)) {
 
-      jQuery('.slick-arrow').hide();
+  //     jQuery('.slick-arrow').hide();
 
-  }
-  });
+  // }
+  // });
   
  var sliderRes =  jQuery('.resource-slider').slick({
     slidesToShow: 4,
