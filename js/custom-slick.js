@@ -249,8 +249,8 @@ function slideGo(dir) {
     dots: false,
     arrows: true,
 	  variableWidth:true,
-    prevArrow: '<span class="slick-arrow prev-arrow flex flex-center"></span>',
-    nextArrow: '<span class="slick-arrow next-arrow flex flex-center"></span>',
+    // prevArrow: '<span class="slick-arrow prev-arrow flex flex-center"></span>',
+    // nextArrow: '<span class="slick-arrow next-arrow flex flex-center"></span>',
     responsive: [
       {
         breakpoint: 1024,
