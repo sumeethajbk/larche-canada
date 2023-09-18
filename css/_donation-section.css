@@ -2,7 +2,7 @@
 .donation-main{color: var(--white); min-height: 526px;}
 .donation-text h2{color: var(--white); margin-bottom: 42px;}
 .donation-text p{font-size: 1.125rem;}
-.donation-text h2 span{position: relative; z-index: 0; }
+.donation-text h2 span{position: relative; z-index: 0;  display: inline-block;}
 .donation-text h2 span svg{position: absolute; bottom: -21px; left: -19px; width: 260px;}
 .donation-thumb{position: relative; z-index: 10;}
  .donation-thumb img{max-width: 105px; margin: 0 auto; display: block;}
