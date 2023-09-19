@@ -17,11 +17,11 @@
 .product-sort{margin-bottom: 64px;}
 .category-title{font-size: 2.25rem; font-weight: bold;}
 .category-dropdown{flex: 1;}
-.product-btn {text-align: center; margin: 50px 0 100px;} 
+.btn-primary {text-align: center; margin: 50px 0 100px;} 
 
 
-.product-btn  .button::after {content: "\f107";}
-.product-btn  .button:hover::after {animation-name: bounceAlphadown; animation-duration: 1.4s; animation-iteration-count: infinite;  animation-timing-function: linear;}
+.btn-primary  .button::after {content: "\f107";}
+.btn-primary  .button:hover::after {animation-name: bounceAlphadown; animation-duration: 1.4s; animation-iteration-count: infinite;  animation-timing-function: linear;}
 
 
 /* media starts here */
@@ -69,5 +69,5 @@
     .category-title{margin-bottom: 18px;}
     .frm_field{margin-bottom: 20px; width: 100%;}
     .frm_field:last-child{margin-bottom: 0;}
-    .product-btn {margin: 0;}
+    .btn-primary {margin: 0;}
 }
