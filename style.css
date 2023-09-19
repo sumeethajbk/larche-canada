@@ -31,6 +31,17 @@ Text Domain:L'Arche Canada Development
   55% {opacity: 1; transform: translateY(0px) scale(1);}
 }
 
+ .stroke { 
+   stroke-dasharray:2300;
+	stroke-dashoffset:2300;
+	animation: dash 5s linear forwards;
+  }
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
 
 /*-- customized styles starts here --*/
 body {font-family:"rucksack", sans-serif; color:var(--body-text); font-size:1rem; line-height:1.56; font-weight:400; font-style:normal; overflow-x:hidden; background:var(--white); height:100%; display:flex; flex-direction:column; letter-spacing: 0.16px;}
