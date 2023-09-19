@@ -11,7 +11,7 @@
 
 .hero-banner-section{margin: 0 0 100px 0;}
 .hero-banner-section.greenbg{background-color: var(--green);}
-.hero-banner-section .hero-banner-main .hero-banner-txt{width: 44%;}
+.hero-banner-section .hero-banner-main .hero-banner-txt{width: 44%; position: relative;}
 .hero-banner-section .hero-banner-main .hero-banner-image .banner-img{ right: -52px; bottom: -100px;}
 .hero-banner-section .program-default-shape-1 {width: 336px; height: 185px; top: -48px; right:8px;}
 .hero-banner-section .program-default-shape-2 {width: 480px; height: 474px; bottom: -50px; left: -80px;}
@@ -28,6 +28,7 @@
 @media only screen and (max-width: 1299px) and (min-width: 1024px) {
     .hero-banner-section{margin: 0 0 37px 0;}
     .hero-banner-section .hero-banner-main .hero-banner-image .banner-img{ right: 0;}
+    .program-default-shape.shapes.pos-absolute {left: 0; top: -162px; }
 }
 
 @media only screen and (max-width: 1023px) and (min-width: 200px) {
