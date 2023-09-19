@@ -1,6 +1,6 @@
 @import url("../css/_two-paths-module.css");
 @import url("../css/_no-banner.css");
-@import url("../css/_featue-panel-section.css");
+@import url("../css/_feature-panel-section.css");
 @import url("../css/_directors-section.css");
 
 .contact-container {clear: both; position: relative; z-index: 1;}

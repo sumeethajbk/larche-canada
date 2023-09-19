@@ -117,31 +117,31 @@ button:hover:after, .button:hover:after {animation-name: bounceAlpha; animation-
 
 
 /* White Outline Button*/
-.outline-btn.white {border-color: var(--white); color: var(--white);}
+.outline-btn.white {border-color: var(--white); color: var(--white); background: transparent;}
 .outline-btn.white:hover {background: var(--white); border-color: var(--white); color: var(--violet);}
 
 /* Violet Outline Button*/
-.outline-btn.violet {border-color: var(--violet); color: var(--violet);}
+.outline-btn.violet {border-color: var(--violet); color: var(--violet); background: transparent;}
 .outline-btn.violet:hover {background: var(--violet); border-color: var(--violet); color: var(--white);}
 
 /* Pink Outline Button*/
-.outline-btn.pink {border-color: var(--pink); color: var(--pink);}
+.outline-btn.pink {border-color: var(--pink); color: var(--pink); background: transparent;}
 .outline-btn.pink:hover {background: var(--pink); border-color: var(--pink); color: var(--white);}
 
 /* Green Outline Button*/
-.outline-btn.green {border-color: var(--green); color: var(--green);}
+.outline-btn.green {border-color: var(--green); color: var(--green); background: transparent;}
 .outline-btn.green:hover {background: var(--green); border-color: var(--green); color: var(--white);}
 
 /* Pink Outline Button*/
-.outline-btn.text-violetblue {border-color: var(--text-violetblue); color: var(--text-violetblue);}
+.outline-btn.text-violetblue {border-color: var(--text-violetblue); color: var(--text-violetblue); background: transparent;}
 .outline-btn.text-violetblue:hover {background: var(--text-violetblue); border-color: var(--text-violetblue); color: var(--white);}
 
 /* Red Outline Button*/
-.outline-btn.red {border-color: var(--red); color: var(--red);}
+.outline-btn.red {border-color: var(--red); color: var(--red); background: transparent;}
 .outline-btn.red:hover {background: var(--red); border-color: var(--red); color: var(--white);}
 
 /* orange Outline Button*/
-.outline-btn.orange {border-color: var(--orange); color: var(--orange);}
+.outline-btn.orange {border-color: var(--orange); color: var(--orange); background: transparent;}
 .outline-btn.orange:hover {background: var(--orange); border-color: var(--orange); color: var(--white);}
 
 
