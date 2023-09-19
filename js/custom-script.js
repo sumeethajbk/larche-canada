@@ -123,7 +123,7 @@ jQuery(document).ready(function () {
   jQuery(".filter-dropdown").on("click", function (e) {
     e.preventDefault();
     jQuery(this).toggleClass("active");
-    jQuery(this).next(".toggle-form").slideToggle(900);
+    jQuery(this).next(".category-dropdown").find(".toggle-form").slideToggle(900);
 
   })
 
