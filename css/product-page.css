@@ -5,7 +5,7 @@
 
 .intro-module {padding: 60px 0 70px;}
 .product-section hr{margin: 0;}
-.product-main{ padding: 92px 0 0;}
+.product-main{ padding: 92px 0 100px;}
 .product-row{overflow: hidden;}
 .product-list{padding: 50px 70px 45px 60px; position: relative; text-align: center;}
 .product-thumb{margin-bottom: 26px;}
@@ -17,6 +17,8 @@
 .product-sort{margin-bottom: 64px;}
 .category-title{font-size: 2.25rem; font-weight: bold;}
 .category-dropdown{flex: 1;}
+
+.blog_more{text-align: center;}
 .btn-primary {margin: 50px 0 0;} 
 
 
