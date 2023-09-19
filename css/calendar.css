@@ -1,5 +1,5 @@
 @import url("../css/_no-banner.css");
-@import url("../css/_featue-panel-section.css");
+@import url("../css/_feature-panel-section.css");
 @import url("../css/_split-module.css");
 @import url("../css/_nav-filter-module.css");
 
@@ -18,12 +18,12 @@
 object-fit: cover; -o-object-position: 50% 50%; object-position: 50% 50%; transition: opacity .5s ease-in-out;
 -moz-transition: opacity .5s ease-in-out; -webkit-transition: opacity .5s ease-in-out; -o-transition: opacity .5s ease-in-out;}
 .single-news .news-thumb img:hover {opacity: 0.8;}
-.single-news .news-content {background: var(--light-grey); width: calc(100% - 304px); padding:60px 69px 60px 71px; flex-grow: 1;}
+.single-news .news-content {background: var(--light-grey); width: calc(100% - 304px); padding:60px 69px 60px 71px; flex-grow: 1; text-align: left;}
 .single-news .news-content h4 {margin: 0; font-weight: 500; line-height: 1.33; font-size: 1.5rem; padding: 0 20px 0 0;}
 .single-news .news-content h4 a {text-decoration: none; color: var(--h4);}
 .single-news .news-content h4 a:hover {color:var(--text-violetblue);}
 .single-news .news-content .cat-wrap {border-bottom: 2px solid var(--white); padding: 0 0 16px 0; margin: 0 0 17px 0;}
-.single-news .news-content .cat-wrap .cat-date {margin: 7px 0 0 0;}
+.single-news .news-content .cat-wrap .cat-date {margin: 7px 0 0 auto;}
 
 .split-lt .btn {text-align: center; margin: 50px 0 0 0;}
 .split-lt .btn .button {min-width: 177px;}
