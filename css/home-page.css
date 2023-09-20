@@ -17,8 +17,8 @@
 
 
 @media screen and (min-width: 1024px) {
-    .hero-banner-section .hero-banner-main{max-width: 1322px; padding: 105px 0 39px;}
-    .hero-banner-section .hero-banner-main .hero-banner-txt{margin: 0 3% 0px 0;}
+    .hero-banner-section .hero-banner-main{max-width: 1322px; padding: 110px 0 39px;}
+    .hero-banner-section .hero-banner-main .hero-banner-txt{margin: -2px 3% 0px 0;}
     .hero-banner-section .hero-banner-main .hero-banner-txt .optional-text{margin: 0 0 22px 0;}
     .hero-banner-section .hero-banner-main .hero-banner-txt h1{font-size: 5.75rem; line-height: 0.98;}
     .hero-banner-section .hero-banner-main .hero-banner-txt h1 span{font-family: CCSignLanguage; font-size: 8.5rem; line-height: 1; font-weight: normal; letter-spacing: normal;}
