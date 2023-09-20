@@ -67,6 +67,7 @@
 	ul.main_menu > li.current-menu-parent > a, 
 	ul.main_menu > li.current-page-ancestor > a, 
 	ul.main_menu > li.menu-item-has-children > a:hover, 
+	ul.main_menu .current_page_item > a, 
 	ul.main_menu > li > a:hover {color: var(--orange)!important;}
   
 

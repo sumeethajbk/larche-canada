@@ -16,7 +16,7 @@ p{font-size: 0.938rem;}
 .teal .event{color: var(--teal);}
 .green .event{color: var(--green);}
 .blue .event{color: var(--violetblue);}
-.blue-shape svg path {color: var(--violetblue);}
+.blue-shape svg path {fill: var(--violetblue);}
 .orange .event{color: var(--orange);}
 .violet .event{color: var(--violet);}
 .red .event{color: var(--red);}

@@ -6,6 +6,7 @@
 .repeater-content ul, .repeater-content ol {margin: 23px 0 28px 25px;}
 .repeater-thumb img{border-radius: 50%;}
 
+.repeater-section .video-thumbnail {height: 100%; width: 100%;}
 .repeater-section .video-thumbnail .play-btn{width: 100px; height: 100px;}
 .repeater-section .video-thumbnail .play-btn img { width: 33px; height: 34px}
 .repeater-section .video-thumbnail .play-btn img{ position: relative; left: 4px;}
