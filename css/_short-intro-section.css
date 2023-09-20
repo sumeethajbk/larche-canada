@@ -1,7 +1,7 @@
 .short-intro-section{padding: 103px 0 84px;}
 .short-intro-list{align-items: flex-end;}
 .short-intro-list h2{font-size: 3.625rem; margin-bottom: 0;}
-.short-intro-list span{position: relative;}
+.short-intro-list span{position: relative; display: inline-block}
 .short-intro-list span svg{position: absolute; left: -23px; bottom: -48px; width: 260px; height: 60px;}
 .short-intro-left{font-size: 1.125rem; font-weight: 600;}
 .outline-btn.orange{border-color: var(--orange); color: var(--orange);}
