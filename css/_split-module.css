@@ -19,7 +19,7 @@
 .single-bucket { border-bottom:1px solid rgba(0, 0, 0, 0.1); padding: 15px 0;}
 .single-bucket:last-child {border: 0 none;}
 .single-thumb {width: 116px; height: 106px; margin: 0 34px 0 0;}
-.single-txt {width: calc(100% - 151px); padding: 8px 0 0 0;}
+.single-txt {width: calc(100% - 151px); padding: 8px 0 0 0; flex-grow: 1;}
 .single-txt h6 {font-weight: 600;}
 .single-txt h6 a {text-decoration: none; font-weight: 600;}
 

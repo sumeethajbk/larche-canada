@@ -332,11 +332,12 @@ body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropd
 /* Cookie bar */
   body .cky-consent-container{width: 462px; right: 25px; bottom: 27px; border-radius: 0; background-color: var(--text-violetblue); overflow: hidden; left: inherit;}
   body .cky-consent-container .cky-consent-bar{background: transparent!important; border: none; box-shadow: none; border-radius: 0; margin: 0 auto; position: relative; padding:57px 56px 52px;}
-  body .cky-notice .cky-title {color: #fff !important; font-size: 1.313rem; line-height: 1.19; font-weight: 600;}
+  body .cky-notice .cky-title {color: #fff !important; font-size: 1.313rem; line-height: 1.19; font-weight: 600; margin: 0 0 33px 0; position: relative;}
+body .cky-notice .cky-title:after {content: ""; background: url("images/cookie-line.svg") 0 0 no-repeat; display: block; position: absolute; width: 178px; height: 15px; left: -17px;}
   body .cky-notice-des p {color: #abb7e1 !important; font-size: 0.875rem; line-height: 1.43; margin-bottom: 20px;}
   body .cky-notice-des p a {font-weight: 600; color:var(--white)!important; text-decoration: none;}
   body .cky-notice-btn-wrapper{margin-top: 27px; justify-content: flex-end; flex-direction: row-reverse;}
-  body .cky-btn {flex: initial; font-weight: 700; border-radius: 80px; border-width: 3px; padding: 7px 37px 10px 20px; font-size: 0.938rem; margin: 0 7px 0 0 !important;}
+  body .cky-btn {flex: initial; font-weight: 700; border-radius: 80px; border-width: 3px; padding: 7px 37px 10px 20px; font-size: 0.938rem; margin: 0 7px 0 0 !important; width: auto;}
   body .cky-btn:after {right: 19px; font-size: 0.938rem;}
 body .cky-btn.cky-btn-reject:after {display: none;}
 body .cky-btn.cky-btn-reject {padding: 7px 22px 10px 21px;}
@@ -348,9 +349,9 @@ body .cky-accordion-btn:after, body .cky-show-desc-btn:after {display: none;}
 body .cky-btn-revisit-wrapper .cky-btn-revisit:after {display: none;}
 
 
-body .cky-prefrence-btn-wrapper .cky-btn {}
-
-
+body .cky-prefrence-btn-wrapper .cky-btn {border: 3px solid var(--violet)!important; color:var(--violet)!important; flex: inherit; padding: 7px 37px 10px 20px;}
+body .cky-prefrence-btn-wrapper .cky-btn:hover {background: var(--violet) !important; color: var(--white) !important; opacity: 1;}
+body .cky-prefrence-btn-wrapper .cky-btn.cky-btn-reject:after {display: flex;}
 
 
 /*-- media css starts here --*/
@@ -416,6 +417,11 @@ body .cky-prefrence-btn-wrapper .cky-btn {}
 
 	
 	.heading-rt .form-field {width: 100%; margin: 0 0 20px 0;}
+	
+	
+	body .cky-consent-container {width: 340px; right: 18px;}
+	body .cky-consent-container .cky-consent-bar {padding: 57px 36px 42px;}
+	body .cky-notice-btn-wrapper .cky-btn-reject {order: inherit;}
 }
 
 @media only screen and (max-width:480px) {
