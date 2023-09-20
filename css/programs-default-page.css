@@ -33,7 +33,7 @@
 
 @media only screen and (max-width: 1023px) and (min-width: 200px) {
     .hero-banner-section{margin: 0 0 39px  0;}
-    .program-default-shape.shapes.pos-absolute { left: -21px; top: -60px; width: 162px; height: 84px; top: 74px;}
+    .program-default-shape.shapes.pos-absolute { left: -21px;  width: 162px; height: 84px; top: -38px;}
     .hero-banner-section .hero-banner-main .hero-banner-txt .optional-text { margin: 50px 0 10px 0; }
     .hero-banner-section .hero-banner-main .hero-banner-txt{width: 100%;}
     .hero-banner-section .hero-banner-main .hero-banner-image .banner-img {bottom: -39px;}
