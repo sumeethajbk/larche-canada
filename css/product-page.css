@@ -19,11 +19,9 @@
 .category-dropdown{flex: 1;}
 
 .blog_more{text-align: center;}
-.btn-primary {margin: 50px 0 0;} 
+.btn-primary {margin: 50px 0 0; text-align: center;} 
 
 
-.btn-primary  .button::after {content: "\f107";}
-.btn-primary  .button:hover::after {animation-name: bounceAlphadown; animation-duration: 1.4s; animation-iteration-count: infinite;  animation-timing-function: linear;}
 
 
 /* media starts here */
