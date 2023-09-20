@@ -327,6 +327,32 @@ body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropd
 
 .toggle-form {width:100%;}
 
+
+
+/* Cookie bar */
+  body .cky-consent-container{width: 462px; right: 25px; bottom: 27px; border-radius: 0; background-color: var(--text-violetblue); overflow: hidden; left: inherit;}
+  body .cky-consent-container .cky-consent-bar{background: transparent!important; border: none; box-shadow: none; border-radius: 0; margin: 0 auto; position: relative; padding:57px 56px 52px;}
+  body .cky-notice .cky-title {color: #fff !important; font-size: 1.313rem; line-height: 1.19; font-weight: 600;}
+  body .cky-notice-des p {color: #abb7e1 !important; font-size: 0.875rem; line-height: 1.43; margin-bottom: 20px;}
+  body .cky-notice-des p a {font-weight: 600; color:var(--white)!important; text-decoration: none;}
+  body .cky-notice-btn-wrapper{margin-top: 27px; justify-content: flex-end; flex-direction: row-reverse;}
+  body .cky-btn {flex: initial; font-weight: 700; border-radius: 80px; border-width: 3px; padding: 7px 37px 10px 20px; font-size: 0.938rem; margin: 0 7px 0 0 !important;}
+  body .cky-btn:after {right: 19px; font-size: 0.938rem;}
+body .cky-btn.cky-btn-reject:after {display: none;}
+body .cky-btn.cky-btn-reject {padding: 7px 22px 10px 21px;}
+body .cky-banner-btn-close:after {display: none;}
+
+body .cky-consent-bar .cky-banner-btn-close {right: 20px; top: 20px;}
+body .cky-consent-bar .cky-banner-btn-close img {height: 14px; width: 14px;}
+body .cky-accordion-btn:after, body .cky-show-desc-btn:after {display: none;}
+body .cky-btn-revisit-wrapper .cky-btn-revisit:after {display: none;}
+
+
+body .cky-prefrence-btn-wrapper .cky-btn {}
+
+
+
+
 /*-- media css starts here --*/
 @media only screen and (max-width:1400px) {
 	.container, .container-lg {padding:0 22px; max-width:100%;}
