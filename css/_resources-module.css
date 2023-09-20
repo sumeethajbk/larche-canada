@@ -7,7 +7,7 @@
 .resources-grid:hover .resources-thumb {height:235px;}
 .resources-grid .resources-content {padding:48px 45px;}
 .resources-grid .resources-content h5 {margin-bottom: 17px;}
-.resources-grid .resources-content h5, .resources-grid .resources-content h5 a {color: var(--dark-grey); text-decoration: none;}
+.resources-grid .resources-content h5, .resources-grid .resources-content h5 a {color: var(--dark-grey); text-decoration: none; font-weight: 600;}
 .resources-grid .resources-content h5 a:hover {color: var(--text-violetblue);}
 .resources-grid .resources-content p {margin-bottom: 12px;}
 

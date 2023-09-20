@@ -5,10 +5,8 @@
 @import url("../css/_feature-panel-section.css");
 
 .hero-banner-section .hero-banner-main {min-height: 546px;}
-
-.hero-banner-section .hero-banner-main .hero-banner-txt .optional-text{margin-bottom: 0;}
 .hero-banner-section .hero-banner-main .hero-banner-txt h1{margin-bottom: 32px; font-weight: 700;}
-.hero-banner-section .hero-banner-main .hero-banner-txt h1 span{font-size: 5.375rem; line-height: 3.5rem; color: var(--pink); transform: rotate(-3.56deg); display: block; font-family: CCSignLanguage; font-weight: normal;}
+.hero-banner-section .hero-banner-main .hero-banner-txt h1 span{font-size: 5.375rem; line-height: 3.5rem; color: var(--pink); transform: rotate(-3.56deg); display: block;}
 .hero-banner-section .hero-banner-main .hero-banner-txt p{font-size: 1rem; font-weight: normal; line-height: 1.563rem; margin-bottom: 21px;}
 .intro-here-module{padding: 92px 0 65px 0;}
 
@@ -17,6 +15,7 @@
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
     .hero-banner-section .hero-banner-main .hero-banner-txt {width: 35%; margin: 0 15% 3px 0;}
+	.hero-banner-section .hero-banner-main .hero-banner-txt .optional-text{margin-bottom: 0;}
     .hero-banner-section .hero-banner-main .hero-banner-image {width: 49.24%;}
     .hero-banner-section .hero-banner-main .hero-banner-image .banner-img {clip-path: ellipse(100% 116% at 100% 50%);}
     .hero-banner-section .hero-banner-main .hero-banner-image .post-shape { top: 52%; bottom: 0; margin: auto; left: -124px; width: 293px; height: 330px; transform: translateY(-43%); }
