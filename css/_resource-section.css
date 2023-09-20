@@ -5,6 +5,8 @@
 .resource-btn{padding-bottom: 13px; color: var(--pink); font-weight: bold; text-decoration: none; display: inline-block;}
 .resource-btn svg{position: absolute; left: -11px; bottom: 0;}
 
+.no-section .resource-main{padding-top: 0;}
+
 .resource-filter{align-items: center; gap: 22px; margin-bottom: 72px;}
 ul.filter-list{margin: 0; gap: 10px; width: auto;}
 ul.filter-list > li{font-size: 1.063rem; line-height: 1.18; margin: 0;}
@@ -35,9 +37,6 @@ ul.filter-list > li.active a{color: var(--white); background-color: var(--text-v
     .resource-heading-rt{flex: 0 0 calc(100% - 707px); margin-top: 50px;}
     .resource-heading-rt p{max-width: 422px;}
     .resource-item{width: 304px; margin-right: 50px; padding: 49px 50px;}
-
-    /* .resource-slider .slick-arrow.next-arrow{right: -33px;}
-    .resource-slider .slick-arrow.prev-arrow{left: -33px;} */
 
     .resource-slider .slick-arrow{font-size: 0; padding: 0; background-color: transparent; border-color: transparent; color: #000;}
     .resource-slider button::after, .resource-slider .button::after{right: 0; content: "\f054"; font-size: 2.5rem; font-family: "Font Awesome 6 Sharp"; font-weight: 100; position: relative;}
