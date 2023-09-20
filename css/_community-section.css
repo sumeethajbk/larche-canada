@@ -9,6 +9,7 @@
 .community-catagory ul > li a{color: var(--text-violetblue); text-decoration: none;}
 .community-text{margin-top: auto; padding: 101px 0 0 0;}
 .community-text h3{color: var(--white); padding-right: 6px; margin-bottom: 18px;}
+.community-text h3 a{color: var(--white);}
 .community-text p{margin-bottom: 18px; color: var(--white);}
 .community-text .button{transition: all 1s ease;}
 
