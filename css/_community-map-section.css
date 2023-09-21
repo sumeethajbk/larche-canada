@@ -1,7 +1,7 @@
 .community-map-main{padding: 93px 0 90px;}
 .community-map-section .container-md{max-width: 1182px}
 .community-map-text h3{font-size: 2.875rem; padding-left: 30px;}
-.community-map-text h3 span{font-size: 5.375rem; line-height: 5.375rem; color: var(--orange);   font-family: CCSignLanguage; display: block; margin: -27px 0 0 -30px;}
+.community-map-text h3 span{font-size: 5.375rem; line-height: 5.375rem; color: var(--orange);   font-family: CCSignLanguage; display: block; margin: -20px 0 0 -30px;}
 .community-map-line svg{position: absolute; right: 10px; top: 10px;}
 
 

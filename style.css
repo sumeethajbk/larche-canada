@@ -176,7 +176,7 @@ body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropd
 .frm_forms .frm_form_fields .frm_form_field{margin-bottom:18px; position: relative; clear: both;}
 .frm_forms .frm_form_fields .frm_form_field.frm_full {clear:both;}
 .frm_forms .frm_form_fields .frm_form_field.vertical_radio label {padding-left:35px; display:block;}
-.frm_forms .frm_form_fields input, .frm_forms .frm_form_fields textarea, .frm_forms .frm_form_fields select {font-family: "rucksack", sans-serif; font-weight: normal; display: block; outline: 0; border-radius: 26px; box-shadow: none; font-size: 1rem; line-height: 25px; font-style: normal; vertical-align: middle; -webkit-appearance: none; background-color: var(--white); color: var(--body-text); border: solid 1px #d9e0e7; padding: 13px 31px 14px 24px; width: 100%; box-shadow: none; letter-spacing: -0.47px;}
+.frm_forms .frm_form_fields input, .frm_forms .frm_form_fields textarea, .frm_forms .frm_form_fields select {font-family: "rucksack", sans-serif; font-weight: normal; display: block; outline: 0; border-radius: 90px; font-size: 1rem; line-height: 24px; font-style: normal; vertical-align: middle; -webkit-appearance: none; background-color: var(--white); color: var(--body-text); border:solid 1px rgba(0, 0, 0, 0.1); padding: 15px 27px 17px 27px; width: 100%; box-shadow: none; letter-spacing:0.3px;}
 .frm_forms .frm_form_fields input:focus, .frm_forms .frm_form_fields textarea:focus {box-shadow:none;}
 .frm_forms .frm_form_fields textarea {min-height:145px;}
 .frm_forms .frm_form_fields .selectBox-dropdown{border: solid 1px #dde4e5; padding: 13px 31px 14px 24px; color: var(--body-text);}
