@@ -1,15 +1,15 @@
 .history-section{clear: both; width: 100%; position: relative;}
 .history-section:after{width: 230px; height: 100%; position: absolute; display: block; content: ""; right: 0; top: 0; z-index: 1; background: linear-gradient(to right,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); }
 .history-bg { position: absolute; margin: 0 auto; max-width: 1700px; width: 100%; z-index: -1; left: 3.4%; right: 0; }
-h3{margin-bottom: 68px; font-size: 2.625rem;}
+.history-section h3{margin-bottom: 68px; font-size: 2.625rem;}
 .history-wrap{padding: 0 0 90px;}
 
 .event-slider .slick-list {overflow: visible;}
 .event-grid {width: 304px; margin: 0 120px 0 0; background: var(--white);}
 .event-dot{margin-bottom: 27px;}
 .event { color: var(--pink); font-size: 4.25rem; line-height: 4.375rem; font-weight: 500; font-family: CCSignLanguage; margin-bottom: 6px; position: relative; left: 9px;}
-h5{font-size: 1.125rem;}
-p{font-size: 0.938rem;}
+.history-section h5{font-size: 1.125rem;}
+.history-section p{font-size: 0.938rem;}
 
 
 .pink .event{color: var(--pink);}
@@ -33,16 +33,10 @@ p{font-size: 0.938rem;}
 
 @media only screen and (max-width: 1299px) and (min-width: 1024px) {
     .event-grid {width: 230px; margin: 0 60px 0 0; }
-    /* .event-slider .slick-arrow.prev-arrow { left: 5px !important; top: -112px!important;}
-    .event-slider .slick-arrow.next-arrow { right: -44px !important; top: -112px!important;}
-    .event-slider .slick-arrow.prev-arrow::after{width: 75px; height: 75px;}  */
     
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px) {
     .event-grid {width: 230px; margin: 0 50px 0 0;}
-    /* .event-slider {position: relative;}
-    .event-slider .slick-arrow.prev-arrow {  position: absolute; right: 0; }
-    .event-slider .slick-arrow.next-arrow { right: -36px !important; top: -205px; } */
 
 } 
 @media only screen and (max-width: 1023px) and (min-width: 200px) {
@@ -53,7 +47,7 @@ p{font-size: 0.938rem;}
 @media only screen and (max-width: 767px) and (min-width: 200px) {
     .history-wrap{padding: 0 0 70px;}
     .event-grid {width: 285px; margin: 0 20px 0 0;}
-    h3{margin-bottom: 60px;}
+    .history-section h3{margin-bottom: 60px;}
     .history-section:after{width: 50px; }
     .history-bg{top: 46px; width: 920px; height: 62px; left: -302px;}
 
