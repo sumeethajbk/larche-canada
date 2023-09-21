@@ -49,7 +49,7 @@
 .news-grid .news-content h4, .news-grid .news-content h4 a {color: var(--h4); font-weight: 600; text-decoration: none;}
 .news-grid .news-content h4 a:hover {color: var(--text-violetblue);}
 
-.btn {text-align: center; margin: 4px 0 0 0;}
+.news-updates-main .btn {text-align: center; margin: 4px 0 0 0;}
 
 
 .cat-wrap .tag-links {width: 65%;}
@@ -113,7 +113,7 @@
 	.heading-rt .search-form {max-width: 100%;}
 	
 	.news-updates-container {padding: 59px 0 60px;}
-	.btn {margin: 8px 0 0 0;}
+	.news-updates-main .btn {margin: 8px 0 0 0;}
 	.filter-nav li {margin:0 55px 15px 0;}
 	.filter-nav li a:hover::after, .filter-nav li a.active::after {width: 79px; bottom: -20px;}
 	

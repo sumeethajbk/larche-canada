@@ -36,9 +36,11 @@ object-fit: cover; -o-object-position: 50% 50%; object-position: 50% 50%; transi
 
 /*-- media css starts here --*/
 @media only screen and (max-width: 1299px) and (min-width: 1024px) {
-	.single-news .news-content {padding: 60px 40px 60px 40px;}
+	.single-news .news-content {padding: 60px 40px 60px 40px; width: calc(100% - 260px);}
 	.single-news .news-content .cat-wrap .tag-links {width: 65%;}
 	.single-news .news-content .cat-wrap .cat-date {width: calc(100% - 65%);}
+	
+	.single-news .news-thumb {width: 260px;}
 }
 
 @media only screen and (max-width: 1023px) and (min-width: 200px) {
