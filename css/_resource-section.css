@@ -18,6 +18,7 @@ ul.filter-list > li.active a{color: var(--white); background-color: var(--text-v
 
 .resource-icon{max-height: 66px; margin-bottom: 20px;}
 .resource-item h4{font-size: 1.875rem; line-height: 1.2; font-weight: bold;}
+.resource-item h4 a{font-weight: bold;}
 
 .resource-item.green{background-color: rgba(0, 128, 41, 0.07);}
 .resource-item.orange{background-color: rgba(255, 120, 0, 0.07);}
@@ -49,6 +50,8 @@ ul.filter-list > li.active a{color: var(--white); background-color: var(--text-v
 @media screen and (max-width: 1460px) and (min-width: 1024px) {
     .resource-slider .slick-next.slick-arrow{right: 0px;}
     .resource-slider .slick-prev.slick-arrow{left: 0px;}
+    .resource-item { margin-right: 40px; padding: 49px 40px;}
+    .resource-slider .slick-prev.slick-arrow { left: -15px; }
 }
 
 @media screen and (max-width: 1023px) and (min-width: 200px) {

@@ -26,6 +26,11 @@
 	.common-cta-text {margin-left: inherit; margin-right: auto;}
 }
 
+@media only screen and (max-width: 1299px) and (min-width: 1024px){
+    .h1 span {margin-top: -14px;}
+
+
+}
 @media only screen and (max-width: 1023px) and (min-width: 200px){
     .common-cta-main{flex-direction: column-reverse; padding-left: 0;}
     .common-cta-image{width: 100%; margin-bottom: 80px; position: relative;}
