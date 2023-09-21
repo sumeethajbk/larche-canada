@@ -7,7 +7,7 @@
 .directors-main .button::after{right: 18px;  font-size: .9rem;}
 .directors-item{overflow: hidden; cursor: pointer;}
 .directors-details{position: absolute; background-color: var(--text-violetblue); width: 100%; height: auto; top: calc(100% - 108px); bottom: 0; transition: all 1s ease;}
-.directors-name{padding: 30px 78px 30px 30px; cursor: pointer; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.directors-name{padding: 30px 78px 30px 30px; cursor: pointer; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; min-height: 107px; display: flex; flex-direction: column; justify-content: center; flex-wrap: wrap;}
 .directors-name::before{content: "\2b"; position: absolute; font-size: 20px; transition: all .5s ease; font-family: "Font Awesome 6 Pro"; font-weight: 400; right: 32px; top: 35px; color: var(--white);}
 .directors-name.active::before{content: "\f068";}
 .directors-details span{display: block; font-size: 0.938rem; font-weight: 500; line-height: 1.67; color: rgba(255, 255, 255, 0.7);}
@@ -59,7 +59,7 @@
   .directors-heading{margin-bottom: 32px;}
   .directors-item{width: 285px; margin-right: 50px;}
   .directors-thumb img{min-height: 354px; max-height: 354;}
-  .directors-details{top: calc(100% - 87px);}
+  .directors-details{top: calc(100% - 87px); min-height: 87px;}
   .directors-name{padding: 20px 58px 20px 15px;}
   .directors-details span.directors-title{font-size: 1.25rem; line-height: 1.25; font-weight: 700;}
   .directors-name::before{right: 21px; top: 24px;}

@@ -4,7 +4,7 @@
 @import url("../css/_directors-section.css");
 
 .contact-container {clear: both; position: relative; z-index: 1;}
-.two-paths-module {padding: 22px 0 93px;}
+.two-paths-module {padding: 22px 0 98px;}
 
 .larche-communities {clear: both; width: 100%; position: relative; background-color: var(--light-grey); padding:89px 0 50px;}
 .larche-communities h3 {margin-bottom: 50px;}

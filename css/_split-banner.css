@@ -29,14 +29,19 @@
 	    .split-banner-section .split-banner-txt h1 span {font-size: 5rem; line-height: 4.5rem;}
 }
 
-@media only screen and (max-width: 1299px) and (min-width:1024px){
+
+
+
+@media only screen and (max-width: 1200px) and (min-width:768px){
+    .split-banner-section .split-banner-txt{padding-left: 0;}
+}
+
+@media only screen and (max-width: 1199px) and (min-width:1024px){
     .split-banner-bg { right: -70px; bottom: -30px; }
     .split-banner-wrap .split-banner-one{left: 130px;}
     .split-banner-wrap .split-banner-three{left: 187px;}
 }
-@media only screen and (max-width: 1200px) and (min-width:768px){
-    .split-banner-section .split-banner-txt{padding-left: 0;}
-}
+
 @media only screen and (max-width: 1023px) and (min-width: 200px){
     .split-banner-section {padding: 80px 0 0 0;}
     .split-banner-section .split-banner-main {align-items: flex-start; min-height: inherit; padding:57px 0 0;}
