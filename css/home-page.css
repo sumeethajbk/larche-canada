@@ -34,6 +34,7 @@
 }
 
 @media screen and (max-width: 1299px) and (min-width: 1024px) {
+    .hero-banner-section .hero-banner-main {padding: 85px 0 39px;}
     .hero-banner-section .hero-banner-main .hero-banner-txt h1{font-size: 4.5rem;}
     .hero-banner-section .hero-banner-main .hero-banner-txt h1 span{font-size: 7rem;}
     .home-shape-1{top: -91px; right: -75px;}
@@ -76,7 +77,5 @@
 
     .intro-module{padding: 52px 0 29px;}
 
-    .repeater-main{padding: 29px 0 74px;}
-
-    .repeater-main{padding: 58px 0 74px;}
+    .repeater-main { padding: 28px 0 74px; }
 }
