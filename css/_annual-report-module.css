@@ -28,7 +28,7 @@
 @media only screen and (max-width:1023px) and (min-width:200px){
 	.annual-report-main{flex-direction: column-reverse;}
 	.annual-report-image{width: 100%; margin-bottom: 80px; position: relative;}
-    .annual-report-text{width: 100%; padding: 0 20px 55px; display: block; margin: 0;}
+    .annual-report-text{width: 100%; padding: 0 20px 55px; display: block; margin: 0; z-index: 3; position: relative;}
 	.annual-report-thumb {clip-path: ellipse(80% 99% at 50% 1%);}
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){

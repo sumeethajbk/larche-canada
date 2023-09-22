@@ -23,6 +23,7 @@
 .number-list.light-violet .number-btn{color: var(--text-violetblue);}
 .number-list.light-violet span svg path{fill: var(--text-violetblue);}
 
+   .left-stat .number {display: flex; justify-content: center; flex-direction: row-reverse;}
 @media screen and (min-width: 1024px) {
     .number-main{justify-content: center; padding: 20px 0;}
     .number-list{flex: 0 0 33.39%; min-height: 456px; margin-left: -43px;} /*flex: 0 0 35.57%;*/
