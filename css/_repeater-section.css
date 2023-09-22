@@ -5,6 +5,7 @@
 .repeater-content p {margin-bottom: 20px;}
 .repeater-content ul, .repeater-content ol {margin: 23px 0 28px 25px;}
 .repeater-thumb img{border-radius: 50%;}
+.repeater-thumb-wrap {position: relative;}
 
 .repeater-section .video-thumbnail {height: 100%; width: 100%;}
 .repeater-section .video-thumbnail .play-btn{width: 100px; height: 100px;}
@@ -20,7 +21,7 @@
     .repeater-section {padding: 73px 0 112px;}
     .repeater-wrap{max-width: 1129px; margin: 0 auto;}
     .repeater-list{gap: 148px; margin-bottom: 115px;}    
-    .repeater-content{flex: 0 0 calc(100% - 706px); }
+    .repeater-content{flex: 1 0 calc(100% - 706px); }
    
     .repeater-image{flex: 0 0 558px;}
     .repeater-thumb-wrap{ width: 528px; height: 528px;}
@@ -30,14 +31,14 @@
  @media only screen and (max-width: 1299px) and (min-width: 1024px){
    .repeater-list{gap: 62px; margin-bottom: 90px;}
    .repeater-content{flex: 0 0 calc(100% - 520px);}
-   .repeater-image{flex: 0 0 440px;}
+   .repeater-image{flex: 1 0 440px;}
    .repeater-thumb-wrap{ width: 428px; height: 428px;}
  }
  @media only screen and (max-width: 1023px) and (min-width: 768px){
   .repeater-main{padding: 89px 0 70px;}
   .repeater-list { margin-bottom: 80px; gap: 50px}
   .repeater-content{width: calc(100% - 390px);}
-  .repeater-image{flex: 0 0 340px; position: relative;} 
+  .repeater-image{flex: 1 0 340px; position: relative;} 
   .repeater-thumb-wrap{ width: 340px; height: 340px; position: relative; }
   .orange-line-one{width: 94px; height: 115px; top: -23px; right: 7px;}
   .orange-line-two{width: 170px; height: 226px; bottom: -33px; left: -29px;}

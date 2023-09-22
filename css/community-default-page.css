@@ -57,5 +57,5 @@ ul.social-icons li a:hover {color: var(--white);}
 	.intro-col-module {padding: 57px 0 61px 0;}
 	.intro-lt-details .address {margin: 0 0 30px 0;}
 	.intro-col-lt {margin: 0 0 40px 0;}
-	.intro-col-thumb {margin: 0 0 39px 0;}
+	.intro-col-thumb {margin: 0 0 39px 0; height: 54.4vw; min-height: 212px;}
 }

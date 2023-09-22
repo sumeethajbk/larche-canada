@@ -26,6 +26,7 @@
 
 @media only screen and (max-width: 1023px) and (min-width: 768px){
 	.tiled-grid {width: 422px; margin: 0 0 0 50px;}
+	.tiled-module {padding: 81px 0 81px;}
 }
 
 @media only screen and (max-width: 767px) and (min-width: 200px){
