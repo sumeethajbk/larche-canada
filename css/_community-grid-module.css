@@ -3,14 +3,15 @@
 .community-list:nth-child(4n+1) {padding-left: 22px;}
 .community-list:nth-child(4n+4) {padding-right: 22px;}
 
-.community-list span.h5{font-size: 1.313rem; font-weight: 600; line-height: 1.19; margin-bottom: 15px; display: block;}
+.community-list span.h5{ margin-bottom: 15px;}
 .community-icon{width: 142px; height: 142px; display: flex; justify-content: center; align-items: center;  border-radius: 50%; position: relative; margin:0 auto 14px;}
 .community-icon::before{content: ""; width: 142px; height: 142px; border-radius: 50%; position: absolute; left: 0; top: 0;}
 .community-thumb img{width: 63px; height: 63px;}
 
 /*-- media starts here --*/
 @media only screen and (min-width: 768px){
-    .community-list::before{display: block; position: absolute; left: 0; top: 0; background-image: radial-gradient(circle at 1px, #C8CCCD 1.25px, rgba(255,255,255,0) 1px); background-position: 0 0; background-size:10px 2px; background-repeat: repeat-x; width: 100%; height: 2px; vertical-align: middle; border: 0 none; content:"";}
+    .community-grid-module{padding: 36px 0 0;}
+    .community-list:nth-child(4n+1):before{display: block; position: absolute; left: 0; top: 0; background-image: radial-gradient(circle at 1px, #C8CCCD 1.25px, rgba(255,255,255,0) 1px); background-position: 0 0; background-size:10px 2px; background-repeat: repeat-x; width: 1000%; height: 2px; vertical-align: middle; border: 0 none; content:"";}
     .community-list::after{display: block; position: absolute; right: 0; top: 0; background-image: radial-gradient(circle at 1px, #C8CCCD 1.25px, rgba(255,255,255,0) 1px); background-position: 0 0; background-size: 2px 10px; background-repeat: repeat-y; width: 2px; height: 100%; vertical-align: middle; border: 0 none; content:"";}
 }
 @media only screen and (min-width: 1300px){
@@ -23,11 +24,13 @@
 }
 @media only screen and (max-width: 1299px) and (min-width: 768px){
     .community-list{flex: 0 0 50%;}
+    .community-list:nth-child(2n+1):before{display: block; position: absolute; left: 0; top: 0; background-image: radial-gradient(circle at 1px, #C8CCCD 1.25px, rgba(255,255,255,0) 1px); background-position: 0 0; background-size:10px 2px; background-repeat: repeat-x; width: 1000%; height: 2px; vertical-align: middle; border: 0 none; content:"";}
     .community-list:nth-child(-n+2):before{display: none;}
     .community-list:nth-child(even)::after{display: none;}
     .community-list:nth-child(-n+2){padding-top: 0;}
     .community-list:nth-last-child(-n+2){padding-bottom: 0;}
-
+  
+    
 }
 
 @media only screen and (max-width: 767px) and (min-width: 200px){
@@ -35,5 +38,5 @@
     .community-row{display: block; color: var(--h4); padding-left: 42px;}
     .community-list{padding: 0 0 10px; width: 285px; margin-right: 20px;}
     .community-icon{width: 104px; height: 104px; margin: 0 auto 14px;}
-    .community-row ul.slick-dots{margin-left: -60px;}
+    .community-row ul.slick-dots{margin-left: -23px;}
 }

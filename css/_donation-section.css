@@ -30,7 +30,7 @@
 }
 @media only screen and (max-width: 1499px) and (min-width: 1300px){
     .donation-image{width: 740px; margin-left: auto;}
-     .resource-item { margin-right: 40px; padding: 49px 40px;}
+    
 }
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .donation-main{margin: -30px 0;}
@@ -61,5 +61,6 @@
     .circle.orange{width: 225px; height: 225px;}
     .circle.green{width: 292px; height: 292px;}
     .circle.pink{width: 358px; height: 358px;}
+    .donation-text h2{ margin-bottom: 36px;}
     .donation-text h2 span svg{width: 205px; left: -13px;}
 }

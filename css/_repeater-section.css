@@ -45,12 +45,12 @@
  @media only screen and (max-width: 767px) and (min-width: 200px){
     .repeater-main{padding: 65px 0 70px;}
     .repeater-list{display: flex; margin-bottom: 67px; flex-direction: column-reverse;}
-    .repeater-content{padding-bottom: 65px; width: 100%;}
+    .repeater-content{padding-bottom: 25px; width: 100%;}
     .repeater-content span{margin-bottom: 16px;}
     .repeater-content h2 {padding-right: 5px; margin-bottom: 20px;}
     .repeater-content p{margin-bottom: 16px;}
     .repeater-image{width: 100%;}
-    .repeater-thumb-wrap{width: 342px; height: 346px;}
+    .repeater-thumb-wrap{width: 342px; height: 345px;}
     .repeater-list:last-child{margin-bottom: 0;}
     .repeater-section .video-thumbnail .play-btn{width: 65px!important; height: 65px!important;}
     .repeater-section .video-thumbnail .play-btn img { width: 21px; height: 21.5px}

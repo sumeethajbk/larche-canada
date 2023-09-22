@@ -20,15 +20,30 @@ ul.filter-list > li.active a{color: var(--white); background-color: var(--text-v
 .resource-item h4{font-size: 1.875rem; line-height: 1.2; font-weight: bold;}
 .resource-item h4 a{font-weight: bold;}
 
-.resource-item.green{background-color: rgba(0, 128, 41, 0.07);}
+.resource-item:hover {
+    top: -20px;
+    position: relative;}
+ .resource-item.green{background-color: rgba(0, 128, 41, 0.07);}
 .resource-item.orange{background-color: rgba(255, 120, 0, 0.07);}
 .resource-item.red{background-color: rgba(255, 0, 0, 0.07);}
 .resource-item.violet{background-color: rgba(51, 77, 181, 0.07);}
-.resource-item.pink{background-color: rgba(255, 112, 128, 0.07);}
+.resource-item.pink{background-color: rgba(255, 112, 128, 0.07);} 
 
 .resource-slider .slick-list{overflow: visible;}
 .resource-slider .slick-track{display: flex;}
 .resource-slider .slick-slide{height: inherit !important;}
+.resource-item{
+-moz-transition: top 0.2s ease-in;
+  -ms-transition: top 0.2s ease-in;
+  -o-transition:  top 0.2s ease-in;
+  -webkit-transition:top 0.2s ease-in;
+  transition: top 0.2s ease-in;}
+/* .resource-item.blue:hover {background-color: var(--text-violetblue);}
+.resource-item.green:hover {background-color: var(--green);}
+.resource-item.pink:hover {background-color: var(--pink);}
+.resource-item.orange:hover {background-color: var(--orange);}
+.resource-item.red:hover {background-color: var(--red);}
+.resource-item.violet:hover {background-color: var(--violet);}  */
 
 @media screen and (min-width: 1024px) {
     .resource-main{padding: 86px 0 100px;}
@@ -62,11 +77,10 @@ ul.filter-list > li.active a{color: var(--white); background-color: var(--text-v
     .resource-heading-lt h2 span svg{top: -34px; width: 183px;}
 
     .resource-filter{gap: 0; margin-bottom: 48px;}
-    .resource-filter-mobile{font-size: 1.063rem; line-height: 1.18; padding: 14px 25px 16px; background-color: rgba(51, 77, 181, 0.1); width: 100%; border-radius: 24px; font-weight: bold; position: relative; display: block; cursor: pointer;}
-    ul.filter-list{gap: 0; border-radius:0 0 15px 15px; overflow: hidden; width: 100%; display: none;}
+    .resource-filter-mobile{font-size: 1.063rem; line-height: 1.18; padding: 14px 25px 16px; background-color: rgba(51, 77, 181, 0.1); width: 100%; border-radius: 24px; font-weight: bold; position: relative; display: block; cursor: pointer; margin-bottom: 15px;}
+    ul.filter-list{gap: 0; border-radius: 15px; overflow: hidden; width: 100%; display: none;}
     ul.filter-list > li a{border-radius: unset; width: 100%; display: block;}
     .resource-filter-mobile::after{content: "\f107"; font-size: 1.2rem; font-family: "Font Awesome 6 Sharp"; font-weight: bold; transition: all .3s ease-in-out; position: absolute; display: flex; align-items: center; top: 0; bottom: 0; right: 25px;}
-    .resource-filter-mobile.active{border-bottom-left-radius: 0; border-bottom-right-radius: 0;}
     .resource-filter-mobile.active::after{transform: rotate(-180deg);}
 
     .resource-item{width: 304px; margin-right: 20px; padding: 49px 50px;}

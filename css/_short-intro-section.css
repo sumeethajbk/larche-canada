@@ -27,7 +27,7 @@
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
     .short-intro-heading{margin-bottom: 30px;}
-    .short-intro-list{margin-bottom: 50px;}
+    .short-intro-list{margin-bottom: 20px;}
     .short-intro-left{margin-bottom: 30px;}
     .short-intro-list span svg{bottom: -37px; height: 55px;}
     .short-intro-right{margin-bottom: 25px;}
@@ -37,6 +37,7 @@
     .short-intro-list h2{font-size: 2.625rem; margin-bottom: 24px;}
     .short-intro-list span svg{width: 178px; height: 41px; bottom: -25px; left: -8px;}
     .short-intro-left{margin-bottom: 25px;}
+    
     .short-intro-right{margin-bottom: 25px;}
 
 }
