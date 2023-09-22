@@ -20,6 +20,10 @@ transform: translateY(-42.7%);}
 	.no-banner-section {padding: 80px 0 0 0;}	
 }
 
+@media only screen and (max-width: 1023px) and (min-width:768px){
+	.no-banner-section .no-banner-main {padding: 70px 0 56px;}
+}
+
 @media only screen and (max-width: 767px) and (min-width: 200px){
 	.no-banner-section .no-banner-main {padding: 55px 0 83px 0;}
 	.no-banner-section .no-banner-main .no-banner-txt .optional-text {margin: 0 0 9px 0;}

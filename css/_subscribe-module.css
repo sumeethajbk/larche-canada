@@ -7,7 +7,8 @@
 .subscribe-main .sub-rt .disclaimer p {font-size: 0.813rem; line-height: 1.31; color: rgba(26, 21, 100, 0.6);}
 .subscribe-main .subscribe-form {position: relative;}
 .subscribe-main .frm_forms .form-field {margin-bottom: 17px;}
-.subscribe-main .frm_forms input {padding: 15px 120px 17px 27px; height: inherit;}
+.subscribe-main .frm_forms input {padding: 15px 120px 17px 27px; height: inherit; border: solid 1px rgba(0, 0, 0, 0.1) !important;
+  box-shadow: none !important;}
 .subscribe-main .frm_forms .frm_submit{right: 9px; top: 9px; position: absolute; margin: 0;}
 .subscribe-main .frm_forms .frm_submit button {background: var(--violet)!important; border-color:var(--violet)!important; font-size: 0.938rem; border-width: 3px; padding: 7px 31px 10px 17px; font-weight: 700; letter-spacing: 0.4px; border-radius: 80px; margin: 0; color: var(--white) !important;}
 .subscribe-main .frm_forms .frm_submit button::after {font-size: 0.878rem; right: 13px;}

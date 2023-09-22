@@ -20,6 +20,7 @@
 .intro-lt-details .address p a {text-decoration: underline;}
 .intro-lt-details .address p span {display: block; padding: 0 0 0 28px; margin: 0 0 3px 0;}
 .intro-lt-details .address p span i {position: absolute; left: 0; font-size: 14px; color: var(--text-violetblue); top: 7px;}
+.intro-lt-details .address .tel a {text-decoration: none;}
 
 
 ul.social-icons {margin: 0;}
