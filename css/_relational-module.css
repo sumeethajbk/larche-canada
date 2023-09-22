@@ -12,9 +12,11 @@
 @media only screen and (min-width: 1024px){
    .relational-row{gap: 17px;}
     .relational-left{flex: 1; }
+	.relational-left h5 {margin-bottom: 19px;}
     .relational-right{flex: 3;}
     .relational-list{flex: 1; margin-left: 50px;}
-    .relational-content{padding: 29px 33px 37px;}
+    .relational-content{padding:28px 33px 34px;}
+	
 
 }
 @media only screen and (max-width: 1023px) and (min-width: 200px) {
@@ -25,7 +27,7 @@
     .relational-left p{padding-right: 0;}
     .relational-list{margin-bottom: 22px;}
     .relational-content{padding: 29px 33px 37px;}
-    .relational-thumb{height: inherit;}
+    .relational-thumb{height: 41.3vw;}
 }
 @media only screen and (max-width: 768px) and (min-width: 200px) {
     .relational-head{padding-bottom: 0;}
