@@ -9,6 +9,7 @@
 
 .hero-banner-section {margin:0 0 77px 0;}
 .hero-banner-section .hero-banner-main .hero-banner-image .banner-img {width: 599px; height: 599px; bottom: -47px;}
+.hero-banner-section .hero-banner-main .hero-banner-txt p {margin-bottom: 18px;}
 .governance-shape-1 {width: 336px; height: 185px; top: -48px; right: 8px;}
 .governance-shape-2 {width: 488px; height: 472px; bottom: -49px; left: -84px;}
 .governance-shape-3 {width: 283px; height: 244px; bottom: 18px; right: -98px;}
@@ -19,8 +20,16 @@
 
 
 @media screen and (min-width: 1024px) {
+	.hero-banner-section.reverse .hero-banner-main .hero-banner-txt { margin: 8px 0 3px 3%;}
 }
 
+@media only screen and (max-width: 1299px) and (min-width:1024px){
+	.intro-col-module { padding: 25px 0 52px 0;}
+}	
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+	.community-grid-module { padding: 19px 0 60px; }
+	
+}
 @media screen and (max-width: 1023px) and (min-width: 200px) {
 	.hero-banner-section {margin: 0 0 32px 0;}
 	.hero-banner-section .hero-banner-main .hero-banner-image .banner-img {bottom: -39px;}
@@ -29,7 +38,11 @@
 	.governance-shape-3 {width: 171px; height: 132px; bottom: 12px; right: -57px;}
 	
 	.intro-col-module {padding: 57px 0 12px 0;}
+	
+	
+	
+}
+@media screen and (max-width: 767px) and (min-width: 200px) {
 	.community-grid-module {padding: 19px 0 24px;}
-	.directors-main {padding: 30px 0 0 0;}
-	.directors-mobile-btn {margin: 0 0 60px 0;}
+
 }

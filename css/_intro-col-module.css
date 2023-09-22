@@ -9,16 +9,19 @@
 .intro-col-rt {flex-grow: 1; width: calc(100% - 51%); padding: 4px 9px 0 0;}
 
 /* Responsive */
+
 @media only screen and (max-width: 1023px) and (min-width:200px){
-	.intro-col-lt {width: 100%; margin: 0 0 10px 0;}
+	.intro-col-lt .optional-text {margin: 0 0 19px 0;}
+	.intro-col-lt {margin:0 0 11px 0; width: 100%;}
+	.intro-col-lt .button {margin: 19px 0 0 0;}
+	.intro-col-lt .intro-dots {position: relative; bottom: 85px; right: -38px; width: 254px;  height: 190px; margin: 0 0 -85px auto;}
+	.intro-col-rt {width: 100%; padding-right: 0;}
 }
+
 
 @media only screen and (max-width: 767px) and (min-width:200px){
 	.intro-col-lt h2 {margin-bottom: 23px;}
 	.intro-col-module {padding: 57px 0 61px 0;}
-	.intro-col-lt .optional-text {margin: 0 0 19px 0;}
-	.intro-col-lt {margin:0 0 11px 0;}
 	.intro-col-lt span svg {bottom: -30px; right: -14px; width: 116px; height: 45px;}
-	.intro-col-lt .button {margin: 19px 0 0 0;}
-	.intro-col-lt .intro-dots {position: relative; bottom: 85px; right: -132px; width: 254px;  height: 190px; margin: 0 0 -85px 0;}
+
 }
