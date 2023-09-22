@@ -184,6 +184,8 @@ body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropd
 .frm_forms .frm_submit{margin:20px 0 30px 0;}
 .form-field {position:relative; margin-bottom:20px;}
 .form-note p {font-size: 0.75rem; line-height: 1.67; letter-spacing: -0.35px; color: var(--light-blue);}
+.frm_forms .frm_error_style {display: none;}
+.frm_forms .frm_message, .frm_forms .frm_success_style {margin: 0 0 20px 0; padding: 0; background: top; border: 0 none; font-weight: bold; font-size: 1rem; line-height: 1.4;}
 
 .frm_half {width:48.56%; float: left; clear: none!important;}
 .frm_first {margin-right:18px;}

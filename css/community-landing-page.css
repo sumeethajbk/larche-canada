@@ -22,3 +22,8 @@
 	.hero-banner-section .community-landing-shape-2 {width: 270px; height: 264px; bottom: -27px; left: -46px;}
 	.hero-banner-section .community-landing-shape-3 {width: 171px; height: 132px; bottom: 12px; right: -57px;}
 }
+
+
+@media screen and (max-width:767px) and (min-width: 200px) {
+	.intro-col-module {padding: 39px 0 59px 0;}
+}
