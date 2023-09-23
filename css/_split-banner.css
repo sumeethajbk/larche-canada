@@ -61,7 +61,7 @@
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .split-banner-section .container{padding: 0;}
     .split-banner-section .split-banner-txt {margin:0 0 47px 0; padding: 0 20px;}
-    .split-banner-section .split-banner-txt h1 span {font-size: 4.25rem; line-height: 3rem;}
+    .split-banner-section .split-banner-txt h1 span {font-size: 4.25rem; line-height: 3rem; margin-top: 3px;}
     .split-banner-section .split-banner-main .split-banner-image { position: relative; min-height: 215px; width: 100%; max-width: 390px; margin: 0 auto;}
     .split-banner-section .split-banner-image .split-banner-bg{margin: 0 auto; left: -74px; right: 0; min-width: 470px;}
     .split-banner-section .split-banner-image .split-banner-bg img {height: auto; max-width: 100%;}
