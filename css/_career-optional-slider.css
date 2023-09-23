@@ -5,24 +5,30 @@
 .career-slider .slick-list {overflow: visible;}
 .career-slider .slick-track {display: flex!important;}
 
-.programs-grid .programs-thumb {height:255px; overflow: hidden; transition: height 0.5s;}
-.programs-grid:hover .programs-thumb {height:235px;}
-.programs-grid {width: 422px; margin: 0 50px 0 0; background: var(--white); height: inherit!important;}
-.programs-grid .programs-content {padding: 44px 45px 40px;}
-.programs-grid .programs-content h5 a{font-weight: 600;}
+.career-slider {display: flex; flex-wrap: wrap; width: 100%;}
+.career-slider .programs-grid {width: 30.89311859443631%; margin:0 0 0 3.66%; background: var(--white); height: inherit!important;}
+.career-slider .programs-grid:first-child {margin-left: 0;}
+.career-slider .programs-grid .programs-thumb {height:255px; overflow: hidden;}
+.career-slider .programs-grid.slick-slide {width: 422px; margin: 0 50px 0 0;}
+.career-slider .programs-grid .programs-content {padding: 48px 45px 34px;}
+.career-slider .programs-grid .programs-content h5 a{font-weight: 600;}
+.career-slider .programs-grid .programs-content p {margin-bottom: 12px;}
 
 
 /* Responsive */
 @media only screen and (max-width: 1023px) and (min-width: 768px){
-    .programs-grid{width: 422px!important; margin: 0 50px 0 0!important;}
+	.career-slider {justify-content: center;}
+	.career-slider .programs-grid {width: 48.6%; margin: 0 0 20px 20px;}
+    .career-slider .programs-grid.slick-slide{width: 422px; margin: 0 50px 0 0;}
 
 }
 
 @media only screen and (max-width: 767px) and (min-width: 200px){
 	.career-optional-slider {padding: 59px 0 30px;}
 	.career-optional-slider h3 {padding: 0; margin-bottom: 32px;}
-	.programs-grid {width: 285px; margin: 0 20px 0 0!important;}	
-	.programs-grid .programs-content {padding:35px 35px 36px;}
-	.programs-grid .programs-content h4 {margin-bottom: 22px;}
-    .programs-grid .programs-thumb { height: 202px;}
+	.career-slider .programs-grid {width: 100%; margin: 0 0 20px 0;}
+	.career-slider .programs-grid.slick-slide {width: 285px; margin: 0 20px 0 0;}	
+	.career-slider .programs-grid .programs-content {padding:35px 35px 36px;}
+	.career-slider .programs-grid .programs-content h4 {margin-bottom: 22px;}
+    .career-slider .programs-grid .programs-thumb { height: 202px;}
 }

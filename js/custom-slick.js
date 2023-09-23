@@ -45,30 +45,8 @@ jQuery(document).ready(function () {
     }, ]
   });
 
-  // jQuery('.event-slider').slick({
-  //   slidesToShow: 1,
-  //   slidesToScroll: 1,
-  //   infinite: false,
-  //   speed: 1000,
-  //   dots: false,
-  //   arrows: true,
-  // variableWidth:true,
-  //   draggable: true,
-  //   touchThreshold: 200,
-  //   swipeToSlide: true,
-  //   prevArrow: '<span class="slick-arrow prev-arrow flex flex-center"></span>',
-  //   nextArrow: '<span class="slick-arrow next-arrow flex flex-center"></span>',
-  //   responsive: [{
-  //     breakpoint: 768,
-  //     settings: {        
-  //       arrows: false,
-  //       dots: true,
-  //     }
-  //   }, ]
-  // });
 
-
-  //Apn Slider //
+  //Event Slider //
   var eventslider = jQuery('.event-slider');
   eventslider.slick({
     touchMove: true,
@@ -93,7 +71,7 @@ jQuery(document).ready(function () {
 
 
   function slideGo(dir) {
-    var eventslider = jQuery('.activities-slider');
+    var eventslider = jQuery('.event-slider');
     if (dir === "+") {
       eventslider.slick('slickNext');
     } else if (dir === "-") {
@@ -102,8 +80,8 @@ jQuery(document).ready(function () {
   }
 
 
-  jQuery('.career-slider').slick({
-    slidesToShow: 1,
+  /*jQuery('.career-slider').slick({
+    slidesToShow: 3,
     slidesToScroll: 1,
     infinite: false,
     speed: 1000,
@@ -122,7 +100,36 @@ jQuery(document).ready(function () {
         dots: true,
       }
     }, ]
-  });
+  });*/
+
+
+  var $slider = jQuery('.career-slider');
+  var $sliderLength = $slider.find('.programs-grid').length;
+  if ($sliderLength >= 4) {
+    $slider.slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      infinite: false,
+      speed: 1000,
+      dots: false,
+      arrows: true,
+      variableWidth: true,
+      draggable: true,
+      touchThreshold: 200,
+      swipeToSlide: true,
+      prevArrow: '<span class="slick-arrow prev-arrow flex flex-center"></span>',
+      nextArrow: '<span class="slick-arrow next-arrow flex flex-center"></span>',
+      responsive: [{
+        breakpoint: 768,
+        settings: {
+          arrows: false,
+          dots: true,
+        }
+      }, ]
+    });
+  }
+
+
   jQuery('.video-slider').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -229,7 +236,6 @@ jQuery(document).ready(function () {
 
   }
 
- 
 
   var sliderRes = jQuery('.resource-slider').slick({
     slidesToShow: 4,
@@ -277,15 +283,14 @@ jQuery(document).ready(function () {
     prevArrow: '<span class="slick-arrow prev-arrow flex flex-center"></span>',
     nextArrow: '<span class="slick-arrow next-arrow flex flex-center"></span>',
     responsive: [{
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          arrows: false,
-          dots: true,
-        }
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        dots: true,
       }
-    ]
+    }]
   });
 
 

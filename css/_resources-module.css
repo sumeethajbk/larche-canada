@@ -3,8 +3,7 @@
 .resources-row {display: flex; flex-wrap: wrap;}
 .resources-grid {width: 30.89311859443631%; margin: 3.65% 0 0 3.65%; background: var(--white); height: inherit!important;}
 .resources-grid:nth-child(3n+1) {margin-left: 0;}
-.resources-grid .resources-thumb {height:255px; overflow: hidden; transition: height 0.5s;}
-.resources-grid:hover .resources-thumb {height:235px;}
+.resources-grid .resources-thumb {height:255px; overflow: hidden;}
 .resources-grid .resources-content {padding:48px 45px;}
 .resources-grid .resources-content h5 {margin-bottom: 17px;}
 .resources-grid .resources-content h5, .resources-grid .resources-content h5 a {color: var(--dark-grey); text-decoration: none; font-weight: 600;}

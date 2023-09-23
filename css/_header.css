@@ -183,3 +183,7 @@ opacity: 0; visibility: hidden; transition-duration: .75s; transition-property: 
 	.main_header .header_right.mobile_menu:before {left: 81.5%; transform: translateX(-85.5%);}
 	.main_header .header_right.mobile_menu:after {left: 50%; transform: translateX(-42.2%);}
 }
+
+@media only screen and (max-width:385px) and (min-width:200px) {
+	.main_header .logo {width: 142px; margin-top: 3px;}
+}

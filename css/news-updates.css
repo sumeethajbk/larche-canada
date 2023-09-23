@@ -42,8 +42,7 @@
 
 .news-grid {width: 30.89311859443631%; margin:0 0 3.65% 3.65%; background: var(--white);}
 .news-grid:nth-child(3n+1) {margin-left: 0;}
-.news-grid .news-thumb {height:255px; overflow: hidden; transition: height 0.5s;}
-.news-grid:hover .news-thumb {height:235px;}
+.news-grid .news-thumb {height:255px; overflow: hidden;}
 .news-grid .news-content {padding:39px 45px 42px;}
 .news-grid .news-content h4 {margin-bottom: 18px;}
 .news-grid .news-content h4, .news-grid .news-content h4 a {color: var(--h4); font-weight: 600; text-decoration: none;}

@@ -6,8 +6,7 @@
 .fnews-slider .slick-track {display: flex!important;}
 
 .fnews-grid {width: 422px; margin: 0 50px 0 0; background: var(--white); height: inherit!important;}
-.fnews-grid .fnews-thumb {height:255px; overflow: hidden; transition: height 0.5s;}
-.fnews-grid:hover .fnews-thumb {height:235px;}
+.fnews-grid .fnews-thumb {height:255px; overflow: hidden;}
 .fnews-grid .fnews-content {padding:39px 45px;}
 .fnews-grid .fnews-content h4 {margin-bottom: 18px;}
 .fnews-grid .fnews-content h4, .fnews-grid .fnews-content h4 a {color: var(--h4); font-weight: 600; text-decoration: none;}

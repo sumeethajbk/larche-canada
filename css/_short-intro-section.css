@@ -10,17 +10,17 @@
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px) {
 .short-intro-list{gap: 40px; margin-bottom: 73px;}
-.short-intro-heading{flex: 0 0 850px;}
+.short-intro-heading{flex: 1 0 850px;}
 .short-intro-btn{flex: 0 0 calc(100% - 890px);}
 .short-intro-desc{gap: 51px;}
-.short-intro-left{flex: 0 0 541px;}
-.short-intro-right{flex: 0 0 calc(100% - 592px);}
+.short-intro-left{flex: 1 0 541px;}
+.short-intro-right{flex: 1 0 calc(100% - 592px);}
 }
 
 
 @media only screen and (max-width: 1299px) and (min-width: 1024px){
     .short-intro-list{gap: 30px; margin-bottom: 50px;}
-    .short-intro-heading{flex: 0 0 700px;}
+    .short-intro-heading{flex: 1 0 700px;}
     .short-intro-btn{flex: 0 0 calc(100% - 730px);}
     .short-intro-list span svg{bottom: -40px;}
 
