@@ -20,5 +20,5 @@
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .accordion-module{padding: 0 0 30px;}
     .accordion-item .heading {padding: 21px 32px 24px 70px;}
-    .content { padding: 1px 37px 32px 70px; }
+    .content { padding:1px 33px 31px 70px; margin: -9px 0 0 0;}
 }

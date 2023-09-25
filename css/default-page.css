@@ -31,7 +31,7 @@
 
 /* Default Thumb */
 .default-thumb {margin:60px 0 59px;}
-.default-thumb figure {overflow: hidden; height: 463px;}
+.default-thumb figure, .default-thumb img {overflow: hidden; height: 100%; width: 100%; object-fit: cover; margin: 0;}
 .lc-shape-1 {top: 23px; left: -50px; width: 157px; height: 209px;}
 .lc-shape-2 {bottom: -84px; right: -119px; width:362px; height:401px;}
 
@@ -54,21 +54,22 @@
 
 
 /*-- media css starts here --*/
-@media only screen and (max-width: 1299px) and (min-width: 1024px) {
-	
+@media only screen and (max-width: 1400px) {
+	.hr {padding: 0;}
 }
 
 @media only screen and (max-width: 1023px) and (min-width: 200px) {
 	.img-shape-1 {width: 196px; height: 268px; top: -47px; left: -67px;}
 	.img-shape-2 {width: 165px; height: 218px; right: -29px; top: -20px;}
+	.repeater-section {padding: 0;}
 }
 
 @media only screen and (max-width: 1023px) and (min-width: 768px) {
-	.repeater-section {padding: 0;}
+	
 	
 }
 @media only screen and (max-width: 767px) and (min-width: 200px) {
-	.general-default-article-section { padding: 44px 20px 100px; }
+	.general-default-article-section { padding:44px 0 36px; }
 	.def-intro {padding: 55px 0 40px;}
     .default-thumb{max-height: 179px; margin: 60px 0 50px;}
     .default-thumb img{max-height: 179px;}
@@ -76,4 +77,7 @@
     .lc-shape-2 { bottom: -40px; right: -73px; width: 198px; height: 164px; }
 	.single-testimonial {padding: 35px 30px 28px;}
 	.single-testimonial .testimonial-cnt{font-size: 1.125rem;}
+	.two-paths-module {padding: 24px 0 94px;}
+	
+	.repeater-main {padding: 55px 0 17px;}
 }
