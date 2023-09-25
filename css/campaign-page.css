@@ -40,6 +40,7 @@
 }
 @media only screen and (max-width: 767px) and (min-width: 390px) {
     .hero-banner-section .hero-banner-main .hero-banner-image {margin: -50px 0 0 0;}
+    .hero-banner-section.reverse .hero-banner-main .hero-banner-txt { margin: 0 0 88px 0; }
     .img-shape-1 { width: 196px; height: 268px; top: -47px; left: -67px; }
     .img-shape-2 { width: 165px; height: 218px; right: -29px; top: -20px; }
     .intro-here-module { padding: 55px 0 0 0;}.features-module { padding: 58px 0 0; }
