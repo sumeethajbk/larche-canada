@@ -82,5 +82,5 @@ ul.filter-list > li.active a{color: var(--white); background-color: var(--text-v
     .resource-filter-mobile.active::after{transform: rotate(-180deg);}
 
     .resource-item{width: 304px; margin-right: 20px; padding: 49px 50px;}
-    .resource-slider button{display: none !important;}
+    .resource-slider > button{display: none !important;}
 }
