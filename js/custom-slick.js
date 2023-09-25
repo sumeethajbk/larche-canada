@@ -82,7 +82,7 @@ jQuery(document).ready(function () {
 
   var $slider = jQuery('.career-slider');
   var $sliderLength = $slider.find('.programs-grid').length;
-  if (jQuery(window).width() >= 1024) {
+  if (jQuery(window).width() >= 1025) {
     if ($sliderLength <= 4) {
       if ($slider.hasClass('slick-initialized')) {
             $slider.slick('unslick');
