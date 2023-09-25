@@ -32,8 +32,8 @@
 /* Default Thumb */
 .default-thumb {margin:60px 0 59px;}
 .default-thumb figure, .default-thumb img {overflow: hidden; height: 100%; width: 100%; object-fit: cover; margin: 0;}
-.lc-shape-1 {top: 23px; left: -50px; width: 157px; height: 209px;}
-.lc-shape-2 {bottom: -84px; right: -119px; width:362px; height:401px;}
+.default-thumb:before {top: 23px; left: -50px; width: 157px; height: 209px; content: ""; position: absolute; display: block; background: url("../images/default-svg-top.svg") 0 0 no-repeat;}
+.default-thumb:after {bottom: -84px; right: -119px; width:362px; height:401px; content: ""; position: absolute; display: block; background: url("../images/default-svg-bottom.svg") 0 0 no-repeat;}
 
 /* Single Testimmonial */
 .single-testimonial {clear: both; width: 100%; padding:62px 65px 51px; margin:59px 0 29px;}
@@ -73,8 +73,8 @@
 	.def-intro {padding: 55px 0 40px;}
     .default-thumb{max-height: 179px; margin: 60px 0 50px;}
     .default-thumb img{max-height: 179px;}
-    .lc-shape-1 { top: 8px; left: -32px; width: 92px; height: 84px; }
-    .lc-shape-2 { bottom: -40px; right: -73px; width: 198px; height: 164px; }
+    .default-thumb:before { top: 8px; left: -32px; width: 92px; height: 84px; background-size: 92px 84px;}
+    .default-thumb:after { bottom: -40px; right: -73px; width: 198px; height: 164px; background-size: 198px 164px;}
 	.single-testimonial {padding: 35px 30px 28px;}
 	.single-testimonial .testimonial-cnt{font-size: 1.125rem;}
 	.two-paths-module {padding: 24px 0 94px;}
