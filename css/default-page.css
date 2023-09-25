@@ -20,8 +20,7 @@
 .intro-module {padding-top: 0;}
 .hr {margin: 35px 0; padding: 0 22px;  width: 100vw; margin-left: -50vw; left: 50%; position: relative;}
 .hr hr {margin: 0;}
-.def-intro {clear: both; width: 100%; padding: 55px 0;}
-.general-default-article-section p:first-child span {font-size: 1.125rem; line-height: 1.39; font-weight: 600;}
+.general-default-article-section p span {font-size: 1.125rem; line-height: 1.39; font-weight: 600; padding: 55px 0; display: block;}
 
 .features-module {padding: 33px 0 21px;}
 .two-paths-module {padding: 46px 0 94px;}

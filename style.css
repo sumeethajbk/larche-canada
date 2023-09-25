@@ -336,7 +336,7 @@ body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropd
 
 
 .toggle-form {width:100%;}
-
+.hide_cat_list {display: none}
 
 
 /* Cookie bar */
