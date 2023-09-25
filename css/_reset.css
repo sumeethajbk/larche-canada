@@ -164,7 +164,7 @@ input[type="submit"] {
 
 ::-webkit-input-placeholder {color: var(--black); font-family:"rucksack", sans-serif; opacity: 1; font-size: 1.063rem; font-weight: 400;}
 :-moz-placeholder {color: var(--black); font-family:"rucksack", sans-serif; opacity: 1; font-size: 1.063rem; font-weight: 400;}
-::-moz-placeholder {color: var(--black); font-family:"rucksack", sans-serif; opacity: 1; font-size: 1.063rem; font-weight: 400;}
+::-moz-placeholder {color: var(--black)!important; font-family:"rucksack", sans-serif; opacity: 1; font-size: 1.063rem; font-weight: 400;}
 :-ms-input-placeholder {color: var(--black); font-family:"rucksack", sans-serif; opacity: 1; font-size: 1.063rem; font-weight: 400;}
 
 
