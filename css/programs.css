@@ -11,6 +11,8 @@
 .heading-rt .form-field {}
 
 .btn {text-align: center;}
+.search-icon {position: absolute; right: 22px; top: 0; bottom: 0; padding: 0 !important; width: 18px; height: 18px; margin: auto;
+  font-size: 1.15rem; font-weight: 300; line-height: 18px; color: var(--text-violetblue);}
 
 .program-banner-section{ z-index: 1; float:left; width: 100%; padding:50px 0 0 0;}
 .program-banner-text{padding-top: 49px; color: var(--white);}

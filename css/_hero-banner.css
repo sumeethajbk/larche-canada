@@ -1,6 +1,6 @@
 .hero-banner-section{z-index: 1; clear: both; position: relative; width: 100%; padding: 120px 0 0 0; background:var(--violet); margin: 0 0 37px 0;}
 .hero-banner-section .hero-banner-main {justify-content:space-between; position: relative; min-height: 578px; align-items: center; padding: 40px 0; max-width: 1150px; margin: 0 auto;}
-.hero-banner-section .hero-banner-main .hero-banner-txt {width:42%; margin:0 3% 3px 0; color: var(--white);}
+.hero-banner-section .hero-banner-main .hero-banner-txt {width:42%; margin:0 3% 10px 0; color: var(--white);}
 .hero-banner-section .hero-banner-main .hero-banner-txt .optional-text {color:var(--white-50);}
 .hero-banner-section .hero-banner-main .hero-banner-txt h1 {color: var(--white); margin-bottom: 18px;}
 .hero-banner-section .hero-banner-main .hero-banner-txt h1 span {font-size: 7.25rem; line-height: 6rem; color: var(--pink); font-family: CCSignLanguage; letter-spacing: normal; font-weight: normal; display: block; transform: rotate(-1.25deg); margin: -4px 0 0 -3px;}
