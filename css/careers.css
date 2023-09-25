@@ -32,9 +32,19 @@
     
 }
 
+
+@media only screen and (max-width: 1023px) and (min-width:768px) {
+	.repeater-main {padding: 60px 0 70px;}
+	
+}
+
+
 @media only screen and (max-width: 767px) and (min-width: 200px) {
     .short-intro-section { padding: 52px 0 64px; }
-    .repeater-content { padding-bottom: 39px;}
-    .grid-main{padding: 22px 0 0 ;}
+    .repeater-content { padding-bottom: 26px;}
+	.repeater-main {padding: 56px 0 59px;}
+    .grid-main{padding: 22px 0 0;}
+	.features-module {padding: 59px 0 27px;}
+	.features-module-grid .features-txt {padding: 24px 0 0 0;}
      
 }

@@ -26,6 +26,7 @@
 
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
+	.short-intro-section {padding: 84px 0;}
     .short-intro-heading{margin-bottom: 30px;}
     .short-intro-list{margin-bottom: 20px;}
     .short-intro-left{margin-bottom: 30px;}

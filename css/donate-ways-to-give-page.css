@@ -7,14 +7,10 @@
 .donate-grid-list:hover .donate-grid-svg{opacity: 1;}
 .donate-grid-svg-1{top: -47px; left: -34px; width: 93px; height: 140px;}
 .donate-grid-svg-2{top: -30px; right: -20px; width: 88px; height: 104px;}
-.donate-grid-list h5{position: relative; z-index: 1;}
+.donate-grid-list h5{position: relative; z-index: 1; margin-bottom: 11px;}
+.donate-grid-list p {margin-bottom: 22px;}
 .donate-grid-list::before{display: none;}
-.donate-grid-list.light-blue{background-color: var(--light-blue);}
-.donate-grid-list.light-green{background-color: var(--light-green);}
-.donate-grid-list.light-pink{background-color: var(--light-pink);}
-.donate-grid-list.light-red{background-color: var(--light-red);}
-.donate-grid-list.light-orange{background-color: var(--light-orange);}
-.donate-grid-list.light-violet{background-color: var(--light-violet);}
+
 .donate-grid-list:hover {color: var(--white);  }
 .donate-grid-list:hover .readmore{color: var(--white);}
 .donate-grid-list:hover h5{color: var(--white);}
@@ -24,13 +20,15 @@
 .donate-grid-list.light-orange:hover {background-color: var(--orange);}
 .donate-grid-list.light-red:hover {background-color: var(--red);}
 .donate-grid-list.light-violet:hover {background-color: var(--violet);}
-.donate-grid-list:hover  .outline-btn{background: var(--white); border-color: var(--white);}
-.donate-grid-list:hover  .outline-btn.text-violetblue{ color: var(--text-violetblue);}
-.donate-grid-list:hover  .outline-btn.green{color: var(--green);}
-.donate-grid-list:hover  .outline-btn.pink{color: var(--pink);}
-.donate-grid-list:hover  .outline-btn.red{color: var(--red);} 
-.donate-grid-list:hover  .outline-btn.orange{color: var(--orange);}
-.donate-grid-list:hover  .outline-btn.violet{color: var(--violet);} 
+
+.donate-grid-list .outline-btn {margin: 0 4px 0 0;}
+.donate-grid-list:hover .outline-btn{background: var(--white); border-color: var(--white);}
+.donate-grid-list:hover .outline-btn.text-violetblue{ color: var(--text-violetblue);}
+.donate-grid-list:hover .outline-btn.green{color: var(--green);}
+.donate-grid-list:hover .outline-btn.pink{color: var(--pink);}
+.donate-grid-list:hover .outline-btn.red{color: var(--red);} 
+.donate-grid-list:hover .outline-btn.orange{color: var(--orange);}
+.donate-grid-list:hover .outline-btn.violet{color: var(--violet);} 
  
 footer#main_footer {border-top: 1px solid rgba(0, 0, 0, 0.1);}
 /*-- media css starts here --*/
@@ -38,7 +36,7 @@ footer#main_footer {border-top: 1px solid rgba(0, 0, 0, 0.1);}
 @media only screen and (min-width: 1024px) {
     .donate-grid-main{padding: 24px 0 49px 0;}
     .donate-grid-row{gap: 50px}
-    .donate-grid-list{flex: 0 0 calc(33.33% - 34px); padding: 44px 50px;}
+    .donate-grid-list{flex: 0 0 calc(33.33% - 34px); padding: 43px 50px 40px 50px;}
     .donate-btns{gap: 20px;}
 
     .split-banner-section .split-banner-image{margin: -50px -50px 0 0;}
@@ -70,9 +68,13 @@ footer#main_footer {border-top: 1px solid rgba(0, 0, 0, 0.1);}
     .donate-grid-list:hover .donate-grid-svg{display: none;}
     .donate-grid-row{display: block;}
     .donate-grid-list{margin-bottom: 22px; padding: 30px 30px 32px;}
-    .donate-grid-list p{font-size: 0.875rem; line-height: 1.375rem;}
+    .donate-grid-list p{font-size: 0.875rem; line-height: 1.375rem; margin-bottom: 18px;}
     .donate-btns {gap: 24px;}
     .donate-btns .button{padding: 10px 34px 12px 23px; font-size: 0.938rem;}
     .donate-btns .button::after{top: -1px; right: 15px;}
 
+}
+
+@media only screen and (max-width: 385px) and (min-width: 200px){
+	.donate-grid-list {padding: 30px 25px 32px;}
 }

@@ -90,6 +90,7 @@
 }
 
 @media only screen and (max-width: 1023px) and (min-width:768px){
+	.news-updates-container {padding: 70px 0 80px}
 	.news-banner-right {min-height: 511px;}
 	.news-grid, .news-grid:nth-child(3n+1) {width: 48.15%; margin: 0 0 3.65% 3.65%;}
 	.news-grid:nth-child(2n+1) {margin-left: 0;}
@@ -98,6 +99,9 @@
 	.news-banner-left {display: flex; flex-wrap: wrap; width: 100%; justify-content: space-between;}
 	.news-banner-left .grids-post {width: 48.48%; margin: 0 0 22px 22px;}
 	.news-banner-left .grids-post:first-child {margin-left: 0;}
+	
+	.filter-nav {margin: 0 0 20px 0;}
+
 }
 
 @media only screen and (max-width: 767px) and (min-width: 200px){
@@ -106,15 +110,16 @@
 	.news-grid .news-content {padding:34px 35px 35px;}
 	.news-grid .news-content h4 {margin-bottom: 23px;}
 	
-	.heading {padding: 0 0 28px;}
+	.heading {padding: 0 0 4px 0;}
 	.heading-lt {width: 100%; margin: 0 0 16px 0;}
 	.heading-rt {width: 100%;}
 	.heading-rt .search-form {max-width: 100%;}
 	
 	.news-updates-container {padding: 59px 0 60px;}
 	.news-updates-main .btn {margin: 8px 0 0 0;}
-	.filter-nav li {margin:0 55px 15px 0;}
-	.filter-nav li a:hover::after, .filter-nav li a.active::after {width: 79px; bottom: -20px;}
+	.filter-nav {margin: 0 0 13px 0;}
+	.filter-nav li {margin:0 35px 15px 0;}
+	.filter-nav li a:hover::after, .filter-nav li a.active::after {width: 79px; bottom: -21px;}
 	
 	.news-banner-left .grids-post:last-child {margin-bottom: 0;}
 	.news-banner-left .news-banner-text {padding: 24px 21px 27px 21px;}

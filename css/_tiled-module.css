@@ -1,8 +1,8 @@
-.tiled-module {clear: both; width: 100%; background-color: rgb(238, 241, 251); padding:81px 0 102px;}
+.tiled-module {clear: both; width: 100%; background-color: rgb(238, 241, 251); padding:81px 0 52px;}
 .tiled-module  h3 {color: var(--dark-grey); margin-bottom: 0;}
 .tiled-slider {display: flex; flex-wrap: wrap;}
 
-.tiled-grid {width: 30.89311859443631%; margin: 0 0 0 3.65%; background: var(--white); height: inherit!important;}
+.tiled-grid {width: 30.89311859443631%; margin: 0 0 3.65% 3.65%; background: var(--white); height: inherit!important;}
 .tiled-grid:nth-child(3n+1) {margin-left: 0;}
 .tiled-grid .tiled-thumb {height:255px; overflow: hidden;}
 .tiled-grid .tiled-content {padding:48px 45px;}

@@ -238,7 +238,7 @@ jQuery(document).ready(function () {
 
 
   var sliderRes = jQuery('.resource-slider').slick({
-    slidesToShow: 4,
+    slidesToShow: 1,
     slidesToScroll: 1,
     infinite: false,
     speed: 1000,
@@ -250,7 +250,7 @@ jQuery(document).ready(function () {
     responsive: [{
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 1,
           slidesToScroll: 1,
           arrows: false,
           dots: true,

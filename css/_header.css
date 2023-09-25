@@ -119,15 +119,16 @@ opacity: 0; visibility: hidden; transition-duration: .75s; transition-property: 
   	.main_header .header {padding: 15px 0 12px; min-height: 80px;}
 	
   	.main_header .logo {width: 168px;}
+	.main_header .header-btm {position: relative; display: block; clear: both;}
 	.main_header.menu-open {background: var(--white);}
 	.main_header.menu-open:after {background: rgba(0, 0, 0, 0.1);}
   	.main_header.menu-open .fixed-logo {visibility: visible; opacity: 1;}
 	.main_header.menu-open .nav-btn .button {border-color: var(--violet); color: var(--violet);}
 	.main_header.menu-open .nav-btn .button:hover {background: var(--violet); color: var(--white);}
 	
-  	.main_header .header_right.mobile_menu {display: flex; padding:105px 50px 180px; width: 100%; height: auto; top: 80px; left: 0; bottom: 0; position: fixed; background: var(--white); overflow-y: auto; -webkit-overflow-scrolling: touch; transition: .5s ease-in-out; -webkit-transition: .5s ease-in-out; -moz-transition: .5s ease-in-out; z-index: 100001; opacity: 0; visibility: hidden; margin: 0; text-align: left; overflow-x: hidden;}
-	.main_header .header_right.mobile_menu:before, .main_header .header_right.mobile_menu:after {content: ""; display: block; position: absolute; left: 0; background: url("../images/dots-mobile.svg") 0 0 no-repeat; width: 761px; height: 144px; right: 0; margin: auto; top: -65px}
-	.main_header .header_right.mobile_menu:after {top: inherit; bottom: 29px; margin: auto auto 0 auto;}
+  	.main_header .header_right.mobile_menu {display: flex; padding:95px 30px 0; width: 100%; height: calc(100% - 80px); top: 80px; left: 0; bottom: 0; position: fixed; background: var(--white); overflow-y: auto; -webkit-overflow-scrolling: touch; transition: .5s ease-in-out; -webkit-transition: .5s ease-in-out; -moz-transition: .5s ease-in-out; z-index: 100001; opacity: 0; visibility: hidden; margin: 0; text-align: left; overflow-x: hidden;}
+	.main_header .header_right.mobile_menu:before, .main_header .header_right .header-btm:after {content: ""; display: block; position: absolute; left: 0; background: url("../images/dots-mobile.svg") 0 0 no-repeat; width: 761px; height: 144px; right: 0; margin: auto; top: -65px}
+	.main_header .header_right .header-btm:after {top: inherit; bottom: 29px; margin: auto auto 0 auto; z-index: -1;}
  	 .main_header .header_right.navOpen {opacity: 1; visibility: visible;}
 	
   	.main_header .header .toggle_button {position: absolute; flex-direction: column; width: 18px; right: 25px; height: 15px; cursor: pointer; top: -3px; bottom: 0; margin: auto; display: block;} 
@@ -150,13 +151,13 @@ opacity: 0; visibility: hidden; transition-duration: .75s; transition-property: 
 	.main_header .nav-btn .button {font-size: 0.938rem; border-width: 2px; padding: 7px 19px 10px 17px;}
   
   
-  	.mobile_menu {padding: 0; width: 100%; display: flex; flex-wrap: wrap; flex-direction: column;} 
+  	.mobile_menu {width: 100%; display: block;} 
     .mobile_menu ul.main_menu {margin: 0; padding:0 0 3px;} 
-    .mobile_menu ul.main_menu>li {display: block; margin:0 0 41px 0; text-align: center;} 
+    .mobile_menu ul.main_menu>li {display: block; margin:0 0 21px 0; text-align: center;} 
     .mobile_menu ul.main_menu>li.menu-item-has-children>a:after {content: "\f107"; font-family: 'Font Awesome 6 Pro'; font-weight: 400; font-size: 20px; display: inline-block; right: 0; top: 11px; transform: none; margin: auto; position: absolute; transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; color: var(--violet);} 
     .mobile_menu ul.main_menu>li.menu-item-has-children>a.active:after {transform: rotate(180deg); color: var(--orange);} 
     .mobile_menu ul.main_menu li:before {display: none;} 
-    .mobile_menu ul.main_menu>li>a {font-size: 1.25rem; padding:10px 40px 10px 40px; cursor: pointer; color: var(--violet); font-weight: 600; letter-spacing: 0.15px; position: relative;} 
+    .mobile_menu ul.main_menu>li>a {font-size: 1.25rem; padding:10px 40px 10px 40px; cursor: pointer; color: var(--violet); font-weight: 600; letter-spacing: 0.15px; position: relative; display: inline-block;} 
     .mobile_menu ul.main_menu>li a:hover {color: var(--orange);} 
     .mobile_menu ul.main_menu li ul {display: none; margin: 0; position: relative; padding: 0 0 15px 0;} 
 	.mobile_menu ul.main_menu li ul li {margin-bottom: 10px; font-weight: 500;} 
@@ -167,9 +168,9 @@ opacity: 0; visibility: hidden; transition-duration: .75s; transition-property: 
 	.mobile_menu ul.main_menu li ul li.menu-item-has-children > a::after {top: 10px;}
 	.mobile_menu ul.main_menu li ul li.menu-item-has-children > a.active::after {top:7px;}
 	
-	.main_header .lang-nav {display: block; width: 100%; text-align: center; margin: 0 5px 0 0;}
+	.main_header .lang-nav {display: block; width: 100%; text-align: center; margin:10px 0 0 0;}
 	.main_header .lang-nav ul li {margin: 0 4.5px; width: 48px; height: 48px;}
-	.main_header .lang-nav ul li a {font-size: 0.938rem; border: solid 2px rgb(34, 75, 115, 0.5); display: flex; width: 100%; height: 100%; flex-wrap: wrap; justify-content: center; align-items: center; border-radius: 50%; color: var(--text-blue); opacity: 0.5;}
+	.main_header .lang-nav ul li a {background: var(--white); font-size: 0.938rem; border: solid 2px rgb(34, 75, 115, 0.5); display: flex; width: 100%; height: 100%; flex-wrap: wrap; justify-content: center; align-items: center; border-radius: 50%; color: var(--text-blue); opacity: 0.5;}
 	.main_header .lang-nav ul li a:hover {border: solid 2px rgb(34, 75, 115, 1); opacity: 1;}
 	.main_header .lang-nav ul li a.current_language, 
 	.main_header .lang-nav ul li a:hover, 
@@ -181,7 +182,7 @@ opacity: 0; visibility: hidden; transition-duration: .75s; transition-property: 
 
 @media only screen and (max-width:767px) and (min-width:200px) {
 	.main_header .header_right.mobile_menu:before {left: 81.5%; transform: translateX(-85.5%);}
-	.main_header .header_right.mobile_menu:after {left: 50%; transform: translateX(-42.2%);}
+	.main_header .header_right .header-btm:after {left: 50%; transform: translateX(-42.2%);}
 }
 
 @media only screen and (max-width:385px) and (min-width:200px) {

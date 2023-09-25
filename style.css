@@ -31,15 +31,18 @@ Text Domain:L'Arche Canada Development
   55% {opacity: 1; transform: translateY(0px) scale(1);}
 }
 
- .stroke { 
-   stroke-dasharray:2300;
-	stroke-dashoffset:2300;
-	animation: dash 5s linear forwards;
+@keyframes animate {
+  0% {
+    box-shadow:0 0 0 0 rgba(255,255,255,.7),0 0 0 0 rgba(255,255,255,.7)
   }
-
-@keyframes dash {
-  to {
-    stroke-dashoffset: 0;
+  40% {
+    box-shadow:0 0 0 50px rgba(255,255,255,0),0 0 0 0 rgba(255,255,255,.7)
+  }
+  80% {
+    box-shadow:0 0 0 50px rgba(255,255,255,0),0 0 0 30px rgba(255,255,255,0)
+  }
+  100% {
+    box-shadow:0 0 0 0 rgba(255,255,255,0),0 0 0 30px rgba(255,255,255,0)
   }
 }
 
@@ -89,7 +92,7 @@ backdrop-filter: blur(8px); width: 100%; height: 100%; position: absolute; left:
 .video-thumbnail {position: relative;}
 .video-thumbnail img {width: 100%; height: 100%; object-fit: cover; object-position: 50% 50%;}
 .play-btn-main {top: 0; left: 0; right: 0; bottom: 0; width: 100%; height: 100%; position: absolute; z-index: 1;}
-.play-btn {width:115px; height: 115px; background: var(--orange); border-radius: 50%;}
+.play-btn {width:115px; height: 115px; background: var(--orange); border-radius: 50%; animation: animate 2s linear infinite;}
 .play-btn:hover {background:rgba(0, 85, 184, 1);}
 .play-btn img {width: 37px; height: 38px;}
 
@@ -110,6 +113,7 @@ display: block; width: 32px; line-height: 26px; transition: all .5s ease-in-out;
 
 body .mfp-image-holder .mfp-close, body .mfp-iframe-holder .mfp-close {padding-right: 9px; width: 40px;height: 40px; opacity: 1;line-height: 40px; top: -45px; background-color: transparent; right: -45px;}
 body .mfp-image-holder .mfp-close:hover, body .mfp-iframe-holder .mfp-close:hover {opacity: 0.8}
+body .mfp-close:after {display: none;}
 
 
 /* Banner Category */
@@ -129,6 +133,7 @@ transform: rotate(35deg);  position: absolute; top: -5px; left: -31px;}
 .cat-wrap .tag-links li {margin: 0;}
 .cat-wrap .tag-links li:before {display: none;}
 .cat-wrap .tag-links li a {background: var(--text-violetblue); display: inline-block; text-transform: uppercase; font-size: 0.688rem; letter-spacing: 1.65px; color: var(--white); font-weight: 700; padding:6px 15px 7px 16px; border-radius: 90px; margin: 0 4px 4px 0; line-height: 1.36; text-decoration: none;}
+.cat-wrap .tag-links li a:hover {color: var(--white-75);}
 .cat-date {font-size: 0.813rem; font-weight: 500; color: rgba(26, 21, 100, 0.6); letter-spacing: 0.15px; width: calc(100% - 75%); text-align: right; margin: 5px 0 0 0;}
 
 
@@ -320,7 +325,7 @@ body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropd
 .fixed-social-icons .sharethis-inline-share-buttons .st-btn.st-first {margin-left: 0!important;}
 .fixed-social-icons .sharethis-inline-share-buttons {font-size: 0; display: inline-block!important; vertical-align: middle;}
 .fixed-social-icons .sharethis-inline-share-buttons .st-btn:after {font-family: "Font Awesome 6 Brands"; font-weight: 400; margin:0 auto; transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; vertical-align: middle; display: inline-block; font-size: 0.825rem; line-height: 1.5;}
-.fixed-social-icons .sharethis-inline-share-buttons .st-btn[data-network=twitter]:after {content: "\f099"; }
+.fixed-social-icons .sharethis-inline-share-buttons .st-btn[data-network=twitter]:after {content: "\e61b"; }
 .fixed-social-icons .sharethis-inline-share-buttons .st-btn[data-network=facebook]:after {content: "\f39e";}
 .fixed-social-icons .sharethis-inline-share-buttons .st-btn[data-network=linkedin]:after {content: "\f0e1";}
 .fixed-social-icons .sharethis-inline-share-buttons .st-btn[data-network=email]:after {content: "\f0e0"; font-family: "Font Awesome 6 Sharp"; font-weight: 900;}
@@ -386,7 +391,7 @@ body .cky-prefrence-btn-wrapper .cky-btn.cky-btn-reject:after {display: flex;}
 
 
 @media only screen and (max-width:1023px) and (min-width:768px) {
-    .hide-in-tab {display:none;}
+    .hide-in-tab, .hide-in-tablet {display:none;}
     
 }
 

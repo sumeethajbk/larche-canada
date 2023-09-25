@@ -5,7 +5,7 @@
 .optional-text{margin-bottom: 15px;}
 .split-banner-section{z-index: 1; clear: both; position: relative; width: 100%; padding: 120px 0 0 0; background:var(--violet); margin: 0 0 37px 0;}
 .split-banner-section .split-banner-main {justify-content:space-between; position: relative; min-height: 578px; align-items: center; padding: 40px 0; max-width: 1260px; margin: 0 auto;}
-.split-banner-section .split-banner-txt {width: 38.8%; margin:0 0 30px 0; color: var(--white); padding-left: 66px;}
+.split-banner-section .split-banner-txt {width: 38.8%; margin:0 0 30px 0; color: var(--white); padding-left: 54px;}
 .split-banner-section .split-banner-txt .optional-text {color:var(--white-50); margin-bottom: 6px;}
 .split-banner-section .split-banner-txt h1 {color: var(--white); margin-bottom: 20px;}
 .split-banner-section .split-banner-txt h1 span{font-size: 7.25rem; line-height: 6rem; margin-left: -3px; color: var(--pink); font-family: CCSignLanguage; letter-spacing: normal; font-weight: normal; display: block; transform: rotate(-1.25deg); margin-top: -3px;}
@@ -45,7 +45,7 @@
 }
 
 @media only screen and (max-width: 1023px) and (min-width: 200px){
-    .split-banner-section {padding: 80px 0 0 0;}
+    .split-banner-section {padding: 80px 0 0 0; margin: 0 0 48px 0;}
     .split-banner-section .split-banner-main {align-items: flex-start; min-height: inherit; padding:57px 0 0;}
     .split-banner-section .split-banner-txt{padding-left: 0; width: 100%;}
     .split-banner-section .split-banner-main .split-banner-txt .optional-text {margin: 0 0 10px 0;}

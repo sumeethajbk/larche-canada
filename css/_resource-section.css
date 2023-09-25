@@ -1,6 +1,6 @@
 
 .resource-heading-lt h2{margin-bottom: 0;}
-.resource-heading-lt h2 span{position: relative; padding: 0 10px;}
+.resource-heading-lt h2 span{position: relative; padding: 0 10px; display: inline-block;}
 .resource-heading-lt h2 span svg{position: absolute; left: -13px; top: -22px; z-index: -1;}
 .resource-btn{padding-bottom: 13px; color: var(--pink); font-weight: bold; text-decoration: none; display: inline-block;}
 .resource-btn svg{position: absolute; left: -11px; bottom: 0;}
