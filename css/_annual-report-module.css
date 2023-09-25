@@ -18,7 +18,7 @@
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-    .annual-report-text{width: calc(100% - 581px); padding: 60px 105px 62px 91px; flex-grow: 1;}
+    .annual-report-text{width: calc(100% - 581px); padding: 55px 105px 70px 91px; flex-grow: 1;}
     .annual-report-image{width: 581px; margin-left: auto;}
 }
 @media only screen and (max-width:1249px) and (min-width: 1024px){
