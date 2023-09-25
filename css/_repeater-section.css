@@ -18,7 +18,7 @@
    .reverse .repeater-content{padding-top: 28px;}
  }
  @media only screen and (min-width: 1024px){
-    .repeater-section {padding: 73px 0 112px;}
+    .repeater-section {padding: 75px 0 112px;}
     .repeater-wrap{max-width: 1129px; margin: 0 auto;}
     .repeater-list{gap: 148px; margin-bottom: 115px;}    
     .repeater-content{flex: 1 0 calc(100% - 706px); }

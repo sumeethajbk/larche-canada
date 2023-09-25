@@ -232,6 +232,7 @@ jQuery(document).ready(function () {
       arrows: false,
       dots: true,
       variableWidth: true,
+      infinite: false,
     })
 
   }
