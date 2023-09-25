@@ -4,7 +4,7 @@
 
 #mainContent {padding: 120px 0 0 0;}
 .programs-container {clear: both; background: var(--light-grey); width: 100%; padding:86px 0 50px;}
-.heading {padding: 0 0 37px;}
+.heading {padding: 0 0 40px;}
 .heading-lt {width: 30%;}
 .heading-lt h3 {color: var(--black);}
 .heading-rt {width:calc(100% - 30%);}
@@ -67,8 +67,7 @@
 }
 
 @media only screen and (max-width: 1023px) and (min-width: 200px){
-	.heading-lt {width: 100%; margin: 0 0 20px 0;}
-	.heading-rt {width: 100%;}
+	.heading-lt { margin: 0 0 20px 0;}
 	#mainContent {padding: 80px 0 0 0;}
 	
 	.program-banner-section {padding: 20px 0 0 0;}
@@ -91,10 +90,12 @@
 
 
 @media only screen and (max-width: 767px) and (min-width: 200px){	
-	.heading {padding: 0 0 28px;}	
+	.heading {padding: 0 0 28px;}
+	.heading-lt{width: 100%; margin-bottom: 29px;}	
+	.heading-rt{width: 100%;}
 	.heading-rt .search-form {max-width: 100%;}
 	
-	.programs-container {padding: 59px 0 60px;}
+	.programs-container {padding: 59px 0 30px;}
 	.btn {margin: 8px 0 0 0;}
 	.filter-dropdown {border-color: var(--white);}
 	
