@@ -52,11 +52,12 @@
     .split-banner-section .split-banner-main .split-banner-txt p {margin-bottom: 18px;}
 }
 @media only screen and (max-width: 1023px) and (min-width:768px){
-    
-	.split-banner-section .split-banner-txt{max-width: 450px;}
-	.split-banner-section .split-banner-main .split-banner-image {width: 100%; margin: 26px 0 0 -56px; max-width: 724px;}
-	.split-banner-wrap .split-banner-three{left: 240px; bottom: -31px;}
-	.split-banner-wrap .split-banner-four{bottom: -91px;}
+    .split-banner-section .split-banner-txt { width: 38.8%; }
+    .split-banner-section .split-banner-image { width: 65.2%;  margin: 26px 0 0 -56px; max-width: 724px; }
+    .split-banner-wrap .split-banner-one { width: 133px; height: 133px; left: 94px; top: -9px;}
+    .split-banner-wrap .split-banner-two { width: 121px; height: 121px; right: 27px; top: 30px;}
+	.split-banner-wrap .split-banner-three{width: 120px; height: 120px; left: 142px; bottom: 115px;}
+	.split-banner-wrap .split-banner-four{ width: 156px; height: 156px; bottom: 38px; right: 22px;}
 }
 @media only screen and (max-width: 767px) and (min-width: 200px){
     .split-banner-section .container{padding: 0;}
