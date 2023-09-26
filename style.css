@@ -160,7 +160,7 @@ ul.slick-dots li.slick-active button {opacity:1;}
 select.selectBox {display:none;}
 body .selectBox-dropdown {outline:0; width:100% !important; font-size:1.063rem; line-height:1.56; background:var(--white); color:var(--body-text); box-shadow:none; border-radius:90px !important; padding:14px 47px 16px 27px; vertical-align:middle; font-family:"rucksack", sans-serif; font-weight:normal; height:auto; border: 1px solid rgba(0,0,0,0.1); text-transform:capitalize; transition:all 0.5s ease-in-out; -webkit-transition:all 0.5s ease-in-out; -moz-transition:all 0.5s ease-in-out; cursor:pointer;}
 body .selectBox-dropdown:focus, body .selectBox-dropdown:focus .selectBox-arrow {border-color:rgba(207, 216, 223, 0.5);}
-body .selectBox-dropdown .selectBox-label {padding:0; display:block; width: 100% !important;}
+body .selectBox-dropdown .selectBox-label {padding:0; display:block; width: 100% !important; text-overflow: ellipsis;}
 body .selectBox-dropdown .selectBox-label a {color:inherit;}
 body .selectBox-dropdown .selectBox-arrow {width:auto; right:25px; top:50%; transform:translateY(-50%); font-size:14px; color: var(--text-violetblue); border:none; font-family:"Font Awesome 6 Pro"; font-weight:900; position:absolute; display:flex; align-items:center; transition:all 0.5s ease-in-out; -webkit-transition:all 0.5s ease-in-out; -moz-transition:all 0.5s ease-in-out; background:none;}
 body .selectBox-dropdown .selectBox-arrow::after {content:"\f107";}
