@@ -58,6 +58,8 @@ footer#main_footer {border-top: 1px solid rgba(0, 0, 0, 0.1);}
     
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){
+    .split-banner-section .split-banner-txt { width: 32.8%;}
+    .split-banner-section .split-banner-image { width: 67.2%;}
     .donate-grid-main{padding: 24px 0 49px 0;}
     .donate-grid-list:hover .donate-grid-svg{display: none;}
     .donate-grid-row{gap: 30px;}
