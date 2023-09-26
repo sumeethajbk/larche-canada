@@ -12,25 +12,45 @@
 .donate-grid-list::before{display: none;}
 
 .donate-grid-list:hover {color: var(--white);  }
-.donate-grid-list:hover .readmore{color: var(--white);}
 .donate-grid-list:hover h5{color: var(--white);}
+
+
 .donate-grid-list.light-blue:hover {background-color: var(--text-violetblue);}
+.donate-grid-list.light-blue .outline-btn {border-color: var(--text-violetblue); color: var(--text-violetblue);}
+.donate-grid-list.light-blue:hover .outline-btn {color: var(--text-violetblue);}
+.donate-grid-list.light-blue .readmore {color: var(--text-violetblue);}
+
 .donate-grid-list.light-green:hover {background-color: var(--green);}
+.donate-grid-list.light-green .outline-btn {border-color: var(--green); color: var(--green);}
+.donate-grid-list.light-green:hover .outline-btn { color: var(--green);}
+.donate-grid-list.light-green .readmore {color: var(--green);}
+
 .donate-grid-list.light-pink:hover {background-color: var(--pink);}
+.donate-grid-list.light-pink .outline-btn {border-color: var(--pink); color: var(--pink);}
+.donate-grid-list.light-pink:hover .outline-btn {color: var(--pink);}
+.donate-grid-list.light-pink .readmore {color: var(--pink);}
+
 .donate-grid-list.light-orange:hover {background-color: var(--orange);}
+.donate-grid-list.light-orange .outline-btn {border-color: var(--orange); color: var(--orange);}
+.donate-grid-list.light-orange:hover .outline-btn {color: var(--orange);}
+.donate-grid-list.light-orange .readmore {color: var(--orange);}
+
 .donate-grid-list.light-red:hover {background-color: var(--red);}
+.donate-grid-list.light-red .outline-btn {border-color: var(--red); color: var(--red);}
+.donate-grid-list.light-red:hover .outline-btn {color: var(--red);}
+.donate-grid-list.light-red .readmore {color: var(--red);}
+
 .donate-grid-list.light-violet:hover {background-color: var(--violet);}
+.donate-grid-list.light-violet .outline-btn {border-color: var(--violet); color: var(--violet);}
+.donate-grid-list.light-violet:hover .outline-btn {color: var(--violet);}
+.donate-grid-list.light-violet .readmore {color: var(--violet);}
+
+.donate-grid-list .outline-btn {margin: 0 4px 0 0; background: transparent;}
+.donate-grid-list:hover .outline-btn {background: var(--white); border-color:var(--white);}
+.donate-grid-list:hover .readmore{color: var(--white);}
 
 
-.donate-grid-list .outline-btn {margin: 0 4px 0 0;}
-/* .donate-grid-list:hover .outline-btn{background: var(--white); border-color: var(--white);}
-.donate-grid-list:hover .outline-btn.text-violetblue{ color: var(--text-violetblue);}
-.donate-grid-list:hover .outline-btn.green{color: var(--green);}
-.donate-grid-list:hover .outline-btn.pink{color: var(--pink);}
-.donate-grid-list:hover .outline-btn.red{color: var(--red);} 
-.donate-grid-list:hover .outline-btn.orange{color: var(--orange);}
-.donate-grid-list:hover .outline-btn.violet{color: var(--violet);} 
-  */
+
 footer#main_footer {border-top: 1px solid rgba(0, 0, 0, 0.1);}
 /*-- media css starts here --*/
 
