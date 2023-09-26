@@ -14,7 +14,7 @@
 
 /*-- media css starts here --*/
 @media only screen and (min-width: 1024px){
-    .hero-banner-section .hero-banner-main .hero-banner-txt {width: 35%; margin: 0 15% 3px 0;}
+    .hero-banner-section .hero-banner-main .hero-banner-txt {width: 35%; margin: 0 15% 3px 0; flex-grow: 1;}
 	.hero-banner-section .hero-banner-main .hero-banner-txt .optional-text{margin-bottom: 0;}
     .hero-banner-section .hero-banner-main .hero-banner-image {width: 49.24%;}
     .hero-banner-section .hero-banner-main .hero-banner-image .banner-img {clip-path: ellipse(100% 116% at 100% 50%);}

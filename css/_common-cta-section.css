@@ -13,6 +13,9 @@
 .cta-icon{width: 289px; height: 318px; position: absolute; z-index: 1; top: 0; bottom: 0; margin: auto; display: flex; align-items: center; left: -125px;} 
 .cta-icon svg{width: 100%; height: auto;}
 
+.common-cta-text.full_width {display: flex !important;}
+.common-cta-text.full_width .h1 span {display: inline-block;}
+.common-cta-text.full_width p {max-width: 100%;}
 
 /*-- media css starts here --*/
 
