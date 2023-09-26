@@ -83,9 +83,25 @@ jQuery(document).ready(function () {
   var $slider = jQuery('.career-slider');
   var $sliderLength = $slider.find('.programs-grid').length;
   if (jQuery(window).width() >= 1024) {
-     if ($sliderLength >= 4) {
-		 $slider.slick({
-        slidesToShow: 1,
+    if ($sliderLength >= 4) {
+      $slider.slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        infinite: false,
+        speed: 1000,
+        dots: false,
+        arrows: true,
+        variableWidth: true,
+        draggable: true,
+        touchThreshold: 200,
+        swipeToSlide: true,
+        prevArrow: '<span class="slick-arrow prev-arrow flex flex-center"></span>',
+        nextArrow: '<span class="slick-arrow next-arrow flex flex-center"></span>',
+      });
+    }
+  } else {
+    $slider.slick({
+      slidesToShow: 1,
       slidesToScroll: 1,
       infinite: false,
       speed: 1000,
@@ -97,33 +113,15 @@ jQuery(document).ready(function () {
       swipeToSlide: true,
       prevArrow: '<span class="slick-arrow prev-arrow flex flex-center"></span>',
       nextArrow: '<span class="slick-arrow next-arrow flex flex-center"></span>',
-      	});
-	 }
-  }
-  else{
-    $slider.slick({
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      infinite: false,
-      speed: 1000,
-      dots: false,
-      arrows: false,
-      variableWidth: true,
-      draggable: true,
-      touchThreshold: 200,
-      swipeToSlide: true,
-      prevArrow: '<span class="slick-arrow prev-arrow flex flex-center"></span>',
-      nextArrow: '<span class="slick-arrow next-arrow flex flex-center"></span>',
       responsive: [{
-        breakpoint: 1023,
+        breakpoint: 1024,
         settings: {
-          arrows: false,
+          arrows: true,
           dots: true,
         }
       }, ]
     });
   }
-  
 
 
   jQuery('.video-slider').slick({
