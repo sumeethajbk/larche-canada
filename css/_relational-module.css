@@ -5,7 +5,8 @@
 .relational-left p{padding-right: 31px;}
 .relational-list{background-color: var(--white);}
 .relational-list:nth-child(3n+1){margin-left: 0;}
-.relational-thumb{height: 161px; overflow: hidden;}
+.relational-thumb{min-height: 161px; overflow: hidden;}
+.relational-thumb img{object-position: center top;}
 .relational-content{font-weight: 500;}
 
 /*-- media css starts here --*/
@@ -27,7 +28,7 @@
     .relational-left p{padding-right: 0;}
     .relational-list{margin-bottom: 22px;}
     .relational-content{padding: 29px 33px 37px;}
-    .relational-thumb{height: 41.3vw;}
+    .relational-thumb{min-height: 41.3vw;}
 }
 @media only screen and (max-width: 768px) and (min-width: 200px) {
     .relational-head{padding-bottom: 0;}
