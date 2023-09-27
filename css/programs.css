@@ -78,7 +78,11 @@
 
 
 @media only screen and (max-width: 1023px) and (min-width: 768px){
+<<<<<<< HEAD
+	.heading-rt .form-field {width: 45.4%; margin: 0 0 0 10px;}
+=======
 	.heading-rt .form-field {width: 47%; margin: 0 0 0 10px;}
+>>>>>>> 92556f7697bf23f1fb54ff935cf23f36c7be905b
 	.heading {padding: 0 0 50px;}
 	
 	.post-big .program-banner-text {padding: 70px 20px 60px 20px;}
