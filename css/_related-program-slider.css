@@ -6,7 +6,7 @@
 .rp-slider .slick-track {display: flex!important;}
 
 .programs-grid {width: 422px; margin: 0 50px 0 0; background: var(--white); height: inherit!important;}
-.programs-grid .programs-content { padding: 44px 45px 25px; }
+.programs-grid .programs-content { padding: 44px 45px 50px; }
 
 
 /* Responsive */

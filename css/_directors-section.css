@@ -5,7 +5,7 @@
 .directors-main .outline-btn:hover{color: var(--white);}
 .directors-main .button{font-size: 0.938rem; line-height: 1.13; padding: 10px 38px 13px 19px;}
 .directors-main .button::after{right: 18px;  font-size: .9rem;}
-.directors-item{overflow: hidden; cursor: pointer;}
+.directors-item{overflow: hidden;}
 .directors-details{position: absolute; background-color: var(--text-violetblue); width: 100%; height: auto; top: calc(100% - 108px); bottom: 0; transition: all 1s ease;}
 .directors-name {padding: 30px 78px 30px 30px; cursor: pointer; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; min-height: 107px; display: flex; flex-direction: column; justify-content: center; flex-wrap: wrap;}
 .directors-name::before{content: "\2b"; position: absolute; font-size: 20px; transition: all .5s ease; font-family: "Font Awesome 6 Pro"; font-weight: 400; right: 32px; top: 35px; color: var(--white);}

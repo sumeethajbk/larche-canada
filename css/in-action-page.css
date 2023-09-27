@@ -1,4 +1,3 @@
-@import url("../css/_action-banner.css");
 @import url("../css/_annual-report-module.css");
 @import url("../css/_intro-here-module.css");
 @import url("../css/_features-module.css");
@@ -66,7 +65,7 @@
 
 @media only screen and (max-width: 1023px) and (min-width: 200px){
 	.action-banner-section {padding: 80px 0 0 0;}	
-	.action-lt-imgs {display: flex; flex-wrap: wrap; width: 100%; justify-content: space-between; max-width: 390px; margin:0 auto 11px; min-height: 175px;}
+	
 	.action-lt-imgs .face {position: relative; width: 95px; height: 95px; left: -12px; top: 80px;}
 	.action-lt-imgs .face:nth-child(2) {width: 96px; height: 96px; top: 0; left: -9px;}
 	.action-lt-imgs .face:nth-child(3) {width: 103px; height: 103px; right: -12px; top: 64px;}
@@ -77,7 +76,7 @@
 	.action-banner-section .action-banner-main .action-banner-txt .optional-text {margin: 0 0 13px 0;}
 	.action-banner-section .action-banner-main .action-banner-txt p {margin: 0 auto 20px auto;}
 	.action-banner-section .action-banner-main .action-banner-txt h1 {margin-bottom: 21px;}
-	.action-rt-imgs, .action-banner-section .action-banner-main .action-banner-dot-right {display: none;}
+	.action-banner-section .action-banner-main .action-banner-dot-right {display: none;}
 	
 	.action-banner-section .action-banner-main .action-banner-dot-left svg {width: 100%; height: 100%; object-fit: contain;}	
 	.action-banner-section .action-banner-main .action-banner-dot-left {left: inherit; width: 695px; top: 55px; bottom:inherit;  overflow: hidden; height: 154px; transform: none; right: -48px}
@@ -85,6 +84,18 @@
 
 @media only screen and (max-width: 1023px) and (min-width: 768px){
 	.action-banner-section .action-banner-main .action-banner-dot-left {left: 0; right: 0; margin: auto;}
+	
+	.action-lt-imgs {width: 254px;}
+	.action-lt-imgs .face {left: 0;  top: 0;}
+	.action-lt-imgs .face:nth-child(2) {top: 80px;  left: 10px;}
+	.action-lt-imgs .face:nth-child(3) {right: 0; top: -114px; margin-left: auto;}
+	
+	.action-rt-imgs {width: 254px;}
+	.action-rt-imgs .face {width: 95px; height: 95px; top: 0; position: relative; margin-left: auto; left: inherit;}
+	.action-rt-imgs .face:nth-child(2) {width: 103px; height: 103px; top: 0; margin-left: inherit; left: inherit;}
+	.action-rt-imgs .face:nth-child(3) {width: 96px; height: 96px; top: -23px; right: 0;}
+	
+	.action-banner-section .action-banner-main .action-banner-txt {order: 3;}
 }
 
 @media only screen and (max-width: 767px) and (min-width: 200px) {
@@ -92,4 +103,6 @@
     .features-module{padding: 60px 0 28px}
     .features-module-main{padding: 0;}
     .features-module-grid .features-txt p { padding-right: 0}
+	.action-lt-imgs {display: flex; flex-wrap: wrap; width: 100%; justify-content: space-between; max-width: 390px; margin:0 auto 11px; min-height: 175px;}
+	.action-rt-imgs {display: none;}
 }

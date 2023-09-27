@@ -3,9 +3,9 @@
 .relational-head h3{color: var(--dark-grey); letter-spacing: normal;}
 .relational-row{padding-bottom: 90px;}
 .relational-left p{padding-right: 31px;}
-.relational-list{background-color: var(--white);}
+.relational-list{background-color: var(--white); flex: 1;}
 .relational-list:nth-child(3n+1){margin-left: 0;}
-.relational-thumb{min-height: 161px; overflow: hidden;}
+.relational-thumb{height: 161px; overflow: hidden;}
 .relational-thumb img{object-position: center top;}
 .relational-content{font-weight: 500;}
 
@@ -15,7 +15,7 @@
     .relational-left{flex: 1; }
 	.relational-left h5 {margin-bottom: 19px;}
     .relational-right{flex: 3;}
-    .relational-list{flex: 1; margin-left: 50px;}
+    .relational-list{ margin-left: 50px;}
     .relational-content{padding:28px 33px 34px;}
 	
 
@@ -28,9 +28,17 @@
     .relational-left p{padding-right: 0;}
     .relational-list{margin-bottom: 22px;}
     .relational-content{padding: 29px 33px 37px;}
-    .relational-thumb{min-height: 41.3vw;}
+    
 }
-@media only screen and (max-width: 768px) and (min-width: 200px) {
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+	.relational-list {margin-left: 20px;}
+	.relational-row {padding-bottom: 40px;}
+}
+
+@media only screen and (max-width: 767px) and (min-width: 200px) {
     .relational-head{padding-bottom: 0;}
+	.relational-thumb{min-height: 41.3vw;}
+	.relational-list{flex: inherit;}
 
 }

@@ -127,6 +127,8 @@ transform: rotate(35deg);  position: absolute; top: -5px; left: -31px;}
 .banner-cat ul li a {color:var(--sub-blue);}
 .banner-cat ul li a:hover {color: var(--anchor-hover);}
 
+
+
 /* Cat Wrap */
 .cat-wrap {clear: both; margin: 0 0 15px 0; justify-content: space-between;}
 .cat-wrap .tag-links {margin: 0; width: 75%;}
@@ -139,6 +141,21 @@ transform: rotate(35deg);  position: absolute; top: -5px; left: -31px;}
 
 /* Featured Category */
 .banner-category, .banner-category a {display: inline-block; text-transform: uppercase; font-size: 0.688rem; letter-spacing: 1.65px; color: var(--violet); font-weight: 700; padding: 7px 15px 7px 16px; border-radius: 90px; margin:0 0 20px 0; line-height: 1.36; text-decoration: none; background: var(--white);}
+.banner-category a {margin: 0; text-decoration: none;}
+.greenbg .banner-category, 
+.greenbg .banner-category a {color: var(--green);}
+.redbg .banner-category, 
+.redbg .banner-category a {color: var(--red);}
+.orangebg .banner-category, 
+.orangebg .banner-category a {color: var(--orange);}
+.pinkbg .banner-category, 
+.pinkbg .banner-category a {color: var(--pink);}
+.tealbg .banner-category, 
+.tealbg .banner-category a {color: var(--teal);}
+.bluebg .banner-category, 
+.bluebg .banner-category a {color: var(--violetblue);}
+
+
 
 /* Default Slick navigations */
 .slick-arrow{top:0; left: 0; right: 0; position: absolute; display: flex!important; align-items: center; justify-content: center; cursor: pointer; transition: all 0.3s ease-in-out; z-index: 2; line-height: normal; width: 20px; height: 20px;bottom: 0; margin: auto; border-top: 2px solid var(--black); border-left: 2px solid var(--black);}
@@ -303,6 +320,7 @@ body ul.selectBox-dropdown-menu li.selectBox-selected a, body ul.selectBox-dropd
 .light-pink {background: var(--light-pink);}
 .light-red {background: var(--light-red);}
 .light-violet{background: var(--light-violet);}
+
 .pinkbg {background: var(--pink);}
 .orangebg {background: var(--orange);}
 .greenbg {background: var(--green);}
@@ -365,6 +383,7 @@ body .cky-prefrence-btn-wrapper .cky-btn {border: 3px solid var(--violet)!import
 body .cky-prefrence-btn-wrapper .cky-btn:hover {background: var(--violet) !important; color: var(--white) !important; opacity: 1;}
 body .cky-prefrence-btn-wrapper .cky-btn.cky-btn-reject:after {display: flex;}
 
+#more-blog > h3, .page-header h3.page-title {margin: 0 0 50px 0;}
 
 /*-- media css starts here --*/
 @media only screen and (max-width:1400px) {

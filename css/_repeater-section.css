@@ -30,14 +30,14 @@
  }
  @media only screen and (max-width: 1299px) and (min-width: 1024px){
    .repeater-list{gap: 62px; margin-bottom: 90px;}
-   .repeater-content{flex: 0 0 calc(100% - 520px);}
+   .repeater-content{flex: 1 0 calc(100% - 520px);}
    .repeater-image{flex: 1 0 440px;}
    .repeater-thumb-wrap{ width: 428px; height: 428px;}
  }
  @media only screen and (max-width: 1023px) and (min-width: 768px){
   .repeater-main{padding: 89px 0 70px;}
   .repeater-list { margin-bottom: 80px; gap: 50px}
-  .repeater-content{width: calc(100% - 390px);}
+  .repeater-content{ flex: 1 0 calc(100% - 390px);}
   .repeater-image{flex: 1 0 340px; position: relative;} 
   .repeater-thumb-wrap{ width: 340px; height: 340px; position: relative; }
   .orange-line-one{width: 94px; height: 115px; top: -23px; right: 7px;}
