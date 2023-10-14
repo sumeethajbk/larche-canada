@@ -446,8 +446,8 @@ body .cky-prefrence-btn-wrapper .cky-btn.cky-btn-reject:after {display: flex;}
 .filter-dropdown.active::after{content: "\f107"; transform: translate(-50); transform: rotate(-180deg); position: absolute; top: 0; bottom: 0; font-family: "Font Awesome 6 Sharp";}
 .toggle-form {display: none; width: 100%; padding: 20px 0 0;}
 
-body .mfp-image-holder .mfp-close, body .mfp-iframe-holder .mfp-close {right: -25px;}
-.mfp-container { padding-left: 30px; padding-right: 30px; }
+body .mfp-image-holder .mfp-close, body .mfp-iframe-holder .mfp-close {right: 0px;}
+ body .mfp-container { padding-left: 20px; padding-right: 20px; }
 .heading-rt .form-field {width: 100%; margin: 0 0 20px 0;}
 
 

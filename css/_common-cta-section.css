@@ -24,7 +24,6 @@
     .common-cta-text{width: calc(100% - 49.24%); margin-left: auto; max-width: 574px;}
     .common-cta-image{width:49.24%; margin-left: auto;}
 }
-
 @media only screen and (max-width: 1400px) {
 	.common-cta-text {margin-left: inherit; margin-right: auto;}
 }
@@ -51,4 +50,7 @@
     .cta-icon svg{display: block; margin: 0 auto; transform: rotate(-90deg); width: 195px; height: auto;}
     .common-cta-text .h1{margin-bottom: 14px;}
     .common-cta-text .h1 span{font-size: 4.125rem; margin-top: -20px; margin-left: -2px;}
+}
+@media only screen and (max-width: 1400px)  and (min-width: 200px){
+    .common-cta-text.full_width{padding-left: 20px !important; padding-right: 20px !important;}
 }
